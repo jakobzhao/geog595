@@ -1,7 +1,7 @@
-# GEOGRAPHY 595 A | Digital GeoHumanities
+# GEOGRAPHY 595 A: Digital GeoHumanities
 
-- **Instructor:** Bo Zhao, SMI 416B, Office hours: By appointment
 - **Meeting:** Wednesday, 2:30 - 5:20, SMI 109
+- **Instructor:** Bo Zhao, SMI 416B, Office hours - By appointment
 - **Contact:** zhaobo@uw.edu, 206.685.3846, jakobzhao (skype/wechat)
 
 
