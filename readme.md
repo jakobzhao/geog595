@@ -12,7 +12,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 ## Weekly Schedule
 
-> This schedule may be slightly changed due to the class progress. The reading list of each week will be added according to the keywords of the same week.
+*This schedule may be slightly changed due to the class progress. The reading list of each week will be added according to the keywords of the same week.*
 
 ### [Week 1: Foundation](01_intro/readme.md)
 - **Reading keywords:** GeoHumanities, Digital Humanities, Humanistic Geography, and STS.
@@ -44,10 +44,11 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 ### [Week 9: IoT (Internet of Things)](08_iot/readme.md)
 - **Reading keywords:** Surveillance and resistance, Real-time GIS, Open Hardware, Blockchain
 - **Practical Exercise:** Environmental data collection with Raspberry Pi.
-> This exercise will not be accounted for final score.
+- *This exercise will not be accounted for final score.*
 
 ### [Week 10: Summary, Writing Projects, and Presentation](09_sum/readme.md)
-> Each student presents the writing project during the last class meeting.
+
+- *Each student presents the writing project during the last class meeting.*
 
 
 ## Course Requirement
