@@ -8,7 +8,6 @@
 
 In this seminar, we will invite you to participate in the ongoing discussion and scholarly practice at the intersection of geospatial technologies and the disciplines of the humanities. Digital GeoHumanities refers to the systematic use of digital geographical resources in the humanities, as well as the geospatial analyses and narratives of their application. This seminar provides a unique opportunity to hone practical skills of geospatial technologies and to catalyze critical thinking of their applications. You will read literature from a few well-established geographers and philosophers in STS (Science, technology, and society), as well as the latest pieces of work by both GIS (Geographic Information Science) and critical scholars. With the theoretical preparation, you will practice a few emerging data-driven techniques (e.g., web crawling, GitHub, geo-narrative, deep learning, text mining, virtual reality, raspberry pi, blockchain, etc.), and also reflect upon their relevance to critical views, such as power relation, hermeneutics, embodiment, autonomy, surveillance, and so on. As a course requirement, you need to choose a topic from any humanities discipline, apply the newly learned visual, analytical, and synthetical skills, and also critique the significant role, mediating function, or social implication of the geospatial technologies. The course material is strongly influenced by my interest in mapping, GIS, humanities, and STS. If you have any questions or concerns, please contact Dr. Bo Zhao. Welcome to this course, we are delighted to have you with us!
 
----
 
 ## Weekly Schedule
 
@@ -57,7 +56,6 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - *Each student presents the writing project during the last class meeting.*
 - **Due:** Writing Project (`01/07 5:00pm`).
 
----
 
 ## Course Requirement
 
@@ -95,6 +93,5 @@ We welcome the opportunity to work with any students with disabilities in this c
 
 Washington state law requires that UW develop a policy for accommodation of student absences or significant hardship due to reasons of faith or conscience, or for organized religious activities. The UW’s policy, including more information about how to request an accommodation, is available at [Religious Accommodations Policy](https://registrar.washington.edu/staffandfaculty/religious-accommodations-policy/). Accommodations must be requested within the first two weeks of this course using the [Religious Accommodations Request form](https://https:/registrar.washington.edu/students/religious-accommodations-request/).
 
----
 
 `© 2019-2020 All rights are reserved by Bo Zhao.`
