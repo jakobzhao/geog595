@@ -64,7 +64,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 **Participation in seminar discussion:** Complete all assigned readings and get familiar with the practical exercise instructions before class meetings, and participating in critical discussions of those readings.
 
-**Thinkpiece:** Each ### Week (except for ### Week one and weeks where you lead discussion), please prepare a one-paragraph ‘thinkpiece,’ discussing your reflection to three general items:
+**Thinkpiece:** Each Week (except for Week one and weeks where you lead discussion), please prepare a one-paragraph ‘thinkpiece,’ discussing your reflection to three general items:
 
 - (at least) one of the readings for that week;
 
