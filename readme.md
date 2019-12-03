@@ -12,60 +12,59 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 ## Weekly Schedule
 
-> This schedule may be slightly changed due to the class progress. The reading list of each #### Week will be added according to the keywords of the same week.
+> This schedule may be slightly changed due to the class progress. The reading list of each week will be added according to the keywords of the same week.
 
-#### Week 1: Foundation
+### Week 1: Foundation
 - **Reading keywords:** GeoHumanities, Digital Humanities, Humanistic Geography, and STS.
 
-
-#### Week 2: Cloud Computing
+### Week 2: Cloud Computing
 - **Reading keywords:** Power/Knowledge, Hegemony, Open GIS, Hackathon, Spatial Cyber-Infrastructure, and CyberGIS,
 - **Practical Exercise:** Cloud-based project management using GitHub
 
-#### Week 3 & 4: Bot
+### Week 3 & 4: Bot
 - **Reading keywords:** Autonomy and Web Crawler
 - **Practical Exercise:** Web data crawling and geocoding using Python
 
-#### Week 5: Spatial Database
+### Week 5: Spatial Database
 - **Reading keywords:** Uncertainty, Post-truth, location spoofing
 - **Practical Exercise:** Spatial data management using SpatiaLite
 
-#### Week 6: GeoVisualization
+### Week 6: GeoVisualization
 - **Reading keywords:** Hermeneutics, Geo-narrative, Inductive visualization, Web Mapping, Storymap
 - **Practical Exercise:** Making a storymap using Mapbox
 
-#### Week 7: GeoAI
+### Week 7: GeoAI
 - **Reading keywords:** Place and space, AI, Deep/Machine Learning, Placial analysis, place recognition
 - **Practical Exercise:** Place context analysis using machine learning
 
-#### Week 8: VR (Virtual Reality) and AR (Augmented Reality)
+### Week 8: VR (Virtual Reality) and AR (Augmented Reality)
 - **Reading keywords:** Embodiment, 3D and Point-cloud visualization, SfM (Structure-from-Motion)
 - **Practical Exercise:** Making a web-based VR environment
 
-#### Week 9: IoT (Internet of Things)
+### Week 9: IoT (Internet of Things)
 - **Reading keywords:** Surveillance and resistance, Real-time GIS, Open Hardware, Blockchain
 - **Practical Exercise:** Environmental data collection with Raspberry Pi.
 > This exercise will not be accounted for final score.
 
-#### Week 10: Summary, Writing Projects, and Presentation
-- Each student presents the writing project during the last class meeting.
+### Week 10: Summary, Writing Projects, and Presentation
+> Each student presents the writing project during the last class meeting.
 
 
 ## Course Requirement
 
 **Computational skill:** This course welcomes students who own some GIS or other computational experience, and have programmed in a python or javascript IDE (Integrated Development Environment). Students should at least hear of GIS, GitHub, Leaflet, web crawler, and Raspberry Pi before considering this seminar, and most importantly, be self-motivated to solve a research question with the listed computational skills.
 
-**Statement of intent:** Please prepare a short statement of intent describing your project on or before the end of **#### Week 1.** Please feel free to plan your writing project to help advance progress in your own work – qualifying exam essay, draft of journal article, side project, etc. I am happy to meet with you to talk more about your writing project.
+**Statement of intent:** Please prepare a short statement of intent describing your project on or before the end of **Week 1.** Please feel free to plan your writing project to help advance progress in your own work – qualifying exam essay, draft of journal article, side project, etc. I am happy to meet with you to talk more about your writing project.
 
 **GitHub:** This course material will be hosted on GitHub instead of UW Canvas. On a dedicated GitHub repository for this course (to be created), you can find most of the course material, participate in group discussions by submitting GitHub issues, and creating new GitHub repositories to turn in practical exercise deliverables. By the end of this quarter, you will be more proficient in operating a cloud-based coding environment and able to host your work online as a way to gain public and peer attentions.
 
 **Seminar leadership:** You will take at least two turns facilitating our seminar exercise and discussion with a few of your classmates. You will work with one or more others (depending on the enrollment) on this, so you are not responsible for the entire session yourself. Please work together to prepare some activities and guiding questions that will inspire and structure our discussion of the material. The instructor is happy to help you to prepare the practical exercise walk-through before the meeting class.
 
-**Practical exercise:** You need to get familiar with the practical exercise instruction before the class meeting in order to better reflect upon the theoretical concepts. We will walk through each practical exercise in class, and you will submit the deliverables to GitHub three days after the class meeting (you will have one more #### Week for your #### Week 3&4’s exercise deliverable).
+**Practical exercise:** You need to get familiar with the practical exercise instruction before the class meeting in order to better reflect upon the theoretical concepts. We will walk through each practical exercise in class, and you will submit the deliverables to GitHub three days after the class meeting (you will have one more ### Week for your ### Week 3&4’s exercise deliverable).
 
 **Participation in seminar discussion:** Complete all assigned readings and get familiar with the practical exercise instructions before class meetings, and participating in critical discussions of those readings.
 
-**Thinkpiece:** Each #### Week (except for #### Week one and weeks where you lead discussion), please prepare a one-paragraph ‘thinkpiece,’ discussing your reflection to three general items:
+**Thinkpiece:** Each ### Week (except for ### Week one and weeks where you lead discussion), please prepare a one-paragraph ‘thinkpiece,’ discussing your reflection to three general items:
 
 - (at least) one of the readings for that week;
 
@@ -75,7 +74,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 Please upload your think piece to the GitHub issues page by Wednesday morning – so your colleagues leading discussion can draw on your ideas in planning activities for our class session.
 
-**Writing project:** During the quarter, you will complete a larger writing project that engages with the seminar material and course themes, along with additional readings that you bring into conversation with the assigned course readings. You are aiming for 20-30 pages coalescing around ideas and readings from this quarter – you can take up and extend one of the themes from our weekly structure or develop a new one relevant to your own work and thinking. Writing projects is due no later than the end of **#### Week 11**.
+**Writing project:** During the quarter, you will complete a larger writing project that engages with the seminar material and course themes, along with additional readings that you bring into conversation with the assigned course readings. You are aiming for 20-30 pages coalescing around ideas and readings from this quarter – you can take up and extend one of the themes from our weekly structure or develop a new one relevant to your own work and thinking. Writing projects is due no later than the end of **Week 11**.
 
 ## Grading
 
