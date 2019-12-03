@@ -14,39 +14,39 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 > This schedule may be slightly changed due to the class progress. The reading list of each week will be added according to the keywords of the same week.
 
-### Week 1: Foundation
+### [Week 1: Foundation](01_intro/readme.md)
 - **Reading keywords:** GeoHumanities, Digital Humanities, Humanistic Geography, and STS.
 
-### Week 2: Cloud Computing
+### [Week 2: Cloud Computing](02_cloud/readme.md)
 - **Reading keywords:** Power/Knowledge, Hegemony, Open GIS, Hackathon, Spatial Cyber-Infrastructure, and CyberGIS,
 - **Practical Exercise:** Cloud-based project management using GitHub
 
-### Week 3 & 4: Bot
+### [Week 3 & 4: Bot](03_bot/readme.md)
 - **Reading keywords:** Autonomy and Web Crawler
 - **Practical Exercise:** Web data crawling and geocoding using Python
 
-### Week 5: Spatial Database
+### [Week 5: Spatial Database](04_data/readme.md)
 - **Reading keywords:** Uncertainty, Post-truth, location spoofing
 - **Practical Exercise:** Spatial data management using SpatiaLite
 
-### Week 6: GeoVisualization
+### [Week 6: GeoVisualization](05_viz/readme.md)
 - **Reading keywords:** Hermeneutics, Geo-narrative, Inductive visualization, Web Mapping, Storymap
 - **Practical Exercise:** Making a storymap using Mapbox
 
-### Week 7: GeoAI
+### [Week 7: GeoAI](06_ai/readme.md)
 - **Reading keywords:** Place and space, AI, Deep/Machine Learning, Placial analysis, place recognition
 - **Practical Exercise:** Place context analysis using machine learning
 
-### Week 8: VR (Virtual Reality) and AR (Augmented Reality)
+### [Week 8: VR (Virtual Reality) and AR (Augmented Reality)](07_vr/readme.md)
 - **Reading keywords:** Embodiment, 3D and Point-cloud visualization, SfM (Structure-from-Motion)
 - **Practical Exercise:** Making a web-based VR environment
 
-### Week 9: IoT (Internet of Things)
+### [Week 9: IoT (Internet of Things)](08_iot/readme.md)
 - **Reading keywords:** Surveillance and resistance, Real-time GIS, Open Hardware, Blockchain
 - **Practical Exercise:** Environmental data collection with Raspberry Pi.
 > This exercise will not be accounted for final score.
 
-### Week 10: Summary, Writing Projects, and Presentation
+### [Week 10: Summary, Writing Projects, and Presentation](09_sum/readme.md)
 > Each student presents the writing project during the last class meeting.
 
 
