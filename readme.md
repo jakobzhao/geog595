@@ -51,7 +51,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **Optional Practical Exercise 7:** Environmental data collection with Raspberry Pi (*This exercise will not be accounted for final score.*).
 - **Due:** PE7 (`01/07 5:00pm`), and Thinkpiece (`01/07 5:00pm`).
 
-### [Week 10: Summary, Writing Projects, and Presentation](09_sum/readme.md)
+### [Week 10: Summary, Writing Project, and Presentation](09_sum/readme.md)
 
 - *Each student presents the writing project during the last class meeting.*
 - **Due:** Writing Project (`01/07 5:00pm`).
