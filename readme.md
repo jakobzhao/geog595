@@ -11,4 +11,6 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 ![cover page](res/cover.jpg)
 
 | [Syllabus](syllabus.md) | [Schedule](schedule.md) | [Resource](resource.md) |
-| :------: | :------: | :------: |
+| :------------------------: | :------------------------: | :------------------------: |
+
+`© 2019-2020 All rights are reserved by Bo Zhao.`
