@@ -18,11 +18,11 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 **Thinkpiece:** Each week (except for week one and weeks where you lead discussion), please prepare a one-paragraph ‘thinkpiece,’ discussing your reflection to three general items:
 
-a) (at least) one of the readings for that week;
+- (at least) one of the readings for that week;
 
-b) The relevance of the practical exercise with the readings; and
+- The relevance of the practical exercise with the readings; and
 
-c) The relevance with your writing project.
+- The relevance with your writing project.
 
 Please upload your think piece to the GitHub issues page by Wednesday morning – so your colleagues leading discussion can draw on your ideas in planning activities for our class session.
 
