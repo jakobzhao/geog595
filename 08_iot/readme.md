@@ -17,3 +17,5 @@
 ### 2.1 Preparation
 
 https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat
+
+https://www.raspberrypi.org/documentation/hardware/sense-hat/
