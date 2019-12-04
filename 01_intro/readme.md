@@ -5,6 +5,7 @@
 **Instructor:** Bo Zhao, SMI 416B, Office hours `by appointment`
 
 **Contact:** 206.685.3846, zhaobo@uw.edu, jakobzhao `skype/wechat`
+
 **Keywords:** GeoHumanities, Digital Humanities, Humanistic Geography, and STS.
 
 ## 1. Readings
