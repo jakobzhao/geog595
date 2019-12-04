@@ -11,7 +11,7 @@
 
 
 
-## 2. Practical Exercise: Exploring sense of place using natural language processing
+## 2. Practical Exercise: Making a web-based VR environment
 
 
 ### 2.1 Preparation
