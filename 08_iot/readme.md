@@ -19,3 +19,12 @@
 https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat
 
 https://www.raspberrypi.org/documentation/hardware/sense-hat/
+
+
+**python libraries**
+
+https://pypi.org/project/sense-hat/
+
+https://github.com/astro-pi/python-sense-hat
+
+https://github.com/bennuttall/sense-hat-examples
