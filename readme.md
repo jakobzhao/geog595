@@ -11,12 +11,10 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 ## Weekly Schedule
 
-*This schedule may be slightly changed due to the class progress.*
-
-*You can download the papers of each week from [a dedicated shared folder at UW Google Drive](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv)*
+*Please download the papers of each week from [a dedicated shared folder at UW Google Drive](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv)*
 
 ### [Week 1: Foundation](01_intro/readme.md)
-- **Keywords:** GeoHumanities, Digital Humanities, Humanistic Geography, and STS.
+- **Keywords:** GeoHumanities, Phenomenology, and Humanistic Geography.
 
 ### [Week 2: Cloud Computing](02_cloud/readme.md)
 - **Keywords:** Power/Knowledge, Hegemony, Open GIS, Hackathon, Spatial Cyber-Infrastructure, and CyberGIS,
