@@ -8,11 +8,11 @@
 
 **Keywords:** GeoHumanities, Digital Humanities, Humanistic Geography, and STS.
 
-## Core readings
+## Readings
 
-[1] Don Ihde
+[1] Ihde, D. 2010. A phenomenology of technics (pp. 134-155). Chichester UK: Wiley-Blackwell.
 
-[2] Martin Heidegger
+[2] Heidegger, M., 1977. The question concerning technology (pp. 3-35). New York: Harper & Row.
 
 [3] YI-FU TUAN (1976) HUMANISTIC GEOGRAPHY, Annals of the Association of American Geographers, 66:2, 266-276, DOI: 10.1111/j.1467-8306.1976.tb01089.x
 
