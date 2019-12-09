@@ -2,7 +2,7 @@
 
 **Meeting:** Wednesdays, 2:30 - 5:20, SMI 109
 
-**Instructor:** Bo Zhao, SMI 416B, Office hours `by appointment`
+**Instructor:** Bo Zhao, SMI 416B, Office hours by appointment
 
 **Contact:** 206.685.3846, zhaobo@uw.edu, jakobzhao `skype/wechat`
 
@@ -15,47 +15,47 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 ### [Week 1: Foundation](01_intro/readme.md)
 - **Keywords:** GeoHumanities, Phenomenology, and Humanistic Geography.
-- **Due:** Statement of Intent (`01/07 5:00pm`)
+- **Due:** Statement of Intent `01/07 5:00pm`
 
 ### [Week 2: Cloud Computing](02_cloud/readme.md)
 - **Keywords:** Power/Knowledge, Hegemony, Open GIS, Hackathon, Spatial Cyber-Infrastructure, and CyberGIS,
 - **Practical Exercise 1:** Cloud-based project management using GitHub
-- **Due:** PE1 (`01/07 5:00pm`) and Thinkpiece (`01/07 5:00pm`).
+- **Due:** PE1 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
 ### [Week 3 & 4: Bot](03_bot/readme.md)
 - **Keywords:** Autonomy and Web Crawler
 - **Practical Exercise 2:** Web data crawling and geocoding using Python
-- **Due:** PE2 (`01/07 5:00pm`) and Thinkpiece (`01/07 5:00pm`).
+- **Due:** PE2 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
 ### [Week 5: Spatial Database](04_data/readme.md)
 - **Keywords:** Uncertainty, Post-truth, location spoofing
 - **Practical Exercise 3:** Spatial data management using SpatiaLite
-- **Due:** PE3 (`01/07 5:00pm`) and Thinkpiece (`01/07 5:00pm`).
+- **Due:** PE3 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
 ### [Week 6: GeoVisualization](05_viz/readme.md)
 - **Keywords:** Hermeneutics, Geo-narrative, Inductive visualization, Web Mapping, Storymap
 - **Practical Exercise 4:** Making a storymap using Mapbox
-- **Due:** PE4 (`01/07 5:00pm`) and Thinkpiece (`01/07 5:00pm`).
+- **Due:** PE4 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
 ### [Week 7: GeoAI](06_ai/readme.md)
 - **Keywords:** Place and space, AI, Deep/Machine Learning, Placial analysis, place recognition
 - **Practical Exercise 5:** Place context analysis using machine learning
-- **Due:** PE5 (`01/07 5:00pm`) and Thinkpiece (`01/07 5:00pm`).
+- **Due:** PE5 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
 ### [Week 8: VR (Virtual Reality) and AR (Augmented Reality)](07_vr/readme.md)
 - **Keywords:** Embodiment, 3D and Point-cloud visualization, SfM (Structure-from-Motion)
 - **Practical Exercise 6:** Making a web-based VR environment
-- **Due:** PE6 (`01/07 5:00pm`) and Thinkpiece (`01/07 5:00pm`).
+- **Due:** PE6 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
 ### [Week 9: IoT (Internet of Things)](08_iot/readme.md)
 - **Keywords:** Surveillance and resistance, Real-time GIS, Open Hardware, Blockchain
 - **Optional Practical Exercise 7:** Environmental data collection with Raspberry Pi (*This exercise will not be accounted for final score.*).
-- **Due:** PE7 (`01/07 5:00pm`) and Thinkpiece (`01/07 5:00pm`).
+- **Due:** PE7 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
 ### [Week 10: Summary, Writing Project, and Presentation](09_sum/readme.md)
 
 - *Each student presents the writing project during the last class meeting.*
-- **Due:** Writing Project (`01/07 5:00pm`).
+- **Due:** Writing Project `01/07 5:00pm`.
 
 
 ## Course Requirement
