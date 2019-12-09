@@ -11,7 +11,9 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 ## Weekly Schedule
 
-*This schedule may be slightly changed due to the class progress. The reading list of each week will be added according to the keywords of the same week. Please download the papers from [UW Google Drive](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv)*
+*This schedule may be slightly changed due to the class progress.*
+
+*You can download the papers of each week from [a dedicated shared folder at UW Google Drive](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv)*
 
 ### [Week 1: Foundation](01_intro/readme.md)
 - **Keywords:** GeoHumanities, Digital Humanities, Humanistic Geography, and STS.
