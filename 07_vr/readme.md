@@ -9,8 +9,6 @@
 ## 1. Readings
 
 
-
-
 ## 2. Practical Exercise: Making a web-based VR environment
 
 

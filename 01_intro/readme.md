@@ -21,3 +21,7 @@
 [5] Hawkins, H., Cabeen, L., Callard, F., Castree, N., Daniels, S., DeLyser, D., Neely, H.M. and Mitchell, P., 2015. What might GeoHumanities do? Possibilities, practices, publics, and politics. GeoHumanities, 1(2), pp.211-232.
 
 [6] Travis, C., 2017. GeoHumanities, GIScience and Smart City Lifeworld approaches to geography and the new human condition. Global and Planetary Change, 156, pp.147-154.
+
+## Deliverables
+
+### Letter of Intent
