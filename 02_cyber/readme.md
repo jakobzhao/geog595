@@ -10,17 +10,15 @@
 
 ## Readings
 
-* Ihde, D. 2010. A phenomenology of technics (pp. 134-155). Chichester UK: Wiley-Blackwell.
+* Yang, C., Goodchild, M., Huang, Q., Nebert, D., Raskin, R., Xu, Y., Bambacus, M. and Fay, D., 2011. Spatial cloud computing: how can the geospatial sciences use and help shape cloud computing?. International Journal of Digital Earth, 4(4), pp.305-329.
 
-* Heidegger, M., 1977. The question concerning technology (pp. 3-35). New York: Harper & Row.
+* Wright, D.J. and Wang, S., 2011. The emergence of spatial cyberinfrastructure. Proceedings of the National Academy of Sciences, 108(14), pp.5488-5491.
 
-* YI-FU TUAN (1976) HUMANISTIC GEOGRAPHY, Annals of the Association of American Geographers, 66:2, 266-276, DOI: 10.1111/j.1467-8306.1976.tb01089.x
+* Wang, S., 2010. A CyberGIS framework for the synthesis of cyberinfrastructure, GIS, and spatial analysis. Annals of the Association of American Geographers, 100(3), pp.535-557.
 
-* Crang, M., 2015. The promises and perils of a digital geohumanities. cultural geographies, 22(2), pp.351-360.
+* Sui, D., 2014. Opportunities and impediments for open GIS. Transactions in GIS, 18(1), pp.1-24.
 
-* Hawkins, H., Cabeen, L., Callard, F., Castree, N., Daniels, S., DeLyser, D., Neely, H.M. and Mitchell, P., 2015. What might GeoHumanities do? Possibilities, practices, publics, and politics. GeoHumanities, 1(2), pp.211-232.
-
-* Travis, C., 2017. GeoHumanities, GIScience and Smart City Lifeworld approaches to geography and the new human condition. Global and Planetary Change, 156, pp.147-154.
+* Andrew Feenberg,“Democratic [originally “Subversive”] Rationalization: Technology, Power, and Democracy,” revised version of an article in Inquiry, 35 (1992), pp. 301–322. Reprinted by permission of Taylor & Francis.
 
 ## Deliverables
 

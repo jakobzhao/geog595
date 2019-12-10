@@ -11,7 +11,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 ## Weekly Schedule
 
-*Please download the papers of each week from [a dedicated shared folder at UW Google Drive](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv).*
+*Please download the papers of each week from [a shared folder at UW Google Drive](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv).*
 
 ### [Week 1: Foundation](01_intro/readme.md)
 - **Keywords:** GeoHumanities, Phenomenology, and Humanistic Geography.

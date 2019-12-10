@@ -2,11 +2,16 @@
 
 **Meeting:** Wednesdays, 2:30 - 5:20, SMI 109
 
-**Instructor:** Bo Zhao, SMI 416B, Office hours `by appointment`
+**Instructor:** Bo Zhao, SMI 416B, Office hours by appointment
 
 **Contact:** 206.685.3846, zhaobo@uw.edu, jakobzhao `skype/wechat`
 
-## 1. Readings
+**Keywords:** GeoHumanities, Digital Humanities, Humanistic Geography, and STS.
+
+## Readings
+
+* Michel Foucault,“Panopticism,” from Discipline and Punish, trans.Alan Sheridan (Pantheon, 1978), pp. 195–209, 216–228, 316–317, 326–333, abridged. Reprinted by permission of Georges Borchardt and Penguin Books UK.
+
 
 
 
