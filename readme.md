@@ -17,7 +17,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **Keywords:** GeoHumanities, Phenomenology, and Humanistic Geography.
 - **Due:** Statement of Intent `01/07 5:00pm`
 
-### [Week 2: Cloud Computing](02_cloud/readme.md)
+### [Week 2: CyberGIS](02_cloud/readme.md)
 - **Keywords:** Power/Knowledge, Hegemony, Open GIS, Hackathon, Spatial Cyber-Infrastructure, and CyberGIS,
 - **Practical Exercise 1:** Cloud-based project management using GitHub
 - **Due:** PE1 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
