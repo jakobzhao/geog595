@@ -23,6 +23,12 @@ Synthesis & Review of Map-based Narratives, Genres, and Tropes
 
 * Kent, A. J. (2018) Form follows feedback: rethinking cartographic communication. Westminster Papers in Communication and Culture, 13 (2). pp. 96-112.
 
+**Extending readings**
+
+* MacEachren, A.M. and Kraak, M.J., 2001. Research challenges in geovisualization. Cartography and geographic information science, 28(1), pp.3-12.
+
+
+
 ## Deliverables
 
 ### Letter of Intent
