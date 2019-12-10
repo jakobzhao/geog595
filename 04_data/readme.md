@@ -12,7 +12,6 @@
 
 * Kwan, M.P., 2012. The uncertain geographic context problem. Annals of the Association of American Geographers, 102(5), pp.958-968.
 
-* 
 
 
 ## Deliverables
