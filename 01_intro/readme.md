@@ -8,7 +8,7 @@
 
 **Keywords:** GeoHumanities, Digital Humanities, Humanistic Geography, and STS.
 
-## Readings
+## [Readings](https://drive.google.com/drive/u/2/folders/1kbBxDUXL84DnOYcO4acmDpbVN1Xrnp-r)
 
 [1] Ihde, D. 2010. A phenomenology of technics (pp. 134-155). Chichester UK: Wiley-Blackwell.
 
