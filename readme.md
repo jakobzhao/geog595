@@ -37,6 +37,8 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **Practical Exercise 4:** Making a storymap using Mapbox
 - **Due:** PE4 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
+> 缺少一篇关于 non-representative的
+
 ### [Week 7: GeoAI](06_ai/readme.md)
 - **Keywords:** Place and space, AI, Deep/Machine Learning, Placial analysis, place recognition
 - **Practical Exercise 5:** Place context analysis using machine learning
