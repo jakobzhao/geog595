@@ -10,17 +10,17 @@
 
 ## [Readings](https://drive.google.com/drive/u/2/folders/1kbBxDUXL84DnOYcO4acmDpbVN1Xrnp-r)
 
-[1] Ihde, D. 2010. A phenomenology of technics (pp. 134-155). Chichester UK: Wiley-Blackwell.
+* Ihde, D. 2010. A phenomenology of technics (pp. 134-155). Chichester UK: Wiley-Blackwell.
 
-[2] Heidegger, M., 1977. The question concerning technology (pp. 3-35). New York: Harper & Row.
+* Heidegger, M., 1977. The question concerning technology (pp. 3-35). New York: Harper & Row.
 
-[3] YI-FU TUAN (1976) HUMANISTIC GEOGRAPHY, Annals of the Association of American Geographers, 66:2, 266-276, DOI: 10.1111/j.1467-8306.1976.tb01089.x
+* YI-FU TUAN (1976) HUMANISTIC GEOGRAPHY, Annals of the Association of American Geographers, 66:2, 266-276, DOI: 10.1111/j.1467-8306.1976.tb01089.x
 
-[4] Crang, M., 2015. The promises and perils of a digital geohumanities. cultural geographies, 22(2), pp.351-360.
+* Crang, M., 2015. The promises and perils of a digital geohumanities. cultural geographies, 22(2), pp.351-360.
 
-[5] Hawkins, H., Cabeen, L., Callard, F., Castree, N., Daniels, S., DeLyser, D., Neely, H.M. and Mitchell, P., 2015. What might GeoHumanities do? Possibilities, practices, publics, and politics. GeoHumanities, 1(2), pp.211-232.
+* Hawkins, H., Cabeen, L., Callard, F., Castree, N., Daniels, S., DeLyser, D., Neely, H.M. and Mitchell, P., 2015. What might GeoHumanities do? Possibilities, practices, publics, and politics. GeoHumanities, 1(2), pp.211-232.
 
-[6] Travis, C., 2017. GeoHumanities, GIScience and Smart City Lifeworld approaches to geography and the new human condition. Global and Planetary Change, 156, pp.147-154.
+* Travis, C., 2017. GeoHumanities, GIScience and Smart City Lifeworld approaches to geography and the new human condition. Global and Planetary Change, 156, pp.147-154.
 
 ## Deliverables
 
