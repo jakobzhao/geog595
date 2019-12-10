@@ -13,11 +13,9 @@
 * Wenwen Li, Michael Batty & Michael F. Goodchild (2019): Realtime GIS for smart cities, International Journal of Geographical Information Science, DOI:
 10.1080/13658816.2019.1673397
 
-
 * Michel Foucault,“Panopticism,” from Discipline and Punish, trans.Alan Sheridan (Pantheon, 1978), pp. 195–209, 216–228, 316–317, 326–333, abridged. Reprinted by permission of Georges Borchardt and Penguin Books UK.
 
-
-
+* Sui, D.Z. and Goodchild, M.F., 2003. A tetradic analysis of GIS and society using McLuhan's law of the media. Canadian Geographer/Le Géographe canadien, 47(1), pp.5-17.
 
 
 ## 2. Practical Exercise: Environmental data collection with Raspberry Pi
