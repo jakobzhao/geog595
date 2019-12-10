@@ -10,6 +10,10 @@
 
 ## Readings
 
+* Wenwen Li, Michael Batty & Michael F. Goodchild (2019): Realtime GIS for smart cities, International Journal of Geographical Information Science, DOI:
+10.1080/13658816.2019.1673397
+
+
 * Michel Foucault,“Panopticism,” from Discipline and Punish, trans.Alan Sheridan (Pantheon, 1978), pp. 195–209, 216–228, 316–317, 326–333, abridged. Reprinted by permission of Georges Borchardt and Penguin Books UK.
 
 

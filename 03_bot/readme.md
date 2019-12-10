@@ -15,6 +15,8 @@
 
 * Daniel Dennett, “Consciousness in Human and Robot Minds,” from Cognition, Computation, and Consciousness, ed. Masao Ito,Yashushi Miyashita, and Edmund T. Rolls (Oxford: Oxford University Press, 1997), pp. 17–30. Reprinted by permission of Oxford University Press.
 
+* Langdon Winner, “Do Artifacts Have Politics?” from Langdon Winner, The Whale and the Reactor: A Search for Limits in an Age of High Technology (Chicago: University of Chicago Press, 1986). Copyright © 1986 by the University of Chicago. Reprinted by permission
+
 ## Deliverables
 
 ### Letter of Intent
