@@ -16,6 +16,8 @@
 
 * Langdon Winner, “Do Artifacts Have Politics?” from Langdon Winner, The Whale and the Reactor: A Search for Limits in an Age of High Technology (Chicago: University of Chicago Press, 1986). Copyright © 1986 by the University of Chicago. Reprinted by permission
 
+* Del Casino Jr, V.J., 2016. Social geographies ii: robots. Progress in Human Geography, 40(6), pp.846-855.
+
 ## Deliverables
 
 ### Letter of Intent

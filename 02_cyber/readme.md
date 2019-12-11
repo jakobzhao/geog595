@@ -20,7 +20,11 @@
 
 * Andrew Feenberg,“Democratic [originally “Subversive”] Rationalization: Technology, Power, and Democracy,” revised version of an article in Inquiry, 35 (1992), pp. 301–322. Reprinted by permission of Taylor & Francis.
 
-* Emmanuel G. Mesthene,“Technology and Wisdom,” from Technology and Social Change, ed. Emmanuel G. Mesthene (Indianapolis: Bobbs-Merrill Inc., 1967), pp. 57–62.“I. Social Change,”“II.Values,”“III. Economic and Political Organization,” and “IV. Conclusion,” from Emmanuel G. Mesthene, “Some General Implications of the Research of the Harvard University Program on Technology and Society,” Technology and Culture, 10/4 (Oct. 1969), pp. 489–490, 495–501, 507–511, 513, abridged. Published by The Johns Hopkins University Press on behalf of the Society for the History of Technology.
+* Emmanuel G. Mesthene. 1967. The Social Impacts of Technological Changes. Published by The Johns Hopkins University Press on behalf of the Society for the History of Technology.
+
+* Ash, J., Kitchin, R. and Leszczynski, A., 2018. Digital turn, digital geographies?. Progress in Human Geography, 42(1), pp.25-43.
+
+* Hinchliffe, S., 1996. Technology, power, and space—the means and ends of geographies of technology. Environment and Planning D: Society and Space, 14(6), pp.659-682.
 
 
 ## Deliverables
