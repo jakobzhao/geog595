@@ -20,6 +20,7 @@
 
 * Kwan MP, 2016, "Algorithmic geographies: big data, algorithmic uncertainty, and the production of geographic knowledge", Annals of the American Association of Geographers, 106(2): 274-82.
 
+
 ## 2. Practical Exercise: Exploring sense of place using natural language processing
 
 
