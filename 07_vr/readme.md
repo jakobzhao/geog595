@@ -19,6 +19,8 @@
 
 * Haraway, D., 2006. A cyborg manifesto: Science, technology, and socialist-feminism in the late 20th century. In The international handbook of virtual learning environments (pp. 117-158). Springer, Dordrecht.
 
+* De Preester, H., 2010. Postphenomenology, embodiment and technics.
+
 
 ## 2. Practical Exercise: Making a web-based VR environment
 
