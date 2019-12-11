@@ -14,16 +14,22 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 *Please download the papers of each week from [a shared folder at UW Google Drive](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv).*
 
 ### [Week 1: Foundation](01_intro/readme.md)
-- **Keywords:** GeoHumanities, Phenomenology, and Humanistic Geography.
+- **Keywords:**
+  - GeoHumanities, Phenomenology, Humanistic Geography.
 - **Due:** Statement of Intent `01/07 5:00pm`
 
 ### [Week 2: CyberGIS](02_cyber/readme.md)
-- **Keywords:** 1. Technology, Power, and Geographic Knowledge; 2. Spatial Cyber-Infrastructure, and CyberGIS
+- **Keywords:**
+  1. Technology, Power, Geographic Knowledge;
+  2. CyberGIS, CloudGIS and Spatial Cyber-Infrastructure
 - **Practical Exercise 1:** Cloud-based project management using GitHub
 - **Due:** PE1 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
 ### [Week 3 & 4: Bot](03_bot/readme.md)
-- **Keywords:** Autonomy, Bot and Web Crawler.
+- **Keywords:**
+  1. Autonomy and Robot;
+  2. Web Crawler amd
+  2. Robot, Web Crawler
 - **Practical Exercise 2:** Data crawling and geocoding using Python
 - **Due:** PE2 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 

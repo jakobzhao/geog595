@@ -1,4 +1,4 @@
-# GeoAI based Placial Analysis
+# GeoAI
 
 **Meeting:** Wednesdays, 2:30 - 5:20, SMI 109
 
