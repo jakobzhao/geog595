@@ -14,46 +14,46 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 *Please download the papers of each week from [a shared folder at UW Google Drive](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv).*
 
 ### [Week 1: Foundation](01_intro/readme.md)
-- **Keywords:**
-  - GeoHumanities, Phenomenology, Humanistic Geography.
+- **Keywords:** GeoHumanities, Phenomenology, Humanistic Geography.
 - **Due:** Statement of Intent `01/07 5:00pm`
 
 ### [Week 2: CyberGIS](02_cyber/readme.md)
 - **Keywords:**
-  1. Technology, Power, Geographic Knowledge;
-  2. CyberGIS, CloudGIS and Spatial Cyber-Infrastructure
+  - Technology, Power and Geographic Knowledge;
+  - CyberGIS, CloudGIS and Spatial Cyber-Infrastructure
 - **Practical Exercise 1:** Cloud-based project management using GitHub
 - **Due:** PE1 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
 ### [Week 3 & 4: Bot](03_bot/readme.md)
-- **Keywords:**
-  1. Autonomy and Robot;
-  2. Web Crawler amd
-  2. Robot, Web Crawler
+- **Keywords:** Autonomy, Robot and Web crawler
 - **Practical Exercise 2:** Data crawling and geocoding using Python
 - **Due:** PE2 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
 > automated geography?
 
 ### [Week 5: Spatial Database](04_data/readme.md)
-- **Keywords:** Uncertainty, Post-truth, location spoofing
+- **Keywords:** Uncertainty, Post-truth and location spoofing
 - **Practical Exercise 3:** Spatial data management using SpatiaLite
 - **Due:** PE3 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
 ### [Week 6: GeoVisualization](05_viz/readme.md)
-- **Keywords:** Hermeneutics, Geo-narrative, Inductive visualization, Storymap
+- **Keywords:**
+  - Hermeneutics, Inductive visualization
+  - Geo-narrative, web mapping, storymap
 - **Practical Exercise 4:** Making a storymap using Mapbox
 - **Due:** PE4 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
 ### [Week 7: GeoAI](06_ai/readme.md)
-- **Keywords:** Place and space, AI, Deep/Machine Learning, Placial analysis, place recognition
+- **Keywords:**
+  - Place and space
+  - GeoAI, Placial analysis and place recognition
 - **Practical Exercise 5:** Place context analysis using machine learning
 - **Due:** PE5 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
-> needed
-
 ### [Week 8: VR (Virtual Reality) and AR (Augmented Reality)](07_vr/readme.md)
-- **Keywords:** Embodiment, 3D and Point-cloud visualization, SfM (Structure-from-Motion)
+- **Keywords:**
+  - Embodiment, Cyborg
+  - 3D and Point-cloud visualization, SfM (Structure-from-Motion)
 - **Practical Exercise 6:** Making a web-based VR environment
 - **Due:** PE6 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
