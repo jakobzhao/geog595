@@ -17,6 +17,13 @@
 
 * Sui, D.Z. and Goodchild, M.F., 2003. A tetradic analysis of GIS and society using McLuhan's law of the media. Canadian Geographer/Le Géographe canadien, 47(1), pp.5-17.
 
+* Keßler, C. and McKenzie, G., 2018. A geoprivacy manifesto. Transactions in GIS, 22(1), pp.3-19.
+
+* Martin, A.K., Van Brakel, R.E. and Bernhard, D.J., 2009. Understanding resistance to digital surveillance: Towards a multi-disciplinary, multi-actor framework. Surveillance & Society, 6(3), pp.213-232.
+
+* Fernandez, L.A. and Huey, L., 2009. Is resistance futile? Thoughts on resisting surveillance. Surveillance & Society, 6(3), pp.199-202.
+
+* Seidl, D.E., Paulus, G., Jankowski, P. and Regenfelder, M., 2015. Spatial obfuscation methods for privacy protection of household-level data. Applied Geography, 63, pp.253-263.
 
 ## 2. Practical Exercise: Environmental data collection with Raspberry Pi
 

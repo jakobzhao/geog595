@@ -18,14 +18,16 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **Due:** Statement of Intent `01/07 5:00pm`
 
 ### [Week 2: CyberGIS](02_cyber/readme.md)
-- **Keywords:** Power/Knowledge, Hegemony, Open GIS, Hackathon, Spatial Cyber-Infrastructure, and CyberGIS,
+- **Keywords:** 1. Technology, Power, and Geographic Knowledge; 2. Spatial Cyber-Infrastructure, and CyberGIS
 - **Practical Exercise 1:** Cloud-based project management using GitHub
 - **Due:** PE1 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
 ### [Week 3 & 4: Bot](03_bot/readme.md)
-- **Keywords:** Autonomy and Web Crawler
+- **Keywords:** Autonomy, Bot and Web Crawler.
 - **Practical Exercise 2:** Data crawling and geocoding using Python
 - **Due:** PE2 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
+
+> automated geography?
 
 ### [Week 5: Spatial Database](04_data/readme.md)
 - **Keywords:** Uncertainty, Post-truth, location spoofing
@@ -42,15 +44,22 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **Practical Exercise 5:** Place context analysis using machine learning
 - **Due:** PE5 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
+> needed
+
 ### [Week 8: VR (Virtual Reality) and AR (Augmented Reality)](07_vr/readme.md)
 - **Keywords:** Embodiment, 3D and Point-cloud visualization, SfM (Structure-from-Motion)
 - **Practical Exercise 6:** Making a web-based VR environment
 - **Due:** PE6 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
+
+> needed
+
 ### [Week 9: IoT (Internet of Things)](08_iot/readme.md)
 - **Keywords:** Surveillance and resistance, Real-time GIS, Open Hardware, Blockchain
 - **Optional Practical Exercise 7:** Environmental data collection with Raspberry Pi (*This exercise will not be accounted for final score.*).
 - **Due:** PE7 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
+
+> needed
 
 ### [Week 10: Summary, Writing Project, and Presentation](09_sum/readme.md)
 
