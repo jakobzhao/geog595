@@ -8,18 +8,29 @@
     <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
   </head>
   <body style='margin : 0px; overflow: hidden;'>
-    <a-scene embedded arjs='sourceType: webcam;'>
+    <script>
+      AFRAME.registerComponent('modify-materials', {
+        init: function () {
+          // Wait for model to load.
+          this.el.addEventListener('model-loaded', () => {
+            // Grab the mesh / scene.
+            const obj = this.el.getObject3D('mesh');
+            // Go over the submeshes and modify materials we want.
+            obj.traverse(node => {
+              if (node.name.indexOf('ship') !== -1) {
+                node.material.color.set('red');
+              }
+            });
+          });
+        }
+      });
+    </script>
 
-      <a-marker preset='hiro'>
-        <!--Adding a glTF 2.0 model to your scene-->
-        <a-entity
-        gltf-model-next="src: url(cone.glb);"
-        >
-        </a-entity>
-
-      </a-marker>
-
-      <a-entity camera></a-entity>
+    <a-scene background="color: #ECECEC">
+      <a-assets>
+        <a-asset-item id="cityModel" src="cone.glb"></a-asset-item>
+      </a-assets>
+      <a-entity gltf-model="#cityModel" modify-materials></a-entity>
     </a-scene>
   </body>
 </html>
