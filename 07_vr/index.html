@@ -1,19 +1,25 @@
-<script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
-<script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
-<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-extras.ocean@%5E3.5.x/dist/aframe-extras.ocean.min.js"></script>
+    <script src="https://unpkg.com/aframe-gradient-sky@1.0.4/dist/gradientsky.min.js"></script>
+    <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+  </head>
+  <body style='margin : 0px; overflow: hidden;'>
+    <a-scene embedded arjs='sourceType: webcam;'>
 
-<body style='margin : 0px; overflow: hidden;'>
-  <a-scene embedded arjs='sourceType: webcam;'>
+      <a-marker preset='hiro'>
+        <!--Adding a glTF 2.0 model to your scene-->
+        <a-entity
+        gltf-model-next="src: url(cone.glb);"
+        >
+        </a-entity>
 
-    <a-marker preset='hiro'>
-      <!--Adding a glTF 2.0 model to your scene-->
-      <a-entity
-      gltf-model-next="src: url(cone.glb);"
-      >
-      </a-entity>
+      </a-marker>
 
-    </a-marker>
-
-    <a-entity camera></a-entity>
-  </a-scene>
-</body>
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
