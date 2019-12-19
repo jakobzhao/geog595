@@ -10,9 +10,13 @@
   <body style='margin : 0px; overflow: hidden;'>
     <a-scene>
       <a-assets>
-        <a-asset-item id="qq-obj" src="qq.obj"></a-asset-item>
-        <a-asset-item id="qq-mtl" src="qq.mtl"></a-asset-item>
+          <a-asset-item id="tree-obj" src="qq.obj"></a-asset-item>
+        <a-asset-item id="tree-mtl" src="qq.mtl"></a-asset-item>
       </a-assets>
+
+      <a-entity obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
     </a-scene>
+
+
   </body>
 </html>
