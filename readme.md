@@ -1,6 +1,6 @@
 # GEOGRAPHY 595 A: Digital GeoHumanities
 
-<a href="#"><img src="res/logo.png" align="right" width="300px" /></a> **Meeting:** Wednesdays, 2:30 - 5:20, SMI 109
+<a href="https://hgis.uw.edu"><img src="res/logo.png" align="right" width="300px" /></a> **Meeting:** Wednesdays, 2:30 - 5:20, SMI 109
 
 **Instructor:** Bo Zhao, SMI 416B, Office hours by appointment
 
