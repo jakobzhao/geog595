@@ -23,5 +23,3 @@
 **Extending reading**
 
 * Post-truth Manuscript
-
-## Deliverables

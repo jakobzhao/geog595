@@ -27,9 +27,3 @@
 * Kwan MP, 2016, "Algorithmic geographies: big data, algorithmic uncertainty, and the production of geographic knowledge", Annals of the American Association of Geographers, 106(2): 274-82.
 
 * Gao, S., Janowicz, K., McKenzie, G. and Li, L., 2013, November. Towards Platial Joins and Buffers in Place-Based GIS. In Comp@ Sigspatial (pp. 42-49).
-
-
-## References
-* Thrush, C., 2017. Native Seattle: Histories from the crossing-over place. Accessed from https://muse.jhu.edu/book/10411. University of Washington Press.
-
-* Atkins, G., 2011. Gay Seattle: Stories of exile and belonging. Accessed from https://muse.jhu.edu/book/40703. University of Washington Press.

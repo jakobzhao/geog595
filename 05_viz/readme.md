@@ -27,7 +27,3 @@
 * Roth, R.E. forthcoming Cartographic Design as Visual Storytelling: Synthesis & Review of Map-based Narratives, Genres, and Tropes
 
 * Pickles, J. 2011, The Map Reader: Theories of Mapping Practice and Cartographic Representation, First Edition. Edited by Martin Dodge, Rob Kitchin and Chris Perkins. 2011 John Wiley & Sons, Ltd. Published 2011 by John Wiley & Sons, Ltd. ISBN: 978-0-470-74283-9
-
-
-
-## Deliverables

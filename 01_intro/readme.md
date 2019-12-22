@@ -16,7 +16,6 @@
 
 * YI-FU TUAN (1976) HUMANISTIC GEOGRAPHY, Annals of the Association of American Geographers, 66:2, 266-276, DOI: 10.1111/j.1467-8306.1976.tb01089.x
 
-
 * Travis, C., 2017. GeoHumanities, GIScience and Smart City Lifeworld approaches to geography and the new human condition. Global and Planetary Change, 156, pp.147-154.
 
 **Extending reading**
