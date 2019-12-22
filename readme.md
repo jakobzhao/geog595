@@ -29,8 +29,6 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **Practical Exercise 2:** Data crawling and geocoding using Python
 - **Due:** PE2 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
-> automated geography?
-
 ### [Week 5: Spatial Database](04_data/readme.md)
 - **Keywords:** Uncertainty, Post-truth and location spoofing
 - **Practical Exercise 3:** Spatial data management using SpatiaLite
