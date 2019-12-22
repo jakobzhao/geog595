@@ -50,28 +50,24 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **Practical Exercise 5:** Place context analysis using machine learning
 - **Due:** PE5 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
-### [Week 8: VR (Virtual Reality) and AR (Augmented Reality)](07_vr/readme.md)
+### [Week 8: Virtual Reality](07_vr/readme.md)
 - **Keywords:**
-  - Embodiment, Cyborg
-  - 3D and Point-cloud visualization, SfM (Structure-from-Motion)
+  - Embodiment and Cyborg
+  - Virtual Reality, Point-cloud visualization and SfM (Structure-from-Motion)
 - **Practical Exercise 6:** Making a web-based VR environment
 - **Due:** PE6 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
-
-> needed
-
 ### [Week 9: IoT (Internet of Things)](08_iot/readme.md)
-- **Keywords:** Surveillance and resistance, Real-time GIS, Open Hardware, Blockchain
-- **Optional Practical Exercise 7:** Environmental data collection with Raspberry Pi (*This exercise will not be accounted for final score.*).
+- **Keywords:**
+  - Surveillance, Resistance and Panopticism
+  - Real-time GIS, Open Hardware
+- **Practical Exercise 7:** Environmental data collection with Raspberry Pi. `This exercise will not be accounted for final score.`
 - **Due:** PE7 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
-
-> needed
 
 ### [Week 10: Summary, Writing Project, and Presentation](09_sum/readme.md)
 
 - *Each student presents the writing project during the last class meeting.*
 - **Due:** Writing Project `01/07 5:00pm`.
-
 
 ## Course Requirement
 

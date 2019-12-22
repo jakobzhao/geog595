@@ -4,48 +4,26 @@
 
 **Instructor:** Bo Zhao, SMI 416B, Office hours by appointment
 
-**Contact:** 206.685.3846, zhaobo@uw.edu, jakobzhao `skype/wechat`
+**Contact:** 206.685.3846, zhaobo@uw.edu, jakobzhao (skype/wechat)
 
-**Keywords:** GeoHumanities, Digital Humanities, Humanistic Geography, and STS.
+**Keywords:**
+  - Surveillance, Resistance and Panopticism
+  - Real-time GIS, Open Hardware
 
 ## Readings
 
-* Wenwen Li, Michael Batty & Michael F. Goodchild (2019): Realtime GIS for smart cities, International Journal of Geographical Information Science, DOI:
-10.1080/13658816.2019.1673397
+* Wenwen Li, Michael Batty & Michael F. Goodchild (2019): Realtime GIS for smart cities, International Journal of Geographical Information Science
 
-* Michel Foucault,“Panopticism,” from Discipline and Punish, trans.Alan Sheridan (Pantheon, 1978), pp. 195–209, 216–228, 316–317, 326–333, abridged. Reprinted by permission of Georges Borchardt and Penguin Books UK.
-
-* Sui, D.Z. and Goodchild, M.F., 2003. A tetradic analysis of GIS and society using McLuhan's law of the media. Canadian Geographer/Le Géographe canadien, 47(1), pp.5-17.
-
-* Keßler, C. and McKenzie, G., 2018. A geoprivacy manifesto. Transactions in GIS, 22(1), pp.3-19.
+* Michel Foucault, “Panopticism,” from Discipline and Punish, trans. Alan Sheridan (Pantheon, 1978), pp. 195–209, 216–228, 316–317, 326–333, abridged. Reprinted by permission of Georges Borchardt and Penguin Books UK.
 
 * Martin, A.K., Van Brakel, R.E. and Bernhard, D.J., 2009. Understanding resistance to digital surveillance: Towards a multi-disciplinary, multi-actor framework. Surveillance & Society, 6(3), pp.213-232.
 
-* Fernandez, L.A. and Huey, L., 2009. Is resistance futile? Thoughts on resisting surveillance. Surveillance & Society, 6(3), pp.199-202.
+* Sui, D.Z. and Goodchild, M.F., 2003. A tetradic analysis of GIS and society using McLuhan's law of the media. Canadian Geographer/Le Géographe canadien, 47(1), pp.5-17.
+
+**Extending reading:**
+
+* Keßler, C. and McKenzie, G., 2018. A geoprivacy manifesto. Transactions in GIS, 22(1), pp.3-19.
 
 * Seidl, D.E., Paulus, G., Jankowski, P. and Regenfelder, M., 2015. Spatial obfuscation methods for privacy protection of household-level data. Applied Geography, 63, pp.253-263.
 
-## 2. Practical Exercise: Environmental data collection with Raspberry Pi
-
-
-### 2.1 Preparation
-
-https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat
-
-https://www.raspberrypi.org/documentation/hardware/sense-hat/
-
-
-https://picamera.readthedocs.io/en/release-1.13/recipes1.html
-
-https://github.com/bennuttall/sense-hat-examples/blob/master/python/astro_cam.py
-
-Cameras: https://www.amazon.com/Raspberry-Pi-Camera-Module-Megapixel/dp/B01ER2SKFS?ref_=ast_bbp_dp&th=1&psc=1
-
-
-**python libraries**
-
-https://pypi.org/project/sense-hat/
-
-https://github.com/astro-pi/python-sense-hat
-
-https://github.com/bennuttall/sense-hat-examples
+* Fernandez, L.A. and Huey, L., 2009. Is resistance futile? Thoughts on resisting surveillance. Surveillance & Society, 6(3), pp.199-202.
