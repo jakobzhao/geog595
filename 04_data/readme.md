@@ -1,4 +1,4 @@
-# Spatial Database   一篇关于spatial database的
+# Spatial Database
 
 **Meeting:** Wednesdays, 2:30 - 5:20, SMI 109
 
@@ -21,6 +21,8 @@
 * Goodchild, M.F., 1998. Uncertainty: the Achilles heel of GIS. Geo Info Systems, 8(11), pp.50-52.
 
 * Couclelis, H., 2003. The certainty of uncertainty: GIS and the limits of geographic knowledge. Transactions in GIS, 7(2), pp.165-175.
+
+**Extending reading**
 
 
 ## Deliverables
