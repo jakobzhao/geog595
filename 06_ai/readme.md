@@ -6,7 +6,7 @@
 
 **Contact:** 206.685.3846, zhaobo@uw.edu, jakobzhao (skype/wechat)
 
-- **Keywords:**
+**Keywords:**
   - Place and space
   - GeoAI, Placial analysis and place recognition
 
