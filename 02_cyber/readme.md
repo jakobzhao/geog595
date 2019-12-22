@@ -27,6 +27,3 @@
 * Wright, D.J. and Wang, S., 2011. The emergence of spatial cyberinfrastructure. Proceedings of the National Academy of Sciences, 108(14), pp.5488-5491.
 
 * Ash, J., Kitchin, R. and Leszczynski, A., 2018. Digital turn, digital geographies?. Progress in Human Geography, 42(1), pp.25-43.
-
-
-## Deliverables

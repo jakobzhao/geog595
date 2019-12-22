@@ -26,7 +26,3 @@
 * Crang, M., 2015. The promises and perils of a digital geohumanities. cultural geographies, 22(2), pp.351-360.
 
 * Hawkins, H., Cabeen, L., Callard, F., Castree, N., Daniels, S., DeLyser, D., Neely, H.M. and Mitchell, P., 2015. What might GeoHumanities do? Possibilities, practices, publics, and politics. GeoHumanities, 1(2), pp.211-232.
-
-## Deliverables
-
-### Letter of Intent
