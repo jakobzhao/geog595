@@ -57,7 +57,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **Practical Exercise 6:** Making a web-based VR environment
 - **Due:** PE6 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
 
-### [Week 9: IoT (Internet of Things)](08_iot/readme.md)
+### [Week 9: Internet of Things](08_iot/readme.md)
 - **Keywords:**
   - Surveillance, Resistance and Panopticism
   - Real-time GIS, Open Hardware
