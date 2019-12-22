@@ -20,7 +20,7 @@
 
 * Janowicz, K., Gao, S., McKenzie, G., Hu, Y. and Bhaduri, B., 2019. GeoAI: spatially explicit artificial intelligence techniques for geographic knowledge discovery and beyond.
 
-**Extending reading:**
+***Extending readings***
 
 * Cresswell, T., 2009. Place. International encyclopedia of human geography, 8, pp.169-177.
 

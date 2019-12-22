@@ -20,7 +20,7 @@
 
 * Hinchliffe, S., 1996. Technology, power, and space—the means and ends of geographies of technology. Environment and Planning D: Society and Space, 14(6), pp.659-682.
 
-**Extending reading**
+***Extending readings***
 
 * Yang, C., Goodchild, M., Huang, Q., Nebert, D., Raskin, R., Xu, Y., Bambacus, M. and Fay, D., 2011. Spatial cloud computing: how can the geospatial sciences use and help shape cloud computing?. International Journal of Digital Earth, 4(4), pp.305-329.
 

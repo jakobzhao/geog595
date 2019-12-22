@@ -20,7 +20,7 @@
 
 * Kent, A. J. (2018) Form follows feedback: rethinking cartographic communication. Westminster Papers in Communication and Culture, 13 (2). pp. 96-112.
 
-**Extending readings:**
+***Extending readings***
 
 * Kwan, M.P. and Ding, G., 2008. Geo-narrative: Extending geographic information systems for narrative analysis in qualitative and mixed-method research. The Professional Geographer, 60(4), pp.443-465.
 

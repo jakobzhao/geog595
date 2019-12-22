@@ -20,7 +20,7 @@
 
 * Sui, D.Z. and Goodchild, M.F., 2003. A tetradic analysis of GIS and society using McLuhan's law of the media. Canadian Geographer/Le Géographe canadien, 47(1), pp.5-17.
 
-**Extending reading:**
+***Extending readings***
 
 * Keßler, C. and McKenzie, G., 2018. A geoprivacy manifesto. Transactions in GIS, 22(1), pp.3-19.
 

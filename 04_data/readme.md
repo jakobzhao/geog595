@@ -20,6 +20,6 @@
 
 * Zhao, B. and Zhang, S., 2019. Rethinking spatial data quality: Pokémon go as a case study of location spoofing. The Professional Geographer, 71(1), pp.96-108.
 
-**Extending reading**
+***Extending readings***
 
 * Post-truth Manuscript

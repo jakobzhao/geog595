@@ -20,7 +20,6 @@
 
 * Munafo, J., Diedrick, M. and Stoffregen, T.A., 2017. The virtual reality head-mounted display Oculus Rift induces motion sickness and is sexist in its effects. Experimental brain research, 235(3), pp.889-901.
 
-**Extending reading:**
-
+***Extending readings***
 
 * De Preester, H., 2010. Postphenomenology, embodiment and technics.
