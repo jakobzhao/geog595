@@ -22,45 +22,45 @@ In this seminar, we will invite you to participate in the ongoing discussion and
   - Technology, Power and Geographic Knowledge;
   - CyberGIS, CloudGIS and Spatial Cyber-Infrastructure
 - **Practical Exercise 1:** Cloud-based project management using GitHub
-- **Due:** PE1 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
+- **Due:** PE1 `01/07 5:00pm` and [Thinkpiece](https://github.com/jakobzhao/geog595/issues/3) `01/07 5:00pm`.
 
 ### [Week 3 & 4: Bot](03_bot/readme.md)
 - **Keywords:** Autonomy, Robot and Web crawler
 - **Practical Exercise 2:** Data crawling and geocoding using Python
-- **Due:** PE2 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
+- **Due:** PE2 `01/07 5:00pm` and [Thinkpiece](https://github.com/jakobzhao/geog595/issues/4) `01/07 5:00pm`.
 
 ### [Week 5: Spatial Database](04_data/readme.md)
 - **Keywords:** Uncertainty, Post-truth and location spoofing
 - **Practical Exercise 3:** Spatial data management using SpatiaLite
-- **Due:** PE3 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
+- **Due:** PE3 `01/07 5:00pm` and [Thinkpiece](https://github.com/jakobzhao/geog595/issues/5) `01/07 5:00pm`.
 
 ### [Week 6: GeoVisualization](05_viz/readme.md)
 - **Keywords:**
   - Hermeneutics, Inductive visualization
   - Geo-narrative, web mapping, storymap
 - **Practical Exercise 4:** Making a storymap using Mapbox
-- **Due:** PE4 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
+- **Due:** PE4 `01/07 5:00pm` and [Thinkpiece](https://github.com/jakobzhao/geog595/issues/6) `01/07 5:00pm`.
 
 ### [Week 7: GeoAI](06_ai/readme.md)
 - **Keywords:**
   - Place and space
   - GeoAI, Placial analysis and place recognition
 - **Practical Exercise 5:** Place context analysis using machine learning
-- **Due:** PE5 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
+- **Due:** PE5 `01/07 5:00pm` and [Thinkpiece](https://github.com/jakobzhao/geog595/issues/7) `01/07 5:00pm`.
 
 ### [Week 8: Virtual Reality](07_vr/readme.md)
 - **Keywords:**
   - Embodiment and Cyborg
   - Virtual Reality, Point-cloud visualization and SfM (Structure-from-Motion)
 - **Practical Exercise 6:** Making a web-based VR environment
-- **Due:** PE6 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
+- **Due:** PE6 `01/07 5:00pm` and [Thinkpiece](https://github.com/jakobzhao/geog595/issues/8) `01/07 5:00pm`.
 
 ### [Week 9: Internet of Things](08_iot/readme.md)
 - **Keywords:**
   - Surveillance, Resistance and Panopticism
   - Real-time GIS, Open Hardware
 - **Practical Exercise 7:** Environmental data collection with Raspberry Pi. `This exercise will not be accounted for final score.`
-- **Due:** PE7 `01/07 5:00pm` and Thinkpiece `01/07 5:00pm`.
+- **Due:** PE7 `01/07 5:00pm` and [Thinkpiece](https://github.com/jakobzhao/geog595/issues/9) `01/07 5:00pm`.
 
 ### [Week 10: Summary, Writing Project, and Presentation](09_sum/readme.md)
 
