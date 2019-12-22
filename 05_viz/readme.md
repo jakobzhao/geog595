@@ -18,7 +18,7 @@
 
 * Knowles, A.K., Westerveld, L. and Strom, L., 2015. Inductive visualization: A humanistic alternative to GIS. GeoHumanities, 1(2), pp.233-265.
 
-* Kent, A. J. (2018) Form follows feedback: rethinking cartographic communication. Westminster Papers in Communication and Culture, 13 (2). pp. 96-112.
+* Kent, A. J. 2018 Form follows feedback: rethinking cartographic communication. Westminster Papers in Communication and Culture, 13 (2). pp. 96-112.
 
 ***Extending readings***
 
