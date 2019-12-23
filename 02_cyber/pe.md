@@ -239,7 +239,7 @@ Summary of your role
 ```
 **Note:** This resume template is from [http://www.jasonfilley.com/resumeinmarkdown.html](http://www.jasonfilley.com/resumeinmarkdown.html).
 
-3\. In fact, you can use any text editor to generate Markdown files. If you do not have `Atom` at hand, you can use `Notepad` as well. Another Markdown editor I recommend is `Typora`. Please let the instructor know if you meet any difficulty in installing this plugin.
+3\. In fact, you can use any text editor to generate Markdown files. If you do not have `Atom` at hand, you can use `Notepad` on Windows or `TextEdit` on MacOS as well. Another more advanced Markdown editor I highly recommend is `Typora`. Please let the instructor know if you meet any difficulty in installing this plugin.
 
 ### 3.3 Upload files to GitHub
 
