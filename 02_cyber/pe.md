@@ -319,7 +319,9 @@ Once the `resume.md` is uploaded to the root of the GitHub Repository, you can s
 
 **Note：** Similar to the step 8 in section 2, You can also update a local repository from a remote github repository using Atom. To do that, right click the github operation status on the bottom bar, and select the option `Pull`. The github operation status can be either `Fetch`, `Pull`, `Push`, `Force Push`.
 
-## 4. Create your Project
+## 4. Create a website for your project
+
+
 ## 5. Deliverable
 
 Before submitting this lab, please make sure both the **GitHub repository** and the **GitHub page** work properly. In this lab, you are excepted to submit the url of the GitHub repository to the **Canvas Dropbox** of this course. This url should be in the format of `https://www.github.com/[account_username]/[account_username].github.io`. To do that, check the item of this lab on the assignment tab, and then press the `Submit Assignment` button. Please contact the instructor if you have any difficulty in submitting the url link. Here are the grading criteria:
