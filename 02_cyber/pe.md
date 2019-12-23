@@ -1,6 +1,6 @@
 # Praticial Exercise 1: Cloud-based project management using GitHub
 
-<a href="https://hgis.uw.edu"><img src="//res/logo.png" align="right" width="300px" target="_blank" /></a> **Meeting:** Wednesdays, 2:30 - 5:20, SMI 109
+**Meeting:** Wednesdays, 2:30 - 5:20, SMI 109
 
 **Instructor:** Bo Zhao, SMI 416B, Office hours by appointment
 
@@ -112,7 +112,7 @@ Directory of C:\Workspace\geog595
 
 In the root directory of geog595, there are folders like 01_intro, 02_cyber, and files like readme.md and LICENSE.
 
-![](img/git-clone-371.gif)
+![](img/git-clone-geog595.gif)
 
 7\. Next, we open the `readme.md` file using `Atom`. To do that, make sure you have installed the program `Atom` and the recommended packages, such as `markdown-preview-enhanced`.
 
@@ -142,7 +142,6 @@ Fast-forward
  readme.md | 3 ++-
 ```
 
-![](img/git-pull-371.gif)
 
 Now, the course material on your local computer is updated.
 
