@@ -86,24 +86,28 @@ Checking out files: 100% (650/650), done.
 C:\Workspace>cd geog595
 
 C:\Workspace\geog595>dir
- Volume in drive C has no label.
- Volume Serial Number is 3E8C-9A9E
+Volume in drive C has no label.
+Volume Serial Number is 3E8C-9A9E
 
- Directory of C:\Workspace\geog595
+Directory of C:\Workspace\geog595
 
-09/19/2017  09:12 PM    <DIR>          .
-09/19/2017  09:12 PM    <DIR>          ..
-09/19/2017  01:41 AM               412 .gitignore
-09/19/2017  09:49 PM    <DIR>          .idea
-09/19/2017  02:19 AM    <DIR>          labs
-09/19/2017  01:41 AM    <DIR>          lectures
-09/19/2017  01:41 AM             7,816 LICENSE
-09/19/2017  01:41 AM    <DIR>          projects
-09/19/2017  01:41 AM    <DIR>          readings
-09/19/2017  04:35 AM             6,011 readme.md
-09/19/2017  01:41 AM    <DIR>          resources
-               3 File(s)         14,239 bytes
-               8 Dir(s)  903,569,551,360 bytes free
+12/22/2019  12:52 AM    <DIR>          .
+12/22/2019  12:52 AM    <DIR>          ..
+12/22/2019  12:47 AM    <DIR>          01_intro
+12/23/2019  11:34 AM    <DIR>          02_cyber
+12/22/2019  12:47 AM    <DIR>          03_bot
+12/22/2019  12:47 AM    <DIR>          04_data
+12/22/2019  12:47 AM    <DIR>          05_viz
+12/22/2019  01:44 AM    <DIR>          06_ai
+12/22/2019  01:08 AM    <DIR>          07_vr
+12/22/2019  01:09 AM    <DIR>          08_iot
+12/22/2019  12:47 AM    <DIR>          09_sum
+12/22/2019  12:47 AM               125 LICENSE
+12/22/2019  02:55 AM            10,133 readme.md
+12/22/2019  02:15 AM    <DIR>          res
+12/22/2019  12:47 AM                12 resource.md
+              3 File(s)         10,270 bytes
+             12 Dir(s)  300,063,776,768 bytes free
 ```
 
 In the root directory of geog595, there are folders like 01_intro, 02_cyber, and files like readme.md and LICENSE.
