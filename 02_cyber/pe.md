@@ -60,18 +60,17 @@ In this course, I decide to store all material on GitHub instead of Canvas syste
 
 3\. However, **we recommend you to clone this project repository**. You can get the **git url** of this repository on the same information window. The git url is [https://github.com/jakobzhao/geog595.git](https://github.com/jakobzhao/geog595.git).
 
-4\. Next, open your working space on your local computer through command prompt if you are on Windows or through terminal if you are on a Mac or Linux. Here, the working space is just a centralized folder on your local computer where you can store your working materials. For me, I created a working folder to locally store my github repositories. For example, the working space of my computer is located as `C:\Workspace`. But it is up to you under which folder or path to put the workspace folder.
+4\. Next, open your working space on your local computer through command prompt if you are on Windows or through terminal if you are on a Mac. Here, the working space is just a centralized folder on your local computer where you can store your working materials. For me, I created a working folder to locally store my github repositories. For example, the working space of my computer is located as `C:\Workspace`. But it is up to you under which folder or path to put the workspace folder.
 
 ```powershell
-C:\Users\[your_username]>cd C:\Workspace
+C:\Users\[windows_or_macosx_username]>cd C:\Workspace
 C:\Workspace>
 ```
-
 
 5\. Once acquiring the **git url** -  https://github.com/jakobzhao/geog595.git, we use the command `git clone` to clone the GitHub repository to your local computer.
 
  ```powershell
-C:\Users\[you_username]\workspace\>git clone https://github.com/jakobzhao/geog595.git
+C:\Workspace\>git clone https://github.com/jakobzhao/geog595.git
 Cloning into 'geog595'...
 remote: Counting objects: 962, done.
 remote: Compressing objects: 100% (750/750), done.
@@ -84,13 +83,13 @@ Checking out files: 100% (650/650), done.
 6\. To review the files and folders in the downloaded/cloned repository, you need to `cd` into the root directory of this repository. If you are on a Mac or Linux, type `ls` to check the file list of this repository, or try `dir` if you are on a Windows. Take windows for example.
 
 ```powershell
-C:\Users\[you_username]\workspace>cd geog595
+C:\Workspace>cd geog595
 
-C:\Users\[you_username]\workspace\geog595>dir
+C:\Workspace\geog595>dir
  Volume in drive C has no label.
  Volume Serial Number is 3E8C-9A9E
 
- Directory of C:\Users\[you_username]\workspace\geog595
+ Directory of C:\Workspace\geog595
 
 09/19/2017  09:12 PM    <DIR>          .
 09/19/2017  09:12 PM    <DIR>          ..
@@ -124,10 +123,10 @@ In the project list panel, navigate to the `readme.md` in the project tree panel
 8\. Once the course material is hosted on GitHub, it can be easily shared with a larger community. To synchronize the course material on remote GitHub repository to your local computer, you need to implement two sequential command lines `git checkout --force` and `git pull` in the root directory of the repository. Once the two commands are executed. An update notice will be shown as below.
 
 ```powershell
-C:\Users\[you_username]\workspace\geog595>git checkout --force
+C:\Workspace\geog595>git checkout --force
 Your branch is up-to-date with 'origin/master'.
 
-C:\Users\[you_username]\workspace\geog595>git pull
+C:\Workspace\geog595>git pull
 remote: Counting objects: 3, done.
 remote: Compressing objects: 100% (3/3), done.
 remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
@@ -149,10 +148,9 @@ If you implement the above two commands in a Mac or Linux system, you might need
 
 9\. Before we jump to the next section, please:
 
-Star the repository by pressing the `star` button on the top right, and;
+- Star the course repository [https://github.com/jakobzhao/geog595](https://github.com/jakobzhao/geog595) by pressing the `star` button on the top right, and;
 
-Navigate to Dr. Zhao's front page at [https://github.com/jakobzhao](https://github.com/jakobzhao), and click the `Follow` button to be a follower.
-
+- Navigate to Dr. Zhao's front page at [https://github.com/jakobzhao](https://github.com/jakobzhao), and click the `Follow` button to be a follower.
 
 ## 3\. Project management
 
@@ -160,15 +158,15 @@ In this section, we will introduce a series of operations related to project man
 
 ### 3.1 Create a repository for your project
 
-1\. Navigate to [https://github.com/new](https://github.com/new), and input your repository name in the blank text box for `Repository name`. Here, please name your repository in the format of **[account_username].github.io**. For example, if your account_username is `geovizlabtest`, this repository name will be **geovizlabtest.github.io**.
+1\. Navigate to [https://github.com/new](https://github.com/new), and input your repository name in the blank text box of the `Repository name`. Here, please name your repository in the format of **[github_username].github.io**. For example, if your github_username is `geovizlabtest`, the repository name will be **geovizlabtest.github.io**.
 
 ![""](img/create-new-repository-2.png)
 
-2\. Besides, make sure you **CHECK** the box `Initialize this repository with a README`. You can leave other options by default.
+2\. Besides, make sure you **check** the box `Initialize this repository with a README`. You can leave other options by default.
 
 ![](img/create-new-repository-3.png)
 
-3\. Next, click the `Create repository` button. As a result, a new repository `[account_username].github.io` is created. You can access this repository through the link `https://github.com/[account_username]/[account_username].github.io`. For example,  you can access the repository I created through this link [https://github.com/geovizlabtest/geovizlabtest.github.io](https://github.com/geovizlabtest/geovizlabtest.github.io).
+3\. Next, click the `Create repository` button. As a result, a new repository `[github_username].github.io` is created. You can access this repository through the link `https://github.com/[github_username]/[github_username].github.io`. For example,  you can access the repository geovizlabtest.github.io through the link [https://github.com/geovizlabtest/ geovizlabtest.github.io](https://github.com/geovizlabtest/geovizlabtest.github.io).
 
 ### 3.2 Compose a Markdown file
 
@@ -243,7 +241,7 @@ Summary of your role
 
 ### 3.3 Upload files to GitHub
 
-Once you have drafted out your resume in the `resume.md` file. You will upload this file to the **root** of the project repository `https://github.com/[account_username]/[account_username].github.io` . In general, there are three options to complete this task, we will introduce them one by one.
+Once you have drafted out your resume in the `resume.md` file. You will upload this file to the **root** of the project repository `https://github.com/[github_username]/[github_username].github.io` . In general, there are three options to complete this task, we will introduce them one by one.
 
 #### 3.3.1 Drag & drop
 
@@ -253,7 +251,7 @@ Once you have drafted out your resume in the `resume.md` file. You will upload t
 
 **Note:** Certainly, you can drag and drop multiple files and/or folders. In this lab, we just upload one single file.
 
-![](img/after-the-drop.jpg)
+![](img/after-the-drop.png)
 
 3\. Before pressing the green button `Commit Changes`, you might want to add a title and/or some descriptions for this commit. It will help you organize your commits.
 
@@ -261,17 +259,17 @@ Once you have drafted out your resume in the `resume.md` file. You will upload t
 
 You can also upload the `resume.md` through `git push` command on either command prompt or terminal.
 
-1\. Download the repository  `https://github.com/[account_username]/[account_username].github.io`  following the instruction in Section 2 ***"Download the course material”***.
+1\. Download the repository  `https://github.com/[github_username]/[github_username].github.io`  following the instruction in Section 2 **"Download the course material"**.
 
 2\. In the root directory of the downloaded repository, please copy the edited `resume.md` to the root.
 
 3\. Next, you can push this change to the remote repository by implementing two command lines `git commit` and  `git push`. Since you have add new `untracked` files to this repository, you need to also implement another command line `git add` prior to the `git push`. As listed below.
 ```powershell
-c:\Workspace\jakobzhao.github.io>git add -A
-c:\Workspace\jakobzhao.github.io>git commit -a -m "update the resume.md"
-c:\Workspace\geog571>git push
-Username for 'https://github.com': jakobzhao
-Password for 'https://jakobzhao@github.com':
+c:\Workspace\[github_username].github.io>git add -A
+c:\Workspace\[github_username].github.io>git commit -a -m "update the resume.md"
+c:\Workspace\[github_username].github.io>git push
+Username for 'https://github.com': `type the username`
+Password for 'https://geovizlabtest@github.com':`type the password`
 ```
 
 **Note:** Again, if you use a Mac or Linux, you might need to add `sudo` in front of the command line to avoid the privilege deny issue. Besides, the command prompt or terminal may ask you for GitHub username and password, please be prepared with such information.
@@ -283,11 +281,11 @@ In a nutshell, to push a change from your local computer to GitHub, you will nee
 
 We can also use `Atom` to upload files to GitHub repository or more generally, commit changes. Compared with the first two solutions, I recommend you use Atom if you prefer graphic user interfaces.
 
-1\. Download the repository  `https://github.com/[account_username]/[account_username].github.io`  following the instruction in Section 2 ***"Download the course material"***.
+1\. Download the repository  `https://github.com/[github_username]/[github_username].github.io`  following the instruction in Section 2 ***"Download the course material"***.
 
 2\. In the root directory of the downloaded repository, please copy the edited `resume.md` to the root.
 
-3\. Open the program `Atom`. Press `crtl+shift+a` to open the "open project" dialog panel. In the panel, navigate to the repo.  The name should be in the format of `[account_username].github.io`. click the `select folder` button on the bottom of the panel to open the repo to the main interface of atom.
+3\. Open the program `Atom`. Press `crtl+shift+a` to open the "open project" dialog panel. In the panel, navigate to the repo.  The name should be in the format of `[github_username].github.io`. click the `select folder` button on the bottom of the panel to open the repo to the main interface of atom.
 
 ![](img/atom-open-project-2.png)
 
@@ -309,13 +307,13 @@ Now you have already known how to commit a change. In practice, you will use thi
 
 ### 3.4 Publish your repository
 
-Once the `resume.md` is uploaded to the root of the GitHub Repository, you can see this file listed in the root. Moreover, GitHub provide a new function named **GitHub Page** that converts a markdown file as a web page. Because your resume is located at the root of the repository, you can directly access your resume by visiting `http://[account_username].github.io/resume` if you implement the following steps.
+Once the `resume.md` is uploaded to the root of the GitHub Repository, you can see this file listed in the root. Moreover, GitHub provide a new function named **GitHub Page** that converts a markdown file as a web page. Because your resume is located at the root of the repository, you can directly access your resume by visiting `http://[github_username].github.io/resume` if you implement the following steps.
 
 1\. please click the `Settings`tab on the top bar of the repository front page.
 
 2\. On the `GitHub Pages` Section, make sure `master branch` is chosen in the `Source`  dropdown list.  Next, press the `Save` button.
 
-3\. It usually takes several seconds to 1~2 minutes to apply this setting. If this setting is activated, you can read your resume from `http://[account_username].github.io/resume`.
+3\. It usually takes several seconds to 1~2 minutes to apply this setting. If this setting is activated, you can read your resume from `http://[github_username].github.io/resume`.
 
 **Note：** Similar to the step 8 in section 2, You can also update a local repository from a remote github repository using Atom. To do that, right click the github operation status on the bottom bar, and select the option `Pull`. The github operation status can be either `Fetch`, `Pull`, `Push`, `Force Push`.
 
@@ -324,13 +322,13 @@ Once the `resume.md` is uploaded to the root of the GitHub Repository, you can s
 
 ## 5. Deliverable
 
-Before submitting this lab, please make sure both the **GitHub repository** and the **GitHub page** work properly. In this lab, you are excepted to submit the url of the GitHub repository to the **Canvas Dropbox** of this course. This url should be in the format of `https://www.github.com/[account_username]/[account_username].github.io`. To do that, check the item of this lab on the assignment tab, and then press the `Submit Assignment` button. Please contact the instructor if you have any difficulty in submitting the url link. Here are the grading criteria:
+Before submitting this lab, please make sure both the **GitHub repository** and the **GitHub page** work properly. In this lab, you are excepted to submit the url of the GitHub repository to the **Canvas Dropbox** of this course. This url should be in the format of `https://www.github.com/[github_username]/[github_username].github.io`. To do that, check the item of this lab on the assignment tab, and then press the `Submit Assignment` button. Please contact the instructor if you have any difficulty in submitting the url link. Here are the grading criteria:
 
 1\. A GitHub account is registered, You have followed the instructor's GitHub account and `star-ed` the course GitHub repository. (8 POINTS)
 
-2\. The repository should be named after `[account_username].github.io`. (5 POINTS)
+2\. The repository should be named after `[github_username].github.io`. (5 POINTS)
 
-3\. The `GitHub page` function of the repository should work properly. That said, your resume can be visited from `https://[account_username].github.io/resume` (5 POINTS);
+3\. The `GitHub page` function of the repository should work properly. That said, your resume can be visited from `https://[github_username].github.io/resume` (5 POINTS);
 
 4\. To hone your skills in generating Markdown files, the resume could be built upon the template that was shown in `Section 3.2`, but we still encourage you customize your resume. In terms of the format, your online resume should contain:
 
