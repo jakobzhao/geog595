@@ -330,14 +330,13 @@ XXXX hosts a few website templates made by Boostrap 4. Bootstrap is a free and o
 
 2\. Unzip/Extract the files from the zipped file and move to the local folder of the github repository `[github_username].github.io` in your workspace.
 
-**Note:** If your local PC or MacOSX does not support the unzip function, please install 7zip if you are a windows user or XXX if you are a MacOSX user.
+**Note:** If your local PC or MacOSX does not support the unzip function, please install [7zip](https://www.7-zip.org/download.html) if you are a windows user or [Keka](https://www.keka.io/en/) if you are a MacOSX user.
 
 3\. Uplod all the extracted files to the root of `https://github.com/[github_username]/[github_username].github.io`. To do so, please use the github synchronization function provided by Atom IDE **(refer to Section 3.3.3)**.
 
 4\. After you successfully push the local repostory to github. You can visit the website at `https://[github_username].github.io`. For example, I can vist the website at `https://geovizlabtest.github.io`. Usually, the URL will automaticaly navigate to the default page under the root of the repo. Usualy, the name of the default page is `index.html`.
 
 5\. Please change the web page code at the local repoistory, once you push the change to the github, please look at how the web page has been changed.
-
 
 
 ## 5. Deliverable
