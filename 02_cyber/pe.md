@@ -322,16 +322,23 @@ Once the `resume.md` is uploaded to the root of the GitHub Repository, you can s
 
 ## 4. Create a website for your project
 
-In this section,
+Github allows its user to convert a repository as a website automatically. In this section, you will need to download a website template and modify it according to your needs, and upload it to the repository `https://github.com/[github_username]/[github_username].github.io` you have just created. After you finish this sesction, you can visit this webiste at `https://[github_username].github.io`.
 
-The index.html page is the most common name used for the default page shown on a website if no other page is specified when a visitor requests the site. In other words, index.html is the name used for the homepage of the website.
+XXXX hosts a few website templates made by Boostrap 4. Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation and other interface components. Bootstrap is the sixth-most-starred project on GitHub, with more than 135,000 stars, behind freeCodeCamp (almost 307,000 stars) and marginally behind Vue.js framework. According to Alexa Rank, Bootstrap getbootstrap.com is in the top-2000 in US while vuejs.org is in top-7000 in US.
 
-Sometimes when someone visits the website, they do so without specifying one of these specific files in the address that they use for the URL. For example, https://www.uw.edu. Even though there is no page listed in the URL request made to the server, that web server still needs to deliver a page for this request so that the browser has something to display. The file that will be delivered is the default page for that directory. Basically, if no file is requested, the server knows which one to serve up by default. On most web servers, the default page in a directory is named `index.html`.
+1\. Visit and download.
 
-In essence, when you go to a URL and specify a specific file, that is what the server will deliver. If you do not specify a file name, the server looks for a default file and displays that automatically — almost as if you had typed in that file name in the URL.The index.html page is the most common name used for the default page shown on a website if no other page is specified when a visitor requests the site. In other words, index.html is the name used for the homepage of the website.
+2\. Unzip/Extract the files from the zipped file and move to the local folder of the github repository `[github_username].github.io` in your workspace.
+
+**Note:** If your local PC or MacOSX does not support the unzip function, please install 7zip if you are a windows user or XXX if you are a MacOSX user.
+
+3\. Uplod all the extracted files to the root of `https://github.com/[github_username]/[github_username].github.io`. To do so, please use the github synchronization function provided by Atom IDE **(refer to Section 3.3.3)**.
+
+4\. After you successfully push the local repostory to github. You can visit the website at `https://[github_username].github.io`. For example, I can vist the website at `https://geovizlabtest.github.io`. Usually, the URL will automaticaly navigate to the default page under the root of the repo. Usualy, the name of the default page is `index.html`.
+
+5\. Please change the web page code at the local repoistory, once you push the change to the github, please look at how the web page has been changed.
 
 
-Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation and other interface components. Bootstrap is the sixth-most-starred project on GitHub, with more than 135,000 stars, behind freeCodeCamp (almost 307,000 stars) and marginally behind Vue.js framework. According to Alexa Rank, Bootstrap getbootstrap.com is in the top-2000 in US while vuejs.org is in top-7000 in US.
 
 ## 5. Deliverable
 
