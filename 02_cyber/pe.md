@@ -1,59 +1,50 @@
-# Cloud-based project management using GitHub
+# Praticial Exercise 1: Cloud-based project management using GitHub
 
-> Winter 2018 | Geography 371 | Web Mapping
->
-> **Instructor:** Bo Zhao  **Location:** Wilkinson 210 | **Time:** Th 0800 - 1150
->
-> **Assigned:** 1/10/2019 | **Due:**  1/15/2019 23:59:59 | **Points Available** = 50
+<a href="https://hgis.uw.edu"><img src="//res/logo.png" align="right" width="300px" target="_blank" /></a> **Meeting:** Wednesdays, 2:30 - 5:20, SMI 109
 
-Welcome to the lab session of **GEOG 371: Web Mapping**! In this lab, we will briefly introduce the Digital Earth Lab at Wilkinson 210, download the course material and more importantly, help you get familiar with the major operations on project management for web mapping. In practice, you will use the lab computer, if you use a personal laptop, you will install the required software, and then register a GitHub account, and learn how to use git, atom and github. To test your learning outcomes, you will be asked to create a GitHub repository to publish your resume on the web. Okay, let us get started!
+**Instructor:** Bo Zhao, SMI 416B, Office hours by appointment
+
+**Contact:** 206.685.3846, zhaobo@uw.edu, jakobzhao (skype/wechat)
+
+In this pratical exercise, we will briefly introduce how to set up the project environment on your own destkop, how to download the course material and more importantly, help you get familiar with the major operations on project management using GitHub. In practice, you will need to use your own personal laptop, you will install the required software, and then register a GitHub account, and learn how to use git, atom and github. To test your learning outcomes, you will be asked to create a GitHub repository to publish your resume on the web. Okay, let us get started!
 
 # 1. Preparations
 
-## 1.1 Digital Earth Lab @ Oregon State University
+# 1.1 Environmental Setup
+For this lab, you will use chrome, git and atom.
 
-Digital Earth Lab is a teaching facility primarily for GIS, remote sensing, cartography, numerical analysis, and scientific visualization. The classroom is a facility of the OSU College of Earth, Ocean, and Atmospheric Science and is supported by the OSU Media Services. The lab was originally funded by a NASA infrastructure grant to Sherm Bloomer (Professor & Dean, College of Science) and Nick Pisias (Professor & former associate dean of CEOAS). Digital Earth is located in 210 Wilkinson Hall and is one of the most advanced teaching facilities on the Oregon State campus. We have been operational since the beginning of Spring term, 1999.
+**Chrome:** is a freeware web browser developed by Google. It was first released on September 2, 2008 for Microsoft Windows, and was later ported to Linux, macOS, iOS and Android. Google Chrome is also the main component of Chrome OS, where it serves as a platform for running web apps. **Click [here](install-chrome.md) to see a demo on how to install Google Chrome**;
 
-The lab generally opens 8am-5pm , a detailed schedule can be found at [http://dusk.geo.orst.edu/de/de_teach.html](http://dusk.geo.orst.edu/de/de_teach.html). The manager of the facility is Cory Langhoff. If you need afterhours access, contact Cory by email [langhofc@oregonstate.edu](mailto:langhofc@oregonstate.edu), or dial 7-2532 to make arrangements.
+**Git:** is a version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people ([Click here to download](https://git-scm.com/downloads)). It is primarily used for source-code management in software development, but it can be used to keep track of changes in any set of files.  Git was created by **Linus Torvalds** in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development. Its current maintainer since 2005 is Junio Hamano. **Click [here](install-git.md) to see how to install git**.
 
-## 1.2 Environment Setup
-
-For this lab, you will use chrome, git and atom. Also these software products have already been installed in the lab computers. But I highly recommend you to install all these three.
-
-
-- **Chrome:** is a freeware web browser developed by Google. It was first released on September 2, 2008 for Microsoft Windows, and was later ported to Linux, macOS, iOS and Android. Google Chrome is also the main component of Chrome OS, where it serves as a platform for running web apps. **Click [here](install-chrome.md) to see a demo on how to install Google Chrome**;
-
-- **Git:** A version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people ([Click here to download](https://git-scm.com/downloads)). It is primarily used for source-code management in software development, but it can be used to keep track of changes in any set of files.  Git was created by **Linus Torvalds** in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development. Its current maintainer since 2005 is Junio Hamano. **Click [here](install-git.md) to see a demo on  how to install git**.
-
-- **Atom:** A professional web mapping programming development environment ([Click here to download](https://atom.io/)). Atom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for Git Control, developed by GitHub. Atom is a desktop application built using web technologies. Most of the extending packages have free software licenses and are community-built and maintained. It can also be used as an integrated development environment (IDE). Its developers call it a "hackable text editor for the 21st Century".  **Click [here](install-atom.md) to see a demo on how to install Atom**;
-
-> **Note: What is an integrated development environment (IDE)?**
-> IDE is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools, and a debugger. Most modern IDEs have intelligent code completion. The boundary between an integrated development environment and other parts of the broader software development environment is not well-defined. Sometimes a version control system, or various tools to simplify the construction of a graphical user interface (GUI), are integrated. Many modern IDEs also have a class browser, an object browser, and a class hierarchy diagram, for use in object-oriented software development.
-
-> **Note:** Atom is a customizable IDE, so to fully prepare it for web programming, you will need to install additional packages. To do that, press `crtl+shift+p` to open the search dialog, and then input "install packages And Themes" to navigate to the package install interface. In this interface, please search and install the following recommended packages:
->
-> - markdown-preview-enhanced
-> - teletype
-> - atom-live-server
-> - file-icons
-> - language-markdown
-> - pdf-view
-
-If **Git** is successfully installed, type `git` in command prompt (if you are a Windows user) or terminal (if you are a Mac or Linux user), the following screen will be shown up.
+If **Git** is successfully installed, type `git` in command prompt (if you are a Windows user) or terminal (if you are a Mac or Linux user), the following screen will be shown up. Using `git`, you can synchronize the course materials and also publish your own GitHub repository.  We will talk about that later in this lab.
 
 ![](img/git.gif)
 
-Using `git`, you can synchronize the course materials and also publish your own GitHub repository.  We will talk about that later in this lab.
+**Atom:** is a professional web mapping programming development environment ([Click here to download](https://atom.io/)). Atom is a free and open-source text and source code editor for macOS, Linux, and Microsoft Windows with support for Git Control, developed by GitHub. Atom is a desktop application built using web technologies. Most of the extending packages have free software licenses and are community-built and maintained. It can also be used as an integrated development environment (IDE). Its developers call it a "hackable text editor for the 21st Century".  **Click [here](install-atom.md) to see a demo on how to install Atom**;
 
-### 1.3 Register a GitHub account
+> **What is an integrated development environment (IDE)?** IDE is a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools, and a debugger. Most modern IDEs have intelligent code completion. The boundary between an integrated development environment and other parts of the broader software development environment is not well-defined. Sometimes a version control system, or various tools to simplify the construction of a graphical user interface (GUI), are integrated. Many modern IDEs also have a class browser, an object browser, and a class hierarchy diagram, for use in object-oriented software development.
 
-You will apply for a GitHub account for managing and synchronizing your web mapping project. If you do not have a GitHub account yet, please sign up at [https://www.github.com](https://www.github.com). Notably, you will need to choose a username. It is worth noting that, **this username will be used as a part of the domain name of your home github ['username'.github.io](). So, make sure this username is succinct, simple and English-character only. Apparently, an easily-recognized domain name is more popular.**
+Atom is a customizable IDE, so to fully prepare it for web programming, you will need to install additional packages. To do that, press `crtl+shift+p` to open the search dialog, and then input "install packages And Themes" to navigate to the package install interface. In this interface, please search and install the following recommended packages:
 
-> **Note: Do you know the differences between Git and GitHub?**
->
-> **Git** is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for software development, but it can be used to keep track of changes in any files. Git was created by **Linus Torvalds** in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
->
->  **GitHub** is a web-based Git or version control repository and Internet hosting service. GitHub offers both plans for private and free repositories on the same account which are commonly used to host open-source software projects. As of April 2016, GitHub reports having more than 14 million users and more than 35 million repositories, making it the largest host of source code in the world.
+- markdown-preview-enhanced
+- teletype
+- atom-live-server
+- file-icons
+- language-markdown
+- pdf-view
+- minimap
+- atom-beautify
+
+### 1.2 GitHub Registration
+
+A GitHub account is needed for managing and synchronizing your cloud based project. If you do not have a GitHub account yet, please sign up at [https://www.github.com](https://www.github.com). Notably, you will need to choose a username. It is worth noting that, **this username will be used as a part of the domain name of your home github ['username'.github.io](). So, make sure this username is succinct, simple and English-character only. Apparently, an easily-recognized domain name is more popular.**
+
+**What is the differences between Git and GitHub?**
+
+**Git** is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. It is primarily used for software development, but it can be used to keep track of changes in any files. Git was created by **Linus Torvalds** in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
+
+**GitHub** is a web-based Git or version control repository and Internet hosting service. GitHub offers both plans for private and free repositories on the same account which are commonly used to host open-source software projects. As of April 2016, GitHub reports having more than 14 million users and more than 35 million repositories, making it the largest host of source code in the world.
 
 ![](img/reg-github.gif)
 
@@ -63,34 +54,25 @@ You will apply for a GitHub account for managing and synchronizing your web mapp
 
 In this course, I decide to store all material on GitHub instead of Canvas system. By doing so, my goal is not to create extra trouble or sharp the learn curve. Instead, hosting on github will help you save a lot of time in downloading or migrating course materials, testing lab or lecture applications. Also, more practically, a lot of companies in the geospatial industries have already used github for their project managment, such as [ESRI](https://github.com/Esri), [CartoBD](https://github.com/CartoDB), [MapBox](https://github.com/mapbox), and etc. To prepare you with the capabilities of using github, you will be familiar with an industry-level project management approach. In this lab, let us go through the procedure of downlaoding the course material as below.
 
-1\. On GitHub, each project is stored as a project repository. The repository for this course is located at [https://github.com/jakobzhao/geog371](https://github.com/jakobzhao/geog371). Please navigate to this url on a browser such as `Chrome`. As indicated by the course website url, this repository is created by me; my GitHub account name is `jakobzhao`, while the repository name is `geog371`.
+1\. On GitHub, each project is stored as a project repository. The repository for this course is located at [https://github.com/jakobzhao/geog595](https://github.com/jakobzhao/geog595). Please navigate to this url on a browser such as `Chrome`. As indicated by the course website url, this repository is created by me; my GitHub account name is `jakobzhao`, while the repository name is `geog595`.
 
 2\. On the front page of this repository, please click the green button named after `Clone or download` . To download the course material, you can click the `Download ZIP` button, as a result, a compressed file of the course material will be downloaded.
 
-3\. However, **we recommend you to clone this project repository**. You can get the **git url** of this repository on the same information window. The git url is [https://github.com/jakobzhao/geog371.git](https://github.com/jakobzhao/geog371.git).
+3\. However, **we recommend you to clone this project repository**. You can get the **git url** of this repository on the same information window. The git url is [https://github.com/jakobzhao/geog595.git](https://github.com/jakobzhao/geog595.git).
 
-4\. Next, open your working space on your local computer through command prompt if you are on Windows or through terminal if you are on a Mac or Linux. Here, the working space is just a folder on your local computer where you store all your working materials.For me, I created a working folder to locally store my github repositories. For some of my studuents, a working folder is a place to store course materials. For example, the working space of my computer is located as `C:\Workspace`.
+4\. Next, open your working space on your local computer through command prompt if you are on Windows or through terminal if you are on a Mac or Linux. Here, the working space is just a centralized folder on your local computer where you can store your working materials. For me, I created a working folder to locally store my github repositories. For example, the working space of my computer is located as `C:\Workspace`. But it is up to you under which folder or path to put the workspace folder.
 
 ```powershell
 C:\Users\[your_username]>cd C:\Workspace
 C:\Workspace>
 ```
 
-> **Note:** If you are working on any computer in the Digital Earth Lab, you would not have the privilege to create a "Workspace" folder under the root of C drive. So you can create one under the root of your personal user folder. To navigate to the root of your personal user folder,  See the command lines below.
 
-```powershell
-C:\Users\[your_username]>cd \
-C:\>cd Users\[your_username]
-C:\Users\[your_username]>
-```
-
-> [your_username] indicates your username, for example, if my username is jakob, the path is suppose to be `C:\Users\jakob>`
-
-5\. Having the **git url**, we will need to use the command `git clone` to clone the GitHub repository to your local computer.
+5\. Once acquiring the **git url** -  https://github.com/jakobzhao/geog595.git, we use the command `git clone` to clone the GitHub repository to your local computer.
 
  ```powershell
-C:\Users\[you_username]\workspace\>git clone https://github.com/jakobzhao/geog371.git
-Cloning into 'geog371'...
+C:\Users\[you_username]\workspace\>git clone https://github.com/jakobzhao/geog595.git
+Cloning into 'geog595'...
 remote: Counting objects: 962, done.
 remote: Compressing objects: 100% (750/750), done.
 remote: Total 962 (delta 214), reused 917 (delta 177), pack-reused 0Receiving objects:  99% (953/962), 158.77 MiB | 1.60 MiB/s
@@ -102,13 +84,13 @@ Checking out files: 100% (650/650), done.
 6\. To review the files and folders in the downloaded/cloned repository, you need to `cd` into the root directory of this repository. If you are on a Mac or Linux, type `ls` to check the file list of this repository, or try `dir` if you are on a Windows. Take windows for example.
 
 ```powershell
-C:\Users\[you_username]\workspace>cd geog371
+C:\Users\[you_username]\workspace>cd geog595
 
-C:\Users\[you_username]\workspace\geog371>dir
+C:\Users\[you_username]\workspace\geog595>dir
  Volume in drive C has no label.
  Volume Serial Number is 3E8C-9A9E
 
- Directory of C:\Users\[you_username]\workspace\geog371
+ Directory of C:\Users\[you_username]\workspace\geog595
 
 09/19/2017  09:12 PM    <DIR>          .
 09/19/2017  09:12 PM    <DIR>          ..
@@ -125,13 +107,13 @@ C:\Users\[you_username]\workspace\geog371>dir
                8 Dir(s)  903,569,551,360 bytes free
 ```
 
-In the root directory, there are folders like labs, lectures and readings, and files like readme.md and LICENSE.
+In the root directory of geog595, there are folders like 01_intro, 02_cyber, and files like readme.md and LICENSE.
 
 ![](img/git-clone-371.gif)
 
-7\. Next, we open the `readme.md` file using `Atom`. To do that, make sure you have installed `Atom` and also an `Atom` packge named `markdown-preview-enhanced`.
+7\. Next, we open the `readme.md` file using `Atom`. To do that, make sure you have installed the program `Atom` and the recommended packages, such as `markdown-preview-enhanced`.
 
-Once `Atom` is opened, press `crtl+shift+a` to open the open project dialog window, naviagte to `geog371` folder from your workspace and press `select folder`. Then the `geog371` repo will be opened, and a file tree will be shown in the project list panel on the left of the atom editor.
+Once `Atom` is opened, press `crtl+shift+a` to open the open project dialog window, naviagte to `geog595` folder from your workspace and press `select folder`. Then the `geog595` repo will be opened, and a file tree will be shown in the project list panel on the left of the atom editor.
 
 ![](img/atom-open-project.png)
 
@@ -139,19 +121,18 @@ In the project list panel, navigate to the `readme.md` in the project tree panel
 
 ![](img/atom-open-readme.png)
 
-
 8\. Once the course material is hosted on GitHub, it can be easily shared with a larger community. To synchronize the course material on remote GitHub repository to your local computer, you need to implement two sequential command lines `git checkout --force` and `git pull` in the root directory of the repository. Once the two commands are executed. An update notice will be shown as below.
 
 ```powershell
-C:\Users\[you_username]\workspace\geog371>git checkout --force
+C:\Users\[you_username]\workspace\geog595>git checkout --force
 Your branch is up-to-date with 'origin/master'.
 
-C:\Users\[you_username]\workspace\geog371>git pull
+C:\Users\[you_username]\workspace\geog595>git pull
 remote: Counting objects: 3, done.
 remote: Compressing objects: 100% (3/3), done.
 remote: Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
-From https://github.com/jakobzhao/geog371
+From https://github.com/jakobzhao/geog595
    13b2cab..baf74b1  master     -> origin/master
 Updating 13b2cab..baf74b1
 Fast-forward
@@ -162,15 +143,15 @@ Fast-forward
 
 Now, the course material on your local computer is updated.
 
-> If you implement the above two commands in a Mac or Linux system, you might need to add `sudo` before `git` to solve the lack-of-privilege issue. For example, `sudo git pull`, `sudo git checkout --force`. In general, the command `sudo` will assign the superuser privilege to the command line.
+If you implement the above two commands in a Mac or Linux system, you might need to add `sudo` before `git` to solve the lack-of-privilege issue. For example, `sudo git pull`, `sudo git checkout --force`. In general, the command `sudo` will assign the superuser privilege to the command line.
 
-> **Note:** To ensure you are reading the latest version of the lecture or lab handouts, **you need to regularly synchronize the course material, especially so before the beginin of each class.** To do that, please jsut repeat this step to run the command combination `git checkout --force` and `git pull` again.
+**Note:** To ensure you are reading the latest version of the lecture or lab handouts, **you need to regularly synchronize the course material, especially so before the beginin of each class.** To do that, please jsut repeat this step to run the command combination `git checkout --force` and `git pull` again.
 
 9\. Before we jump to the next section, please:
 
-- Star the repository by pressing the `star` button on the top right, and;
+Star the repository by pressing the `star` button on the top right, and;
 
-- Navigate to Dr. Zhao's front page at [https://github.com/jakobzhao](https://github.com/jakobzhao), and click the `Follow` button to be a follower.
+Navigate to Dr. Zhao's front page at [https://github.com/jakobzhao](https://github.com/jakobzhao), and click the `Follow` button to be a follower.
 
 
 ## 3\. Project management
@@ -256,9 +237,9 @@ Summary of your role
 [University 2]: http://www.univ2.edu
 [University 3]: http://www.univ3.edu
 ```
->**Note:** This resume template is from [http://www.jasonfilley.com/resumeinmarkdown.html](http://www.jasonfilley.com/resumeinmarkdown.html).
+**Note:** This resume template is from [http://www.jasonfilley.com/resumeinmarkdown.html](http://www.jasonfilley.com/resumeinmarkdown.html).
 
-3\. In fact, you can use any text editor to generate Markdown files. If you do not have `Atom` at hand, you can use `Notepad` as well. Please let the instructor know if you meet any difficulty in installing this plugin.
+3\. In fact, you can use any text editor to generate Markdown files. If you do not have `Atom` at hand, you can use `Notepad` as well. Another Markdown editor I recommend is `Typora`. Please let the instructor know if you meet any difficulty in installing this plugin.
 
 ### 3.3 Upload files to GitHub
 
@@ -270,9 +251,9 @@ Once you have drafted out your resume in the `resume.md` file. You will upload t
 
 2\. Next, use your mouse to drag the `resume.md` file to the front page. Once you see a notice saying **Drop to upload your files**, you can then release your mouse. A new interface will appear as below.
 
-> **Note:** Certainly, you can drag and drop multiple files and/or folders. In this lab, we just upload one single file.
+**Note:** Certainly, you can drag and drop multiple files and/or folders. In this lab, we just upload one single file.
 
-![](img/after-the-drop-cropped.jpg)
+![](img/after-the-drop.jpg)
 
 3\. Before pressing the green button `Commit Changes`, you might want to add a title and/or some descriptions for this commit. It will help you organize your commits.
 
@@ -293,8 +274,8 @@ Username for 'https://github.com': jakobzhao
 Password for 'https://jakobzhao@github.com':
 ```
 
-> **Note:** Again, if you use a Mac or Linux, you might need to add `sudo` in front of the command line to avoid the privilege deny issue. Besides, the command prompt or terminal may ask you for GitHub username and password, please be prepared with such information.
->
+**Note:** Again, if you use a Mac or Linux, you might need to add `sudo` in front of the command line to avoid the privilege deny issue. Besides, the command prompt or terminal may ask you for GitHub username and password, please be prepared with such information.
+
 
 In a nutshell, to push a change from your local computer to GitHub, you will need to (1) `git clone` a repository from GitHub, (2) `git add` the untracked file to the repository, (3) `git commit` that you have made a change, and at last, (4) `git push` your changes to the GitHub repository.
 
@@ -356,15 +337,5 @@ Before submitting this lab, please make sure both the **GitHub repository** and 
 * One or several images (6 POINTS); and
 * A list (7 POINTS);
 
-#### Optional Task
 
-5\. Please further customize your resume to have the following features:
-
-* adding emoji icons to the resume. Here is [a cheatsheet of emoji icons](https://gist.github.com/rxaviers/7360908). (2 POINTS)
-
-* adding a table to the resume. To do that, you might need to use [Typora](https://typora.io/). (3 POINTS).
-
-> **Note:** Lab assignments are required to be submitted electronically to Canvas unless stated otherwise. Efforts will be made to have them graded and returned within one week after they are submitted.Lab assignments are expected to be completed by the due date. ***A late penalty of at least 10 percentage units will be taken off each day after the due date.***
-
-
-> If you have a genuine reason(known medical condition, a pile-up of due assignments on other courses, ROTC,athletics teams, job interview, religious obligations etc.) for being unable to complete work on time, then some flexibility is possible. However, if in my judgment you could reasonably have let me know beforehand that there would likely be a delay, and then a late penalty will still be imposed if I don't hear from you until after the deadline has passed. For unforeseeable problems,I can be more flexible. If there are ongoing medical, personal, or other issues that are likely to affect your work all semester, then please arrange to see me to discuss the situation. There will be NO make-up exams except for circumstances like those above.
+**Note:** Lab assignments are required to be submitted electronically to Canvas unless stated otherwise. Efforts will be made to have them graded and returned within one week after they are submitted.Lab assignments are expected to be completed by the due date. ***A late penalty of at least 10 percentage units will be taken off each day after the due date.*** If you have a genuine reason(known medical condition, a pile-up of due assignments on other courses, ROTC,athletics teams, job interview, religious obligations etc.) for being unable to complete work on time, then some flexibility is possible. However, if in my judgment you could reasonably have let me know beforehand that there would likely be a delay, and then a late penalty will still be imposed if I don't hear from you until after the deadline has passed. For unforeseeable problems,I can be more flexible. If there are ongoing medical, personal, or other issues that are likely to affect your work all semester, then please arrange to see me to discuss the situation. There will be NO make-up exams except for circumstances like those above.
