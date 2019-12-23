@@ -322,6 +322,14 @@ Once the `resume.md` is uploaded to the root of the GitHub Repository, you can s
 
 ## 4. Create a website for your project
 
+The index.html page is the most common name used for the default page shown on a website if no other page is specified when a visitor requests the site. In other words, index.html is the name used for the homepage of the website.
+
+Sometimes when someone visits the website, they do so without specifying one of these specific files in the address that they use for the URL. For example, https://www.uw.edu. Even though there is no page listed in the URL request made to the server, that web server still needs to deliver a page for this request so that the browser has something to display. The file that will be delivered is the default page for that directory. Basically, if no file is requested, the server knows which one to serve up by default. On most web servers, the default page in a directory is named `index.html`.
+
+In essence, when you go to a URL and specify a specific file, that is what the server will deliver. If you do not specify a file name, the server looks for a default file and displays that automatically — almost as if you had typed in that file name in the URL.The index.html page is the most common name used for the default page shown on a website if no other page is specified when a visitor requests the site. In other words, index.html is the name used for the homepage of the website.
+
+
+Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation and other interface components. Bootstrap is the sixth-most-starred project on GitHub, with more than 135,000 stars, behind freeCodeCamp (almost 307,000 stars) and marginally behind Vue.js framework. According to Alexa Rank, Bootstrap getbootstrap.com is in the top-2000 in US while vuejs.org is in top-7000 in US.
 
 ## 5. Deliverable
 
