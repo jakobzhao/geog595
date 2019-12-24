@@ -349,7 +349,6 @@ Github allows its user to convert a repository as a website automatically. In th
 - [CSS](https://www.w3schools.com/css/default.asp)
 - [Boostrap 4](https://www.w3schools.com/bootstrap4/default.asp)
 - [jQuery](https://www.w3schools.com/jquery/default.asp)
--
 
 
 ## 5. Deliverable
