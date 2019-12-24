@@ -320,13 +320,13 @@ Once the `resume.md` is uploaded to the root of the GitHub Repository, you can s
 
 **Note：** Similar to the step 8 in section 2, You can also update a local repository from a remote github repository using Atom. To do that, right click the github operation status on the bottom bar, and select the option `Pull`. The github operation status can be either `Fetch`, `Pull`, `Push`, `Force Push`.
 
-## 4. Create a website for your project
+## 4. Website Host using GitHub Pages
 
 Github allows its user to convert a repository as a website automatically. In this section, you will need to download a website template and modify it according to your needs, and upload it to the repository `https://github.com/[github_username]/[github_username].github.io` you have just created. After you finish this sesction, you can visit this webiste at `https://[github_username].github.io`.
 
-XXXX hosts a few website templates made by Boostrap 4. Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation and other interface components. Bootstrap is the sixth-most-starred project on GitHub, with more than 135,000 stars, behind freeCodeCamp (almost 307,000 stars) and marginally behind Vue.js framework. According to Alexa Rank, Bootstrap getbootstrap.com is in the top-2000 in US while vuejs.org is in top-7000 in US.
+[Start Bootstrap](https://startbootstrap.com/) hosts a few website Boostrap-based templates. Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation and other interface components. Bootstrap is the sixth-most-starred project on GitHub, with more than 135,000 stars, behind freeCodeCamp (almost 307,000 stars) and marginally behind Vue.js framework. According to Alexa Rank, Bootstrap getbootstrap.com is in the top-2000 in US while vuejs.org is in top-7000 in US.
 
-1\. Visit and download.
+1\. Visit url [https://startbootstrap.com/themes/resume/](https://startbootstrap.com/themes/resume/) and download this template.
 
 2\. Unzip/Extract the files from the zipped file and move to the local folder of the github repository `[github_username].github.io` in your workspace.
 
