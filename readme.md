@@ -25,7 +25,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 ### [Week 3 & 4: Bot](03_bot/readme.md)
 - **Keywords:** Autonomy, Robot and Web crawler
-- **Practical Exercise 2:** [Data crawling and geocoding using Python](03_bot/pe.md)
+- **Practical Exercise 2:** [Crawling Twitter using Python](03_bot/pe.md)
 - **Due:** PE2 `01/07 5:00pm` and [Thinkpiece](https://github.com/jakobzhao/geog595/issues/4) `01/07 5:00pm`.
 
 ### [Week 5: Spatial Database](04_data/readme.md)
