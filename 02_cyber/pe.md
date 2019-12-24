@@ -326,17 +326,30 @@ Github allows its user to convert a repository as a website automatically. In th
 
 [Start Bootstrap](https://startbootstrap.com/) hosts a few website Boostrap-based templates. Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation and other interface components. Bootstrap is the sixth-most-starred project on GitHub, with more than 135,000 stars, behind freeCodeCamp (almost 307,000 stars) and marginally behind Vue.js framework. According to Alexa Rank, Bootstrap getbootstrap.com is in the top-2000 in US while vuejs.org is in top-7000 in US.
 
-1\. Visit url [https://startbootstrap.com/themes/resume/](https://startbootstrap.com/themes/resume/) and download this template.
+1\. Visit url [https://startbootstrap.com/templates/the-big-picture/](https://startbootstrap.com/templates/the-big-picture/) and download this template. (a cope of this template is stored in the [assets](assets/) subfolder of this PE.)
+
+![](img/big-picture.png)
 
 2\. Unzip/Extract the files from the zipped file and move to the local folder of the github repository `[github_username].github.io` in your workspace.
 
 **Note:** If your local PC or MacOSX does not support the unzip function, please install [7zip](https://www.7-zip.org/download.html) if you are a windows user or [Keka](https://www.keka.io/en/) if you are a MacOSX user.
 
-3\. Uplod all the extracted files to the root of `https://github.com/[github_username]/[github_username].github.io`. To do so, please use the github synchronization function provided by Atom IDE **(refer to Section 3.3.3)**.
+3\. Uplod all the extracted files expect the `readme.me` to the root of `https://github.com/[github_username]/[github_username].github.io`. To do so, please use the github synchronization function provided by Atom IDE **(refer to Section 3.3.3)**.
+
+![](img/front-page.png)
 
 4\. After you successfully push the local repostory to github. You can visit the website at `https://[github_username].github.io`. For example, I can vist the website at `https://geovizlabtest.github.io`. Usually, the URL will automaticaly navigate to the default page under the root of the repo. Usualy, the name of the default page is `index.html`.
 
-5\. Please change the web page code at the local repoistory, once you push the change to the github, please look at how the web page has been changed.
+![](img/front-page-index.png)
+
+5\. Please modify the web page codes at the local repoistory. Once you push the change to the github, please visit the url `https://geovizlabtest.github.io` and see how the web pages has been updated. If you want to are not familiar with web development or want to have a quick tutorial, I encourage walk through some [w3school online web tutorials](https://www.w3schools.com/), especially the following items.
+
+- [HTML](https://www.w3schools.com/html/default.asp)
+- [JavaScript](https://www.w3schools.com/js/default.asp)
+- [CSS](https://www.w3schools.com/css/default.asp)
+- [Boostrap 4](https://www.w3schools.com/bootstrap4/default.asp)
+- [jQuery](https://www.w3schools.com/jquery/default.asp)
+-
 
 
 ## 5. Deliverable
