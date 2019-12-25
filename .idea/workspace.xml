@@ -17,6 +17,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="jakobzhao@gmail.com" />
+        <option value="jakobzhao" />
+      </list>
+    </option>
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -236,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577232321161</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1577232526671</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577232526671</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -256,10 +269,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="367" y="399" key="#user_access_key/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577219447989" />
-    <state x="946" y="300" key="CommitChangelistDialog2" timestamp="1577232319623">
+    <state x="946" y="300" key="CommitChangelistDialog2" timestamp="1577232524301">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="946" y="300" key="CommitChangelistDialog2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232319623" />
+    <state x="946" y="300" key="CommitChangelistDialog2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232524301" />
     <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1577232128772">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -292,6 +305,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1269" height="491" key="GridCell.Tab.1.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577231983761" />
+    <state x="992" y="418" key="MultipleFileMergeDialog" timestamp="1577232542091">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="992" y="418" key="MultipleFileMergeDialog/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232542091" />
     <state x="502" y="418" key="RollbackChangesDialog" timestamp="1577219426536">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -300,10 +317,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="566" y="377" key="SettingsEditor/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232483698" />
-    <state x="872" y="436" key="Vcs.Push.Dialog.v2" timestamp="1577232340281">
+    <state x="872" y="436" key="Vcs.Push.Dialog.v2" timestamp="1577232530764">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="436" key="Vcs.Push.Dialog.v2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232340281" />
+    <state x="872" y="436" key="Vcs.Push.Dialog.v2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232530764" />
     <state x="854" y="439" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1577231740915">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
