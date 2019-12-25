@@ -50,7 +50,7 @@ Navigate from `Database` on the main menu bar to `DB Manager...`. In the pop-up 
 
 On the DB Manger interface, Navigate from `Database` on the main menu, and then open up the `SQL window.` In the popup window, please input the first SQL statement, and press `Execute`.
 
-![](img/query-spatialite.png)
+![](img/query-spatialite.png)l.,,
 
 
 Once executed, a new table named `geotweets` is created. This data table has several fields, such as id, username, created_at, lat, lng, and text.
