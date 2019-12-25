@@ -14,57 +14,57 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 ### [Week 1: Foundation](01_intro/readme.md)
 - **Keywords:** GeoHumanities, Phenomenology, Humanistic Geography.
-- [**Statement of Intent**](01_intro/soi.md) `01/10 11:59pm`
+- [**Statement of Intent**](01_intro/soi.md) `Due: 01/10 5:00pm`
 
 ### [Week 2: CyberGIS](02_cyber/readme.md)
 - **Keywords:**
   - Technology, Power and Geographic Knowledge;
   - CyberGIS, CloudGIS and Spatial Cyber-Infrastructure
-- **Practical Exercise 1:** [Cloud-based project management using GitHub](02_cyber/pe.md) `01/07 5:00pm`
-- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/3) `01/14 5:00pm`.
+- **Practical Exercise 1:** [Cloud-based project management using GitHub](02_cyber/pe.md) `Due: 01/19 5:00pm`
+- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/3) `Due: 01/14 5:00pm`.
 
 ### [Week 3 & 4: Bot](03_bot/readme.md)
 - **Keywords:** Autonomy, Robot and Web crawler
-- **Practical Exercise 2:** [Twitter data collection using web crawler](03_bot/pe.md)
-- **Due:** PE2 `01/07 5:00pm` and [Thinkpiece](https://github.com/jakobzhao/geog595/issues/4) `01/07 5:00pm`.
+- **Practical Exercise 2:** [Twitter data collection using web crawler](03_bot/pe.md) `Due: 02/02 5:00pm`
+- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/4) `Due: 01/21 5:00pm`.
 
 ### [Week 5: Spatial Database](04_data/readme.md)
 - **Keywords:** Uncertainty, Post-truth and location spoofing
-- **Practical Exercise 3:** [Spatial data management using SpatiaLite](04_data/pe.md)
-- **Due:** PE3 `01/07 5:00pm` and [Thinkpiece](https://github.com/jakobzhao/geog595/issues/5) `01/07 5:00pm`.
+- **Practical Exercise 3:** [Spatial data management using SpatiaLite](04_data/pe.md) `Due: 02/09 5:00pm`
+- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/5) `Due: 02/04 5:00pm`.
 
 ### [Week 6: GeoVisualization](05_viz/readme.md)
 - **Keywords:**
   - Hermeneutics, Inductive visualization
   - Geo-narrative, web mapping, storymap
-- **Practical Exercise 4:** [Making a storymap using Mapbox](05_viz/pe.md)
-- **Due:** PE4 `01/07 5:00pm` and [Thinkpiece](https://github.com/jakobzhao/geog595/issues/6) `01/07 5:00pm`.
+- **Practical Exercise 4:** [Making a storymap using Mapbox](05_viz/pe.md) `Due: 02/16 5:00pm`
+- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/6) `Due: 02/11 5:00pm`.
 
 ### [Week 7: GeoAI](06_ai/readme.md)
 - **Keywords:**
   - Place and space
   - GeoAI, Placial analysis and place recognition
-- **Practical Exercise 5:** [Place context analysis using machine learning](06_ai/pe.md)
-- **Due:** PE5 `01/07 5:00pm` and [Thinkpiece](https://github.com/jakobzhao/geog595/issues/7) `01/07 5:00pm`.
+- **Practical Exercise 5:** [Place context analysis using machine learning](06_ai/pe.md) `Due: 01/07 5:00pm`
+- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/7) `Due: 02/23 5:00pm`.
 
 ### [Week 8: Virtual Reality](07_vr/readme.md)
 - **Keywords:**
   - Embodiment and Cyborg
   - Virtual Reality, Point-cloud visualization and SfM (Structure-from-Motion)
-- **Practical Exercise 6:** [Making a web-based VR environment](07_vr/pe.md)
-- **Due:** PE6 `01/07 5:00pm` and [Thinkpiece](https://github.com/jakobzhao/geog595/issues/8) `01/07 5:00pm`.
+- **Practical Exercise 6:** [Making a web-based VR environment](07_vr/pe.md) `Due: 03/01 5:00pm`
+- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/8) `Due: 02/25 5:00pm`..
 
 ### [Week 9: Internet of Things](08_iot/readme.md)
 - **Keywords:**
   - Surveillance, Resistance and Panopticism
   - Real-time GIS, Open Hardware
-- **Practical Exercise 7:** [Environmental data collection with Raspberry Pi](08_iot/pe.md). `This exercise will not be accounted for final score.`
-- **Due:** PE7 `01/07 5:00pm` and [Thinkpiece](https://github.com/jakobzhao/geog595/issues/9) `01/07 5:00pm`.
+- **Practical Exercise 7:** [Environmental data collection with Raspberry Pi](08_iot/pe.md). `Due: 03/08 5:00pm. However, this exercise will not be accounted for th final score.`
+- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/9) `Due: 03/03 5:00pm`.
 
 ### [Week 10: Summary, Writing Project, and Presentation](09_sum/readme.md)
 
-- *Each student presents the writing project during the last class meeting.*
-- **Due:** Writing Project `01/07 5:00pm`.
+- *Each student presents the writing project during the last class meeting (03/11/2020).*
+- **Writing Project** `Due: 03/16 5:00pm`.
 
 ## Course Requirement
 
