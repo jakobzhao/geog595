@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fad29fa-691d-4464-b630-68519a5bad00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_bot/02_geosearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/03_bot/02_geosearch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04_data/pe.md" beforeDir="false" afterPath="$PROJECT_DIR$/04_data/pe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

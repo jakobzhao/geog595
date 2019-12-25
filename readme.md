@@ -22,7 +22,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
   - CyberGIS, CloudGIS and Spatial Cyber-Infrastructure
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/3) `Due: 01/14 5:00pm`.
 - **Practical Exercise 1:** [Cloud-based project management using GitHub](02_cyber/pe.md) `Due: 01/19 5:00pm`.
-。
+
 
 ### [Week 3 & 4: Bot](03_bot/readme.md)
 - **Keywords:** Autonomy, Robot and Web crawler
@@ -33,7 +33,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 ### [Week 5: Spatial Database](04_data/readme.md)
 - **Keywords:** Uncertainty, Post-truth and location spoofing
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/5) `Due: 02/04 5:00pm`.
-- **Practical Exercise 3:** [Spatial data management using SpatiaLite](04_data/pe.md) `Due: 02/09 5:00pm`.
+- **Practical Exercise 3:** [Spatial database management using SpatiaLite](04_data/pe.md) `Due: 02/09 5:00pm`.
 
 
 ### [Week 6: GeoVisualization](05_viz/readme.md)
@@ -64,7 +64,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
   - Surveillance, Resistance and Panopticism
   - Real-time GIS, Open Hardware
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/9) `Due: 03/03 5:00pm`.
-- **Practical Exercise 7:** [Environmental data collection with Raspberry Pi](08_iot/pe.md). `Due: 03/08 5:00pm. However, this exercise will not be accounted for th final score`.
+- **Practical Exercise 7:** [Environmental data collection with Raspberry Pi](08_iot/pe.md). `Due: 03/08 5:00pm. However, this exercise will not be included to your final score`.
 
 
 ### [Week 10: Summary, Writing Project, and Presentation](09_sum/readme.md)
