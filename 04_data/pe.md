@@ -29,9 +29,63 @@ pip install sqlite3
 
 Once installed, please try to execute the script [`tw2db.py`](tw2db.py) under the [04_data folder](./) on PyCharm. We will offer a step-by-step instructon of this piece of python script.
 
-### 2.2 Create a spatial database
+### 2.2 Create a spatialite database
+
+The most convenient way to create a spatialite database is using QGIS. Open a QGIS (version >3.0) application. In the browser panel on the left, please right-click the SpatiaLite icon. In the pop-up dropdown menu, press `Create Database...`. The name of this database is `tweets.db`.
+
+![](img/create-database.png)
+
+After inputing the database name and navigate to where to store this database, an empty spatial datbase is generated.
+
+![](img/save-database.png)
+
+## 2.3 Database Initialization
+
+In order to use this database, we will do several queries to build a data table within the database. The sql statement can be found in [`create_table.sql`](create_table.sql).
+
+Navigate from `Database` on the main menu bar to `DB Manager...`. In the pop-up interface, Right-click the SpatiaLite item on the provider panel to build a new connection. This `New Connection` will conect to `tweets.db`.
+
+![](img/open-spatialite.png)
 
 
+On the DB Manger interface, Navigate from `Database` on the main menu, and then open up the `SQL window.` In the popup window, please input the first SQL statement, and press `Execute`.
+
+![](img/query-spatialite.png)
+
+
+Once executed, a new table named `geotweets` is created. This data table has several fields, such as id, username, created_at, lat, lng, and text.
+
+
+## 2.3 Data Collection
+
+Having the data streamed in, we will then store each row to the newly created spatialite database.
+
+```python
+
+def on_data(self, data):
+    """This is called when data are streamed in."""
+
+    conn = sqlite3.connect(self.dbfile)
+    cursor = conn.cursor()
+
+    if (time.time() - self.start_time) < self.limit:
+        ...
+        text = datajson['text'].strip().replace("\n", "").replace('"', '\"').replace("'", "\"")
+        ...
+        ...
+        record = (id, username, created_at, lng, lat, text)
+        insert_record_sql = "INSERT INTO geotweets (id, username, created_at, lng, lat, text) VALUES (%d, '%s', '%s', %f, %f, '%s')" % (id, username, created_at, lng, lat, text)
+        cursor.execute(insert_record_sql)
+        conn.commit()
+        print (record)
+    else:
+        conn.close()
+        print ("finished.")
+        return False
+```
+As shown, a database connection is built. And the `cursor` allows to excute SQL statement, and then a change commit is implemented just after the cursor execute the SQL statement.
+
+In this way, a common data table is created. At this moment, users might not directly notice this small change.
 
 
 ## 2. Deliverable
