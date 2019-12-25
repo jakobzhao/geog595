@@ -41,10 +41,11 @@ class StreamListener(tweepy.StreamListener):
                 lng = datajson['coordinates']['coordinates'][0]
                 lat = datajson['coordinates']['coordinates'][1]
 
-            record = (id, username, created_at, lng, lat, text)
-            insert_record_sql = "INSERT INTO geotweets (id, username, created_at, lng, lat, text) VALUES (%d, '%s', '%s', %f, %f, '%s')" % (id, username, created_at, lng, lat, text)
+            insert_record_sql = "INSERT OR REPLACE INTO geotweets (id, username, created_at, lng, lat, text) VALUES (%d, '%s', '%s', %f, %f, '%s')" % (id, username, created_at, lng, lat, text)
             cursor.execute(insert_record_sql)
             conn.commit()
+
+            record = (id, username, created_at, lng, lat, text)
             print (record)
         else:
             conn.close()
@@ -63,7 +64,6 @@ if __name__ == "__main__":
     access_token = "your_access_token"
     access_token_secret = "your_access_token_secret"
 
-
     myauth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     myauth.set_access_token(access_token, access_token_secret)
 
@@ -74,6 +74,6 @@ if __name__ == "__main__":
                  -164.639405, 58.806859, -144.152365, 71.76871,  # Alaska
                  -160.161542, 18.776344, -154.641396, 22.878623]  # Hawaii
 
-    stream_listener = StreamListener(time_limit=60, dbfile=dbname)
+    stream_listener = StreamListener(time_limit=180, dbfile=dbname)
     stream = tweepy.Stream(auth=myauth, listener=stream_listener)
     stream.filter(locations=LOCATIONS)

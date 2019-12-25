@@ -12,7 +12,7 @@ In this practical execerise, we introduce how to manage a spatial database using
 
 ## 1. Environment setup
 
-To setup the working environment, you will need to install QGIS (version > 3.0). We assume you have already install Anocanda and PyCharm. QGIS is an integrated GISystem, which has been considered as the open source alternatives to ArcGIS. To install QGIS, make sure its version is greater than 3.0. Please download it from [https://qgis.org/en/site/forusers/download.html](https://qgis.org/en/site/forusers/download.html). In this pratical exercise, we mainly use its `DB Manager` function for spatial data operations.
+To setup the working environment, you will need to install QGIS 3.+. We assume you have already install Anocanda and PyCharm. QGIS is an integrated GISystem, which has been considered as the open source alternatives to ArcGIS. To install QGIS, make sure its version is greater than 3.0. Please download it from [https://qgis.org/en/site/forusers/download.html](https://qgis.org/en/site/forusers/download.html). In this pratical exercise, we mainly use its `DB Manager` function for spatial data operations.
 
 ![](img/dbmanager.png)
 
@@ -31,7 +31,7 @@ Once installed, please try to execute the script [`tw2db.py`](tw2db.py) under th
 
 ### 2.2 Create a spatialite database
 
-The most convenient way to create a spatialite database is using QGIS. Open a QGIS (version >3.0) application. In the browser panel on the left, please right-click the SpatiaLite icon. In the pop-up dropdown menu, press `Create Database...`. The name of this database is `tweets.db`.
+The most convenient way to create a spatialite database is using QGIS. Open a QGIS (version >3.0) application. In the browser panel on the left, please right-click the SpatiaLite icon. In the pop-up dropdown menu, press `Create Database...`. The name of this database is `tweets.db`, which is stored under the [assets](assets/) folder.
 
 ![](img/create-database.png)
 
@@ -39,7 +39,7 @@ After inputing the database name and navigate to where to store this database, a
 
 ![](img/save-database.png)
 
-## 2.3 Database Initialization
+### 2.3 Initialize a data table
 
 In order to use this database, we will do several queries to build a data table within the database. The sql statement can be found in [`create_table.sql`](create_table.sql).
 
@@ -50,47 +50,154 @@ Navigate from `Database` on the main menu bar to `DB Manager...`. In the pop-up 
 
 On the DB Manger interface, Navigate from `Database` on the main menu, and then open up the `SQL window.` In the popup window, please input the first SQL statement, and press `Execute`.
 
-![](img/query-spatialite.png)l.,,
+![](img/query-spatialite.png)
 
 
 Once executed, a new table named `geotweets` is created. This data table has several fields, such as id, username, created_at, lat, lng, and text.
 
 
-## 2.3 Data Collection
+### 2.3 Data Collection
 
-Having the data streamed in, we will then store each row to the newly created spatialite database.
+The `on_data` function processes the streamed-in/input data. Let us walk through this function in deatail.
 
 ```python
-
-def on_data(self, data):
-    """This is called when data are streamed in."""
-
-    conn = sqlite3.connect(self.dbfile)
-    cursor = conn.cursor()
-
-    if (time.time() - self.start_time) < self.limit:
-        ...
-        text = datajson['text'].strip().replace("\n", "").replace('"', '\"').replace("'", "\"")
-        ...
-        ...
-        record = (id, username, created_at, lng, lat, text)
-        insert_record_sql = "INSERT INTO geotweets (id, username, created_at, lng, lat, text) VALUES (%d, '%s', '%s', %f, %f, '%s')" % (id, username, created_at, lng, lat, text)
-        cursor.execute(insert_record_sql)
-        conn.commit()
-        print (record)
-    else:
-        conn.close()
-        print ("finished.")
-        return False
+conn = sqlite3.connect(self.dbfile)
+cursor = conn.cursor()
 ```
-As shown, a database connection is built. And the `cursor` allows to excute SQL statement, and then a change commit is implemented just after the cursor execute the SQL statement.
 
-In this way, a common data table is created. At this moment, users might not directly notice this small change.
+A spatialite database located at `self.dbfile` will be connected, and a cursor is created for this database as well.
 
 
-## 2. Deliverable
+```python
+if (time.time() - self.start_time) < self.limit:
+        ...
+        ...
+else:
+    conn.close()
+    print ("finished.")
+    return False
+```
 
-In this pratical exercise, you are excepted to walk through the instruction, execute the two pieces of python scripts, and more importantly, develop your own crawler to collect some data from the web. Ideally, this data will be related to research question you have stated in your [statement of intent](../01_intro/soi.md).
+This crawler will terminate after reaching the predefined time limit `self.limit`. To stop the database connection, a statement `conn.close()` will be executed.
+
+
+```python
+datajson = json.loads(data)
+print (datajson)
+id = datajson['id']
+username = datajson['user']['screen_name']
+created_at = datajson['created_at']
+text = datajson['text'].strip().replace("\n", "").replace('"', '\"').replace("'", "\"")
+
+# process the geo-tags
+if datajson['coordinates'] == None:
+    bbox = datajson['place']['bounding_box']['coordinates'][0]
+    lng = (bbox[0][0] + bbox[2][0]) / 2.0
+    lat = (bbox[0][1] + bbox[1][1]) / 2.0
+else:
+    lng = datajson['coordinates']['coordinates'][0]
+    lat = datajson['coordinates']['coordinates'][1]
+```
+
+The streamed-in data is loaded to a json object `datajson`. A json object is easier to process and destructure. Then, the id, username, and created_at, text as wll as the geographic data are extracted.
+
+
+```python
+insert_record_sql = "INSERT OR REPLACE INTO geotweets (id, username, created_at, lng, lat, text) VALUES (%d, '%s', '%s', %f, %f, '%s')" % (id, username, created_at, lng, lat, text)
+cursor.execute(insert_record_sql)
+conn.commit()
+
+record = (id, username, created_at, lng, lat, text)
+print (record)
+```
+
+A sql statement is created, executed and then committed. By this statement, a record will be inserted to this database, if this record has already been inserted, this record will be updated in the data table. To observe the content of the updated record, the record will be outputed to the log.
+
+
+If `tw2db.py` is executed on PyCharm, a list of records will be inserted to the data table `geotweets` of the databse `geotweets.db` under [assets](assets/). To view the inserted data table, execute the following sql statement `select * from geotweets`.
+
+![](img/datatable.png)
+
+### 2.4 Geo-enable the data table
+
+
+Right now, `geotweets` is still a normal attribute table, it is not geo-enabled. In this subsection, we will add a new geographic column `geom`, and use the `lng` and `lat` column to make a point geographic feature and store it to the `geom` column.
+
+To add a geographic column, run the sql statement below on the query window of QGIS's DB Manager.
+
+```sql
+-- Create the geometry column
+SELECT AddGeometryColumn('geotweets', 'geom', 4326, 'POINT', 'XY', 0);
+```
+
+After executing this sql statement, you can see a new `NULL` column was added to the data table.
+
+![](img/add-geom-column.png)
+
+
+Then, The geom column will be filled with the point indicating where the geotag for the tweet. The point can be made by the `lat` and `lng` column. Notably, since it is a geographic point, we will also assign a default projection `WGS 84` to this point. The EPSG id of WGS 84 is `4326`. So, the sql statement below will be executed.
+
+```sql
+-- Update the geometry column
+update geotweets set geom = MakePoint(lng, lat, 4326);
+```
+
+Once the sql statement is executed, we need to refresh the DB manager to reload the database change by pressing the first button to the left on the main menu. If switching to the `Preview` tab of the main window, we can actually visualize the `geotweets` data table.
+
+![](img/datatable-preview.png)
+
+
+### 2.5 And more
+
+#### Build spatial data index and compute boundingbox
+
+To speed up the data search or operation, the spatial data index can be built and the boundingbox can be computed. To do so, please switch to the `info` tab and click on the `find out` and `create it` links.
+
+![](img/index.png)
+
+#### Become a Guru of Spatialite
+
+As a spatial databse, you can conduct spatial query and join. For example, you can generate buffers around each geo-tagged tweet, check which of the geo-tagged tweets fall in the city limits of Seattle. You can compose a (spatial) query on the textbox of the `Query` tab, or you can open the `SQL Query Builder` to help you compose an advanced query. As shown below.
+
+![](img/query-tab.png)
+
+
+If you want to learn more about SpatiaLite, the materials below are recommended:
+
+- [Basic SQL queries](http://www.gaia-gis.it/gaia-sins/spatialite-cookbook/html/basic-sql.html)
+- [Spatial queries](http://www.gaia-gis.it/gaia-sins/spatialite-cookbook/html/first-spatial.html)
+- [A quick tutorial to SpatiaLite](http://www.gaia-gis.it/gaia-sins/spatialite-tutorial-2.3.1.html)
+
+
+#### Visualize geospatial data from a spatialite database
+
+The geospatial data from a spatialite can be visualize and further analyzed in a QGIS environment. To visualize a spatial data table, you need to open `QGIS`, navigate to the `Browser Panel` on the top left, in the `spatialite` categorize, find the spatial date table inside of a spatial database. By clicking on the data table, a new layer will be added to the `Layers Panel` and the layer will be simutanously visualized in the main panel.
+
+![](img/map.png)
+
+Then, you can conduct any spatial anlytical functions onto this spatial layer. If you prefer using ArcGIS platform, you can export the spatial data table as a shapefile for uses in ArcGIS. To do so, right click on the layer `geotweets` in the `Layers Panel`. On the dropdown Menu, choose `Export--> Save Features As...`. On the popup window, choose `ESRI Shapefile` as the export format.
+
+#### Import Data to a Spatialite Database
+
+SpatiaLite can be used to manage spreadsheet and most types of geospatial data. To import data to Spatialite is straightforward. We will walk through the steps as follows. **Note:** You can insert raster data or satelite image as a binary field. We would not introduce in this instruction, but if you are interested in, please read this tutorial on [RasterLite](http://www.gaia-gis.it/gaia-sins/rasterlite-docs/rasterlite-how-to.pdf).
+
+In the [assets](assets/), you will find two data files, in terms of a polygon data [states.geojson](assets/states.geojson) showing the administration boundary of all states in the U.S., and another spreadsheet [pop.csv] containing the population data of each state estimated in 2014 census.
+
+Drag and drop these two files respectively to the `Layers Panel`. Then you will see two layers are listed in the panel and only the states layer is visualized in the map panel. Apparently, the `pop.csv` does not have geometrical feature, so it would not be visualized.
+
+![](img/import.png)
+
+Drag and drop these two layers from the `Layer Panel` to the database file `tweets.db` in the `Browser Panel`. Then, you can immediately see two extra tables are added to the database `tweets.db`.
+
+![](img/drag-to-db.png)
+
+By doing so, the database `tweets.db` can store and manage all the three data tables, in terms of `geotweets`, `states` and `pop`. `geotweets` is points data, `states` is a polygon data, and `pop` is an atrribute data. It is relatively convenient to manage (spatial) databse with spatialite. You do not need to worry about not storing all the assoicted files like shapefile, and it is very easy for data migration and reuse.
+
+## 3. Deliverable
+
+You are excepted to walk through this instruction.
+
+ and store the geo-tagged tweets to a spatialite database. Ideally, this data will be related to research question you have stated in your [statement of intent](../01_intro/soi.md).
 
 To submit your deliverable, please create a new github repository, and submit the url of the GitHub to the **Canvas Dropbox** of this pratical exercise. The file structure of this github repository should look like below.
 
