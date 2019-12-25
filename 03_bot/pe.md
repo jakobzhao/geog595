@@ -298,8 +298,6 @@ The `on_data` function will handle the data processing and output. In general, t
 ## 4. Deliverable
 
 
-
-
 For this pratical exercise, you are excepted to submit the url of the GitHub repository to the **Canvas Dropbox** of this course. This url should be in the format of `https://www.github.com/[github_username]/[github_username].github.io`. To do that, check the item of this lab on the assignment tab, and then press the `Submit Assignment` button. Please contact the instructor if you have any difficulty in submitting the url link. Here are the grading criteria:
 
 
