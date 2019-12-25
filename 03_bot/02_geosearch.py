@@ -14,6 +14,7 @@ class StreamListener(tweepy.StreamListener):
     """
 
     def __init__(self, time_limit=60, file=""):
+        """class initialization"""
         self.start_time = time.time()
         self.limit = time_limit
         self.f = open(file, 'a', encoding="utf-8")
