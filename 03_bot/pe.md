@@ -102,6 +102,83 @@ while len(bot.find_elements_by_xpath('//div[contains(text(), "Back to top ↑")]
 ```
 Twitter search interface only shows part of the result, but if you keep scrolling down the page, you can read more till the end of page. At this moment, you will see a notice at the bottom of the page `Back to top ↑`. For each scroll, we will rest 5 seconds. Another criteria to stop the cralwer is the time limit. If the crawler has executed longer than the predefined limit time, the crawler will stop too.
 
+There are mutiple strategies to locate an element using **Selenum's webdriver**. For example:
+
+```python
+find_element_by_id
+find_element_by_name
+find_element_by_xpath
+find_element_by_link_text
+find_element_by_partial_link_text
+find_element_by_tag_name
+find_element_by_class_name
+find_element_by_css_selector
+```
+
+To find multiple elements (these methods will return a list):
+
+```python
+find_elements_by_name
+find_elements_by_xpath
+find_elements_by_link_text
+find_elements_by_partial_link_text
+find_elements_by_tag_name
+find_elements_by_class_name
+find_elements_by_css_selector
+```
+
+To get more about using these locating strategies, please refer to [https://selenium-python.readthedocs.io/locating-elements.html](https://selenium-python.readthedocs.io/locating-elements.html).
+
+In addition to selenium, **Beautiful Soup** is also very important for destructuring html pages.Beautiful Soup is a Python library for pulling data out of HTML and XML files. It provides idiomatic ways of navigating, searching, and modifying the parse tree. If you are not fimiliar with Beautiful Soup, please go over the [`Quick Start` section of this documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#quick-start).
+
+
+![](img/inspector.png)
+
+To develop the locating strategy, we can use Chrome's Inspector to visually explore the elements of the opened web page and its corresponding source code. As shown in the screenshot below, we find out all the tweet items are wrapped in a `li` elmenent, and with a class named `stream-item`, then we can retrieve all the tweet items by looking for all the `li` elments having a class named `stream-item`.
+
+**Note:** To open an inspector on Chrome, you can right click on the displaying web page. On the pop-up dropdown menu, click `Inspect`, and then the inspector will show up.
+
+```Python
+for tweet in tweets:
+      try:
+          user_json = json.loads(tweet.div.attrs["data-reply-to-users-json"])
+          user_id = int(user_json[0]['id_str'])
+          user_name = user_json[0]['screen_name']
+          screen_name = user_json[0]['name']
+          status_id = int(tweet.attrs["data-item-id"])
+          text = tweet.find("p").text.strip().replace("\n", "")
+          created_at = tweet.find("small", class_="time").a.attrs["title"]
+          time_integer = tweet.find("small", class_="time").a.span["data-time-ms"]
+          reply_num = tweet.find("div", class_="ProfileTweet-action--reply").find("span", class_="ProfileTweet-actionCountForPresentation").text
+          retweet_num = tweet.find("div", class_="ProfileTweet-action--retweet").find("span", class_="ProfileTweet-actionCountForPresentation").text
+          favorite_num = tweet.find("div", class_="ProfileTweet-action--favorite").find("span", class_="ProfileTweet-actionCountForPresentation").text
+          inst_url = ""
+          if "www.instagram.com" in text:
+              inst_url = tweet.p.a.attrs["title"]
+          ...
+          ...
+      except:
+          pass
+```
+
+For each tweet, we try to extract infomation about the author, the tweet, and identify whetehr it is a tweet synchronized from Instagram. Notably, the line feeds are deleted in the text.
+
+
+```Python
+for tweet in tweets:
+      try:
+          ...
+          text = tweet.find("p").text.strip().replace("\n", "")
+          ...
+          record = '%d, %s, %s, %d, %s， %s， %s， %s， %s， %s \n' % (user_id, user_name, screen_name, status_id, created_at, time_integer, reply_num, retweet_num, favorite_num, text)
+          print(record)
+          if (text not in texts):
+              f.write(record)
+          texts.append(text)
+```
+
+`f.write(record)`
+
 
 
 
