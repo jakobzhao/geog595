@@ -35,7 +35,7 @@ pip install selenium
 pip install beautifulsoup4
 ```
 
-Once you have these two libraries installed, please try to execute the script [`01_twsearch.py`](01_twsearch.py) under the [02_cyber folder](./) on PyCharm. We will give a step-by-step instructon of this piece of python script.
+Once you have these two libraries installed, please try to execute the script [`01_twsearch.py`](01_twsearch.py) under the [03_bot folder](./) on PyCharm. We will give a step-by-step instructon of this piece of python script.
 
 
 ```python
@@ -177,15 +177,26 @@ for tweet in tweets:
           texts.append(text)
 ```
 
-`f.write(record)`
+The line `f.write(record)` inserts a record to the csv file. the `if` statement helps check whether this record has been inserted or not. if not, it will be inserted.
 
+```Python
+f.close()
+bot.close()
+print("finished")
+```
 
+This block of code releases both the csv file handler and the bot handler. and print "finish" to notify that the data crawling task is done. If you execute this piece of python script on pyCharm, a file `tweets.csv` will be generated to the `assets` folder. As showm below.
 
+![](img/tweet-csv.png)
 
+# 3. Harvest geo-tagged tweets using a API-based Crawler
 
-https://twitter.com/search?q=seattle&src=typed_query&f=live
+In this section, we will make a Twitter crawler to collect geo-tagged tweets. This crawler is based on `Tweepy` - a python based library which wraps the Twitter API.  Tweepy provides a series of data crawling strategies - Harvesting geo-tagged tweets is just one of them. If you are intersted in compose a more complicated data collection strategy, please refer to its documentation at [https://tweepy.readthedocs.io/en/latest/index.html](https://tweepy.readthedocs.io/en/latest/index.html).
 
-# 3. Develop a Twitter crawler upon Twitter API
+Above all, please install tweepy using on command prompt (if a windows user) or terminal (if a Mac or Linux user), as shown in the script below.
 
+```powershell
+pip install tweepy
+```
 
-twitter search
+After installing tweepy, please try to execute the script [`02_geosearch.py`](02_geosesarch.py) under the [03_bot folder](./) on PyCharm. We will give a step-by-step instructon of this piece of python script.
