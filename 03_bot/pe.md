@@ -8,7 +8,7 @@
 
 In this pratical exercise, we will introduce how to collect Twitter data using a web crawler. A web crawler is a purposely designed bot for online data collection. In most cases, online data can be acquired through a dedicated API maintained by the data provider. If no avaliable API, we can use a crawler library (e.g. Selenium, Scrapy, etc.) to develop a customized crawler. Below, we will develop two crawlers to harvest twitter data. The first one is made with a python library named 'Selenium'; and the other one tries to collect data from Twitter API. Okay, let us get started!
 
-# 1. Environment setup
+## 1. Environment setup
 
 To setup the working environment, you will need to install Anocanda and PyCharm.
 
@@ -24,7 +24,7 @@ The exercise will highly depend on your proficiency on using PyCharm, if you are
 - [Debug your first Python application](https://www.jetbrains.com/help/pycharm/debugging-your-first-python-application.html); and
 - Skim over this tutorial on [using git on PyCharm](https://www.jetbrains.com/help/pycharm/using-git-integration.html).
 
-# 2. Develop a generic Twitter crawler using Selenium
+## 2. Develop a generic Twitter crawler using Selenium
 
 In this section, we will make a generic web cralwer. As a generic crawler, the same developing procedure can be applied to crawling data from any website. This crawler manipulates a browser using a python library named "Selenium". This library enables the crawler mimic how a human user visits and/or interacts with web pages. While viewing the web pages, the crawler monitors the data flows, parses the html structure, and extracts the requested data items. Below, we will introduce how to design a crawler to collect tweets of a specific topic.
 
@@ -189,7 +189,7 @@ This block of code releases both the csv file handler and the bot handler. and p
 
 ![](img/tweet-csv.png)
 
-# 3. Harvest geo-tagged tweets using a API-based Crawler
+## 3. Harvest geo-tagged tweets using a API-based Crawler
 
 In this section, we will make a Twitter crawler to collect geo-tagged tweets. This crawler is based on `Tweepy` - a python based library which wraps the Twitter API.  Tweepy provides a series of data crawling strategies - Harvesting geo-tagged tweets is just one of them. If you are intersted in compose a more complicated data collection strategy, please refer to its documentation at [https://tweepy.readthedocs.io/en/latest/index.html](https://tweepy.readthedocs.io/en/latest/index.html).
 
@@ -295,50 +295,13 @@ def on_data(self, data):
 The `on_data` function will handle the data processing and output. In general, this function terminated after `self.limit` second. To process each record `data`, the captured `data` is converted to a json variable `datajson`. we will mainly output six variables, in terms of id, username, created_at, lng, lat, and text. Notably, If the geotag is a single point, the lat and lng will be captured direcly from the `coordinates`. If the geotag is place, the lat and lng will capture the centroid of the boundingbox. Similarity, a new csv file named `geotags.csv` is created after [the assets folder](assets/).
 
 
-# 4. Deliverable
+## 4. Deliverable
 
 
 
 
+For this pratical exercise, you are excepted to submit the url of the GitHub repository to the **Canvas Dropbox** of this course. This url should be in the format of `https://www.github.com/[github_username]/[github_username].github.io`. To do that, check the item of this lab on the assignment tab, and then press the `Submit Assignment` button. Please contact the instructor if you have any difficulty in submitting the url link. Here are the grading criteria:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-eqw
+**Note:** Lab assignments are required to be submitted electronically to Canvas unless stated otherwise. Efforts will be made to have them graded and returned within one week after they are submitted.Lab assignments are expected to be completed by the due date. ***A late penalty of at least 10 percentage units will be taken off each day after the due date.*** If you have a genuine reason(known medical condition, a pile-up of due assignments on other courses, ROTC,athletics teams, job interview, religious obligations etc.) for being unable to complete work on time, then some flexibility is possible. However, if in my judgment you could reasonably have let me know beforehand that there would likely be a delay, and then a late penalty will still be imposed if I don't hear from you until after the deadline has passed. For unforeseeable problems,I can be more flexible. If there are ongoing medical, personal, or other issues that are likely to affect your work all semester, then please arrange to see me to discuss the situation. There will be NO make-up exams except for circumstances like those above.
