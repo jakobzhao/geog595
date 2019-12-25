@@ -11,7 +11,7 @@ import time, datetime, json
 
 
 # url = "https://twitter.com/search?l=&q=near%3A%22houston%22%20within%3A15mi%20since%3A2017-08-24%20until%3A2017-08-31&src=typd&lang=en"  #crawlling all the tweets posted near Houston during the Hurricane Harvey attacked period.
-url = "https://twitter.com/search?l=&q=seattle&src=typd&lang=en"
+url = "https://twitter.com/search?f=tweets&vertical=news&q=seattle&src=typd&lang=en"
 
 # use a chrome core. https://chromedriver.chromium.org/downloads
 bot = webdriver.Chrome(executable_path="assets/chromedriver.exe") # if you are a mac user, please use "assets/chromedriver"
@@ -19,7 +19,6 @@ bot.get(url)
 
 f = open("assets/tweets.csv", "a", encoding="utf-8")
 f.write('user_id, user_name, screen_name, status_id, created_at, time_integer, reply_num, retweet_num, favorite_num, content \n')
-time.sleep(5)
 start = datetime.datetime.now()
 time_limit = 60
 texts = []
