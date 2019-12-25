@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0020daa5-b31d-4b3d-82e8-6cbe8d6b54e8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/geog595.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -249,7 +256,21 @@
       <option name="project" value="LOCAL" />
       <updated>1577232526671</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1577232606016</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1577232606016</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <created>1577232657094</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1577232657094</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -269,10 +290,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="367" y="399" key="#user_access_key/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577219447989" />
-    <state x="946" y="300" key="CommitChangelistDialog2" timestamp="1577232524301">
+    <state x="373" y="0" width="963" height="1225" key="CommitChangelistDialog2" timestamp="1577232656160">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="946" y="300" key="CommitChangelistDialog2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232524301" />
+    <state x="373" y="0" width="963" height="1225" key="CommitChangelistDialog2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232656160" />
     <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1577232128772">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -317,10 +338,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="566" y="377" key="SettingsEditor/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232483698" />
-    <state x="872" y="436" key="Vcs.Push.Dialog.v2" timestamp="1577232530764">
+    <state x="872" y="436" key="Vcs.Push.Dialog.v2" timestamp="1577232659625">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="436" key="Vcs.Push.Dialog.v2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232530764" />
+    <state x="872" y="436" key="Vcs.Push.Dialog.v2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232659625" />
     <state x="854" y="439" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1577231740915">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
