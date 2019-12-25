@@ -13,9 +13,9 @@ import time, datetime, json
 # url = "https://twitter.com/search?l=&q=near%3A%22houston%22%20within%3A15mi%20since%3A2017-08-24%20until%3A2017-08-31&src=typd&lang=en"  #crawlling all the tweets posted near Houston during the Hurricane Harvey attacked period.
 url = "https://twitter.com/search?l=&q=seattle&src=typd&lang=en"
 
-# use a chrome browser core. https://chromedriver.chromium.org/downloads
-browser = webdriver.Chrome(executable_path="assets/chromedriver.exe") # if you are a mac user, please use "assets/chromedriver"
-browser.get(url)
+# use a chrome core. https://chromedriver.chromium.org/downloads
+bot = webdriver.Chrome(executable_path="assets/chromedriver.exe") # if you are a mac user, please use "assets/chromedriver"
+bot.get(url)
 
 f = open("assets/tweets.csv", "a", encoding="utf-8")
 f.write('user_id, user_name, screen_name, status_id, created_at, time_integer, reply_num, retweet_num, favorite_num, content \n')
@@ -26,10 +26,10 @@ texts = []
 
 # Read the Xpath tutorial if you are not familiar with XPath.
 # "//" operator indicates Selects nodes in the document from the current node that match the selection no matter where they are.
-while len(browser.find_elements_by_xpath('//div[contains(text(), "Back to top ↑")]')) != 1:
+while len(bot.find_elements_by_xpath('//div[contains(text(), "Back to top ↑")]')) != 1:
     time.sleep(5)
-    browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    soup = BeautifulSoup(browser.page_source, 'html5lib')
+    bot.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+    soup = BeautifulSoup(bot.page_source, 'html5lib')
     tweets = soup.find_all('li', class_="stream-item")[-20:] # only process the newly-acquired tweets.
     if int((datetime.datetime.now() - start).seconds) >= time_limit: # if longer than a minute, then stop scrolling.
         break
@@ -57,5 +57,8 @@ while len(browser.find_elements_by_xpath('//div[contains(text(), "Back to top �
         except:
             pass
 f.close()
-browser.close()
+bot.close()
 print("finished")
+
+if __name__ == "__main__":
+    pass

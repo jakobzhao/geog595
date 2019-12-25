@@ -8,8 +8,6 @@
 
 import tweepy, json, time
 
-
-
 class StreamListener(tweepy.StreamListener):
     """tweepy.StreamListener is a class provided by tweepy used to access
     the Twitter Streaming API to collect tweets in real-time.
@@ -19,6 +17,7 @@ class StreamListener(tweepy.StreamListener):
         self.start_time = time.time()
         self.limit = time_limit
         self.f = open(file, 'a', encoding="utf-8")
+        super(StreamListener, self).__init__()
 
     def on_data(self, data):
         """This is called when data are streamed in."""
