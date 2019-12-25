@@ -34,17 +34,6 @@ Once installed, please try to execute the script [`tw2db.py`](tw2db.py) under th
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 ## 2. Deliverable
 
 In this pratical exercise, you are excepted to walk through the instruction, execute the two pieces of python scripts, and more importantly, develop your own crawler to collect some data from the web. Ideally, this data will be related to research question you have stated in your [statement of intent](../01_intro/soi.md).
