@@ -14,14 +14,14 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 ### [Week 1: Foundation](01_intro/readme.md)
 - **Keywords:** GeoHumanities, Phenomenology, Humanistic Geography.
-- **Due:** Statement of Intent `01/07 5:00pm`
+- [**Statement of Intent**](01_intro/soi.md) `01/10 11:59pm`
 
 ### [Week 2: CyberGIS](02_cyber/readme.md)
 - **Keywords:**
   - Technology, Power and Geographic Knowledge;
   - CyberGIS, CloudGIS and Spatial Cyber-Infrastructure
-- **Practical Exercise 1:** [Cloud-based project management using GitHub](02_cyber/pe.md)
-- **Due:** PE1 `01/07 5:00pm` and [Thinkpiece](https://github.com/jakobzhao/geog595/issues/3) `01/07 5:00pm`.
+- **Practical Exercise 1:** [Cloud-based project management using GitHub](02_cyber/pe.md) `01/07 5:00pm`
+- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/3) `01/14 5:00pm`.
 
 ### [Week 3 & 4: Bot](03_bot/readme.md)
 - **Keywords:** Autonomy, Robot and Web crawler

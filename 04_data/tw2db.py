@@ -7,12 +7,12 @@
 
 import tweepy, json, time, sqlite3
 
-
 class StreamListener(tweepy.StreamListener):
     """tweepy.StreamListener is a class provided by tweepy used to access
     the Twitter Streaming API to collect tweets in real-time.
     """
     def __init__(self, time_limit=60, dbfile=""):
+        """class initialization"""
         self.start_time = time.time()
         self.limit = time_limit
         self.dbfile = dbfile
@@ -56,7 +56,6 @@ if __name__ == "__main__":
     # register a Twitter App to get the keys and access tokens.
 
     dbname = 'assets/tweets.db'
-
 
     # Apply for your own Twitter API keys at https://developer.twitter.com/en/apply-for-access
     consumer_key = "your_consumer_key"
