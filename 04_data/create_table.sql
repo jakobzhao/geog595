@@ -19,4 +19,4 @@ CREATE TABLE IF NOT EXISTS geotweets (
 SELECT AddGeometryColumn('geotweets', 'geom', 4326, 'POINT', 'XY', 0);
 
 -- Update the geometry column
-update geotweets set the_geom = MakePoint(lng, lat, 4326)
+update geotweets set geom = MakePoint(lng, lat, 4326)
