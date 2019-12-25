@@ -67,7 +67,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **Practical Exercise 7:** [Environmental data collection with Raspberry Pi](08_iot/pe.md). `Due: 03/08 5:00pm. However, this exercise will not be included to your final score`.
 
 
-### [Week 10: Summary, Writing Project, and Presentation](09_sum/readme.md)
+### [Week 10: Summary, Presentation, and Writing Project](09_sum/readme.md)
 
 - *Each student presents the writing project during the last class meeting (03/11/2020).*
 - **Writing Project** `Due: 03/16 5:00pm`.
