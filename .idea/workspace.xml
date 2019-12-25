@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0020daa5-b31d-4b3d-82e8-6cbe8d6b54e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03_bot/01_search_tweets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03_bot/02_search_geotags.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_bot/pe.md" beforeDir="false" afterPath="$PROJECT_DIR$/03_bot/pe.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +17,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -42,11 +45,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Python.01_search_tweets">
-    <configuration name="01_search_tweets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Workspace\geog595\03_bot" />
+      <recent name="C:\Workspace\geog595\04_data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.02_search_geotags (1)">
+    <configuration name="01_search_tweets (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geog595" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,6 +69,90 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_bot/01_search_tweets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="01_search_tweets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="geog595" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_bot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Workspace\geog595\03_bot\01_search_tweets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="01_search_tweets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="geog595" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_bot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Workspace\geog595\03_bot\01_search_tweets.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02_search_geotags (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="geog595" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_bot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_bot/02_search_geotags.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02_search_geotags" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="geog595" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03_bot" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Workspace\geog595\03_bot\02_search_geotags.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,8 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.02_search_geotags (1)" />
+        <item itemvalue="Python.01_search_tweets (1)" />
         <item itemvalue="Python.01_search_tweets" />
-        <item itemvalue="Python.02_search_geotags" />
+        <item itemvalue="Python.01_search_tweets" />
+        <item itemvalue="Python.02_search_geotags (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -118,59 +215,106 @@
       <option name="presentableId" value="Default" />
       <updated>1577159866572</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1577218420648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577218420648</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <created>1577218458576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577218458576</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update">
+      <created>1577232321161</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577232321161</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="946" y="300" key="CommitChangelistDialog2" timestamp="1577218419168">
+    <state x="1019" y="510" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577232044187">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="946" y="300" key="CommitChangelistDialog2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577218419168" />
-    <state width="2539" height="492" key="GridCell.Tab.0.bottom" timestamp="1577218107006">
+    <state x="1019" y="510" key="#com.intellij.fileTypes.FileTypeChooser/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232044187" />
+    <state x="533" y="454" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577231981833">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="492" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577218107006" />
-    <state width="2539" height="492" key="GridCell.Tab.0.center" timestamp="1577218107006">
+    <state x="533" y="454" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577231981833" />
+    <state x="367" y="399" key="#user_access_key" timestamp="1577219447989">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="492" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577218107006" />
-    <state width="2539" height="492" key="GridCell.Tab.0.left" timestamp="1577218107006">
+    <state x="367" y="399" key="#user_access_key/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577219447989" />
+    <state x="946" y="300" key="CommitChangelistDialog2" timestamp="1577232319623">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="492" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577218107006" />
-    <state width="2539" height="492" key="GridCell.Tab.0.right" timestamp="1577218107006">
+    <state x="946" y="300" key="CommitChangelistDialog2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232319623" />
+    <state width="2539" height="401" key="GridCell.Tab.0.bottom" timestamp="1577232128772">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="492" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577218107006" />
-    <state width="2539" height="492" key="GridCell.Tab.1.bottom" timestamp="1577218107007">
+    <state width="2539" height="401" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232128772" />
+    <state width="2539" height="401" key="GridCell.Tab.0.center" timestamp="1577232128772">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="492" key="GridCell.Tab.1.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577218107007" />
-    <state width="2539" height="492" key="GridCell.Tab.1.center" timestamp="1577218107006">
+    <state width="2539" height="401" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232128772" />
+    <state width="2539" height="401" key="GridCell.Tab.0.left" timestamp="1577232128772">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="492" key="GridCell.Tab.1.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577218107006" />
-    <state width="2539" height="492" key="GridCell.Tab.1.left" timestamp="1577218107006">
+    <state width="2539" height="401" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232128772" />
+    <state width="2539" height="401" key="GridCell.Tab.0.right" timestamp="1577232128772">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="492" key="GridCell.Tab.1.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577218107006" />
-    <state width="2539" height="492" key="GridCell.Tab.1.right" timestamp="1577218107006">
+    <state width="2539" height="401" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232128772" />
+    <state width="1269" height="491" key="GridCell.Tab.1.bottom" timestamp="1577231983761">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2539" height="492" key="GridCell.Tab.1.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577218107006" />
-    <state x="566" y="377" key="SettingsEditor" timestamp="1577163071716">
+    <state width="1269" height="491" key="GridCell.Tab.1.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577231983761" />
+    <state width="1269" height="491" key="GridCell.Tab.1.center" timestamp="1577231983761">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="566" y="377" key="SettingsEditor/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577163071716" />
-    <state x="872" y="436" key="Vcs.Push.Dialog.v2" timestamp="1577218424158">
+    <state width="1269" height="491" key="GridCell.Tab.1.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577231983761" />
+    <state width="1269" height="491" key="GridCell.Tab.1.left" timestamp="1577231983761">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="436" key="Vcs.Push.Dialog.v2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577218424158" />
+    <state width="1269" height="491" key="GridCell.Tab.1.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577231983761" />
+    <state width="1269" height="491" key="GridCell.Tab.1.right" timestamp="1577231983761">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1269" height="491" key="GridCell.Tab.1.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577231983761" />
+    <state x="502" y="418" key="RollbackChangesDialog" timestamp="1577219426536">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="502" y="418" key="RollbackChangesDialog/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577219426536" />
+    <state x="566" y="377" key="SettingsEditor" timestamp="1577232483698">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="566" y="377" key="SettingsEditor/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232483698" />
+    <state x="872" y="436" key="Vcs.Push.Dialog.v2" timestamp="1577232340281">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="872" y="436" key="Vcs.Push.Dialog.v2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577232340281" />
+    <state x="854" y="439" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1577231740915">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="854" y="439" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577231740915" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="item.div.attrs" language="Python" />
-        <watch expression="item.div.attrs[&quot;data-reply-to-users-json&quot;]" language="Python" />
+        <watch expression="texts" language="Python" />
+        <watch expression="texts" language="Python" />
+        <watch expression="tweet.find(&quot;p&quot;).text.strip().replace(&quot;\n&quot;, &quot;&quot;).encode(&quot;utf-8&quot;)" language="Python" />
       </configuration>
     </watches-manager>
   </component>
