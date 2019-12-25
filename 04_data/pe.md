@@ -114,7 +114,7 @@ print (record)
 A sql statement is created, executed and then committed. By this statement, a record will be inserted to this database, if this record has already been inserted, this record will be updated in the data table. To observe the content of the updated record, the record will be outputed to the log.
 
 
-If `tw2db.py` is executed on PyCharm, a list of records will be inserted to the data table `geotweets` of the databse `geotweets.db` under [assets](assets/). To view the inserted data table, execute the following sql statement `select * from geotweets`.
+If `tw2db.py` is executed on PyCharm, a list of records will be inserted to the data table `geotweets` of the databse `tweets.db` under [assets](assets/). To view the inserted data table, execute the following sql statement `select * from geotweets`.
 
 ![](img/datatable.png)
 
@@ -195,31 +195,11 @@ By doing so, the database `tweets.db` can store and manage all the three data ta
 
 ## 3. Deliverable
 
-You are excepted to walk through this instruction.
+You are excepted to walk through this instruction, try to practice on how to store the geo-tagged tweets to a spatialite database and visualize it in QGIS platform. More importantly, by learning this practical exercise, you are expected to manage the research data on a spatial database.
 
- and store the geo-tagged tweets to a spatialite database. Ideally, this data will be related to research question you have stated in your [statement of intent](../01_intro/soi.md).
-
-To submit your deliverable, please create a new github repository, and submit the url of the GitHub to the **Canvas Dropbox** of this pratical exercise. The file structure of this github repository should look like below.
-
-```powershell
-[your_repository_name]
-    │ [your_crawler].py
-    │readme.md
-    ├─assets
-    │      tweets.csv
-    │      geotags.csv
-    │      [your_dataset].csv
-```
-
-Here are the grading criteria:
-
-1\. Execute both `01_twsearch.py` and `02_geosearch.py` with different keywords, and save the results to `tweets.csv` and `geotags.cvs` in the `assets` folder of the newly-created repository. (POINT 5 for each)
-
-2\. Develop a web crawler to harvest data from a website other than Twitter. This python script should save in the root of the repository. (POINT 20)
-
-3\. Export a sample of the results to the `assets` folder of the repository. (POINT 5)
-
-4\. In the `readme.md` file, write an instruction to introduce the crawler and its usages. You can refer to  [https://github.com/shawn-terryah/Twitter_Geolocation](https://github.com/shawn-terryah/Twitter_Geolocation). (POINT 15)
+So, to submit your deliverable, please,
+- Share a spatialite database of your research data to the **Canvas Dropbox** of this pratical exercise. (30 POINTS)
+- Along with the database, please also attach a word document or a pdf file  to describe what the tables/layers in the database are and how they are related to your research questions. (20 POINTS)
 
 
 **Note:** Lab assignments are required to be submitted electronically to Canvas unless stated otherwise. Efforts will be made to have them graded and returned within one week after they are submitted.Lab assignments are expected to be completed by the due date. ***A late penalty of at least 10 percentage units will be taken off each day after the due date.*** If you have a genuine reason(known medical condition, a pile-up of due assignments on other courses, ROTC,athletics teams, job interview, religious obligations etc.) for being unable to complete work on time, then some flexibility is possible. However, if in my judgment you could reasonably have let me know beforehand that there would likely be a delay, and then a late penalty will still be imposed if I don't hear from you until after the deadline has passed. For unforeseeable problems,I can be more flexible. If there are ongoing medical, personal, or other issues that are likely to affect your work all semester, then please arrange to see me to discuss the situation. There will be NO make-up exams except for circumstances like those above.
