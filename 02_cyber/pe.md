@@ -10,8 +10,8 @@ In this pratical exercise, we will briefly introduce how to set up the project e
 
 # 1. Preparations
 
-# 1.1 Environmental Setup
-For this lab, you will use chrome, git and atom.
+# 1.1 Environmental setup
+For this pratical exercise, you will use chrome, git and atom.
 
 **Chrome:** is a freeware web browser developed by Google. It was first released on September 2, 2008 for Microsoft Windows, and was later ported to Linux, macOS, iOS and Android. Google Chrome is also the main component of Chrome OS, where it serves as a platform for running web apps. **Click [here](install-chrome.md) to see a demo on how to install Google Chrome**;
 
@@ -36,7 +36,7 @@ Atom is a customizable IDE, so to fully prepare it for web programming, you will
 - minimap
 - atom-beautify
 
-### 1.2 GitHub Registration
+### 1.2 GitHub registration
 
 A GitHub account is needed for managing and synchronizing your cloud based project. If you do not have a GitHub account yet, please sign up at [https://www.github.com](https://www.github.com). Notably, you will need to choose a username. It is worth noting that, **this username will be used as a part of the domain name of your home github ['username'.github.io](). So, make sure this username is succinct, simple and English-character only. Apparently, an easily-recognized domain name is more popular.**
 
@@ -280,7 +280,7 @@ Password for 'https://geovizlabtest@github.com':`type the password`
 
 In a nutshell, to push a change from your local computer to GitHub, you will need to (1) `git clone` a repository from GitHub, (2) `git add` the untracked file to the repository, (3) `git commit` that you have made a change, and at last, (4) `git push` your changes to the GitHub repository.
 
-#### 3.3.3 Atom Commit and push
+#### 3.3.3 Atom commit and push
 
 We can also use `Atom` to upload files to GitHub repository or more generally, commit changes. Compared with the first two solutions, I recommend you use Atom if you prefer graphic user interfaces.
 
@@ -320,7 +320,7 @@ Once the `resume.md` is uploaded to the root of the GitHub Repository, you can s
 
 **Note：** Similar to the step 8 in section 2, You can also update a local repository from a remote github repository using Atom. To do that, right click the github operation status on the bottom bar, and select the option `Pull`. The github operation status can be either `Fetch`, `Pull`, `Push`, `Force Push`.
 
-## 4. Website Host using GitHub Pages
+## 4. Website host using GitHub Pages
 
 Github allows its user to convert a repository as a website automatically. In this section, you will need to download a website template and modify it according to your needs, and upload it to the repository `https://github.com/[github_username]/[github_username].github.io` you have just created. After you finish this sesction, you can visit this webiste at `https://[github_username].github.io`.
 
