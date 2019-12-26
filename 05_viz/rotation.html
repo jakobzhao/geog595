@@ -30,9 +30,9 @@
     var map = new mapboxgl.Map({
       container: 'map',
       style: 'mapbox://styles/mapbox/light-v10',
-      center: [-87.62712, 41.89033],
-      zoom: 15.5,
-      pitch: 45
+      center: [-122.349866, 47.6205773],
+      zoom: 17,
+      pitch: 60
     });
 
     function rotateCamera(timestamp) {
@@ -64,7 +64,7 @@
         'source-layer': 'building',
         'filter': ['==', 'extrude', 'true'],
         'type': 'fill-extrusion',
-        'minzoom': 15,
+        'minzoom': 16,
         'paint': {
           'fill-extrusion-color': '#aaa',
 
