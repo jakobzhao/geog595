@@ -2,11 +2,11 @@ var config = {
     style: 'mapbox://styles/branigan/cjzsvonse027m1co4nkxp13b3',
     accessToken: 'pk.eyJ1IjoibWJ4c29sdXRpb25zIiwiYSI6ImNrMm01aG9hdTBlZGwzbXQ1ZXVrNHNmejAifQ.QHQA0N6XPWddCXtvoODHZg',
     showMarkers: false,
-    theme: 'light',
-    alignment: 'right',
-    title: '',
-    subtitle: '',
-    byline: '',
+    theme: 'dark',
+    alignment: 'left',
+    title: '432423432',
+    subtitle: '43242',
+    byline: '4324',
     footer: '',
     chapters: [
         {

@@ -26,9 +26,12 @@ function setLayerOpacity(layer) {
   });
 }
 
-var story = document.getElementById('story');
+var story = $('#story')[0];
+
+
 var features = document.createElement('div');
-features.classList.add(alignments[config.alignment]);
+$(features).addClass(alignments[config.alignment]);
+// features.classList.add();
 features.setAttribute('id', 'features');
 
 var header = document.createElement('div');
@@ -36,25 +39,31 @@ var header = document.createElement('div');
 if (config.title) {
   var titleText = document.createElement('h1');
   titleText.innerText = config.title;
-  header.appendChild(titleText);
+  $(header).append(titleText);
+  // header.appendChild(titleText);
 }
 
 if (config.subtitle) {
   var subtitleText = document.createElement('h2');
   subtitleText.innerText = config.subtitle;
-  header.appendChild(subtitleText);
+  // header.appendChild(subtitleText);
+  $(header).append(subtitleText);
 }
 
 if (config.byline) {
   var bylineText = document.createElement('p');
   bylineText.innerText = config.byline;
-  header.appendChild(bylineText);
+  // header.appendChild(bylineText);
+  $(header).append(bylineText);
 }
 
 if (header.innerText.length > 0) {
-  header.classList.add(config.theme);
-  header.setAttribute('id', 'header');
-  story.appendChild(header);
+  $(header).addClass(config.theme);
+  // header.classList.add(config.theme);
+  $(header).attr('id', 'header');
+  // header.setAttribute('id', 'header');
+  // story.appendChild(header);
+  $(story).append(header);
 }
 
 config.chapters.forEach((record, idx) => {
@@ -64,46 +73,51 @@ config.chapters.forEach((record, idx) => {
   if (record.title) {
     var title = document.createElement('h3');
     title.innerText = record.title;
-    chapter.appendChild(title);
+    $(chapter).append(title);
   }
 
   if (record.image) {
     var image = new Image();
     image.src = record.image;
-    chapter.appendChild(image);
+    $(chapter).append(image);
   }
 
   if (record.description) {
-    var story = document.createElement('p');
-    story.innerHTML = record.description;
-    chapter.appendChild(story);
+    var desc = document.createElement('p');
+    desc.innerHTML = record.description;
+    $(chapter).append(desc);
   }
 
-  container.setAttribute('id', record.id);
-  container.classList.add('step');
+  $(container).attr('id', record.id);
+  // container.setAttribute('id', record.id);
+  $(container).addClass('step');
+  // container.classList.add('step');
   if (idx === 0) {
-    container.classList.add('active');
+    $(container).addClass('active');
+    // container.classList.add('active');
   }
 
-  chapter.classList.add(config.theme);
-  container.appendChild(chapter);
-  features.appendChild(container);
+  $(chapter).addClass(config.theme);
+  $(container).append(chapter);
+  // container.appendChild(chapter);
+  $(features).append(container);
+  // features.appendChild(container);
 });
 
-story.appendChild(features);
+$(story).append(features);
 
 var footer = document.createElement('div');
 
 if (config.footer) {
   var footerText = document.createElement('p');
   footerText.innerHTML = config.footer;
-  footer.appendChild(footerText);
+  $(footer).append(footerText);
 }
 
 if (footer.innerText.length > 0) {
   footer.classList.add(config.theme);
   footer.setAttribute('id', 'footer');
-  story.appendChild(footer);
+  $(story).append(footer);
 }
 
 mapboxgl.accessToken = config.accessToken;
@@ -156,7 +170,7 @@ map.on("load", function() {
 
       if (chapter.type === 'image') {
         $('.active > .light').addClass("fullscreen-background-image")
-          // response.element.classList.add('fullscreen-background-image');
+      //    chapter.element.classList.add('fullscreen-background-image');
 
 
 
