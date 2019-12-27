@@ -182,6 +182,7 @@ map.on("load", function() {
           'position': 'absolute',
           'min-height': '100vh',
           'min-width': '100vw',
+          'z-index': '10000',
           'top': '0',
           'right': '0',
           'bottom': '0',
