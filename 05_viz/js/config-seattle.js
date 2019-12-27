@@ -4,9 +4,9 @@ var config = {
     showMarkers: false,
     theme: 'dark',
     alignment: 'left',
-    title: '432423432',
-    subtitle: '43242',
-    byline: '4324',
+    // title: '432423432',
+    // subtitle: '43242',
+    // byline: '4324',
     footer: '',
     chapters: [
         {

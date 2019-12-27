@@ -98,6 +98,7 @@ config.chapters.forEach((record, idx) => {
   }
 
   $(chapter).addClass(config.theme);
+  $(chapter).addClass(record.type);
   $(container).append(chapter);
   // container.appendChild(chapter);
   $(features).append(container);
@@ -159,7 +160,8 @@ map.on("load", function() {
     })
     .onStepEnter(response => {
       var chapter = config.chapters.find(chap => chap.id === response.element.id);
-      response.element.classList.add('active');
+      $(response.element).addClass('active');
+      // response.element.classList.add('active');
       map.flyTo(chapter.location);
       if (config.showMarkers) {
         marker.setLngLat(chapter.location.center);
@@ -169,28 +171,38 @@ map.on("load", function() {
       }
 
       if (chapter.type === 'image') {
-        $('.active > .light').addClass("fullscreen-background-image")
-      //    chapter.element.classList.add('fullscreen-background-image');
-
-
-
-// fulscreen-background-image
-//         background: url(" + path + ") no-repeat center center fixed;
-
+        $('.image').addClass("fullscreen-background-image")
+        $('.fullscreen-background-image').css(
+          {
+          'background': 'url("img/uw.jpg") no-repeat center center fixed',
+          '-webkit-background-size': 'cover',
+          '-moz-background-size': 'cover',
+          '-o-background-size': 'cover',
+          'background-size': 'cover',
+          'position': 'absolute',
+          'min-height': '100vh',
+          'min-width': '100vw',
+          'top': '0',
+          'right': '0',
+          'bottom': '0',
+          'left': '0',
+          'display': 'block'
+        });
       }
 
 
     })
     .onStepExit(response => {
       var chapter = config.chapters.find(chap => chap.id === response.element.id);
-      response.element.classList.remove('active');
+      $(response.element).removeClass('active');
+      // response.element.classList.remove('active');
       if (chapter.onChapterExit.length > 0) {
         chapter.onChapterExit.forEach(setLayerOpacity);
       }
 
-      if (chapter.type === 'image') {
-        $('.step > .light').removeClass("fullscreen-background-image")
-      }
+      // if (chapter.type === 'image') {
+        $('.image').removeClass("fullscreen-background-image")
+      // }
     });
 });
 

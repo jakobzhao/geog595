@@ -10,23 +10,27 @@ a:visited {
   color: #0071bc;
 }
 
+.image {
+  /* background-color: green; */
+
+}
 .fullscreen-background-image {
   /* background: url(" + path + ") no-repeat center center fixed; */
-  background: url("../img/uw.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
+  /* background: url("../img/uw.jpg") no-repeat center center fixed; */
+  /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
-  position: absolute;
+  position: absolute; */
   /* z-index: 1000; */
   top: 0;
   bottom: 0;
   right: 0;
-  border-radius: 0;
-  min-height: 100%;
-  min-width: 100%;
-  /*pointer-events: none;*/
+  left: 0;
+  /* border-radius: 0; */
+  min-height: 100vh;
+  min-width: 100vw;
+  /* pointer-events: none; */
   display: block;
 }
 
