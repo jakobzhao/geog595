@@ -8,7 +8,7 @@
 
 In this seminar, we will invite you to participate in the ongoing discussion and scholarly practice at the intersection of geospatial technologies and the disciplines of the humanities. Digital GeoHumanities refers to the systematic use of digital geographical resources in the humanities, as well as the geospatial analyses and narratives of their application. This seminar provides a unique opportunity to hone practical skills of geospatial technologies and to catalyze critical thinking of their applications. You will read literature from a few well-established geographers and philosophers in STS (Science, technology and society), as well as the latest pieces of work by both GIS (Geographic Information Science) and critical scholars. With the theoretical preparation, you will practice a few emerging data-driven techniques (e.g., web crawling, GitHub, geo-narrative, deep learning, text mining, virtual reality, raspberry pi, blockchain, etc.), and also reflect upon their relevance to critical views, such as power relation, hermeneutics, embodiment, autonomy, surveillance, and so on. As a course requirement, you need to choose a topic from any humanities discipline, apply the newly learned visual, analytical, and synthetical skills, and also critique the significant role, mediating function, or social implication of the geospatial technologies. The course material is strongly influenced by my interest in mapping, GIS, humanities, and STS. If you have any questions or concerns, please contact Dr. Bo Zhao. Welcome to this course, we are delighted to have you with us!
 
-## Weekly Schedule
+## :calendar: Weekly Schedule
 
 *Please download the papers of each week from [a shared folder at UW Google Drive](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv).*
 
@@ -72,7 +72,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - *Each student presents the writing project during the last class meeting (03/11/2020).*
 - **Writing Project** `Due: 03/16 5:00pm`.
 
-## Course Requirement
+## :bell: Course Requirement
 
 **Computational skill:** This course welcomes students who own some GIS or other computational experience, and have programmed in a python or javascript IDE (Integrated Development Environment). Students should at least hear of GIS, GitHub, Leaflet, web crawler, and Raspberry Pi before considering this seminar, and most importantly, be self-motivated to solve a research question with the listed computational skills.
 
@@ -98,11 +98,11 @@ Please upload your think piece to the GitHub issues page by Wednesday morning â€
 
 **Writing project:** During the quarter, you will complete a larger writing project that engages with the seminar material and course themes, along with additional readings that you bring into conversation with the assigned course readings. You are aiming for 20-30 pages coalescing around ideas and readings from this quarter â€“ you can take up and extend one of the themes from our weekly structure or develop a new one relevant to your own work and thinking. Writing projects is due no later than the end of **Week 11**.
 
-## Grading
+## :heavy_check_mark: Grading
 
 Based on the above requirements - 40% seminar participation, think pieces, and discussion leadership, 20% practical exercise, 40% writing project.
 
-## Accommodations
+## :love_letter: Accommodations
 
 We welcome the opportunity to work with any students with disabilities in this class to ensure equal access to the course. If you have a letter from Disability Resources for Students (DRS) outlining your academic accommodations, please present the letter to me (or email us, to confirm, if the letter is electronic) as soon as possible so that we can discuss the accommodations you may need for this class. Any discussions between student and professor need to occur as early as possible in order for adequate arrangements to be made. If you do not yet have a letter from DRS, but would like to request academic accommodations due to a disability, please contact DRS [here (Links to an external site.)](https://depts.washington.edu/uwdrs/), or in-person at 011 Mary Gates Hall, or at 206-543-8924 (Voice & Relay), [uwdrs@uw.edu](mailto:uwdrs@uw.edu).
 
