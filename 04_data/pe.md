@@ -195,7 +195,7 @@ By doing so, the database `tweets.db` can store and manage all the three data ta
 
 ## 3. Deliverable
 
-You are excepted to walk through this instruction, try to practice on how to store the geo-tagged tweets to a spatialite database and visualize it in QGIS platform. More importantly, by learning this practical exercise, you are expected to manage the research data on a spatial database.
+You are expected to walk through this instruction, try to practice on how to store the geo-tagged tweets to a spatialite database and visualize it in QGIS platform. More importantly, by learning this practical exercise, you are expected to manage the research data on a spatial database.
 
 So, to submit your deliverable, please,
 - Share a spatialite database of your research data to the **Canvas Dropbox** of this pratical exercise. (30 POINTS)

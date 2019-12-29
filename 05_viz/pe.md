@@ -112,11 +112,24 @@ Most of the parameters are quite obvious. The location parameter can be identifi
 ### 2.4 Peer-review and Debug
 
 
-
 Open `index.html` in a browser, and scroll. Voila!
 
 ## 3. Deliverable
 
+You are expected to walk through this instructionm, study the three examples ([bike](bike.html), [glacier](glacier.html) and [us](us.html)), and make your own geo-narrative onto a github repository.
+
+For the deliverable, you are expected
+
+
+Before submitting the deliverable, please make sure the **GitHub Pages** work properly. You are expected to submit the url of the GitHub repository to the **Canvas Dropbox** of this course. This url should be in the format of `https://www.github.com/[github_username]/[github_username].github.io`. To submit, check the item of this lab on the assignment tab, and then press the `Submit Assignment` button. Please contact the instructor if you have any difficulty in submitting the url link. Here are the grading criteria:
+
+
+So, to submit your deliverable, please,
+- Share a spatialite database of your research data to the **Canvas Dropbox** of this pratical exercise. (30 POINTS)
+- Along with the database, please also attach a word document or a pdf file  to describe what the tables/layers in the database are and how they are related to your research questions. (20 POINTS)
+
+
+**Note:** Lab assignments are required to be submitted electronically to Canvas unless stated otherwise. Efforts will be made to have them graded and returned within one week after they are submitted.Lab assignments are expected to be completed by the due date. ***A late penalty of at least 10 percentage units will be taken off each day after the due date.*** If you have a genuine reason(known medical condition, a pile-up of due assignments on other courses, ROTC,athletics teams, job interview, religious obligations etc.) for being unable to complete work on time, then some flexibility is possible. However, if in my judgment you could reasonably have let me know beforehand that there would likely be a delay, and then a late penalty will still be imposed if I don't hear from you until after the deadline has passed. For unforeseeable problems,I can be more flexible. If there are ongoing medical, personal, or other issues that are likely to affect your work all semester, then please arrange to see me to discuss the situation. There will be NO make-up exams except for circumstances like those above.
 
 
 
