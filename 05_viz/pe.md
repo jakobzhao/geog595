@@ -87,10 +87,10 @@ At the end of the `config` variable, you can add a list of chapters to the array
 {
     id: 'identifier',
     title: 'Title',
-    image: './path/to/image/source.png',
-    description: 'Copy these sections to add to your story.',
+    image: 'img/XXX.png or jpg',
+    description: 'Description of this chapter',
     location: {
-        center: [-77.020636, 38.886900],
+        center: [-77.020636, 38.886900], // [lng, lat]
         zoom: 13.5,
         pitch: 60,
         bearing: -43.2
@@ -99,19 +99,32 @@ At the end of the `config` variable, you can add a list of chapters to the array
         {
             layer: 'mapbox-layer-a',
             opacity: 1
+        },
+        {
+            layer: 'mapbox-layer-b',
+            opacity: 0.5
+        },
+        {
+            layer: 'mapbox-layer-c',
+            opacity: 1
         }
     ],
     onChapterExit: [
         {
-            layer: 'mapbox-layer-b',
+            layer: 'mapbox-layer-d',
             opacity: 0
+        },
+        {
+            layer: 'mapbox-layer-e',
+            opacity: 1
         }
     ]
 }
 ```
 
-Most of the parameters are quite obvious. The location parameter can be identified through [https://demos.mapbox.com/location-helper](https://demos.mapbox.com/location-helper/).
+Most of the parameters are quite obvious, like `id`, `title`, `image`, and `description`. The `location` parameter can be identified through [https://demos.mapbox.com/location-helper](https://demos.mapbox.com/location-helper/).
 
+The function `onChapterEnter` and `onChapterExit` define the events triggered when entering or exiting a chapter. In either of these two events, a list of layers will appear or disappear. and their corresponding opacity values. These layers has to be defined from Mapbox Studio.
 
 
 ### 2.4 Peer-review and Debug
@@ -144,10 +157,10 @@ you need to submit the github repository url to the **Canvas Dropbox** of this c
     │      ... ... ...
 ```
 
-4\. The storyline of the geo-narrative should be logical and make sense. (20 POINTS); and
+4\. The storyline of the geo-narrative should be logical and make sense. (20 POINTS).
 
 
-**Note:** Lab assignments are required to be submitted electronically to Canvas unless stated otherwise. Efforts will be made to have them graded and returned within one week after they are submitted.Lab assignments are expected to be completed by the due date. ***A late penalty of at least 10 percentage units will be taken off each day after the due date.*** If you have a genuine reason(known medical condition, a pile-up of due assignments on other courses, ROTC,athletics teams, job interview, religious obligations etc.) for being unable to complete work on time, then some flexibility is possible. However, if in my judgment you could reasonably have let me know beforehand that there would likely be a delay, and then a late penalty will still be imposed if I don't hear from you until after the deadline has passed. For unforeseeable problems,I can be more flexible. If there are ongoing medical, personal, or other issues that are likely to affect your work all semester, then please arrange to see me to discuss the situation. There will be NO make-up exams except for circumstances like those above.
+**Note:** Lab assignments are required to be submitted electronically to Canvas unless stated otherwise. Efforts will be made to have them graded and returned within one week after they are submitted.Lab assignments are expected to be completed by the due date. ***A late penalty of at least 10 percentage units will be taken off each day after the due date.*** If you have a genuine reason(known medical condition, a pile-up of due assignments on other courses, ROTC,athletics teams, job interview, religious obligations etc.) for being unable to complete work on time, then some flexibility is possible. However, if in my judgment you could reasonably have let me know beforehand that there would likely be a delay, and then a late penalty will still be imposed if I don't hear from you until after the deadline has passed. For unforeseeable problems,I can be more flexible. If there are ongoing medical, personal, or other issues that are likely to affect your work all semester, then please arrange to see me to discuss the situation. There will be NO make-up exams except for circumstances like those above.5555555555
 
 
 ## Acknowledgments
