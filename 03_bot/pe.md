@@ -302,7 +302,7 @@ You are excepted to walk through this instruction, execute the two pieces of pyt
 To submit your deliverable, please create a new github repository, and submit the url of the GitHub to the **Canvas Dropbox** of this pratical exercise. The file structure of this github repository should look like below.
 
 ```powershell
-[your_repository_name]
+[your_repository]
     │ [your_crawler].py
     │readme.md
     ├─assets

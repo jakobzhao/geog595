@@ -32,28 +32,39 @@ To configure and publish a story, you will need a Mapbox [access token](https://
 
 ## 2. Development procedure
 
-In this section, you will walk throught the steps of produce a geo-narrative.
+In this section, you are expected to follow the steps in sequence in order to make a geo-narrative.
+
 
 ### 2.1 Project Initialization
 
+Create a github repository, and clone it to your local workspace. In the local folder, please copy one of the examples under the [05_viz folder](05_viz). The example can be either the [Bike](bike.html), [Glacier](glacier.html), or [the US](us.html) project to the newly created local folder. For example, if you copy the bike example to the local folder, the structure should look like:
 
+```powershell
+[your_geo-narrative-repository]
+    │ readme.md
+    │ bike.html
+    │readme.md
+    ├─js
+    │      config-bike.js
+```
 
 ### 2.2 Project Configuration
+
+1. **Select the map style** you want to use (the default is Mapbox Streets, but you can find more here https://docs.mapbox.com/api/maps/#styles, or use one of your custom Studio styles).
+
+2. **Add a Mapbox access token.** A good practice is to [create a separate](https://docs.mapbox.com/help/how-mapbox-works/access-tokens/#creating-and-managing-access-tokens) token per map to be able to track traffic to your different maps.
+
+3. **Choose whether or not to display a marker** at the center of each map location.
+
+4. **Choose a theme for the story text**. There are `light` and `dark` options.
+
 
 ### 2.3 Storytelling and Prototyping
 
 ### 2.4
 
 
-- Download this repository as a ZIP file using the button above, and unzip it. If you are using `git`, clone this repository.
 
-- If you are new to coding in JavaScript, follow the instructions for Vanilla JS. If you are already working with React, are comfortable with the command line and build systems, and/or want bundled and minified code, choose React.
-
-### Vanilla JS
-
-In your local copy of this repository (the unzipped file you downloaded), navigate to the `src/vanilla-js/` directory.
-
-Make a copy of `config.js.template` and name it `config.js`. Open the new `config.js` file in your text editor.
 
 
 
