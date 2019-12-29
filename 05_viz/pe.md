@@ -61,12 +61,12 @@ The config file is located in the `js` foder, it contains a javascript variable 
 var config = {
     style: 'mapbox://styles/mapbox/streets-v11',
     accessToken: 'YOUR_ACCESS_TOKEN',
-    showMarkers: true,
-    alignment: 'left',
-    title: 'Story Title Goes Here',
-    subtitle: 'A subtitle going into more detail goes here',
-    byline: 'By a Digital Storyteller',
-    footer: 'Sources and citations, etc. live down at the bottom of the story',
+    showMarkers: true or false,
+    alignment: 'left or right',
+    title: 'geo-narrative title',
+    subtitle: 'subtitle',
+    byline: 'author, date, time, place or more',
+    footer: 'References, acknowledgments, footnotes',
     chapters: [...]
   };
 ```
@@ -77,7 +77,6 @@ Moreover, you can choose (1) the alignment of the story script, (2) the theme of
 
 
 ### 2.3 Storytelling
-
 
 
 At the end of the `config` variable, you can add a list of chapters to the array named `chapters`. A chapter structure looks like:
@@ -124,13 +123,21 @@ At the end of the `config` variable, you can add a list of chapters to the array
 
 Most of the parameters are quite obvious, like `id`, `title`, `image`, and `description`. The `location` parameter can be identified through [https://demos.mapbox.com/location-helper](https://demos.mapbox.com/location-helper/).
 
-The function `onChapterEnter` and `onChapterExit` define the events triggered when entering or exiting a chapter. In either of these two events, a list of layers will appear or disappear. and their corresponding opacity values. These layers has to be defined from Mapbox Studio.
-
+The function `onChapterEnter` and `onChapterExit` define the events triggered when entering or exiting a chapter. In either of these two events, a list of layers will appear or disappear. and their corresponding opacity values. You need to define these layers from Mapbox Studio.
 
 ### 2.4 Peer-review and Debug
 
+Once you have the html and javascript coded, you can test your geo-narrative by activating the `atom-live-server`.  You will also need to open chrome inspector to debug your the webpage.
 
-Open `index.html` in a browser, and scroll. Voila!
+In addition to debugging the code, you are also encouraged to show your geo-narrative to your classmates or other peers in order to collect comments. These comments will help you to refine your geo-narrative.
+
+
+To learn more about how to make a geo-narrative, you can refer to the following materials.
+
+[1] https://github.com/mapbox/storytelling
+[2] https://medium.com/@Mapbox
+[3] https://blog.mapbox.com/how-to-build-a-scrollytelling-map-ead6baf2cd1b
+[4] https://blog.mapbox.com/create-location-based-stories-with-minimal-code-fc8c5da60d96
 
 ## 3. Deliverable
 
@@ -160,7 +167,7 @@ you need to submit the github repository url to the **Canvas Dropbox** of this c
 4\. The storyline of the geo-narrative should be logical and make sense. (20 POINTS).
 
 
-**Note:** Lab assignments are required to be submitted electronically to Canvas unless stated otherwise. Efforts will be made to have them graded and returned within one week after they are submitted.Lab assignments are expected to be completed by the due date. ***A late penalty of at least 10 percentage units will be taken off each day after the due date.*** If you have a genuine reason(known medical condition, a pile-up of due assignments on other courses, ROTC,athletics teams, job interview, religious obligations etc.) for being unable to complete work on time, then some flexibility is possible. However, if in my judgment you could reasonably have let me know beforehand that there would likely be a delay, and then a late penalty will still be imposed if I don't hear from you until after the deadline has passed. For unforeseeable problems,I can be more flexible. If there are ongoing medical, personal, or other issues that are likely to affect your work all semester, then please arrange to see me to discuss the situation. There will be NO make-up exams except for circumstances like those above.5555555555
+**Note:** Lab assignments are required to be submitted electronically to Canvas unless stated otherwise. Efforts will be made to have them graded and returned within one week after they are submitted.Lab assignments are expected to be completed by the due date. ***A late penalty of at least 10 percentage units will be taken off each day after the due date.*** If you have a genuine reason(known medical condition, a pile-up of due assignments on other courses, ROTC,athletics teams, job interview, religious obligations etc.) for being unable to complete work on time, then some flexibility is possible. However, if in my judgment you could reasonably have let me know beforehand that there would likely be a delay, and then a late penalty will still be imposed if I don't hear from you until after the deadline has passed. For unforeseeable problems,I can be more flexible. If there are ongoing medical, personal, or other issues that are likely to affect your work all semester, then please arrange to see me to discuss the situation. There will be NO make-up exams except for circumstances like those above.
 
 
 ## Acknowledgments
@@ -171,4 +178,4 @@ you need to submit the github repository url to the **Canvas Dropbox** of this c
 * Chris Toomey for ushering this work through and keeping things on track
 * Journalists with stories that help us make sense of what goes around us
 
-**The instruction of this exercise has learnt and even directly copied a few open-source Mapbox archives and documentations, but I made necessary edits to better facilite the course requirements and demands. If you believe it has viloated any Mapbox rules, please contact me via zhaobo@uw.edu.**
+**To write this exercise, I has learnt from a few open-source Mapbox archives and documentations, but I made necessary edits to better facilite the course requirements and demands. If you believe it has viloated any Mapbox rules, please contact me via zhaobo@uw.edu.**
