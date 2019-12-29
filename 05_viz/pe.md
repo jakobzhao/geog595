@@ -30,8 +30,19 @@ To configure and publish a story, you will need a Mapbox [access token](https://
 
 - **(b)** If you are planning to include some thematic map layers, you will need some familiarity with [Mapbox Studio](https://studio.mapbox.com). In most cases, you will need to familiar with how to upload and visualize geospatial data on mapbox.
 
+## 2. Development procedure
 
-## Development procedure
+In this section, you will walk throught the steps of produce a geo-narrative.
+
+### 2.1 Project Initialization
+
+
+
+### 2.2 Project Configuration
+
+### 2.3 Storytelling and Prototyping
+
+### 2.4
 
 
 - Download this repository as a ZIP file using the button above, and unzip it. If you are using `git`, clone this repository.
@@ -44,7 +55,7 @@ In your local copy of this repository (the unzipped file you downloaded), naviga
 
 Make a copy of `config.js.template` and name it `config.js`. Open the new `config.js` file in your text editor.
 
-#### Steps
+
 
 1. **Select the map style** you want to use (the default is Mapbox Streets, but you can find more here https://docs.mapbox.com/api/maps/#styles, or use one of your custom Studio styles).
 
