@@ -40,13 +40,18 @@ In this section, you are expected to follow the steps in sequence in order to ma
 Create a github repository, and clone it to your local workspace. In the local folder, please copy one of the examples under the [05_viz folder](05_viz). The example can be either the [Bike](bike.html), [Glacier](glacier.html), or [the US](us.html) project to the newly created local folder. For example, if you copy the bike example to the local folder, the structure should look like:
 
 ```powershell
-[your_geo-narrative-repository]
+[geo-narrative-repository]
     │ readme.md
     │ bike.html
     │readme.md
     ├─js
     │      config-bike.js
 ```
+
+After you copy these files to the local folder, please change the `bike.html` to `index.html`, and `config-bike.js`  to `config.js`.
+
+in the `index.html` file, please change the line `<script src="js/config-bike.js"></script>` to `<script src="js/config.js"></script>`.
+
 
 ### 2.2 Project Configuration
 
@@ -118,19 +123,31 @@ Open `index.html` in a browser, and scroll. Voila!
 
 You are expected to walk through this instructionm, study the three examples ([bike](bike.html), [glacier](glacier.html) and [us](us.html)), and make your own geo-narrative onto a github repository.
 
-For the deliverable, you are expected
+you need to submit the github repository url to the **Canvas Dropbox** of this course. This url should be in the format of `https://www.github.com/[github_username]/[geo-narrative-repository]`. Before submitting the deliverable, please make sure the **GitHub Pages** work properly. Please contact the instructor if you have any difficulty in submitting the url link. Here are the grading criteria:
 
+1\. The `GitHub Pages` function of the repository should work properly. That said, your geo-narrative can be visited from `https://[github_username].github.io/[geo-narrative-repository]`, and there will be no errors if you open up the Chrome inspector (5 POINTS);
 
-Before submitting the deliverable, please make sure the **GitHub Pages** work properly. You are expected to submit the url of the GitHub repository to the **Canvas Dropbox** of this course. This url should be in the format of `https://www.github.com/[github_username]/[github_username].github.io`. To submit, check the item of this lab on the assignment tab, and then press the `Submit Assignment` button. Please contact the instructor if you have any difficulty in submitting the url link. Here are the grading criteria:
+2\. In `readme.md` file, introduce your geo-narrative project. (15 POINTS)
 
+3\. The repoistory structure should look like: (10 POINTS)
 
-So, to submit your deliverable, please,
-- Share a spatialite database of your research data to the **Canvas Dropbox** of this pratical exercise. (30 POINTS)
-- Along with the database, please also attach a word document or a pdf file  to describe what the tables/layers in the database are and how they are related to your research questions. (20 POINTS)
+```powershell
+[geo-narrative-repository]
+    │ readme.md
+    │ index.html
+    │readme.md
+    ├─js
+    │      config.js
+    ├─img
+    │      XXX.png or jpg
+    │      ... ... ...
+    │      ... ... ...
+```
+
+4\. The storyline of the geo-narrative should be logical and make sense. (20 POINTS); and
 
 
 **Note:** Lab assignments are required to be submitted electronically to Canvas unless stated otherwise. Efforts will be made to have them graded and returned within one week after they are submitted.Lab assignments are expected to be completed by the due date. ***A late penalty of at least 10 percentage units will be taken off each day after the due date.*** If you have a genuine reason(known medical condition, a pile-up of due assignments on other courses, ROTC,athletics teams, job interview, religious obligations etc.) for being unable to complete work on time, then some flexibility is possible. However, if in my judgment you could reasonably have let me know beforehand that there would likely be a delay, and then a late penalty will still be imposed if I don't hear from you until after the deadline has passed. For unforeseeable problems,I can be more flexible. If there are ongoing medical, personal, or other issues that are likely to affect your work all semester, then please arrange to see me to discuss the situation. There will be NO make-up exams except for circumstances like those above.
-
 
 
 ## Acknowledgments
