@@ -71,7 +71,7 @@ Notably, you need to select the map style for the base map (layer) for the geo-n
 Moreover, you can choose (1) the alignment of the story script, (2) the theme of the script style,  (3) defining the title, subtitle and byline, and also (4) determine whether to add a header and/or footer.
 
 
-### 2.3 Storytelling and Prototyping
+### 2.3 Storytelling
 
 
 
