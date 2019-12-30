@@ -52,7 +52,6 @@ After you copy these files to the local folder, please change the `bike.html` to
 
 in the `index.html` file, please change the line `<script src="js/config-bike.js"></script>` to `<script src="js/config.js"></script>`.
 
-
 ### 2.2 Project Configuration
 
 The config file is located in the `js` foder, it contains a javascript variable named `config`. Its structure looks like:
