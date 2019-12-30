@@ -1,4 +1,4 @@
-# Praticial Exercise 3: Spatial database management using SpatiaLite
+# Practical Exercise 3: Spatial database management using SpatiaLite
 
 **Meeting:** Wednesdays, 2:30 - 5:20, SMI 109
 

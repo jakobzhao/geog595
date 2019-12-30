@@ -23,3 +23,9 @@
 ***Extending readings***
 
 * Post-truth Manuscript
+
+
+## Practical Exercise 3: Spatial database management using SpatiaLite
+
+
+In this practical execerise, we introduce how to manage a spatial database using spatialite. In the GIS industry, there are multiple spatial databases, such as geodatabase, postgresql(with postgis), Oracle, and spatialite. These databases are designed for database of different size and in different uages. Spatialite is a file based database, derived from sqlite and supported by a few open source GIS libraries. Spatailite can be used for mobile development and in cross platform. Since Spatialite can manage both spatial data tables and common attribute data tables in a single database file, it actually makes the geospatial data management much easier if compared with Shapefiles. Besides, SpatiaLite has extended the common SQL functions and supported a series of spatial functions to support advanced spatail queries or joins. Below, the practical exercise will allow the users to learn how to create a spatialite database, to create data table, to insert geospatial data, and eventually visualizes and analyses the geospatial data. This execerise actually extends the [`02_geosearch.py`](../03_bot/02_geosearch.py) from the praticial exercise of last week, the harvested data will save in a spatialite database instead of a csv file.  Okay, let us get started!

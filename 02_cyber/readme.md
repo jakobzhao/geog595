@@ -27,3 +27,7 @@
 * Wright, D.J. and Wang, S., 2011. The emergence of spatial cyberinfrastructure. Proceedings of the National Academy of Sciences, 108(14), pp.5488-5491.
 
 * Ash, J., Kitchin, R. and Leszczynski, A., 2018. Digital turn, digital geographies?. Progress in Human Geography, 42(1), pp.25-43.
+
+## [Praticial Exercise 1: Cloud-based project management using GitHub](pe.md)
+
+In this pratical exercise, we will briefly introduce how to set up the project environment on your own destkop, how to download the course material and more importantly, help you get familiar with the major operations on project management using GitHub. In practice, you will need to use your own personal laptop, you will install the required software, and then register a GitHub account, and learn how to use git, atom and github. To test your learning outcomes, you will be asked to create a GitHub repository to publish your resume on the web. Okay, let us get started!

@@ -1,4 +1,4 @@
-# Praticial Exercise 2: Twitter data collection using web crawler
+# Practical Exercise 2: Twitter data collection using web crawler
 
 **Meeting:** Wednesdays, 2:30 - 5:20, SMI 109
 

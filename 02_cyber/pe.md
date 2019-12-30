@@ -1,4 +1,4 @@
-# Praticial Exercise 1: Cloud-based project management using GitHub
+# Practical Exercise 1: Cloud-based project management using GitHub
 
 **Meeting:** Wednesdays, 2:30 - 5:20, SMI 109
 

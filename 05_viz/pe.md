@@ -1,4 +1,4 @@
-# Praticial Exercise 4: Creating geo-narratives with Mapbox storytelling library
+# Practical Exercise 4: Creating geo-narratives with Mapbox storytelling library
 
 **Meeting:** Wednesdays, 2:30 - 5:20, SMI 109
 
