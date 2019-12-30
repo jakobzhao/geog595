@@ -12,7 +12,7 @@ In this practical execerise, we introduce how to manage a spatial database using
 
 ## 1. Environment setup
 
-To setup the working environment, you will need to install QGIS 3.+. We assume you have already install Anocanda and PyCharm. QGIS is an integrated GISystem, which has been considered as the open source alternatives to ArcGIS. To install QGIS, make sure its version is greater than 3.0. Please download it from [https://qgis.org/en/site/forusers/download.html](https://qgis.org/en/site/forusers/download.html). In this pratical exercise, we mainly use its `DB Manager` function for spatial data operations.
+To setup the working environment, you will need to install QGIS 3.+. We assume you have already install Anocanda and PyCharm. QGIS is an integrated GISystem, which has been considered as the open source alternatives to ArcGIS. To install QGIS, make sure its version is greater than 3.0. Please download it from [https://qgis.org/en/site/forusers/download.html](https://qgis.org/en/site/forusers/download.html). In this practical exercise, we mainly use its `DB Manager` function for spatial data operations.
 
 ![](img/dbmanager.png)
 
@@ -198,7 +198,7 @@ By doing so, the database `tweets.db` can store and manage all the three data ta
 You are expected to walk through this instruction, try to practice on how to store the geo-tagged tweets to a spatialite database and visualize it in QGIS platform. More importantly, by learning this practical exercise, you are expected to manage the research data on a spatial database.
 
 So, to submit your deliverable, please,
-- Share a spatialite database of your research data to the **Canvas Dropbox** of this pratical exercise. (30 POINTS)
+- Share a spatialite database of your research data to the **Canvas Dropbox** of this practical exercise. (30 POINTS)
 - Along with the database, please also attach a word document or a pdf file  to describe what the tables/layers in the database are and how they are related to your research questions. (20 POINTS)
 
 

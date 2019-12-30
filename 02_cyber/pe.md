@@ -6,12 +6,12 @@
 
 **Contact:** 206.685.3846, zhaobo@uw.edu, jakobzhao (skype/wechat)
 
-In this pratical exercise, we will briefly introduce how to set up the project environment on your own destkop, how to download the course material and more importantly, help you get familiar with the major operations on project management using GitHub. In practice, you will need to use your own personal laptop, you will install the required software, and then register a GitHub account, and learn how to use git, atom and github. To test your learning outcomes, you will be asked to create a GitHub repository to publish your resume on the web. Okay, let us get started!
+In this practical exercise, we will briefly introduce how to set up the project environment on your own destkop, how to download the course material and more importantly, help you get familiar with the major operations on project management using GitHub. In practice, you will need to use your own personal laptop, you will install the required software, and then register a GitHub account, and learn how to use git, atom and github. To test your learning outcomes, you will be asked to create a GitHub repository to publish your resume on the web. Okay, let us get started!
 
 ## 1. Preparations
 
 ### 1.1 Environmental setup
-For this pratical exercise, you will use chrome, git and atom.
+For this practical exercise, you will use chrome, git and atom.
 
 **Chrome:** is a freeware web browser developed by Google. It was first released on September 2, 2008 for Microsoft Windows, and was later ported to Linux, macOS, iOS and Android. Google Chrome is also the main component of Chrome OS, where it serves as a platform for running web apps. **Click [here](install-chrome.md) to see a demo on how to install Google Chrome**;
 
