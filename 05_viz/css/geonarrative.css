@@ -11,23 +11,23 @@ a:visited {
 }
 
 .image {
-  /* background-color: green; */
+
+
 
 }
-.fullscreen-background-image2 {
-  /* background: url(" + path + ") no-repeat center center fixed; */
-  /* background: url("../img/uw.jpg") no-repeat center center fixed; */
-  /* -webkit-background-size: cover;
+
+
+.fullscreen-background-image {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  position: absolute; */
-  /* z-index: 1000; */
+  position: fixed;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
-  /* border-radius: 0; */
   min-height: 100vh;
   min-width: 100vw;
   /* pointer-events: none; */

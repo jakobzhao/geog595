@@ -155,7 +155,7 @@ map.on("load", function() {
   scroller
     .setup({
       step: '.step',
-      offset: 0.3,
+      offset: 0.1,
       progress: true
     })
     .onStepEnter(response => {
@@ -170,27 +170,18 @@ map.on("load", function() {
         chapter.onChapterEnter.forEach(setLayerOpacity);
       }
 
-      if (chapter.type === 'image') {
-        $('.image').addClass("fullscreen-background-image")
-        $('.fullscreen-background-image').css(
-          {
-          'background': 'url("img/uw.jpg") no-repeat center center fixed',
-          '-webkit-background-size': 'cover',
-          '-moz-background-size': 'cover',
-          '-o-background-size': 'cover',
-          'background-size': 'cover',
-          'position': 'absolute',
-          'min-height': '100vh',
-          'min-width': '100vw',
-          'z-index': '10000',
-          'top': '0',
-          'right': '0',
-          'bottom': '0',
-          'left': '0',
-          'display': 'block'
-        });
-      }
 
+      if (chapter.type == `image`){
+        $('.step').css("opacity", "0");
+        $('.step.active').css("opacity", "1");
+        $('.image')
+          .addClass('fullscreen-background-image')
+          .css("background-image", "url('" + chapter.image + "')");
+      } else {
+        $('.step').css("opacity", "0.25");
+        $('.active').css("opacity", "0.9");
+
+      }
 
     })
     .onStepExit(response => {
@@ -201,9 +192,15 @@ map.on("load", function() {
         chapter.onChapterExit.forEach(setLayerOpacity);
       }
 
-      // if (chapter.type === 'image') {
-        $('.image').removeClass("fullscreen-background-image")
-      // }
+
+      if (chapter.type == `image`) {
+
+        $('.image')
+          .removeClass('fullscreen-background-image')
+          .css("background-image", "");
+      }
+
+
     });
 });
 

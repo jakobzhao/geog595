@@ -3,7 +3,7 @@ var config = {
     accessToken: 'pk.eyJ1IjoibWJ4c29sdXRpb25zIiwiYSI6ImNrMm01aG9hdTBlZGwzbXQ1ZXVrNHNmejAifQ.QHQA0N6XPWddCXtvoODHZg',
     showMarkers: false,
     theme: 'light',
-    alignment: 'left',
+    alignment: 'right',
     // title: '432423432',
     // subtitle: '43242',
     // byline: '4324',
@@ -13,7 +13,7 @@ var config = {
             id: 'phl',
             title: 'Philadelphia Bicycle Infrastructure',
             type: 'image',
-            // image: 'img/uw.jpg',
+            image: 'img/uw.jpg',
             description: 'Getting around Philadelphia on two wheels is fast, fun, and cheap. As a typical East Coast large city, the urban core is dense, so there is a lot within reach of a 15 minute ride... even mountain bike trails. Paired with the public transit infrastructure, cycling can be more efficient and much less expensive than driving (and parking) a car.',
             location: {
                 center: [-75.13080, 39.97790],
