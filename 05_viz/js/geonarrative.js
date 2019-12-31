@@ -92,9 +92,13 @@ config.chapters.forEach((record, idx) => {
   $(chapter).addClass(record.type);
   $(container).append(chapter);
   $(features).append(container);
+
 });
 
+
+$(features).children().last().append('<div style="padding-bottom: 1000vh"></div>');
 $(story).append(features);
+
 
 var footer = document.createElement('div');
 
@@ -144,7 +148,7 @@ map.on("load", function() {
   scroller
     .setup({
       step: '.step',
-      offset: 0.3,
+      offset: 0.2,
       progress: true
     })
     .onStepEnter(response => {

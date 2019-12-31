@@ -56,8 +56,6 @@ var config = {
         {
             id: 'indego',
             title: 'Indego Bike Share',
-            type: 'image',
-            image: 'img/uw.jpg',
             // image: '',
             description: 'Indego has been operating in Philadelphia since 20XX. The system initally was focused on Center City, but has expanded service to neighboring areas to support equitable mobility options to the city\'s residents.',
             location: {
@@ -82,8 +80,8 @@ var config = {
         {
             id: 'belmont',
             title: 'Belmont Plateau Trails',
-            // type: 'image',
-            // image: 'img/uw.jpg',
+            type: 'image',
+            image: 'img/uw.jpg',
             description: 'A short ride along the Schuylkill River Trail from the Art Museum, Belmont is a twisty, log-ridden rollercoaster of a trail network. It is easy to get turned around, the underbrush is at times impenetrable, and short steep sections come out of nowhere. In other words, it\'s really fun',
             location: {
                 center: [-75.20325, 39.99574],
@@ -131,30 +129,7 @@ var config = {
         {
             id: 'pennypack',
             title: 'Pennypack Park Trails',
-            image: '',
-            description: 'Pennypack is a great introduction trail system. Not too steep and not too technical, the beautiful wooded park also provides a great escape from urban life. The south side trails are originally bridle trails, so be nice to equestrians and dismount when you approach them.',
-            location: {
-                center: [-75.05685, 40.06839],
-                zoom: 13.73,
-                pitch: 43.50,
-                bearing: 96.80
-            },
-            onChapterEnter: [
-                {
-                    layer: 'pennypack',
-                    opacity: 1
-                }
-            ],
-            onChapterExit: [
-                {
-                    layer: 'pennypack',
-                    opacity: 0
-                }
-            ]
-        },
-        {
-            id: 'pennypack',
-            title: 'Pennypack Park Trails',
+            type: 'image',
             image: 'img/uw.jpg',
             description: 'Pennypack is a great introduction trail system. Not too steep and not too technical, the beautiful wooded park also provides a great escape from urban life. The south side trails are originally bridle trails, so be nice to equestrians and dismount when you approach them.',
             location: {
