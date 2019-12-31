@@ -31,6 +31,7 @@ var story = $('#story')[0];
 
 var features = document.createElement('div');
 $(features).addClass(alignments[config.alignment]);
+// features.classList.add();
 features.setAttribute('id', 'features');
 
 var header = document.createElement('div');
@@ -39,23 +40,29 @@ if (config.title) {
   var titleText = document.createElement('h1');
   titleText.innerText = config.title;
   $(header).append(titleText);
+  // header.appendChild(titleText);
 }
 
 if (config.subtitle) {
   var subtitleText = document.createElement('h2');
   subtitleText.innerText = config.subtitle;
+  // header.appendChild(subtitleText);
   $(header).append(subtitleText);
 }
 
 if (config.byline) {
   var bylineText = document.createElement('p');
   bylineText.innerText = config.byline;
+  // header.appendChild(bylineText);
   $(header).append(bylineText);
 }
 
 if (header.innerText.length > 0) {
   $(header).addClass(config.theme);
+  // header.classList.add(config.theme);
   $(header).attr('id', 'header');
+  // header.setAttribute('id', 'header');
+  // story.appendChild(header);
   $(story).append(header);
 }
 
@@ -69,7 +76,7 @@ config.chapters.forEach((record, idx) => {
     $(chapter).append(title);
   }
 
-  if (record.image && record.type != 'image') {
+  if (record.image) {
     var image = new Image();
     image.src = record.image;
     $(chapter).append(image);
@@ -82,16 +89,20 @@ config.chapters.forEach((record, idx) => {
   }
 
   $(container).attr('id', record.id);
+  // container.setAttribute('id', record.id);
   $(container).addClass('step');
-
+  // container.classList.add('step');
   if (idx === 0) {
     $(container).addClass('active');
+    // container.classList.add('active');
   }
 
   $(chapter).addClass(config.theme);
   $(chapter).addClass(record.type);
   $(container).append(chapter);
+  // container.appendChild(chapter);
   $(features).append(container);
+  // features.appendChild(container);
 });
 
 $(story).append(features);
@@ -163,13 +174,13 @@ map.on("load", function() {
       if (chapter.type == `image`){
         $('.step').css("opacity", "0");
         $('.step.active').css("opacity", "1");
-
-        $('#features').prepend('<div class="fullscreen-background-image"></div>');
-        $('.fullscreen-background-image').css("background-image", "url('" + chapter.image + "')");
-
+        $('.image')
+          .addClass('fullscreen-background-image')
+          .css("background-image", "url('" + chapter.image + "')");
       } else {
         $('.step').css("opacity", "0.25");
         $('.step.active').css("opacity", "0.9");
+
       }
 
     })
@@ -183,8 +194,10 @@ map.on("load", function() {
 
 
       if (chapter.type == `image`) {
-          $('.fullscreen-background-image').remove();
 
+        $('.image')
+          .removeClass('fullscreen-background-image')
+          .css("background-image", "");
       }
 
 
