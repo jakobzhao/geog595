@@ -96,7 +96,7 @@ config.chapters.forEach((record, idx) => {
 });
 
 
-$(features).children().last().append('<div style="padding-bottom: 1000vh"></div>');
+$(features).children().last().append('<div style="padding-bottom: 100vh"></div>');
 $(story).append(features);
 
 
@@ -169,7 +169,18 @@ map.on("load", function() {
         $('.step.active').css("opacity", "1");
 
         $('#features').prepend('<div class="fullscreen-background-image"></div>');
-        $('.fullscreen-background-image').css("background-image", "url('" + chapter.image + "')");
+
+
+        $('.fullscreen-background-image')
+          .css("background-image", "url('" + chapter.image + "')")
+          .append('<div class="title"></div>')
+          .find(".title").append(chapter.title);
+
+          $('.fullscreen-background-image')
+            .append('<div class="desc"></div>')
+            .find(".desc").append(chapter.description);
+
+
 
       } else {
         $('.step').css("opacity", "0.25");

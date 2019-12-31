@@ -10,12 +10,7 @@ a:visited {
   color: #0071bc;
 }
 
-.image {
-
-
-
-}
-
+.image {}
 
 .fullscreen-background-image {
   background: no-repeat center center fixed;
@@ -51,6 +46,24 @@ a:visited {
   width: 90vw;
   padding: 2vh;
   text-align: center;
+}
+
+.title {
+  margin: 3vh auto;
+  width: 90vw;
+  padding-top: 30vh;
+  text-align: center;
+  font-size: xxx-large;
+  text-shadow: 0 0 6px rgba(0, 0, 0, .35);
+}
+
+.desc {
+  margin: 3vh auto;
+  width: 90vw;
+  padding-top: 1vh;
+  text-align: center;
+  font-size: large;
+  text-shadow: 0 0 6px rgba(0, 0, 0, .35);
 }
 
 #footer {
