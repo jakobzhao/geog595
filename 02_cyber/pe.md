@@ -343,7 +343,7 @@ Github allows its user to convert a repository as a website automatically. In th
 
 ![](img/front-page-index.png)
 
-5\. Please modify the web page codes at the local repoistory. Once you push the change to the github, please visit the url `https://geovizlabtest.github.io` and see how the web pages has been updated. If you want to are not familiar with web development or want to have a quick tutorial, I encourage walk through some [w3school online web tutorials](https://www.w3schools.com/), especially the following items.
+5\. Please modify the web page codes at the local repoistory. Once you push the changes to the github, please visit the url `https://geovizlabtest.github.io` to see whether the web pages have updated or not. If you want to get more familiar with web development, we encourage you walk through [w3school online web tutorials](https://www.w3schools.com/), especially the following items.
 
 - [HTML](https://www.w3schools.com/html/default.asp)
 - [JavaScript](https://www.w3schools.com/js/default.asp)
