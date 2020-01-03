@@ -1,4 +1,5 @@
-## 2. Practical Exercise: Making a web-based VR environment
+#TBA
+## Practical Exercise: Making a web-based VR environment
 
 
 ### 2.1 Preparation

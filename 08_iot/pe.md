@@ -1,4 +1,6 @@
-## 2. Practical Exercise: Environmental data collection with Raspberry Pi
+#TBA
+
+## Practical Exercise: Environmental data collection with Raspberry Pi
 
 
 ### 2.1 Preparation
