@@ -6,7 +6,7 @@
 
 **Contact:** 206.685.3846, zhaobo@uw.edu, jakobzhao (skype/wechat)
 
-In this practical exercise, we will briefly introduce how to set up the project environment on your own destkop, how to download the course material and more importantly, help you get familiar with the major operations on project management using GitHub. In practice, you will need to use your own personal laptop, you will install the required software, and then register a GitHub account, and learn how to use git, atom and github. To test your learning outcomes, you will be asked to create a GitHub repository to publish your resume on the web. Okay, let us get started!
+In this practical exercise, we will briefly introduce how to set up the project environment, how to synchronize the course material, and more importantly to help you get familiar with the major operations on project management using GitHub. You will need to install the required software on your own PC or Mac, register a GitHub account, and then learn how to use git, atom and github. To test the learning outcomes, you will be asked to create a GitHub repository to publish your resume on the web. Okay, let us get started!
 
 ## 1. Preparations
 
