@@ -1,6 +1,12 @@
 # Resource
 
-## Computer Setup
+In this course, we are trying to use open source or free software or packages as much as possible.
+
+
+## 1. Computer Setup
+
+Belowe, we listed all the required software and associated packages. Please download and install them on your own pc or mac. If you find any difficulties, please let the instructor know.
+
 
 1. git https://git-scm.com/downloads
 2. typora https://www.typora.io/
@@ -18,3 +24,4 @@
 6.1 DB Manager
 6.2 QuickMapServices
 6.3 QMetaTiles
+7. Unity https://store.unity.com/download
