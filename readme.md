@@ -46,7 +46,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 
 ### [Week 7: GeoAI](06_ai/readme.md)
-- **Keywords:**
+- **Readings:**
   - [Place and space](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
   - [GeoAI, Placial analysis and place recognition](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/7) `Due: 02/23 5:00pm`.
@@ -54,16 +54,16 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 
 ### [Week 8: Virtual Reality](07_vr/readme.md)
-- **Keywords:**
-  - Embodiment and Cyborg
-  - Virtual Reality, Point-cloud visualization and SfM (Structure-from-Motion)
+- **Readings:**
+  - [Embodiment and Cyborg](https://drive.google.com/drive/u/2/folders/1l9gFKzRJxR1vrUS8RdciDGBwN8Nvg72l)
+  - [Virtual Reality, Point-cloud visualization and SfM (Structure-from-Motion)](https://drive.google.com/drive/u/2/folders/1l9gFKzRJxR1vrUS8RdciDGBwN8Nvg72l)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/8) `Due: 02/25 5:00pm`.
 - **Practical Exercise 6:** [Making a web-based VR environment](07_vr/pe.md) `Due: 03/01 5:00pm`.
 
 ### [Week 9: Internet of Things](08_iot/readme.md)
-- **Keywords:**
-  - Surveillance, Resistance and Panopticism
-  - Real-time GIS, Open Hardware
+- **Readings:**
+  - [Surveillance, Resistance and Panopticism](https://drive.google.com/drive/u/2/folders/16VYRbrvxHi4-YXIbj-qXLBZBWfpaO4UW)
+  - [Real-time GIS, Open Hardware](https://drive.google.com/drive/u/2/folders/16VYRbrvxHi4-YXIbj-qXLBZBWfpaO4UW)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/9) `Due: 03/03 5:00pm`.
 - **Practical Exercise 7:** [Environmental data collection with Raspberry Pi](08_iot/pe.md). `Due: 03/08 5:00pm. However, this exercise will not be included to your final score`.
 
