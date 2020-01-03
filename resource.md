@@ -1,11 +1,10 @@
 # Resource
 
-In this course, we are trying to use open source or free software or packages as much as possible.
-
+In this course, you will need to use a full range of softwares to execute the practical exercises and the writing project. Instead of relying on commercial or propertary software, we purposely select open source or free alternatives.
 
 ## 1. Computer Setup
 
-Belowe, we listed all the required software and associated packages. Please download and install them on your own pc or mac. If you find any difficulties, please let the instructor know.
+Below are the required software and associated packages. Please download and install them on your PC or Mac. If you find any difficulties, please let the instructor know.
 
 
 1. git https://git-scm.com/downloads
@@ -24,4 +23,4 @@ Belowe, we listed all the required software and associated packages. Please down
 6.1 DB Manager
 6.2 QuickMapServices
 6.3 QMetaTiles
-7. Unity https://store.unity.com/download
+7. Unity Hub https://store.unity.com/download  `After installing the Unity Hub, please install a module named **Unity 201X**.`
