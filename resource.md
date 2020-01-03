@@ -20,7 +20,7 @@ Belowe, we listed all the required software and associated packages. Please down
 3.7 teletype
 4. Anaconda (>python 3.7 version) https://www.anaconda.com/distribution/
 5. PyCharm Community version https://www.jetbrains.com/pycharm/download/#section=windows
-6. QGIS 3+ https://qgis.org/en/site/   please also install the following QGIS packages.
+6. QGIS 3+ https://qgis.org/en/site/   `please also install the following QGIS packages.`
 6.1 DB Manager
 6.2 QuickMapServices
 6.3 QMetaTiles
