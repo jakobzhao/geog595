@@ -13,41 +13,42 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 *Please download the papers of each week from [**a shared folder at UW Google Drive**](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv).*
 
 ### [Week 1: Foundation](01_intro/readme.md)
-- **Keywords:** GeoHumanities, Phenomenology, Humanistic Geography.
-- [**Statement of Intent**](01_intro/soi.md) `Due: 01/10 5:00pm`
+- **Readings:** [GeoHumanities, Phenomenology, Humanistic Geography](https://drive.google.com/drive/u/2/folders/1kbBxDUXL84DnOYcO4acmDpbVN1Xrnp-r).
+
+- **Statement of Intent:** [requirements](01_intro/soi.md) `Due: 01/10 5:00pm`
 
 ### [Week 2: CyberGIS](02_cyber/readme.md)
-- **Keywords:**
-  - Technology, Power and Geographic Knowledge;
-  - CyberGIS, CloudGIS and Spatial Cyber-Infrastructure
+- **Readings:**
+  - [Technology, Power and Geographic Knowledge;](https://drive.google.com/drive/u/2/folders/1U1kx6psr0Uhnu4GrHJ7O0UpX-cPEXRxk)
+  - [CyberGIS, CloudGIS and Spatial Cyber-Infrastructure](https://drive.google.com/drive/u/2/folders/1U1kx6psr0Uhnu4GrHJ7O0UpX-cPEXRxk)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/3) `Due: 01/14 5:00pm`.
 - **Practical Exercise 1:** [Cloud-based project management using GitHub](02_cyber/pe.md) `Due: 01/19 5:00pm`.
 
 
 ### [Week 3 & 4: Bot](03_bot/readme.md)
-- **Keywords:** Autonomy, Robot and Web crawler
+- **Readings:** [Autonomy, Robot and Web crawler](https://drive.google.com/drive/u/2/folders/189PRo0MUz2bK7iig6Xa-3d8NfOnsnUPr)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/4) `Due: 01/21 5:00pm`.
 - **Practical Exercise 2:** [Twitter data collection using web crawler](03_bot/pe.md) `Due: 02/02 5:00pm`.
 
 
 ### [Week 5: Spatial Database](04_data/readme.md)
-- **Keywords:** Uncertainty, Post-truth and location spoofing
+- **Readings:** [Uncertainty, Post-truth and location spoofing](https://drive.google.com/drive/u/2/folders/1SAcqzsyKmUVTod0sDxlYnJwJl6yaE-t1)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/5) `Due: 02/04 5:00pm`.
 - **Practical Exercise 3:** [Spatial database management using SpatiaLite](04_data/pe.md) `Due: 02/09 5:00pm`.
 
 
 ### [Week 6: GeoVisualization](05_viz/readme.md)
-- **Keywords:**
-  - Hermeneutics, Inductive visualization
-  - Geo-narrative, web mapping, storymap
+- **Readings:**
+  - [Hermeneutics, Inductive visualization](https://drive.google.com/drive/u/2/folders/11q6IV_yUXLsR4o7HJun6SbM-0P-Zts79)
+  - [Geo-narrative, web mapping, storymap](https://drive.google.com/drive/u/2/folders/11q6IV_yUXLsR4o7HJun6SbM-0P-Zts79)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/6) `Due: 02/11 5:00pm`.
 - **Practical Exercise 4:** [Making a storymap using Mapbox](05_viz/pe.md) `Due: 02/16 5:00pm`.
 
 
 ### [Week 7: GeoAI](06_ai/readme.md)
 - **Keywords:**
-  - Place and space
-  - GeoAI, Placial analysis and place recognition
+  - [Place and space](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
+  - [GeoAI, Placial analysis and place recognition](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/7) `Due: 02/23 5:00pm`.
 - **Practical Exercise 5:** [Place context analysis using machine learning](06_ai/pe.md) `Due: 01/07 5:00pm`.
 
