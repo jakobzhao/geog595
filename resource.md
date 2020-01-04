@@ -9,7 +9,7 @@ Below are the required software and associated packages. Please download and ins
 
 - Git https://git-scm.com/downloads
 - Typora https://www.typora.io/
-- Atom `please also install the following Atom packages`
+- Atom https://atom.io/ `please also install the following Atom packages`
   - Markdown-preview-enhanced
   - Atom-live-server
   - File-icons
@@ -26,5 +26,5 @@ Below are the required software and associated packages. Please download and ins
 - Unity Hub https://store.unity.com/download  `After installing the Unity Hub, please add a module named **Unity 201X**.`
 - Gephi 0.92 https://gephi.org/users/download/
 - Python Libraries
-9.1 PyGeocoder
-9.2 Tweepy
+  - PyGeocoder
+  - Tweepy
