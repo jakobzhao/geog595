@@ -23,4 +23,7 @@ Below are the required software and associated packages. Please download and ins
 6.1 DB Manager
 6.2 QuickMapServices
 6.3 QMetaTiles
-7. Unity Hub https://store.unity.com/download  `After installing the Unity Hub, please install a module named **Unity 201X**.`
+7. Unity Hub https://store.unity.com/download  `After installing the Unity Hub, please add a module named **Unity 201X**.`
+8. Gephi 0.92 https://gephi.org/users/download/
+9. Python Libraries
+9.1 PyGeocoder.
