@@ -14,12 +14,12 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 *Download the reading material of each week from [**a shared folder at UW Google Drive**](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv).*
 
-### [Week 1: Foundation](01_intro/readme.md)
+### [Week 1: Foundation](01_intro/)
 - **Readings:** [GeoHumanities, Phenomenology, Humanistic Geography](https://drive.google.com/drive/u/2/folders/1kbBxDUXL84DnOYcO4acmDpbVN1Xrnp-r).
 
 - **Statement of Intent:** [requirements](01_intro/soi.md) `Due: 01/10 5:00pm`
 
-### [Week 2: CyberGIS](02_cyber/readme.md)
+### [Week 2: CyberGIS](02_cyber/)
 - **Readings:**
   - [Technology, Power and Geographic Knowledge;](https://drive.google.com/drive/u/2/folders/1U1kx6psr0Uhnu4GrHJ7O0UpX-cPEXRxk)
   - [CyberGIS, CloudGIS and Spatial Cyber-Infrastructure](https://drive.google.com/drive/u/2/folders/1U1kx6psr0Uhnu4GrHJ7O0UpX-cPEXRxk)
@@ -27,19 +27,19 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **Practical Exercise 1:** [Cloud-based project management using GitHub](02_cyber/pe.md) `Due: 01/19 5:00pm`.
 
 
-### [Week 3 & 4: Bot](03_bot/readme.md)
+### [Week 3 & 4: Bot](03_bot/)
 - **Readings:** [Autonomy, Robot and Web crawler](https://drive.google.com/drive/u/2/folders/189PRo0MUz2bK7iig6Xa-3d8NfOnsnUPr)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/4) `Due: 01/21 5:00pm`.
 - **Practical Exercise 2:** [Twitter data collection using web crawler](03_bot/pe.md) `Due: 02/02 5:00pm`.
 
 
-### [Week 5: Spatial Database](04_data/readme.md)
+### [Week 5: Spatial Database](04_data/)
 - **Readings:** [Uncertainty, Post-truth and location spoofing](https://drive.google.com/drive/u/2/folders/1SAcqzsyKmUVTod0sDxlYnJwJl6yaE-t1)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/5) `Due: 02/04 5:00pm`.
 - **Practical Exercise 3:** [Spatial database management using SpatiaLite](04_data/pe.md) `Due: 02/09 5:00pm`.
 
 
-### [Week 6: GeoVisualization](05_viz/readme.md)
+### [Week 6: GeoVisualization](05_viz/)
 - **Readings:**
   - [Hermeneutics, Inductive visualization](https://drive.google.com/drive/u/2/folders/11q6IV_yUXLsR4o7HJun6SbM-0P-Zts79)
   - [Geo-narrative, web mapping, storymap](https://drive.google.com/drive/u/2/folders/11q6IV_yUXLsR4o7HJun6SbM-0P-Zts79)
@@ -47,7 +47,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **Practical Exercise 4:** [Making a storymap using Mapbox](05_viz/pe.md) `Due: 02/16 5:00pm`.
 
 
-### [Week 7: GeoAI](06_ai/readme.md)
+### [Week 7: GeoAI](06_ai/)
 - **Readings:**
   - [Place and space](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
   - [GeoAI, Placial analysis and place recognition](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
@@ -55,14 +55,14 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **`TBA` Practical Exercise 5:** [Place context analysis using machine learning](06_ai/pe.md) `Due: 01/07 5:00pm`.
 
 
-### [Week 8: Virtual Reality](07_vr/readme.md)
+### [Week 8: Virtual Reality](07_vr/)
 - **Readings:**
   - [Embodiment and Cyborg](https://drive.google.com/drive/u/2/folders/1l9gFKzRJxR1vrUS8RdciDGBwN8Nvg72l)
   - [Virtual Reality, Point-cloud visualization and SfM (Structure-from-Motion)](https://drive.google.com/drive/u/2/folders/1l9gFKzRJxR1vrUS8RdciDGBwN8Nvg72l)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/8) `Due: 02/25 5:00pm`.
 - **`TBA` Practical Exercise 6:** [Making a web-based VR environment](07_vr/pe.md) `Due: 03/01 5:00pm`.
 
-### [Week 9: Internet of Things](08_iot/readme.md)
+### [Week 9: Internet of Things](08_iot/)
 - **Readings:**
   - [Surveillance, Resistance and Panopticism](https://drive.google.com/drive/u/2/folders/16VYRbrvxHi4-YXIbj-qXLBZBWfpaO4UW)
   - [Real-time GIS, Open Hardware](https://drive.google.com/drive/u/2/folders/16VYRbrvxHi4-YXIbj-qXLBZBWfpaO4UW)
