@@ -1,4 +1,14 @@
-#TBA
+# Practical Exercise 5: Place context analysis using machine learning
+
+
+
+## Environmetnal Setup
+
+```shell script
+pip install PyMuPDF
+pip install wordcloud
+```
+
 ## References
 * Thrush, C., 2017. Native Seattle: Histories from the crossing-over place. Accessed from https://muse.jhu.edu/book/10411. University of Washington Press.
 

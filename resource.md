@@ -6,7 +6,6 @@ In this course, you will need to use a full range of softwares to execute the pr
 
 Below are the required software and associated packages. Please download and install them on your PC or Mac. If you find any difficulties, please let the instructor know.
 
-
 - Git https://git-scm.com/downloads
 - Typora https://www.typora.io/
 - Atom https://atom.io/ `please also install the following Atom packages`

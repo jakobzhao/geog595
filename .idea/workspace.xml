@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2f3e4b7a-50f0-4088-bf30-ce51c9df3c78" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/06_ai/01_text_reader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/02_text_preprocess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/03_model_builder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/041_word_cloud_creator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/042_spatial_dimension.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/043_contextual_dimension.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/GS_pickled.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584509.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584510.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584511.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584512.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584513.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584514.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584516.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584517.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584518.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584520.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584521.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584522.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584523.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584525.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584526.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584527.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584528.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584529.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584530.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584531.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584532.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584533.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584534.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584535.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584536.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584537.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584538.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584539.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584540.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584541.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/gay-seattle-pickled.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/gay-seattle-processed.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/gay-seattle.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/assets/gay-seattle3.w2v" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_ai/pe.md" beforeDir="false" afterPath="$PROJECT_DIR$/06_ai/pe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource.md" beforeDir="false" afterPath="$PROJECT_DIR$/resource.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VUnLFknA6qc9pfhiFvOWT6pOKS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/06_ai/assets" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\geog595\06_ai\assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.03_model_builder (1)">
+    <configuration name="03_model_builder (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="geog595" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_ai" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_ai/03_model_builder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03_model_builder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="geog595" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_ai" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Workspace\geog595\06_ai\03_model_builder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03_text_pickled" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="geog595" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_ai" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Workspace\geog595\06_ai\03_text_pickled.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="03_tmp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="geog595" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_ai" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_ai/03_tmp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="04_model_builder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="geog595" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_ai" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_ai/04_model_builder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3.0_create_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="geog595" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_ai" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_ai/3.0_create_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3.1_test_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="geog595" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_ai" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_ai/3.1_test_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.03_model_builder (1)" />
+        <item itemvalue="Python.3.1_test_model" />
+        <item itemvalue="Python.03_tmp" />
+        <item itemvalue="Python.04_model_builder" />
+        <item itemvalue="Python.3.0_create_model" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2f3e4b7a-50f0-4088-bf30-ce51c9df3c78" name="Default Changelist" comment="" />
+      <created>1577316484918</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577316484918</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578450444765">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578450444765" />
+    <state x="810" y="358" key="DBNavigator.ProjectSettingsDialog" timestamp="1577316523665">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="810" y="358" key="DBNavigator.ProjectSettingsDialog/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577316523665" />
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1578450631315">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578450631315" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1578450631315">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578450631315" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1578450631315">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578450631315" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1578450631315">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="401" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578450631315" />
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1578448839539">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578448839539" />
+    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1578448839539">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578448839539" />
+    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1578448839539">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578448839539" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1578448839539">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="2517" height="492" key="GridCell.Tab.1.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578448839539" />
+    <state x="781" y="343" key="SettingsEditor" timestamp="1578442168339">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="781" y="343" key="SettingsEditor/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578442168339" />
+    <state x="851" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1578443724214">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="851" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578443724214" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1578449569403">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578449569403" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="nltk.data.load('tokenizers/punkt/english.pickle')" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
