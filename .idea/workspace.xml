@@ -2,37 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f3e4b7a-50f0-4088-bf30-ce51c9df3c78" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/06_ai/img/cloud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_ai/img/gay-seattle.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584509.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584510.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584511.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584512.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584513.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584514.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584516.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584517.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584518.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584520.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584521.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584522.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584523.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584525.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584526.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584527.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584528.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584529.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584530.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584531.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584532.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584533.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584534.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584535.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584536.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584537.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584538.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584539.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584540.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/delFrontPage/project_muse_40703-1584541.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_ai/03_model_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_ai/03_model_builder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_ai/041_word_cloud_creator.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_ai/041_word_cloud_creator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_ai/042_spatial_dimension.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_ai/042_spatial_dimension.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_ai/043_contextual_dimension.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_ai/043_contextual_dimension.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_ai/2.3_clean_data_sPc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_ai/pe.md" beforeDir="false" afterPath="$PROJECT_DIR$/06_ai/pe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +47,7 @@
       <recent name="C:\Workspace\geog595\06_ai\assets" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.03_model_builder (1)">
+  <component name="RunManager" selected="Python.041_word_cloud_creator">
     <configuration name="03_model_builder (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geog595" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,7 +69,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_model_builder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="041_word_cloud_creator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geog595" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -103,7 +81,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Workspace\geog595\06_ai\03_model_builder.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_ai/041_word_cloud_creator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +90,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_text_pickled" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="042_spatial_dimension" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geog595" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,7 +102,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Workspace\geog595\06_ai\03_text_pickled.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_ai/042_spatial_dimension.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03_tmp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="043_contextual_dimension" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geog595" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,7 +123,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_ai/03_tmp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_ai/043_contextual_dimension.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="04_model_builder" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="wordcloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="geog595" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,53 +140,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_ai" />
+      <option name="WORKING_DIRECTORY" value="C:/ProgramData/Anaconda3/Lib/site-packages/wordcloud" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_ai/04_model_builder.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="3.0_create_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="geog595" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_ai" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_ai/3.0_create_model.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="3.1_test_model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="geog595" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/06_ai" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/06_ai/3.1_test_model.py" />
+      <option name="SCRIPT_NAME" value="C:/ProgramData/Anaconda3/Lib/site-packages/wordcloud/wordcloud.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.041_word_cloud_creator" />
+        <item itemvalue="Python.043_contextual_dimension" />
+        <item itemvalue="Python.042_spatial_dimension" />
+        <item itemvalue="Python.wordcloud" />
         <item itemvalue="Python.03_model_builder (1)" />
-        <item itemvalue="Python.3.1_test_model" />
-        <item itemvalue="Python.03_tmp" />
-        <item itemvalue="Python.04_model_builder" />
-        <item itemvalue="Python.3.0_create_model" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578450694435</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="06 geoai">
+      <created>1578451254607</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578451254607</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -270,64 +213,89 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1010" y="447" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578450444765" />
-    <state x="934" y="295" key="CommitChangelistDialog2" timestamp="1578450692938">
+    <state x="934" y="295" key="CommitChangelistDialog2" timestamp="1578451253314">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="934" y="295" key="CommitChangelistDialog2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578450692938" />
+    <state x="934" y="295" key="CommitChangelistDialog2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578451253314" />
     <state x="810" y="358" key="DBNavigator.ProjectSettingsDialog" timestamp="1577316523665">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="810" y="358" key="DBNavigator.ProjectSettingsDialog/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1577316523665" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1578450766045">
+    <state width="1234" height="401" key="GridCell.Tab.0.bottom" timestamp="1578456871014">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578450766045" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1578450766045">
+    <state width="1234" height="401" key="GridCell.Tab.0.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578456871014" />
+    <state width="1234" height="401" key="GridCell.Tab.0.center" timestamp="1578456871014">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578450766045" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1578450766045">
+    <state width="1234" height="401" key="GridCell.Tab.0.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578456871014" />
+    <state width="1234" height="401" key="GridCell.Tab.0.left" timestamp="1578456871014">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578450766045" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1578450766045">
+    <state width="1234" height="401" key="GridCell.Tab.0.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578456871014" />
+    <state width="1234" height="401" key="GridCell.Tab.0.right" timestamp="1578456871014">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578450766045" />
-    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1578448839539">
+    <state width="1234" height="401" key="GridCell.Tab.0.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578456871014" />
+    <state width="1234" height="488" key="GridCell.Tab.1.bottom" timestamp="1578453817885">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578448839539" />
-    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1578448839539">
+    <state width="1234" height="488" key="GridCell.Tab.1.bottom/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578453817885" />
+    <state width="1234" height="488" key="GridCell.Tab.1.center" timestamp="1578453817885">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578448839539" />
-    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1578448839539">
+    <state width="1234" height="488" key="GridCell.Tab.1.center/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578453817885" />
+    <state width="1234" height="488" key="GridCell.Tab.1.left" timestamp="1578453817885">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578448839539" />
-    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1578448839539">
+    <state width="1234" height="488" key="GridCell.Tab.1.left/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578453817885" />
+    <state width="1234" height="488" key="GridCell.Tab.1.right" timestamp="1578453817885">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578448839539" />
+    <state width="1234" height="488" key="GridCell.Tab.1.right/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578453817885" />
     <state x="781" y="343" key="SettingsEditor" timestamp="1578442168339">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="343" key="SettingsEditor/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578442168339" />
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1578450698262">
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2" timestamp="1578451257187">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="433" key="Vcs.Push.Dialog.v2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578450698262" />
+    <state x="872" y="433" key="Vcs.Push.Dialog.v2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578451257187" />
     <state x="851" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1578443724214">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="851" y="436" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578443724214" />
+    <state x="-1445" y="0" width="977" height="948" key="dock-window-1" timestamp="1578454412382">
+      <screen x="-2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-1445" y="0" width="977" height="948" key="dock-window-1/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578454412382" />
+    <state x="-1369" y="0" width="1258" height="1294" key="dock-window-2" timestamp="1578454427729">
+      <screen x="-2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-1369" y="0" width="1258" height="1294" key="dock-window-2/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578454427729" />
+    <state x="-1179" y="0" width="977" height="948" key="dock-window-3" timestamp="1578454701978">
+      <screen x="-2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-1179" y="0" width="977" height="948" key="dock-window-3/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578454701978" />
+    <state x="-1032" y="179" width="977" height="948" key="dock-window-4" timestamp="1578454890993">
+      <screen x="-2560" y="0" width="2560" height="1400" />
+    </state>
+    <state x="-1032" y="179" width="977" height="948" key="dock-window-4/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578454890993" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1578449569403">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/-2560.0.2560.1400/0.0.2560.1400@0.0.2560.1400" timestamp="1578449569403" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
         <watch expression="nltk.data.load('tokenizers/punkt/english.pickle')" language="Python" />

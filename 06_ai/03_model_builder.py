@@ -5,11 +5,9 @@ import pickle
 from multiprocessing import cpu_count
 from gensim.models import Word2Vec
 
-
 processedTxtPath = "assets/gay-seattle-processed.txt"
 pickledTxtPath = "assets/gay-seattle-pickled.bin"
 modelPath = "assets/gay-seattle.w2v"
-
 
 def review_to_wordlist(review, remove_stopwords=False):
     # Function to convert a document to a sequence of words,

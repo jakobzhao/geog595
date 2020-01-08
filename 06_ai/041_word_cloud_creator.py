@@ -1,23 +1,44 @@
 from wordcloud import WordCloud, STOPWORDS
+import string
+import re
 import numpy as npy
 from PIL import Image
 
+processedTxtPath = "assets/gay-seattle-processed.txt"
+wcPath = "img/gay-seattle.png"
+
 # load the dataset
 print("loading text data...")
-data_set = open("C:\\Users\\Jou Ho\\Desktop\\no_blank_gay_seattle.txt").read()
+txt = open(processedTxtPath, "r", encoding="utf8").read()
+
+# Convert text to lowercase
+txt = txt.lower()
+# Remove numbers
+txt = re.sub(r'\d+', '', txt)
+
+# Remove punctuation
+txt = re.sub(r'[^\w\s]', '', txt)
+
+# delete the white spaces
+# https://www.journaldev.com/23763/python-remove-spaces-from-string#python-remove-whitespaces-from-string-using-regex
+txt = " ".join(txt.split())
+txt.translate({ord(c): None for c in string.whitespace})
+
+stopwords = set(STOPWORDS)
+removewords = {"time", "one", "began", "among", "another", "see", "part", "many", "day", "day", "way", "times",
+               "still", "news", "three", "came", "became", "made", "wanted", "seemed", "made", "now", "society",
+               "ing", "time", "first", "new", "called", "said", "come", "two", "city", "group", "state", "year",
+               "case", "member", "even", "later", "month", "years", "much", "week", "county", "name", "example"
+               "well", "members", "us", "say"}
+stopwords.update(removewords)
 
 
-# define a function to generate wordcloud
-def create_wordcloud(string):
-    mask_array = npy.array(Image.open("C:\\Users\\Jou Ho\\Desktop\\WA.png"))
-    cloud = WordCloud(background_color="white", max_words=200, mask=mask_array, stopwords=set(STOPWORDS))
-    cloud.generate(string)
-    cloud.to_file("gay_seattle_WC.png")
-
-
-# change all the characters to lowercase
-data_set = data_set.lower()
-# generate word cloud and save the image as png file
+print(txt)
 print("generating wordcloud...")
-create_wordcloud(data_set)
+mask_array = npy.array(Image.open("img/cloud.jpg"))
+wc = WordCloud(font_path='arial', background_color="white", max_words=50, prefer_horizontal=1, mask=mask_array, scale=3, stopwords=stopwords, collocations=False)
+# wc.generate_from_frequencies(txt)
+wc.generate(txt)
+wc.to_file(wcPath)
 print("completed!")
+

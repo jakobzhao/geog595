@@ -10,7 +10,7 @@ In this practical exercise, we will briefly introduce how to set up the project 
 
 ## 1. Preparations
 
-### 1.1 Environmental setup
+### 1.1 Environment setup
 For this practical exercise, you will use chrome, git and atom.
 
 **Chrome:** is a freeware web browser developed by Google. It was first released on September 2, 2008 for Microsoft Windows, and was later ported to Linux, macOS, iOS and Android. Google Chrome is also the main component of Chrome OS, where it serves as a platform for running web apps. **Click [here](install-chrome.md) to see a demo on how to install Google Chrome**;

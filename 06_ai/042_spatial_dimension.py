@@ -3,7 +3,8 @@ import pickle
 
 # read text file
 print("reading text file...")
-with open("C:\\Users\\Jou Ho\\Desktop\\no_blank_native_seattle.txt") as txt_file:
+processedTxtPath = "assets/gay-seattle-processed.txt"
+with open(processedTxtPath, "r", encoding="utf8") as txt_file:
     text = txt_file.read()
 
 #  "nlp" Object is used to create documents with linguistic annotations.
@@ -50,7 +51,7 @@ print("no blank data: ", nb_data)
 clean_data = [x.lower() for x in nb_data]
 print("clean data: ", clean_data)
 
-# convert python objects into string representation for later use
-print("pickling the list...")
-with open("C:\\Users\\Jou Ho\\Desktop\\NS_pickled.txt", "wb") as fp:
-    pickle.dump(clean_data, fp)
+# # convert python objects into string representation for later use
+# print("pickling the list...")
+# with open("C:\\Users\\Jou Ho\\Desktop\\NS_pickled.txt", "wb") as fp:
+#     pickle.dump(clean_data, fp)
