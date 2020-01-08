@@ -1,6 +1,6 @@
 # Practical Exercise 5: Place context analysis using machine learning
 
-In this practical exercise, you are expected to use Natural Language Processing, a typical machine learning algorithm, to explore a book author's sense of place about Seattle. 
+In this practical exercise, you are expected to use Natural Language Processing, a typical machine learning algorithm, to explore a book author's sense of place about Seattle.
 
 
 ## 1.  Environment Setup
@@ -19,7 +19,7 @@ pip install PyMuPDF, tika, gensim, spacy, nltk, wordcloud
 
 ## 3. Making a Wordcloud
 
-
+![](img/gay-seattle.png)
 
 
 ## 4. Spatial dimension of sense of place
