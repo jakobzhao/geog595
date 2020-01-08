@@ -4,7 +4,7 @@ In this course, you will need to use a full range of softwares to execute the pr
 
 ## 1. Computer Setup
 
-Below are the required software and associated packages. Please download and install them on your PC or Mac. If you find any difficulties, please let the instructor know.
+Below are the required software and associated packages. Please download and install them. You can use either Windows or MacOSX operating system. If you find any difficulties, please let the instructor know.
 
 - Git https://git-scm.com/downloads
 - Typora https://www.typora.io/
@@ -17,7 +17,7 @@ Below are the required software and associated packages. Please download and ins
   - Atom-beautify
   - Teletype
 - Anaconda (>python 3.7 version) https://www.anaconda.com/distribution/
-- PyCharm Community version https://www.jetbrains.com/pycharm/download/#section=windows
+- PyCharm Community edition https://www.jetbrains.com/pycharm/download/#section=windows
 - QGIS 3+ https://qgis.org/en/site/   `please also install the following QGIS packages.`
   - DB Manager
   - QuickMapServices
