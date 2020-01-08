@@ -52,22 +52,33 @@ for item in filtered_fDist.most_common(50):
     words.append(item[0])
 
 print(words)
+words.remove("example")
+words.remove("homosexuals")
+words.remove("told")
+words.remove("become")
+words.remove("well")
+words.remove("may")
+words.remove("june")
 print('loading model...')
 model = Word2Vec.load("assets/gay-seattle.w2v")
 g = nx.DiGraph()
 g.add_nodes_from(words)
-allwords = words
-for mainWord in allwords:
-    words.remove(mainWord)
-    for word in words:
+
+for mainWord in words:
+    tmpwords = words.copy()
+    tmpwords.remove(mainWord)
+    for word in tmpwords:
         try:
-            score = model.wv.distance(mainWord, word)
-            if score < 0.02:
-                print("%s --> %s: %8.5f" % (mainWord, word, score))
-                g.add_edge(mainWord, word, weight=int(score * score * 1000000))
+            s = model.wv.distance(mainWord, word)
+            w = 1 + (0.01/s)
+            if mainWord == "seattle" or word == "seattle":
+                w = w*w*w
+            if w > 20:
+                print("%s --> %s: %8.5f" % (mainWord, word, w))
+                g.add_edge(mainWord, word, weight=w)
         except:
             pass
-    # words.append(mainWord) # perhaps not necessary
+    # words.remove(mainWord) # perhaps not necessary
 
 
 
