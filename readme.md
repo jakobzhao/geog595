@@ -52,7 +52,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
   - [Place and space](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
   - [GeoAI, Placial analysis and place recognition](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/7) `Due: 02/23 5:00pm`.
-- ** Practical Exercise 5:** [Place context analysis using Natural Language Processing `Under Development` ](06_ai/pe.md) `Due: 01/07 5:00pm`.
+- **Practical Exercise 5:** [Place context analysis using Natural Language Processing `Under Development` ](06_ai/pe.md) `Due: 01/07 5:00pm`.
 
 
 ### [Week 8: Virtual Reality](07_vr/)
