@@ -13,6 +13,7 @@ pip install gensim
 pip install spacy
 pip install nltk
 pip install wordcloud
+python -m spacy download en_core_web_sm
 ```
 
 ## 2. Reading and Preprocessing PDF files
@@ -22,11 +23,15 @@ pip install wordcloud
 
 ## 3. Making a Wordcloud
 
+![](img/freqDist.png)
+
 ![](img/gay-seattle.png)
+
 
 
 ## 4. Spatial dimension of sense of place
 
+![](img/sd-gay-seattle.png)
 
 ## 5. Contextual dimension
 
