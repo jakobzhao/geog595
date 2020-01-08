@@ -22,6 +22,18 @@ pip install wordcloud
 python -m spacy download en_core_web_sm
 ```
 
+To make sure NLTK can run property, you need to \download the NLTK corpora dataset.Run the Python interpreter and type the commands.
+
+```Python
+>>> import nltk
+>>> nltk.download()
+```
+
+In addition to configure the python environment, install Gephi and QGIS 3.
+
+Gephi is an open-source network analysis and visualization software package written in Java on the NetBeans platform. Gephi has been used in a number of research projects in academia, journalism and elsewhere, for instance in visualizing the global connectivity of New York Times content and examining Twitter network traffic during social unrest along with more traditional network analysis topics. Gephi is widely used within the digital humanities (in history, literature, political sciences, etc.), a community where many of its developers are involved.
+
+
 ## 2. Reading and Preprocessing PDF files
 
 <img src="img/gbook.png" width="250px" align="right" /> In this section, we need to read all the pdf files of the book *Gay Seattle*, please download all the pdf files from the Google drive and store them in the folder named as `gay-seattle` under the `assets` folder. After migrating files, we need to delete the front page of each pdf file since this page, containing the meta data of the pdf file, is irrelevant to the maintext of this book. Then, the python script recognizes the text of each pdf file using a python library `pika`. In the end, all the text will be stored in an text file named `gay-seattle.txt`.
