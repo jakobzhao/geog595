@@ -25,5 +25,6 @@ Below are the required software and associated packages. Please download and ins
 - Unity Hub https://store.unity.com/download  `After installing the Unity Hub, please add a module named **Unity 201X**.`
 - Gephi 0.92 https://gephi.org/users/download/
 - Python Libraries
-  - PyGeocoder
+  - Geocoder
   - Tweepy
+  - NetworkX

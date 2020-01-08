@@ -27,13 +27,13 @@ python -m spacy download en_core_web_sm
 
 ![](img/gay-seattle.png)
 
-
-
 ## 4. Spatial dimension of sense of place
 
 ![](img/sd-gay-seattle.png)
 
 ## 5. Contextual dimension
+
+![](img/network.png)
 
 ## Deliverable
 
