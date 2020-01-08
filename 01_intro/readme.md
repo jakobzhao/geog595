@@ -28,3 +28,16 @@ I am so delighted to learn you have registered this course. In this winter quart
 * Crang, M., 2015. The promises and perils of a digital geohumanities. cultural geographies, 22(2), pp.351-360.
 
 * Hawkins, H., Cabeen, L., Callard, F., Castree, N., Daniels, S., DeLyser, D., Neely, H.M. and Mitchell, P., 2015. What might GeoHumanities do? Possibilities, practices, publics, and politics. GeoHumanities, 1(2), pp.211-232.
+
+## Notes:
+
+1. Technics
+2. lifeworld (lebenswelt)
+3. Sense of Place vs. Scales of Space
+4. Yifu Tuan (1976) vs. Torsten Hagerstand (1978)
+5. Alexander von Humboldt vs. Wihelm von Humboldt
+6. Humanistic Geography
+7. Multistability
+8. Ihde has, from a phenomenological perspective, characterized this mediating role of artifacts in terms of what he calls technological intentionality (Ihde 1990, 141). By this he means that technologies – like consciousness for Husserl – have a certain directionality, an inclination or trajectory that shapes the ways in which they are used.
+9. The essence of technology: revealing (pp. 12) vs. enframing.
+10. Standing-reserve (Bestand, pp17, pp19) 
