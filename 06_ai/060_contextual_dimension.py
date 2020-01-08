@@ -81,6 +81,5 @@ for mainWord in words:
     # words.remove(mainWord) # perhaps not necessary
 
 
-
 nx.write_gexf(g, "assets/gay-seattle.gexf", encoding='utf-8', prettyprint=True, version='1.1draft')
 print("finished!")
