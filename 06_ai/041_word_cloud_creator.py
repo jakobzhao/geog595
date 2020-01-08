@@ -41,4 +41,3 @@ wc = WordCloud(font_path='arial', background_color="white", max_words=50, prefer
 wc.generate(txt)
 wc.to_file(wcPath)
 print("completed!")
-
