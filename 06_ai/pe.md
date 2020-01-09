@@ -48,7 +48,7 @@ Gephi is an open-source network analysis and visualization software package writ
 
 ![](img/sd-gay-seattle.png)
 
-## 5. Contextual dimension
+## 5. Semantic dimension
 
 ![](img/network.png)
 
