@@ -87,7 +87,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 **Practical exercise:** You need to get familiar with the practical exercise instruction before the class meeting in order to better reflect upon the theoretical concepts. We will walk through each practical exercise in class, and you will submit the deliverables to GitHub three days after the class meeting (you will have one more ### Week for your ### Week 3&4’s exercise deliverable).
 
-**Participation in seminar discussion:** Complete all assigned readings and get familiar with the practical exercise instructions before class meetings, and participating in critical discussions of those readings.
+**Participation in seminar discussion:** Complete all assigned readings and get familiar with the practical exercise instructions before class meetings, and participating in critical discussions of those readings. You can also join the class slack (https://geog595win2020.slack.com) for virtual dicussions.
 
 **Thinkpiece:** Each Week (except for Week one and weeks where you lead discussion), please prepare a one-paragraph ‘thinkpiece,’ discussing your reflection to three general items:
 
