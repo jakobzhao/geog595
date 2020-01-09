@@ -48,21 +48,56 @@ fDist = FreqDist(tokens)
 filtered_fDist = nltk.FreqDist(dict((word, freq) for word, freq in fDist.items() if word not in stopwords))
 
 words = []
-for item in filtered_fDist.most_common(50):
+for item in filtered_fDist.most_common(500):
     words.append(item[0])
 
 print(words)
 words.remove("example")
-words.remove("homosexuals")
 words.remove("told")
 words.remove("become")
 words.remove("well")
 words.remove("may")
 words.remove("june")
+words.remove("homosexuals")
+
 print('loading model...')
 model = Word2Vec.load("assets/gay-seattle.w2v")
 g = nx.DiGraph()
 g.add_nodes_from(words)
+
+# for mainWord in words:
+#     tmpwords = words.copy()
+#     tmpwords.remove(mainWord)
+#     for word in tmpwords:
+#         try:
+#             s = model.wv.distance(mainWord, word)
+#             w = 1 + (0.01/s)
+#             if mainWord == "seattle" or word == "seattle":
+#                 w = w*w*w
+#             if w > 20:
+#                 print("%s --> %s: %8.5f" % (mainWord, word, w))
+#                 g.add_edge(mainWord, word, weight=w)
+#         except:
+#             pass
+#     # words.remove(mainWord) # perhaps not necessary
+
+min = 1
+max = 0
+for mainWord in words:
+    tmpwords = words.copy()
+    tmpwords.remove(mainWord)
+    for word in tmpwords:
+        try:
+            s = model.wv.distance(mainWord, word)
+            if min > s:
+                min = s
+            if max < s:
+                max = s
+            # print("%s --> %s: %8.5f" % (mainWord, word, 1-s))
+            print(mainWord, word, 1-s, s)
+        except:
+            pass
+    # words.remove(mainWord) # perhaps not necessary
 
 for mainWord in words:
     tmpwords = words.copy()
@@ -70,16 +105,13 @@ for mainWord in words:
     for word in tmpwords:
         try:
             s = model.wv.distance(mainWord, word)
-            w = 1 + (0.01/s)
-            if mainWord == "seattle" or word == "seattle":
-                w = w*w*w
-            if w > 20:
-                print("%s --> %s: %8.5f" % (mainWord, word, w))
+            w = (s - min) / (max - min)
+            print("%s --> %s: %8.5f" % (mainWord, word, w))
+            if w > 0.1:
                 g.add_edge(mainWord, word, weight=w)
         except:
             pass
     # words.remove(mainWord) # perhaps not necessary
 
-
-nx.write_gexf(g, "assets/gay-seattle.gexf", encoding='utf-8', prettyprint=True, version='1.1draft')
+nx.write_gexf(g, "assets/gay-seattle2.gexf", encoding='utf-8', prettyprint=True, version='1.1draft')
 print("finished!")
