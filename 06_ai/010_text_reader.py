@@ -1,3 +1,10 @@
+# created on Dec 24, 2020
+# @authors:          Bo Zhao, Jou Ho
+# @email:           zhaobo@uw.edu
+# @website:         https://hgis.uw.edu
+# @organization:    Department of Geography, University of Washington, Seattle
+# @description:
+
 from os import listdir
 from os.path import isfile, join
 from fitz import open as fitzOpen
