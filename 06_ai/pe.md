@@ -19,6 +19,7 @@ pip install gensim
 pip install spacy
 pip install nltk
 pip install wordcloud
+pip install numpy==1.17.0
 python -m spacy download en_core_web_sm
 ```
 

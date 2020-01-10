@@ -6,7 +6,9 @@ from nltk.probability import FreqDist
 import string
 import re
 
+
 processedTxtPath = "assets/gay-seattle-processed.txt"
+
 
 # load the dataset
 print("loading text data...")
@@ -26,7 +28,7 @@ txt = " ".join(txt.split())
 txt.translate({ord(c): None for c in string.whitespace})
 
 txt = txt.replace("gays", "gay").replace("lesbians", "lesbian").replace("seattles", "seattle").replace("citys", "city")
-
+# print(txt)
 
 stopwords = set(STOPWORDS)
 commonwords = {"time", "one", "began", "among", "another", "see", "part", "many", "day", "day", "way", "times",
@@ -44,8 +46,11 @@ fDist = FreqDist(tokens)
 # remove the stop words and common words
 filtered_fDist = nltk.FreqDist(dict((word, freq) for word, freq in fDist.items() if word not in stopwords))
 
+words = []
+for item in filtered_fDist.most_common(2000):
+    words.append(item[0])
 
-# print(words)
+print(words)
 # words.remove("example")
 # words.remove("told")
 # words.remove("become")
@@ -57,17 +62,55 @@ filtered_fDist = nltk.FreqDist(dict((word, freq) for word, freq in fDist.items()
 print('loading model...')
 model = Word2Vec.load("assets/gay-seattle.w2v")
 g = nx.DiGraph()
-items = filtered_fDist.most_common(50)
-for item in items:
-    g.add_nodes_from(item[0])
-    try:
-        mswords = model.wv.most_similar(item[0], topn=25)
-        for msword in mswords:
-            g.add_nodes_from(msword[0])
-            g.add_edge(item[0], msword[0], weight=msword[1])
-            print("%s --> %s: %8.5f" % (item[0], msword[0], msword[1]))
-    except KeyError as error:
-        print(error)
+g.add_nodes_from(words)
 
-nx.write_gexf(g, "assets/gay-seattle5.gexf", encoding='utf-8', prettyprint=True, version='1.1draft')
+# for mainWord in words:
+#     tmpwords = words.copy()
+#     tmpwords.remove(mainWord)
+#     for word in tmpwords:
+#         try:
+#             s = model.wv.distance(mainWord, word)
+#             w = 1 + (0.01/s)
+#             if mainWord == "seattle" or word == "seattle":
+#                 w = w*w*w
+#             if w > 20:
+#                 print("%s --> %s: %8.5f" % (mainWord, word, w))
+#                 g.add_edge(mainWord, word, weight=w)
+#         except:
+#             pass
+#     # words.remove(mainWord) # perhaps not necessary
+
+min = 1
+max = 0
+for mainWord in words:
+    tmpwords = words.copy()
+    tmpwords.remove(mainWord)
+    for word in tmpwords:
+        try:
+            s = model.wv.distance(mainWord, word)
+            if min > s:
+                min = s
+            if max < s:
+                max = s
+            # print("%s --> %s: %8.5f" % (mainWord, word, 1-s))
+            print(mainWord, word, 1-s, s)
+        except:
+            pass
+    # words.remove(mainWord) # perhaps not necessary
+
+for mainWord in words:
+    tmpwords = words.copy()
+    tmpwords.remove(mainWord)
+    for word in tmpwords:
+        try:
+            s = model.wv.distance(mainWord, word)
+            w = (s - min) / (max - min)
+            print("%s --> %s: %8.5f" % (mainWord, word, w))
+            if w > 0.1:
+                g.add_edge(mainWord, word, weight=w)
+        except:
+            pass
+    # words.remove(mainWord) # perhaps not necessary
+
+nx.write_gexf(g, "assets/gay-seattle4.gexf", encoding='utf-8', prettyprint=True, version='1.1draft')
 print("finished!")

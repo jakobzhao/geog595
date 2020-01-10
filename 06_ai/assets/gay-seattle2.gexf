@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
-  <graph defaultedgetype="directed" mode="static">
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static" name="">
+    <meta>
+      <creator>NetworkX 2.3</creator>
+      <lastmodified>09/01/2020</lastmodified>
+    </meta>
     <nodes>
       <node id="seattle" label="seattle" />
       <node id="gay" label="gay" />
