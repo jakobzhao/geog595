@@ -1,9 +1,41 @@
-#TBA
+# Practical Exercise 7: Environmental data collection in real time with Raspberry Pi
 
-## Practical Exercise: Environmental data collection with Raspberry Pi
+## 1. Preparation
+
+### 1.1 Hardware
+what and where to purchase
+
+the motherboard, senseHat, and camera
+
+solar recharger (optional)
+
+how much in total.
+
+### 1.2 Software (Environment Setup)
+
+- raspberrypi installation operating system (Linux)
+
+- major python libraries
+  - tensorflow or pytorch
+  - pycamera (double check?)
+  - sensor (double check?)
+- scheduler - crontab
+  - real-time publish the data to a github repo (the cloud side).
+
+## 2. Monitoring the environmental variables
 
 
-### 2.1 Preparation
+## 3. Recognizing objects from iamges/videos
+
+
+## 4. Synchronizing data to the cloud
+
+
+
+
+
+## References
+
 
 https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat
 
