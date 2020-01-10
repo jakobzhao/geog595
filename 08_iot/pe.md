@@ -88,7 +88,7 @@ sense.show_message("Hello world!")
 
 The Sense HAT has a set of environmental sensors for detecting the surrounding conditions; it can measure pressure, temperature, and humidity.
 
-refer to the `[01_env_sensor.py](01_env_sensor.py)`.
+refer to the [`01_env_sensor.py`](01_env_sensor.py).
 
 import the library for XXX
 ```Python
