@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9da3239f-ae1b-4afa-8b3a-2e278b40a9ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/06_ai/062_semantic_dimension_tmp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/geog595.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/geog595.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/031_model_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_ai/031_model_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/060_semantic_dimension.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_ai/060_semantic_dimension.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/061_wordebedded.py" beforeDir="false" afterPath="$PROJECT_DIR$/06_ai/061_wordembedments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/assets/gay-seattle2.gexf" beforeDir="false" afterPath="$PROJECT_DIR$/06_ai/assets/gay-seattle2.gexf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06_ai/pe.md" beforeDir="false" afterPath="$PROJECT_DIR$/06_ai/pe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_ai/img/network.png" beforeDir="false" afterPath="$PROJECT_DIR$/06_ai/img/network.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +35,11 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\geog595\06_ai\assets" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -189,7 +187,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578594125528</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1578625823347</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578625823347</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update">
+      <created>1578625918997</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578625918997</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
