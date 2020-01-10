@@ -119,9 +119,58 @@ print("temp: %.2f, humidity: %.2f, pressure: %.2f" % (pressure, temp, humidity))
 
 ## 4. Synchronizing data to the cloud
 
+[client(RPI)] <----> Server <-----> [Cloud Storage(GitHub(command line), Dropbox[python dropbox], Google Drive[python google dirve], Linux[rsync])]
+
+1. open terminal
+2. in the teminal UI,
+
+```shell
+crontab -e
+```
+
+3. in the crontab editor,
+
+```shell
+*/2 * * * *  /file_path/iot.sh
+```
+
+Crtl+X to close the crontab editor
+
+4. activiate the schedule
+
+```shell
+sudo service cron restart
+```
+
+5. iot.sh
+
+```sh
+#!/bin/sh
+432/432/432/4/python env_sensor.py
+cd ../repo_local_path
+git checkout -f
+git pull
+git commit -i "update"
+git push
+```
 
 
 
+
+
+
+
+3. Schedule a cron to execute on every minutes.
+Generally, we don’t require any script to execute on every minute but in some case, you may need to configure it.
+
+*/2 * * * *  /scripts/script.sh
+
+
+0 17 * * sun  /scripts/script.sh
+5. Schedule a cron to execute on every 10 minutes.
+If you want to run your script on 10 minutes interval, can configure like below. These type of crons are useful for monitoring.
+
+*/10 * * * * /scripts/monitor.sh
 
 ## References
 
