@@ -82,4 +82,3 @@ with open("assets/gay-seattle-pnts.csv", "w+", encoding="utf8") as fp:
         i += 1
 
 print("finished!")
-

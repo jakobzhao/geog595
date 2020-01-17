@@ -1,9 +1,8 @@
 # created on Dec 24, 2020
-# @authors:          Bo Zhao, Jou Ho
-# @email:           zhaobo@uw.edu
-# @website:         https://hgis.uw.edu
+# @authors:          Bo Zhao (zhaobo@uw.edu), Jou Ho ()
+# @website:         https://www.github.com/jakobzhao/geog595
 # @organization:    Department of Geography, University of Washington, Seattle
-# @description:
+# @description:     XXXXX
 
 from os import listdir
 from os.path import isfile, join

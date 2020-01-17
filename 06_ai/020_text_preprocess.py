@@ -15,11 +15,13 @@ with open(txtPath, "r", encoding="utf8") as txt_file:
 
 # Convert text to lowercase
 txt = txt.lower()
+
 # Remove numbers
 # txt = re.sub(r'\d+', '', txt)
 
 # Remove punctuation
 # txt = re.sub(r'[^\w\s]', '', txt)
+
 
 # delete the white spaces
 # https://www.journaldev.com/23763/python-remove-spaces-from-string#python-remove-whitespaces-from-string-using-regex

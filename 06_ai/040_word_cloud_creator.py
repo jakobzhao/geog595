@@ -7,14 +7,14 @@ import numpy as npy
 from PIL import Image
 
 processedTxtPath = "assets/gay-seattle-processed.txt"
-wcPath = "img/gay-seattle.png"
+wcPath = "img/gay-seattle2.png"
 
 # load the dataset
 print("loading text data...")
 txt = open(processedTxtPath, "r", encoding="utf8").read()
 
 # Convert text to lowercase
-txt = txt.lower()
+# txt = txt.lower()
 # Remove numbers
 txt = re.sub(r'\d+', '', txt)
 
@@ -23,8 +23,8 @@ txt = re.sub(r'[^\w\s]', '', txt)
 
 # delete the white spaces
 # https://www.journaldev.com/23763/python-remove-spaces-from-string#python-remove-whitespaces-from-string-using-regex
-txt = " ".join(txt.split())
-txt.translate({ord(c): None for c in string.whitespace})
+# txt = " ".join(txt.split())
+# txt.translate({ord(c): None for c in string.whitespace})
 
 txt = txt.replace("gays", "gay").replace("lesbians", "lesbian").replace("seattles", "seattle").replace("citys", "city")
 print(txt)
