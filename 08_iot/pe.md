@@ -127,8 +127,6 @@ Complete the following steps to set up Raspberry Pi:
 
 
 
-
-
 <!--
 # - Python 3
     - Sense HAT for Python 3
