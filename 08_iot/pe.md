@@ -1,58 +1,146 @@
 # Practical Exercise 7: Environmental data collection in real time with Raspberry Pi
 
-- intro:
-  - objective: echo with the title
-  - context
-    - deep learning based image recognition
-    - enviromental data collection
-    - open Hardware
-    - real-time Cloud
-  - outline
-    - prep.
-      - order Hardware
-      - software/environment setup
-      - senseHat
-      - Camera
-      - real-gis
+In this practical exercise, we will introduce how to collect environmental data in real time using Raspberry Pi. A Raspberry Pi is a low cost, credit-card size electronic board that is able to do everything a computer can do. In this exercise, we will use Sense HAT to collect environmental data (pressure, temperature, and humidity), and Raspberry Pi Camera Module to conduct deep learning based image recognition. Lastly, we will use real time GIS to sync our collected data to the cloud. Ok, let us get started!
 
 ## 1. Preparation
 
 ### 1.1 Hardware
 
-what and where to purchase/order Amazon.
-  - picture
-  - cheap < $100.
-  -
+  - [Raspberry Pi 4 Model B](https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X/ref=sr_1_5?keywords=raspberry+pi&qid=1579033237&sr=8-5)
+      - Although I am using the latest version, you can check out the older versions with lower cost on this [page](https://www.raspberrypi.org/products/).
+  - [NOOBS Preloaded Micro SD Card](https://www.amazon.com/Raspberry-Noobs-Preloaded-Compatible-Models/dp/B07LB7L3D9/ref=sr_1_7?keywords=raspberry+pi+preloaded+sd+card+noobs&qid=1579036836&sr=8-7)
+      - You can also buy a plain SD card and install NOOBS/Raspbian yourself (https://www.raspberrypi.org/downloads/).
+  - [Sense HAT](https://www.amazon.com/Raspberry-Pi-Sense-HAT-AstroPi/dp/B014HDG74S)
+  - [Camera Module (Standard Version)](https://www.amazon.com/Raspberry-Pi-Camera-Module-Megapixel/dp/B01ER2SKFS?ref_=ast_bbp_dp&th=1&psc=1)
+  - [Camera Module (Night Version)](https://www.amazon.com/Raspberry-Pi-Camera-Module-Megapixel/dp/B071WP53K7?ref_=ast_bbp_dp&th=1) (optional)
+  - [Solar recharger](https://www.amazon.com/24000mAh-Waterproof-Portable-Compatible-Smartphones/dp/B07C24XC2L/ref=sr_1_1_sspa?keywords=solar+recharger&qid=1579034413&s=electronics&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyN0FRQkdNQ0JIS1paJmVuY3J5cHRlZElkPUEwOTAyNjk1MjZQRldTMDRKOFM2ViZlbmNyeXB0ZWRBZElkPUEwNjA3NTAwM04xMjJMSlBRMElLRCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=) (optional) usage outdoor deployment
+  - Monitor, Mouse, Keyboard (configuration)
 
-the RPi(motherboard), senseHat(other sensors: https://www.amazon.com/kuman-K5-USFor-Raspberry-Projects-Tutorials/dp/B016D5L5KE/ref=sr_1_3?crid=2AQDFL3J1N0TQ&keywords=raspberry+pi+sensors&qid=1578694540&sprefix=rasp%2Caps%2C199&sr=8-3), and camera (normal, night vision)
+The total cost is around $150 in total, depending on the amount of accessary added. Besides Sense HAT, there are other [sensors]( https://www.amazon.com/kuman-K5-USFor-Raspberry-Projects-Tutorials/dp/B016D5L5KE/ref=sr_1_3?crid=2AQDFL3J1N0TQ&keywords=raspberry+pi+sensors&qid=1578694540&sprefix=rasp%2Caps%2C199&sr=8-3) available online for purchase. If you are interested in learning some cool projects that Raspberry Pi can do, check out this [article](https://www.ubuntupit.com/20-best-raspberry-pi-projects-that-you-can-start-right-now/)!
 
-- RPI (other solutions)
-  - https://www.ubuntupit.com/20-best-raspberry-pi-projects-that-you-can-start-right-now/
-- solar recharger (optional), usage outdoor deployment
-- monitor, mouse, keyboard (configuration)
 
-how much in total.
+### 1.2 Environment Setup and Software Installation
 
-### 1.2 Software (Environment Setup)
+1.2.1 Assemably
+  ![Assembly Parts](img/assembly_1.jpg)
 
-- 1. assemably
-  - picutre (parts/labels)
-  - References (1 senseHat,2 camera)
-  - Note:
-  - monitor
-- 2. raspberrypi installation operating system (Linux)
-  - download operating system.
-    - predownload/download by users.(https://www.raspberrypi.org/downloads/)
-  - software and packages
-    - Python 3
+  ![Assembly Parts](img/assembly_4.jpg)
+
+  ![Assembly Parts](img/assembly_5.jpg)
+
+  After everything is plugged in, the environment setup should look like this:
+
+  ![Assembly Parts](img/assembly_3.jpg)
+
+
+
+
+1.2.2 Raspberry Pi Installation Operating System (Linux)
+
+Now, we can go ahead and turn on the Raspberry Pi. On the first boot, the system will automatically expand the file system on the SD card.
+
+  ![Assembly Parts](img/screen_1.jpg)
+
+It will automatically reboot, and you will see a rainbow screen.
+
+  ![Assembly Parts](img/screen_2.jpg)
+
+After a few seconds, it will bring you to the Raspbian desktop.
+
+  ![Assembly Parts](img/screen_3.jpg)
+
+Complete the following steps to set up Raspberry Pi:
+
+>  - Click [Next].
+>  - Set [Country] to "United States"; [Language] to "American English"; [Timezone] to "Los Angeles".
+>  - Check both [Use English language] and [Use US keyboard].
+>  - Click [Next].
+>  - It is highly encouraged to create a new password. But if not, the original password is "raspberry".
+>  - Click [Next].
+>  - Select a WiFi network and click [Next], or [Skip] to continue without connecting.
+>  - Click [Next].
+>  - Enter the WiFi password and click [Next], or [Skip] to continue without connecting.
+>  - Update Software: Click [Next].
+>  - Click [OK].
+>  - Click [Restart].
+>  - Now we are ready to use Raspbeery Pi as a PC.
+
+1.2.4 Install Sense HAT Packages and Connect Camera Module
+
+  - Connect to WiFi or ethernet.
+  - Open Terminal (Shortcut: Ctrl + Alt + T).
+
+  ![Terminal](img/terminal.jpg)
+  - Within the terminal window, type in the following commands to install Sense HAT.
+  ```shell
+  sudo apt-get update # manually update the operating system
+  sudo apt-get install sense-hat # install the Sense HAT package
+  ```
+  - To connect the Camera Module, click [Menu] > [Preferences] > [Raspberry Pi Configuration]:
+
+  ![Raspberry Pi Configuration](img/config.png)
+  - Select [Interfaces] and ensure that the camera is "Enabled":
+
+  ![Raspberry Pi Configuration](img/interfaces.png)
+
+  - Click [OK].
+  - Open the terminal window and type in the following command.
+  ```shell
+  sudo reboot # reboot Raspberry Pi
+  ```
+
+  1.2.5 Test Out Python Codes
+
+  Now we will learn how to control Sense Hat and Pi Camera Module using Python codes.
+  - To open Python IDE, click [Menu] > [Programming] > [Thonny Python IDE].
+  - In your Python program, type in the following lines of code to set up your connection with the Sense HAT:
+  ```Python
+  from sense_hat import SenseHat
+  sense = SenseHat()
+  ```
+  - Add this code to display a message on the Sense HAT's LED matrix.
+  ```Python
+  sense.show_message("Hello RPi")
+  ```
+  - Save your file as "Test Sense HAT.py" on your desktop.
+  - Click the green play button to execute the codes. The message is displayed:
+
+  ![Message Display](img/display.gif)
+
+  - Open a new file.
+  - Enter the following codes:
+  ```Python
+  from picamera import picamera
+  from time import sleep
+
+  camera = PiCamera()
+
+  camera.start_preview()
+  sleep(5)
+  camera.capture('/home/pi/Desktop/image.jpg')
+  camera.stop_preview()
+  ```
+  - Save your file as "Test Camera.py" on your desktop then run the codes.
+  - Your new image should be saved to the Desktop:
+  ![Picture Display](img/imagee.jpg)
+
+
+
+
+
+
+<!--
+# - Python 3
     - Sense HAT for Python 3
     - python library for camera
-- 3. turn on the RPi
+
+1.2.3 Turn on the RPi
 
 ```
 >>>pip install XXXX
 ```
-- 4. install prerequsite pakages and python libraries
+
+1.2.4 install prerequsite pakages and python libraries
 
 ```shell
 sudo apt-get update
@@ -61,10 +149,10 @@ sudo reboot
 ```
 
 
-- 4. log in info:
+1.2.5 Log in info:
   - update username and pwd.(optional)
 
-- 5. Test:
+1.2.5 Test:
 
 ```python
 from sense_hat import SenseHat
@@ -83,6 +171,7 @@ sense.show_message("Hello world!")
 >  - real-time publish the data to a github
 > repo (the cloud side).
 
+-->
 
 ## 2. Monitoring the environmental variables
 
@@ -176,6 +265,8 @@ If you want to run your script on 10 minutes interval, can configure like below.
 
 
 https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat
+
+https://projects.raspberrypi.org/en/projects/getting-started-with-picamera
 
 https://www.raspberrypi.org/documentation/hardware/sense-hat/
 
