@@ -12,17 +12,18 @@
 
 * MacEachren, A.M., Robinson, A., Hopper, S., Gardner, S., Murray, R., Gahegan, M. and Hetzler, E., 2005. Visualizing geospatial information uncertainty: What we know and what we need to know. Cartography and Geographic Information Science, 32(3), pp.139-160.
 
-* Goodchild, M.F., 1998. Uncertainty: the Achilles heel of GIS. Geo Info Systems, 8(11), pp.50-52.
-
-* Couclelis, H., 2003. The certainty of uncertainty: GIS and the limits of geographic knowledge. Transactions in GIS, 7(2), pp.165-175.
-
 * Kwan, M.P., 2012. The uncertain geographic context problem. Annals of the Association of American Geographers, 102(5), pp.958-968.
 
-* Zhao, B. and Zhang, S., 2019. Rethinking spatial data quality: Pokémon go as a case study of location spoofing. The Professional Geographer, 71(1), pp.96-108.
+* Zhang, S., Zhao, B, in revision. Stand with #StandingRock: Envisioning an epistemological shift
+in understanding geospatial big data in the “post-truth” era
 
 ***Extending readings***
 
-* Post-truth Manuscript
+* Couclelis, H., 2003. The certainty of uncertainty: GIS and the limits of geographic knowledge. Transactions in GIS, 7(2), pp.165-175.
+
+* Goodchild, M.F., 1998. Uncertainty: the Achilles heel of GIS. Geo Info Systems, 8(11), pp.50-52.
+
+* Zhao, B. and Zhang, S., 2019. Rethinking spatial data quality: Pokémon go as a case study of location spoofing. The Professional Geographer, 71(1), pp.96-108.
 
 
 ## Practical Exercise 3: Spatial database management using SpatiaLite
