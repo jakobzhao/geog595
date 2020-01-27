@@ -16,11 +16,11 @@
 
 * Michel Foucault, “Panopticism,” from Discipline and Punish, trans. Alan Sheridan (Pantheon, 1978), pp. 195–209, 216–228, 316–317, 326–333, abridged. Reprinted by permission of Georges Borchardt and Penguin Books UK.
 
-* Martin, A.K., Van Brakel, R.E. and Bernhard, D.J., 2009. Understanding resistance to digital surveillance: Towards a multi-disciplinary, multi-actor framework. Surveillance & Society, 6(3), pp.213-232.
-
 * Sui, D.Z. and Goodchild, M.F., 2003. A tetradic analysis of GIS and society using McLuhan's law of the media. Canadian Geographer/Le Géographe canadien, 47(1), pp.5-17.
 
 ***Extending readings***
+
+* Martin, A.K., Van Brakel, R.E. and Bernhard, D.J., 2009. Understanding resistance to digital surveillance: Towards a multi-disciplinary, multi-actor framework. Surveillance & Society, 6(3), pp.213-232.
 
 * Keßler, C. and McKenzie, G., 2018. A geoprivacy manifesto. Transactions in GIS, 22(1), pp.3-19.
 
