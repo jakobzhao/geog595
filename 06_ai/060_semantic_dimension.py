@@ -24,10 +24,7 @@ txt = re.sub(r'[^\w\s]', '', txt)
 # https://www.journaldev.com/23763/python-remove-spaces-from-string#python-remove-whitespaces-from-string-using-regex
 txt = " ".join(txt.split())
 txt.translate({ord(c): None for c in string.whitespace})
-
 txt = txt.replace("gays", "gay").replace("lesbians", "lesbian").replace("seattles", "seattle").replace("citys", "city")
-
-
 stopwords = set(STOPWORDS)
 commonwords = {"time", "one", "began", "among", "another", "see", "part", "many", "day", "day", "way", "times",
                "still", "news", "three", "came", "became", "made", "wanted", "seemed", "made", "now", "society",
@@ -69,5 +66,5 @@ for item in items:
     except KeyError as error:
         print(error)
 
-nx.write_gexf(g, "assets/gay-seattle5.gexf", encoding='utf-8', prettyprint=True, version='1.1draft')
+nx.write_gexf(g, "assets/gay-seattle.gexf", encoding='utf-8', prettyprint=True, version='1.1draft')
 print("finished!")

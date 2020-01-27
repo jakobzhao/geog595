@@ -12,7 +12,7 @@ with open(processedTxtPath, "r", encoding="utf8") as txt_file:
     txt = txt_file.read()
 
 # Convert text to lowercase
-# txt = txt.lower()
+txt = txt.lower()
 # Remove numbers
 txt = re.sub(r'\d+', '', txt)
 
@@ -28,7 +28,6 @@ txt = txt.replace("gays", "gay").replace("lesbians", "lesbian").replace("seattle
 print(txt)
 
 #  "nlp" Object is used to create documents with linguistic annotations.
-# python -m spacy download en_core_web_sm
 nlp = spacy.load("en_core_web_sm")
 nlp.max_length = len(txt)
 my_doc = nlp(txt)
@@ -59,7 +58,7 @@ processedDoc = nlp(processedTxt)
 
 geoTxt = ""
 for ent in processedDoc.ents:
-    print(ent.text, ent.label_)
+    print(ent.text, ent.start_char, ent.end_char, ent.label_)
     if ent.label_ == "GPE":
         geoTxt += ent.text.replace(" ", "") + " "
 
@@ -70,7 +69,7 @@ fDist = FreqDist(tokens)
 with open("assets/gay-seattle-places.csv", "w", encoding="utf8") as fp:
     for item in fDist.most_common(300):
         try:
-            fp.write("%s, %d\n" % (item[0].replace("county", " county").replace("state", " state"), item[1]))
+            fp.write("%s, %d\n" % (item[0].replace("county", " county").replace("state", " state").replace("city", " city"), item[1]))
             print(item)
         except TypeError as error:
             pass

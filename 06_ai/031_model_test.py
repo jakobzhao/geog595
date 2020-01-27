@@ -7,7 +7,7 @@ print("seattle", model.wv.most_similar('seattle', topn=50))
 
 print(model.wv.distances('seattle', ('news', 'june', 'times', 'march')))
 
-#seattle [('news', 0.9989323616027832), ('june', 0.998815655708313), ('times', 0.9987982511520386), ('march', 0.9987823963165283), ('apr', 0.9987049102783203), ('july', 0.9985809326171875), ('nov', 0.9984444379806519),
+# seattle [('news', 0.9989323616027832), ('june', 0.998815655708313), ('times', 0.9987982511520386), ('march', 0.9987823963165283), ('apr', 0.9987049102783203), ('july', 0.9985809326171875), ('nov', 0.9984444379806519),
 
 
 # print("model details: ", model)
