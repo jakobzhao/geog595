@@ -28,7 +28,7 @@ texts = []
 while len(bot.find_elements_by_xpath('//div[contains(text(), "Back to top ↑")]')) != 1:
     time.sleep(5)
     bot.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-    soup = BeautifulSoup(bot.page_source, 'html5lib')
+    soup = BeautifulSoup(bot.page_source, 'html.parser')
     tweets = soup.find_all('li', class_="stream-item")[-20:] # only process the newly-acquired tweets.
     if int((datetime.datetime.now() - start).seconds) >= time_limit: # if longer than a minute, then stop scrolling.
         break
