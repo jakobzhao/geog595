@@ -54,10 +54,10 @@ if __name__ == "__main__":
     output_file = "assets/geotags.csv"
 
     # Apply for your own Twitter API keys at https://developer.twitter.com/en/apply-for-access
-    consumer_key = "your_consumer_key"
-    consumer_secret = "your_consumer_secret"
-    access_token = "your_access_token"
-    access_token_secret = "your_access_token_secret"
+    consumer_key = "knqqNYwjNhtWcMnxpUObvg"
+    consumer_secret = "RREaeKlFwSMNTK98E61DF6MLYJ3aXrsw9BeBAzo"
+    access_token = "14324013-X8BvSiKVjRT2bjuTHyiKbcN3mDj1v1l4WodjFCRSe"
+    access_token_secret = "s200iVNuI4yoV9wSbaj4k9Gwk31jpWtjbuuTLA4krGCZY"
 
     myauth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     myauth.set_access_token(access_token, access_token_secret)

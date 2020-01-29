@@ -352,3 +352,12 @@ user_id, user_name, screen_name, status_id, created_at, time_integer, reply_num,
 2232513906, seattle_guitar, Seattle Guitar Shop, 1221925041543081984, 2:36 PM - 27 Jan 2020， 1580164606000， ， ， ， I did some back searching... there is a top male model with a 500 pound weight problem. Your name and his miles apart?????????? 
 895625268886372352, ThatsCharlesK, Charles, 1221925008282353667, 2:36 PM - 27 Jan 2020， 1580164598000， ， ， ， Thought I got offered a job for Oracle in ATX but it’s for Seattle. 
 1193929747090300934, Jobless_Seattle, Jobless in Seattle, 1221925008097927169, 2:36 PM - 27 Jan 2020， 1580164598000， 1， ， 1， Part of me hopes my friend never finds out who they would be if they could let go of something. Because I believe the only way they are going to be able to get there is if they're forced there. And they might not make it out the other side, if they're forced. 
+user_id, user_name, screen_name, status_id, created_at, time_integer, reply_num, retweet_num, favorite_num, content 
+user_id, user_name, screen_name, status_id, created_at, time_integer, reply_num, retweet_num, favorite_num, content 
+user_id, user_name, screen_name, status_id, created_at, time_integer, reply_num, retweet_num, favorite_num, content 
+user_id, user_name, screen_name, status_id, created_at, time_integer, reply_num, retweet_num, favorite_num, content 
+user_id, user_name, screen_name, status_id, created_at, time_integer, reply_num, retweet_num, favorite_num, content 
+user_id, user_name, screen_name, status_id, created_at, time_integer, reply_num, retweet_num, favorite_num, content 
+user_id, user_name, screen_name, status_id, created_at, time_integer, reply_num, retweet_num, favorite_num, content 
+user_id, user_name, screen_name, status_id, created_at, time_integer, reply_num, retweet_num, favorite_num, content 
+user_id, user_name, screen_name, status_id, created_at, time_integer, reply_num, retweet_num, favorite_num, content 
