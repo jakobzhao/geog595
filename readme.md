@@ -57,7 +57,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
   - [Place and space](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
   - [GeoAI, Placial analysis and place recognition](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/7) `Due: 02/23 5:00pm`.
-- **Practical Exercise 5:** [Place context analysis using Natural Language Processing `Under Development` ](06_ai/pe.md) `Due: 01/07 5:00pm`.
+- **Practical Exercise 5:** [Place context analysis using Natural Language Processing ](06_ai/pe.md) `Due: 01/07 5:00pm`.
 
 
 ### [Week 8: Virtual Reality](07_vr/)
@@ -66,7 +66,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
   - [Embodiment and Cyborg](https://drive.google.com/drive/u/2/folders/1l9gFKzRJxR1vrUS8RdciDGBwN8Nvg72l)
   - [Virtual Reality, Point-cloud visualization and SfM (Structure-from-Motion)](https://drive.google.com/drive/u/2/folders/1l9gFKzRJxR1vrUS8RdciDGBwN8Nvg72l)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/8) `Due: 02/25 5:00pm`.
-- **Practical Exercise 6:** [Making a web-based VR environment`Under Development` ](07_vr/pe.md) `Due: 03/01 5:00pm`.
+- **Practical Exercise 6:** [Creating Virtual Reality using Structure-from-Motion generated Models](07_vr/pe.md) `Due: 03/01 5:00pm`.
 
 ### [Week 9: Internet of Things](08_iot/)
 - **Hosts:** Angel, Eryk and Zhaowen
