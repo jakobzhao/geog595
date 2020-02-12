@@ -43,7 +43,7 @@ Create a github repository, and clone it to your local workspace. In the local f
 [geo-narrative-repository]
     │ readme.md
     │ bike.html
-    │readme.md
+    │
     ├─js
     │      config-bike.js
 ```
@@ -154,7 +154,7 @@ you need to submit the github repository url to the **Canvas Dropbox** of this c
 [geo-narrative-repository]
     │ readme.md
     │ index.html
-    │readme.md
+    │
     ├─js
     │      config.js
     ├─img
