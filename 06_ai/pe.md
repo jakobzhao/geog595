@@ -321,7 +321,8 @@ After adding the layer, close your data source manager. Your map should look som
 
 We can now see geocoded locations that are spatially connected to our book's context on the map. However, one location might be mentioned more than once in the book while others are mentioned only once. In order to present our data more accurately, let's change the size of our points proportional to how many times they are mentioned in the text.
 
-Right click on `gay-seattle-places-geocoded` layer and click on `properties`. It will pop up a page with many tabs on its left side. Click `Symbology` tab. Change the selection on very top from `Single Symbol` to `Graduated Symbol`. This will allow each data point to be represented differently according to a variable you choose. `Column` variable changes which variable your data points will be presented according to. Since we want to change the size of our data points according to their frequencies that they are mentioned, choosee `frequency`. Also, change the `method` variable from `color` to `size`. We could also use color to show different frequencies, and feel free to try it out. Before we click apply, we need to claddify our data to determine which values of frequency correspond to which size of data points. Under `classes` tab, change the classification mode to `Natural Breaks (Jenks)` and click `Classify`.
+Right click on `gay-seattle-places-geocoded` layer and click on `properties`. It will pop up a page with many tabs on its left side. Click `Symbology` tab. Change the selection on very top from `Single Symbol` to `Graduated Symbol`. This will allow each data point to be represented differently according to a variable you choose. `Column` variable changes which variable your data points will be presented according to. Since we want to change the size of our data points according to their frequencies that they are mentioned, choosee `frequency`. Also, change the `method` variable from `color` to `size`. We could also use color to show different frequencies, and feel free to try it out. Before we click apply, we need to claddify our data to determine which values of frequency correspond to which size of data points. Under `classes` tab, change the classification mode to `Natural Breaks (Jenks)` and click `Classify`. These design decisions are up to you how you would like to deliver our analysis as geographers. Feel free to play with it and find the best visualization for our purpose.
+
 ![](img/symbology.png)
 
  Now, we can hit `Ok` and see the change. We can see that the context of this book is spatially connected not just to Seattle area, but also connected to worldwide locations including Europe, Africa, South America, and etc.
@@ -458,6 +459,10 @@ You are encouraged to change the preview setting to make this network look clear
 
 ![](img/sna_done.png)
 
+This map shows how each words are tightly connected within the text that we have processed earlier. For example, the word `homosexual`, `people`, and `sex` are closely related. It may also be intersting to study why some of the words are closely related. For example, you may notice that `police` and `farmer` are put under the same cluster. Think about why this happens: are they closely related ithin the context of our book? or is it due to the algorythm of natural language processing?
+
+## 6. Word Embeddings
+
 #### 061_wordembedments.py
 Finally, we are going to visualize the word embeddings. The word embeddings made by the model can be visualised by reducing dimensionality of the words to 2 dimensions using tSNE. More details on how this is done can be found at https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html#sphx-glr-auto-examples-tutorials-run-word2vec-py.
 
@@ -541,9 +546,41 @@ Finally, we can label each points showing what term each points represent. Left-
 ![](img/wordembed-qgis.png)
 
 We can read each points clearly if you zoom in.
+
+This map represents the 2D dimention of our word vector. It essentially an another way of visualizing our language model. It tells us the distance between each word and closely related words. Compare this map with the social network analysis map we created earlier. Look for any similarities and differences.
+
+Howeve, keep in mind that the map you created may not look exactly like this one. This is because the process of builing language model depends on the cpu and the cpu count of your computer. For example, below is amap made in the same way but with different computer:
+
+![](img/with_diff_comp.png)
+
+This is also due to some randomness in the process of machine learning. The general structure of the map shouls still be similar. You may also try changing different parameter when creating language model in `030_model_builder.py` to see how the generated map would change.
+
 ## Deliverable
 
+For the deliverable of this practical excercise, you will first execute all the python files addressed in this practical exercise. THen, you will repeat it with a different book, written about Seattle from a perspective of native seattler. The files are located under this week's folder in Google Drive, named `native-seattle`. Then, you will write a markdown file explaining your result and comparison between `gay-seattle` and `native-seattle`.
 
+To submit your deliverable, please create a new github repository, and submit the url of the GitHub to the **Canvas Dropbox** of this practical exercise. The file structure of this github repository should look like below.
+
+```powershell
+[your_repository]
+    │ [files used to generate your result].py
+    │readme.md
+    ├─assets
+    │      datasets and images you saved
+    │
+    │
+```
+
+
+Here are the grading criteria:
+
+1\. Execute from `010_text_reader.py` to `062_word_vis.py` with the same data used in tutorial. Save your data under folder of your choice. The generated data will be later used to compare with the data generated using `native-seattle` files. (POINT XX)
+
+2\. Execute from `010_text_reader.py` to `040_word_cloud_creator.py` with downloaded `native-seattle` data. After this, you are required to complete one of the followings with `native-seattle` data: `4. Spatial dimension of sense of place`, `5. Social Network analysis`, or `6. Word Embeddings`. Save newly created data with reasonalble file names under folder of your choice. (POINT XX)
+
+4\. In the `readme.md` file, write a summary of your result, as well as the comparison between the two books. (POINT XX)
+
+**Note:** Lab assignments are required to be submitted electronically to Canvas unless stated otherwise. Efforts will be made to have them graded and returned within one week after they are submitted.Lab assignments are expected to be completed by the due date. ***A late penalty of at least 10 percentage units will be taken off each day after the due date.*** If you have a genuine reason(known medical condition, a pile-up of due assignments on other courses, ROTC,athletics teams, job interview, religious obligations etc.) for being unable to complete work on time, then some flexibility is possible. However, if in my judgment you could reasonably have let me know beforehand that there would likely be a delay, and then a late penalty will still be imposed if I don't hear from you until after the deadline has passed. For unforeseeable problems,I can be more flexible. If there are ongoing medical, personal, or other issues that are likely to affect your work all semester, then please arrange to see me to discuss the situation. There will be NO make-up exams except for circumstances like those above.
 
 ## References
 * Thrush, C., 2017. Native Seattle: Histories from the crossing-over place. Accessed from https://muse.jhu.edu/book/10411. University of Washington Press.
