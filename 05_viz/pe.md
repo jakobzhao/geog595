@@ -43,7 +43,7 @@ Create a github repository, and clone it to your local workspace. In the local f
 [geo-narrative-repository]
     │ readme.md
     │ bike.html
-    │readme.md
+    │
     ├─js
     │      config-bike.js
 ```
@@ -134,8 +134,11 @@ In addition to debugging the code, you are also encouraged to show your geo-narr
 To learn more about how to make a geo-narrative, you can refer to the following materials.
 
 [1] https://github.com/mapbox/storytelling
+
 [2] https://medium.com/@Mapbox
+
 [3] https://blog.mapbox.com/how-to-build-a-scrollytelling-map-ead6baf2cd1b
+
 [4] https://blog.mapbox.com/create-location-based-stories-with-minimal-code-fc8c5da60d96
 
 ## 3. Deliverable
@@ -154,7 +157,7 @@ you need to submit the github repository url to the **Canvas Dropbox** of this c
 [geo-narrative-repository]
     │ readme.md
     │ index.html
-    │readme.md
+    │
     ├─js
     │      config.js
     ├─img

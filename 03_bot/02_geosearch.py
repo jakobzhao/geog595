@@ -44,7 +44,7 @@ class StreamListener(tweepy.StreamListener):
             self.f.write(record)
         else:
             self.f.close()
-            print ("finished.")
+            print ("finishe.")
             return False
 
 

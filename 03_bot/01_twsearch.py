@@ -14,7 +14,7 @@ import time, datetime, json
 url = "https://twitter.com/search?f=tweets&vertical=news&q=seattle&src=typd&lang=en"
 
 # use a chrome core. https://chromedriver.chromium.org/downloads
-bot = webdriver.Chrome(executable_path="assets/chromedriver.exe") # if you are a mac user, please use "assets/chromedriver"
+bot = webdriver.Chrome(executable_path="assets/chromedriver") # if you are a mac user, please use "assets/chromedriver"
 bot.get(url)
 
 f = open("assets/tweets.csv", "a", encoding="utf-8")
