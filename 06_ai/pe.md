@@ -8,11 +8,11 @@
 
 **Contact:** 206.685.3846, zhaobo@uw.edu, jakobzhao (skype/wechat)
 
-In this practical exercise, you are expected to use Natural Language Processing to explore a book author's sense of place about Seattle. Natural Language Processing (NLP), as a typical machine learning algorithm, aims to inteprete the context of a large text corpora with the support from insteading of a human being. Obviously, NLP can learn a large amount of text with ease, and can summarize its major context using multiple functions and analyses. Sense of place indicates an individual's perception, emotion,  or altitude towards a place. If an individual has recorded one's sense of place, it is possible to interprete the author's sense of place to process the record using NLP. Below, we will explore Gary L. Atkins's sense of place about Seattle. To do so, we will mainly use NLP to process his book entitled *Gay Seattle*. Specificially, we plan to explore multiple perspectives of Gary's sense of place. For example, we would like to get a general picture about his impression of Seaettle using word cloud, and then plot the spatial dimension of Gary's perception of `Seattle`, and then try to visualize Gary's sense of palce using network analysis. Let us get started!
+In this practical exercise, you are expected to use Natural Language Processing to explore a book author's sense of place about Seattle. Natural Language Processing (NLP), as a typical machine learning algorithm, aims to inteprete the context of a large text corpora with the support from computers. Obviously, NLP can learn a large amount of text with ease, and can summarize its major context using multiple functions and analyses. Sense of place indicates an individual's perception, emotion, or altitude towards a place. If an individual has recorded one's sense of place, it is possible to interprete the author's sense of place to process the record using NLP. Below, we will explore Gary L. Atkins's sense of place about Seattle using NLP to process his book entitled *Gay Seattle*. Specificially, we plan to explore multiple perspectives of Gary's sense of place. For example, we would like to get a general picture about his impression of Seaettle using word cloud, and then plot the spatial dimension of Gary's perception of `Seattle`, and then try to visualize Gary's sense of palce using network analysis. Let us get started!
 
 ## 1.  Environment Setup
 
-This execerise will be conducted in a python programming environment. Before impelmenting this exerciese, a few python libraries are needed. To install, please execute the following line on command prompt or terminal.
+This execerise will be conducted in a python programming environment. Before impelmenting this exerciese, a few python libraries are needed. To install, please execute the following lines on command prompt or terminal.
 
 ```powershell
 pip install PyMuPDF
@@ -24,23 +24,24 @@ pip install wordcloud
 pip install numpy==1.17.0
 python -m spacy download en_core_web_sm
 ```
-
-To make sure NLTK run property, you need to download the NLTK corpora dataset.Run the Python interpreter and type the commands.
+To make sure NLTK run property, you need to download the NLTK corpora dataset. Run the Python interpreter and type the commands.
 
 ```Python
 >>> import nltk
 >>> nltk.download()
 ```
 
-In addition to configure the python environment, install Gephi and QGIS 3.
+In addition to configure the python environment, please also install Gephi and QGIS 3.
 
-Gephi is an open-source network analysis and visualization software package written in Java on the NetBeans platform. Gephi has been used in a number of research projects in academia, journalism and elsewhere, for instance in visualizing the global connectivity of New York Times content and examining Twitter network traffic during social unrest along with more traditional network analysis topics. Gephi is widely used within the digital humanities (in history, literature, political sciences, etc.), a community where many of its developers are involved.
+> Gephi is an open-source network analysis and visualization software package written in Java on the NetBeans platform. Gephi has been used in a number of research projects in academia, journalism and elsewhere, for instance in visualizing the global connectivity of New York Times content and examining Twitter network traffic during social unrest along with more traditional network analysis topics. Gephi is widely used within the digital humanities (in history, literature, political sciences, etc.), a community where many of its developers are involved.
 
 
 ## 2. Reading and Preprocessing PDF files
 
-<img src="img/gbook.png" width="250px" align="right" /> In this section, we need to read all the pdf files of the book *Gay Seattle*, please download all the pdf files from the Google drive and store them in the folder named as `gay-seattle` under the `assets` folder. Additionally, create a folder called `delFrontPage` under the same folder. After migrating files, we need to delete the front page of each pdf file since this page, containing the meta data of the pdf file, is irrelevant to the maintext of this book. Then, the python script recognizes the text of each pdf file using a python library `pika`. In the end, all the text will be stored in an text file named `gay-seattle.txt`.
+<img src="img/gbook.png" width="150px" align="right" /> In this section, we need to read all the pdf files of the book *Gay Seattle*, please download all the pdf files from the Google drive and store them in the folder named as `gay-seattle` under the `assets` folder. Also, create another folder called `delFrontPage` under the same folder. After migrating files, we need to delete the front page of each pdf file since this page, containing the meta data of the pdf file, is irrelevant to the maintext of this book. Then, the python script recognizes the text of each pdf file using a python library `pika`. In the end, all the text will be stored in an text file named `gay-seattle.txt`.
+
 #### 010_text_reader.py
+
 As you may notice, every PDF file you downloaded starts with the same page, which contains information about the book's publication. However, we do not want to include such data in our text analysis. Therefore we will delete all the first pages using the following code:
 
 ```Python
@@ -68,8 +69,10 @@ content = parser.from_file(delFrontPagePath + '/' + pdf)['content']
         print(error)
 ```
 
-Now we have text data extracted and stored in `gay-seattle.txt`. Before we start analyzing the text, we need to 'clean' the data.
+Now we have text data extracted and stored in `gay-seattle.txt`. Before we start analyzing the text, we need to clean the data.
+
 ####020_text_preprocess.py
+
 You may notice that in `gay-seattle.txt` there are a lot of white spaces and empty blanks between lines. Lets delete them.
 
 ```Python
@@ -84,7 +87,8 @@ We also need to convert all the letters to lowercase. This is because during tex
 txt = txt.lower()
 ```
 ####030_model_builder.py
-Now we have preprocessed data ready to use. Before we can create language model for natural language processing, we need to remove unwanted characters and words from our text data. This includes non-letters and stop words (the, is, not, etc...).
+
+Now we have preprocessed data ready to use. Before we can create language model for natural language processing, we need to remove unwanted characters and words from our text data. This includes non-letters and stop words (`the`, `is`, `not`, etc...).
 
 ```Python
 def review_to_wordlist(review, remove_stopwords=False):
@@ -109,6 +113,7 @@ def review_to_wordlist(review, remove_stopwords=False):
     return words
 ```
 After that, we will tokenize each sentences as well as each words using tokenizer provided by NLTK module.
+
 ```Python
 # Define a function to split a review into parsed sentences
 def review_to_sentences(review, tokenizer, remove_stopwords=False):
@@ -141,7 +146,9 @@ Finally, we can train our own language model using the data we have been prepari
     print("completed!")
 ```
 ####031_model_test.py
+
 Now, with the model we have created, we can get a list of words that are closer to 'seattle' or get a similarity distance between words of your choice.
+
 ```Python
 # test model
 print('loading model...')
@@ -150,8 +157,11 @@ print("seattle", model.wv.most_similar('seattle', topn=50))
 print(model.wv.distances('seattle', ('news', 'june', 'times', 'march')))
 ```
 Carefully examine what words appears and think about why these words are the 'closest' words. You may change the input word to see what kind of words are closer each other.
+
 ## 3. Making a Wordcloud
+
 ####040_word_cloud_creator.py
+
 Now let's visualize the context of our data using word frequencies and wordcloud.
 
 In previous part, we have preprocessed our text data, but we need a bit more of cleaning our data. We will remove punctuations and numbers from our text, because we do not want to include them in our wordcloud.
@@ -181,6 +191,7 @@ commonwords = {"time", "one", "began", "among", "another", "see", "part", "many"
                "well", "members", "us", "say", "s"}
 stopwords.update(commonwords)
 ```
+
 Before producing wordcloud, let's take a look at word frequency table. Following piece of code prints out frequency table for us.
 
 ```Python
@@ -200,6 +211,7 @@ Here is a preview of the word frequency graph we obtained:
 ![](img/freqDist.png)
 
 Let's also produce wordcloud. `wordcloud` module lets us create a wordcloud using frequency data. We can also set a mask image to change what shape the wordcloud will form.
+
 ```Python
 print("generating wordcloud...")
 mask_array = npy.array(Image.open("img/cloud.jpg"))
@@ -213,7 +225,9 @@ The generated wordcloud image is saved in `img` folder with fike name `gay-seatt
 ![](img/gay-seattle.png)
 
 ## 4. Spatial dimension of sense of place
+
 ####051_spatial_dimension.py
+
 Now, let's analyze this text from another aspect: spatial dimension of sense of place. A sense of place is a characteristic that some geographic places have and some do not, while to others it is a feeling or perception held by people. It is often used in relation to those characteristics that make a place special or unique, as well as to those that foster a sense of authentic human attachment and belonging. Spatial simension of sense of place is a similar concept except that it is focused on spatial connections and relationship with other places.
 
 To perform this analysis, we will use a NLP package `spaCy` and its provided language model. We care going to use a language model called `en_core_web_sm`, but before we can use them, we need to download it manually using terminal.
@@ -332,7 +346,9 @@ Right click on `gay-seattle-places-geocoded` layer and click on `properties`. It
 ![](img/graduated_map.png)
 
 ## 5. Social Network analysis
+
 #### 060_semantic_dimension.py
+
 Social network analysis [SNA] is the mapping and measuring of relationships and flows between things like people, groups, organizations, computers, URLs, and other connected information/knowledge entities. The nodes in the network are the subjects while the links show relationships or flows between the nodes. We can use this technique with language model we created to map semantic relationships between words, or the semantic dimention of the vacabularies in the book.
 
 First, we load the text we have been using.
@@ -576,11 +592,11 @@ To submit your deliverable, please create a new github repository, and submit th
 
 Here are the grading criteria:
 
-1\. Execute from `010_text_reader.py` to `062_word_vis.py` with the same data used in tutorial. Save your data under folder of your choice. The generated data will be later used to compare with the data generated using `native-seattle` files. (POINT XX)
+1\. Execute from `010_text_reader.py` to `062_word_vis.py` with the same data used in tutorial. Save your data under folder of your choice. The generated data will be later used to compare with the data generated using `native-seattle` files. (POINT 15)
 
-2\. Execute from `010_text_reader.py` to `040_word_cloud_creator.py` with downloaded `native-seattle` data. After this, you are required to complete one of the followings with `native-seattle` data: `4. Spatial dimension of sense of place`, `5. Social Network analysis`, or `6. Word Embeddings`. Save newly created data with reasonalble file names under folder of your choice. (POINT XX)
+2\. Execute from `010_text_reader.py` to `040_word_cloud_creator.py` with downloaded `native-seattle` data. After this, you are required to complete one of the followings with `native-seattle` data: `4. Spatial dimension of sense of place`, `5. Social Network analysis`, or `6. Word Embeddings`. Save newly created data with reasonalble file names under folder of your choice. (POINT 15)
 
-4\. In the `readme.md` file, write a summary of your result, as well as the comparison between the two books. (POINT XX)
+4\. In the `readme.md` file, write a summary of your result, as well as the comparison between the two books. (POINT 20)
 
 **Note:** Lab assignments are required to be submitted electronically to Canvas unless stated otherwise. Efforts will be made to have them graded and returned within one week after they are submitted.Lab assignments are expected to be completed by the due date. ***A late penalty of at least 10 percentage units will be taken off each day after the due date.*** If you have a genuine reason(known medical condition, a pile-up of due assignments on other courses, ROTC,athletics teams, job interview, religious obligations etc.) for being unable to complete work on time, then some flexibility is possible. However, if in my judgment you could reasonably have let me know beforehand that there would likely be a delay, and then a late penalty will still be imposed if I don't hear from you until after the deadline has passed. For unforeseeable problems,I can be more flexible. If there are ongoing medical, personal, or other issues that are likely to affect your work all semester, then please arrange to see me to discuss the situation. There will be NO make-up exams except for circumstances like those above.
 
