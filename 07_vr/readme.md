@@ -25,6 +25,6 @@
 * De Preester, H., 2010. Postphenomenology, embodiment and technics.
 
 
-## [Practical Exercise 8: Virtual Reality and Photo scanning](pe.md)
+## [Practical Exercise 8: Creating Virtual Reality using Structure-from-Motion generated Models](pe.md)
 
 In this practical execerise, we introduce some basic knowledge of VR. You are expected to make a simple 3D model by taking photos _(any device, it could be camera/phone)_. The aim is to give you a basic understanding of virtual reality and its potential of 3D modeling with the relationship to Geo-humanity. Even for now, virtual reality is still a brand new, advanced technology, and it is slowly beginning to show off in fields, such as medical study, videogame industry, military training, and informatics management. For this practice, you are going to engage and create your own 3D model and virtual reality experience.

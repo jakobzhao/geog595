@@ -1,4 +1,4 @@
-# Practical Exercise 8: Virtual Reality and Photo scanning
+# Practical Exercise 8: Creating Virtual Reality using Structure-from-Motion generated Models
 
 **Meeting:** Wednesdays, 2:30 - 5:20, SMI 109
 
@@ -128,7 +128,7 @@ In this case, everything that you deleted would not be calculated or projected o
 
 ![](img/tutorial12.png)
 
-The higher the texture size is, the better your model is going to appear in the final model.  
+The higher the texture size is, the better your model is going to appear in the final model.
 
 **Texture size recommend: 8192 / 4096 / 2048 / 1024**
 **Remember to save your model first.**
