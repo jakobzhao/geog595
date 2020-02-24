@@ -10,9 +10,12 @@
 
 In this practical execerise, we would like to introduce how to make a virtual reality scene through structure-from-motion (SfM). You are expected to make a  3D model and further convert it into a VR application using photos which are taken by smartphones. The aim is to give you a basic understanding of virtual reality and its potential of 3D modeling with the relationship to GeoHumanities. VR has been slowly beginning to show promising functionalities in the field of geography, as well as public health, videogame industry, military training, and informatics management. For this practice, you are going to engage and create your own 3D model and virtual reality experience.
 
+
+> Structure from motion (SfM) is a photogrammetric range imaging technique for estimating three-dimensional structures from two-dimensional image sequences that may be coupled with local motion signals. It is studied in the fields of computer vision and visual perception. In biological vision, SfM refers to the phenomenon by which humans (and other living creatures) can recover 3D structure from the projected 2D (retinal) motion field of a moving object or scene.
+
 ## 1. Environment Setup
 
-This practical exercise mainly relies on two software applications, in terms of Unity for making Virtual Reality and Agisoft Metagshape for photogrametry.
+This practical exercise mainly relies on two software applications, in terms of Unity for making Virtual Reality and Agisoft Metagshape for SfM.
 
 ### 1.1 Unity
 
