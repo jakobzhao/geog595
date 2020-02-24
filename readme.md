@@ -66,7 +66,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
   - [Embodiment and Cyborg](https://drive.google.com/drive/u/2/folders/1l9gFKzRJxR1vrUS8RdciDGBwN8Nvg72l)
   - [Virtual Reality, Point-cloud visualization and SfM (Structure-from-Motion)](https://drive.google.com/drive/u/2/folders/1l9gFKzRJxR1vrUS8RdciDGBwN8Nvg72l)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/8) `Due: 02/25 5:00pm`.
-- **Practical Exercise 6:** [Creating Virtual Reality using Structure-from-Motion generated Models](07_vr/pe.md) `Due: 03/01 5:00pm`.
+- **Practical Exercise 6:** [Creating Virtual Reality based on Structure-from-Motion](07_vr/pe.md) `Due: 03/01 5:00pm`.
 
 ### [Week 9: Internet of Things](08_iot/)
 - **Hosts:** Angel, Eryk and Zhaowen

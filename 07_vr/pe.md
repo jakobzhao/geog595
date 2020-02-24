@@ -1,4 +1,4 @@
-# Practical Exercise 8: Creating Virtual Reality using Structure-from-Motion generated Models
+# Practical Exercise 8: Creating Virtual Reality based on Structure-from-Motion
 
 **Meeting:** Wednesdays, 2:30 - 5:20, SMI 109
 
