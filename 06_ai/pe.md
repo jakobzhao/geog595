@@ -31,7 +31,7 @@ To make sure NLTK run property, you need to download the NLTK corpora dataset. R
 >>> nltk.download()
 ```
 
-In addition to configure the python environment, please also install Gephi and QGIS 3.
+In addition to configure the python environment, please also install `Gephi` and `QGIS 3` for the geospatial data visualizatins and you might need to install Java runtime to initiate `tika`.
 
 > Gephi is an open-source network analysis and visualization software package written in Java on the NetBeans platform. Gephi has been used in a number of research projects in academia, journalism and elsewhere, for instance in visualizing the global connectivity of New York Times content and examining Twitter network traffic during social unrest along with more traditional network analysis topics. Gephi is widely used within the digital humanities (in history, literature, political sciences, etc.), a community where many of its developers are involved.
 
@@ -475,7 +475,7 @@ We can see aforementioned nodes. Since there are only countable number of such n
 
 You are encouraged to change the preview setting to make this network look clearer and nicer. Explore different setting and create a visually appealing social network map! Below is an example of a completed map.
 
-![](img/sna_done.png)
+![](img/network.png)
 
 This map shows how each words are tightly connected within the text that we have processed earlier. For example, the word `homosexual`, `people`, and `sex` are closely related. It may also be intersting to study why some of the words are closely related. For example, you may notice that `police` and `farmer` are put under the same cluster. Think about why this happens: are they closely related ithin the context of our book? or is it due to the algorythm of natural language processing?
 
@@ -587,8 +587,6 @@ To submit your deliverable, please create a new github repository, and submit th
     │readme.md
     ├─assets
     │      datasets and images you saved
-    │
-    │
 ```
 
 
