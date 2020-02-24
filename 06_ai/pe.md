@@ -577,7 +577,7 @@ This is also due to some randomness in the process of machine learning. The gene
 
 ## Deliverable
 
-For the deliverable of this practical excercise, you will first execute all the python files addressed in this practical exercise. THen, you will repeat it with a different book, written about Seattle from a perspective of native seattler. The files are located under this week's folder in Google Drive, named `native-seattle`. Then, you will write a markdown file explaining your result and comparison between `gay-seattle` and `native-seattle`.
+For the deliverable of this practical excercise, you will first execute all the python files addressed in this practical exercise. Then, you will repeat it with a different book, written about Seattle from a perspective of native seattler. The files are located under this week's folder in Google Drive, named `native-seattle`. Then, you will write a markdown file explaining your result and comparison between `gay-seattle` and `native-seattle`.
 
 To submit your deliverable, please create a new github repository, and submit the url of the GitHub to the **Canvas Dropbox** of this practical exercise. The file structure of this github repository should look like below.
 
