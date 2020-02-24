@@ -74,6 +74,7 @@ Next, we need to click the workflow tab. Then, we have to select `Add Photos...`
 ![](img/tutorial5.png)
 
 After you have added all the photos, you shall see them pop out on the workspace area - the red square on the left. You shall also notice the dots on your model interface. Each dot represents a virtual camera position,  and the computer uses these dots to align photos for creating a 3D realistic environment.
+
 ![](img/tutorial6.png)
 
 
@@ -85,15 +86,8 @@ Here, you can change the language or all the default settings. You can check you
 
 ![](img/tutorial9.png)
 
- <!-- ```Workflow
- Align Photos
- Build Dense Cloud
- Build Mesh
- Build Texture
 
- ``` -->
-
-![](img/tutorial10.png)
+<!-- ![](img/tutorial10.png) -->
 
 **3D model Simplification**
 
@@ -150,7 +144,7 @@ At the bottom of the Assets window, please use `import`. Select the model you ex
 
 ![](img/tutorial30.png)
 
-PLEASE import them at once, like what I did in the image below. In this case, the texture should automatically be recognized and attached to the 3D model. If your model still appears with empty texture, you can manually drag the texture onto the model to finish it.
+Please import the two files at once, like what we did in the image below. In this case, the texture should automatically be recognized and attached to the 3D model. If your model still appears with empty texture, you can manually drag the texture onto the model to finish it.
 
 ![](img/tutorial28.png)
 
@@ -161,55 +155,32 @@ PLEASE import them at once, like what I did in the image below. In this case, th
 ![](img/tutorial29.png)
 
 Congrats! Now your 3D model is done. You can just adjust the position/camera for your VR.
-To activate the VR setting in Unity just go through this website.
-([Click here to watch the VR setting in Unity](https://docs.unity3d.com/Manual/VROverview.html)
 
-Furthermore, you are welcome to export this VR in different settings. All you need to do is just click "file" on the top toolbar.
+To activate the VR setting in Unity just go through this website.
+([Click here to watch the VR setting in Unity](https://docs.unity3d.com/Manual/VROverview.html))
+
+Furthermore, you can export this VR to different settings.  In the build setting, you can have the option of running on Windows, Mac, Android, even Linux. If you want to export on PC/MAC/Linux, select your target platform. To do so, you need to click "file" on the top toolbar, and then type `Build Settings...`
+
 ![](img/tutorial115.png)
 
->*Please remember once you click the file option, you have to pick one platform among all the options. In the build setting, you can have the option of running on Windows, Mac, Android, even Linux. If you want to export on PC/MAC/Linux, select your target platform (unity can autodetect your computer, so you might have only one option for export).*
-
->*For windows Users, architecture X86-64 is good for most of the computer. You should leave the rest unselected(Sever Build, Copy PDB Build, Create Visual Studio Solution, and development Build). Also, leave it to default for Compression method.*
-
-
-*There are also a Player Settings on the lower left corner. You are welcome to change/adjust your intended equipment/icon by using the player setting. To change the VR equipment, you should find "XR Settings" under the Player Settings menu.*
-
+For windows Users, architecture X86-64 is good for most of the computer. You should leave the rest unselected (Sever Build, Copy PDB Build, Create Visual Studio Solution, and development Build). Also, leave it to default for Compression method. There are also a Player Settings on the lower left corner. You are welcome to change/adjust your intended equipment/icon by using the player setting. To change the VR equipment, you should find "XR Settings" under the Player Settings menu.*
 
 ![](img/tutorial116.png)
 
+## 5. VR experience
 
-### VR experience
->*Virtual reality (VR)* is a simulated experience that can be similar to or completely different from the real world. Applications of virtual reality can include entertainment (i.e. video games) and educational purposes (i.e. medical or military training). Other, distinct types of VR style technology include augmented reality and mixed reality.
->Currently standard virtual reality systems use either virtual reality headsets or multi-projected environments to generate realistic images, sounds and other sensations that simulate a user's physical presence in a virtual environment. A person using virtual reality equipment is able to look around the artificial world, move around in it, and interact with virtual features or items. The effect is commonly created by VR headsets consisting of a head-mounted display with a small screen in front of the eyes, but can also be created through specially designed rooms with multiple large screens. Virtual reality typically incorporates auditory and video feedback, but may also allow other types of sensory and force feedback through haptic technology.
+Once you the VR model of the husky is made, you are able to watch it in a VR Goggle. In this section, you do not need to do anything. In one of our class, we will provide the VR goggle for you to watch the model you have made.
+
+*Virtual reality (VR)* is a simulated experience that can be similar to or completely different from the real world. Applications of virtual reality can include entertainment (i.e. video games) and educational purposes (i.e. medical or military training). Other, distinct types of VR style technology include augmented reality and mixed reality.
+
+Currently standard virtual reality systems use either virtual reality headsets or multi-projected environments to generate realistic images, sounds and other sensations that simulate a user's physical presence in a virtual environment. A person using virtual reality equipment is able to look around the artificial world, move around in it, and interact with virtual features or items. The effect is commonly created by VR headsets consisting of a head-mounted display with a small screen in front of the eyes, but can also be created through specially designed rooms with multiple large screens. Virtual reality typically incorporates auditory and video feedback, but may also allow other types of sensory and force feedback through haptic technology.
 
 In my experiment, you can take a glance at the potential of Virtual Reality. Imaging we recreate our world in the a massive computer game, we can approach to so many things that we could not do in reality. There is already study for using VR to help people recover from PTSD. There are also studies focus on the entertainment, the social experiment, and the psychological phenomena in VR. Although the future looks prominent, there are still some minor issues of VR.
 
->Motion sickness occurs due to a difference between actual and expected motion. Symptoms commonly include nausea, vomiting, cold sweat, headache, sleepiness, yawning, loss of appetite, and increased salivation. Complications may rarely include dehydration, electrolyte problems, or a lower esophageal tear.
+>Motion sickness occurs due to a difference between actual and expected motion. Symptoms commonly include nausea, vomiting, cold sweat, headache, sleepiness, yawning, loss of appetite, and increased salivation. Complications may rarely include dehydration, electrolyte problems, or a lower esophageal tear. Also, user Isolation occurs due to the usage of virtual reality. The players sink into their world with little notice to the actual world. This sort of isolation could lead to anxiety and frustration.
 
->User Isolation occurs due to the usage of virtual reality. The players sink into their world with little notice to the actual world. This sort of isolation could lead to anxiety and frustration.
+## 6. Deliverable
 
-10\. Oculus Rift set up.
-
-*Here is the minimum requirement for using Oculus Rift S.*
-![](img/oculus3.png)
-
-Set up:
->First, you need to have a VR equipment.
-
-([Click here to buy/download the software](https://www.oculus.com/setup/#rift-s-setup)
-![](img/oculus1.png)
-
->Click the download software button. Then, you need to allow the install program by pressing *"Get Started"*.
-
-![](img/oculus2.png)
-
->Finish the install. Then, you need patiently waiting for your pc to recognize this device.
-
->After you successfully paired with your pc, you should view a virtual interface.
-
-![](img/interface.jpg)
-
-## 4. Deliverable
 
 Before submitting the deliverable, please make sure the **GitHub Pages** work properly. You are expected to submit the url of the GitHub repository to the **Canvas Dropbox** of this course. This url should be in the format of `https://www.github.com/[github*username]/[github*username].github.io`. To submit, check the item of this lab on the assignment tab, and then press the `Submit Assignment` button. Please contact the instructor if you have any difficulty in submitting the url link. Here are the grading criteria:
 
