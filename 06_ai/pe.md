@@ -40,7 +40,7 @@ In addition to configure the python environment, please also install Gephi and Q
 
 <img src="img/gbook.png" width="150px" align="right" /> In this section, we need to read all the pdf files of the book *Gay Seattle*, please download all the pdf files from the Google drive and store them in the folder named as `gay-seattle` under the `assets` folder. Also, create another folder called `delFrontPage` under the same folder. After migrating files, we need to delete the front page of each pdf file since this page, containing the meta data of the pdf file, is irrelevant to the maintext of this book. Then, the python script recognizes the text of each pdf file using a python library `pika`. In the end, all the text will be stored in an text file named `gay-seattle.txt`.
 
-#### 010_text_reader.py
+### 010_text_reader.py
 
 As you may notice, every PDF file you downloaded starts with the same page, which contains information about the book's publication. However, we do not want to include such data in our text analysis. Therefore we will delete all the first pages using the following code:
 
@@ -71,7 +71,7 @@ content = parser.from_file(delFrontPagePath + '/' + pdf)['content']
 
 Now we have text data extracted and stored in `gay-seattle.txt`. Before we start analyzing the text, we need to clean the data.
 
-####020_text_preprocess.py
+### 020_text_preprocess.py
 
 You may notice that in `gay-seattle.txt` there are a lot of white spaces and empty blanks between lines. Lets delete them.
 
@@ -160,7 +160,7 @@ Carefully examine what words appears and think about why these words are the 'cl
 
 ## 3. Making a Wordcloud
 
-####040_word_cloud_creator.py
+#### 040_word_cloud_creator.py
 
 Now let's visualize the context of our data using word frequencies and wordcloud.
 
@@ -226,7 +226,7 @@ The generated wordcloud image is saved in `img` folder with fike name `gay-seatt
 
 ## 4. Spatial dimension of sense of place
 
-####051_spatial_dimension.py
+### 051_spatial_dimension.py
 
 Now, let's analyze this text from another aspect: spatial dimension of sense of place. A sense of place is a characteristic that some geographic places have and some do not, while to others it is a feeling or perception held by people. It is often used in relation to those characteristics that make a place special or unique, as well as to those that foster a sense of authentic human attachment and belonging. Spatial simension of sense of place is a similar concept except that it is focused on spatial connections and relationship with other places.
 
@@ -347,7 +347,7 @@ Right click on `gay-seattle-places-geocoded` layer and click on `properties`. It
 
 ## 5. Social Network analysis
 
-#### 060_semantic_dimension.py
+### 060_semantic_dimension.py
 
 Social network analysis [SNA] is the mapping and measuring of relationships and flows between things like people, groups, organizations, computers, URLs, and other connected information/knowledge entities. The nodes in the network are the subjects while the links show relationships or flows between the nodes. We can use this technique with language model we created to map semantic relationships between words, or the semantic dimention of the vacabularies in the book.
 
@@ -481,7 +481,8 @@ This map shows how each words are tightly connected within the text that we have
 
 ## 6. Word Embeddings
 
-#### 061_wordembedments.py
+### 061_wordembedments.py
+
 Finally, we are going to visualize the word embeddings. The word embeddings made by the model can be visualised by reducing dimensionality of the words to 2 dimensions using tSNE. More details on how this is done can be found at https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html#sphx-glr-auto-examples-tutorials-run-word2vec-py.
 
 First, we reduce the dimensionality of the words using tSNE.
@@ -539,7 +540,8 @@ plot_with_matplotlib(x_vals, y_vals, labels)
 print("finished")
 ```
 
-#### 062_word_vis.py
+### 062_word_vis.py
+
 You will notice that the generated map is crowded with points, and we can barely read the graph. Instead of using pyplot to plot these xy-coordinates, we can use a mapping tool called `QGIS` to map them. If you do not have `QGIS` installed, here is the [link](https://qgis.org/en/site/forusers/download.html).
 
 In this python program, we would repeat the same process, and save the xy-coordinates in a csv file as `gay-seattle-pnts.csv`.
@@ -596,7 +598,7 @@ Here are the grading criteria:
 
 2\. Execute from `010_text_reader.py` to `040_word_cloud_creator.py` with downloaded `native-seattle` data. After this, you are required to complete one of the followings with `native-seattle` data: `4. Spatial dimension of sense of place`, `5. Social Network analysis`, or `6. Word Embeddings`. Save newly created data with reasonalble file names under folder of your choice. (POINT 15)
 
-4\. In the `readme.md` file, write a summary of your result, as well as the comparison between the two books. (POINT 20)
+3\. In the `readme.md` file, write a summary of your result, as well as the comparison between the two books. (POINT 20)
 
 **Note:** Lab assignments are required to be submitted electronically to Canvas unless stated otherwise. Efforts will be made to have them graded and returned within one week after they are submitted.Lab assignments are expected to be completed by the due date. ***A late penalty of at least 10 percentage units will be taken off each day after the due date.*** If you have a genuine reason(known medical condition, a pile-up of due assignments on other courses, ROTC,athletics teams, job interview, religious obligations etc.) for being unable to complete work on time, then some flexibility is possible. However, if in my judgment you could reasonably have let me know beforehand that there would likely be a delay, and then a late penalty will still be imposed if I don't hear from you until after the deadline has passed. For unforeseeable problems,I can be more flexible. If there are ongoing medical, personal, or other issues that are likely to affect your work all semester, then please arrange to see me to discuss the situation. There will be NO make-up exams except for circumstances like those above.
 
