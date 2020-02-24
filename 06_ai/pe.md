@@ -585,8 +585,10 @@ To submit your deliverable, please create a new github repository, and submit th
 [your_repository]
     │ [files used to generate your result].py
     │readme.md
+    ├─img
+    │      images you saved
     ├─assets
-    │      datasets and images you saved
+    │      datasets you saved
 ```
 
 
