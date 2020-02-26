@@ -52,6 +52,7 @@ After you successfully have the activate code from Agisoft, you should be able t
 
  The husky model that we have made using around 100 photos at least from multiple angles. This sample data can be found from the subfolder named [`husky`](img/husky).
 
+Also, if you want to test a smaller dataset, you can try a openly shared one named "banana" at [here](https://github.com/pierotofy/dataset_banana), or a drone-collected image dataset at [here](https://github.com/merkato/odm_wietrznia).
 
 > **What is point clouds and Polygon mesh models?** The point clouds produced by 3D scanners and 3D imaging can be used directly for measurement and visualization in the architecture and construction world. In a polygonal representation of a shape, a curved surface is modeled as many small faceted flat surfaces (think of a sphere modeled as a disco ball). Polygon models—also called Mesh models, are useful for visualization, for some CAM (i.e., machining), but are generally "heavy" ( i.e., very large data sets), and are relatively un-editable in this form. Reconstruction to the polygonal model involves finding and connecting adjacent points with straight lines in order to create a continuous surface. Many applications, both free and nonfree, are available for this purpose.
 
