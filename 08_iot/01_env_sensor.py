@@ -8,8 +8,7 @@
 from sense_hat import SenseHat
 
 from datetime import datetime
-# current date and time
-now = datetime.now()
+now = datetime.now() # current date and time
 timestamp = datetime.timestamp(now)
 
 sense = SenseHat()

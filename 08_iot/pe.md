@@ -1,6 +1,6 @@
 # Practical Exercise 7: Environmental data collection in real time with Raspberry Pi
 
-In this practical exercise, we will introduce how to collect environmental data in real time using Raspberry Pi. A Raspberry Pi is a low cost, credit-card size electronic board that is able to do everything a computer can do. In this exercise, we will use Sense HAT to collect environmental data (pressure, temperature, and humidity), and Raspberry Pi Camera Module to conduct deep learning based image recognition. Lastly, we will use real time GIS to sync our collected data to the cloud. Ok, let us get started!
+In this practical exercise, we will introduce how to collect environmental data in real time using Raspberry Pi. A Raspberry Pi is a low cost, credit-card size electronic board that is able to do everything a computer can do. In this tutorial, we will use Sense HAT to collect environmental data (pressure, temperature, and humidity), and Raspberry Pi Camera Module to conduct deep learning based image recognition. Lastly, we will use real time GIS to sync our collected data to the cloud. Ok, let us get started!
 
 ## 1. Preparation
 
@@ -39,15 +39,15 @@ The total cost is around $150 in total, depending on the amount of accessary add
 
 Now, we can go ahead and turn on the Raspberry Pi. On the first boot, the system will automatically expand the file system on the SD card.
 
-  ![Assembly Parts](img/screen_1.jpg)
+  ![Assembly Parts](img/screen_1.JPG)
 
 It will automatically reboot, and you will see a rainbow screen.
 
-  ![Assembly Parts](img/screen_2.jpg)
+  ![Assembly Parts](img/screen_2.JPG)
 
 After a few seconds, it will bring you to the Raspbian desktop.
 
-  ![Assembly Parts](img/screen_3.jpg)
+  ![Assembly Parts](img/screen_3.JPG)
 
 Complete the following steps to set up Raspberry Pi:
 
@@ -107,7 +107,7 @@ Complete the following steps to set up Raspberry Pi:
 
   ![Message Display](img/display.gif)
 
-  - Open a new file.
+  - Open a new file to try out codes for taking pictures.
   - Enter the following codes:
   ```Python
   from picamera import picamera
@@ -125,142 +125,90 @@ Complete the following steps to set up Raspberry Pi:
   ![Picture Display](img/imagee.jpg)
 
 
+## 2. Sense HAT: Monitoring the Environmental Variables
 
+The Sense HAT has a set of environmental sensors for detecting the surrounding conditions, including:
+- Gyroscope
+- Accelerometer
+- Magnetometer
+- Temperature
+- Barometric pressure
+- Humidity
 
-<!--
-# - Python 3
-    - Sense HAT for Python 3
-    - python library for camera
+For this tutorial, we will use python code to measure temperature, humidity, and pressure (please refer to  [`01_env_sensor.py`](01_env_sensor.py).)
 
-1.2.3 Turn on the RPi
-
-```
->>>pip install XXXX
-```
-
-1.2.4 install prerequsite pakages and python libraries
-
-```shell
-sudo apt-get update
-sudo apt-get install sense-hat
-sudo reboot
-```
-
-
-1.2.5 Log in info:
-  - update username and pwd.(optional)
-
-1.2.5 Test:
-
-```python
-from sense_hat import SenseHat
-
-sense = SenseHat()
-
-sense.show_message("Hello world!")
-```
-
->
-> major python libraries
->  - tensorflow or pytorch
->  - pycamera (double check?)
->  - sensor (double check?)
-> - scheduler - crontab
->  - real-time publish the data to a github
-> repo (the cloud side).
-
--->
-
-## 2. Monitoring the environmental variables
-
-The Sense HAT has a set of environmental sensors for detecting the surrounding conditions; it can measure pressure, temperature, and humidity.
-
-refer to the [`01_env_sensor.py`](01_env_sensor.py).
-
-import the library for XXX
+In a Python file, enter the following code:
 ```Python
 from sense_hat import SenseHat
-```
-
-next, declare vavriable to
-
-```python
-sense = SenseHat()
+sense = SenseHat() # declare variable
 sense.clear()
-```
-XXXXXX
-```python
-temp = sense.get_temperature()
+
+temperature = sense.get_temperature()
 humidity = sense.get_humidity()
 pressure = sense.get_pressure()
 
-print("temp: %.2f, humidity: %.2f, pressure: %.2f" % (pressure, temp, humidity))
-
+print("temperature: %.2f, humidity: %.2f, pressure: %.2f" % (temperature, humidity, pressure))
+```
+After running the program, you should get something like this:
+```Python
+temperature: 37.74, humidity: 31.91, pressure: 1010.81
+```
+It would be useful if the data can be stored somewhere. For this exercise, we will store our environmental data in to a CSV file. To write the data to a file, you first need to create it. At the end of the program, add the following line:
+```Python
+with open("assets/env.csv", "a", encoding="utf8") as fp:
+```
+This creates a new file called "env.csv" and opens it with the hZame "fp". It also opens it in append mode, so that lines are only written to the end of the file. Now you want to write the current timestamp, temperature, humidity, and pressure data to the CSV file:
+```Python
+# fp.write("temp: %.2f, humidity: %.2f, pressure: %.2f" % (pressure, temp, humidity))
+with open("assets/env.csv", "a", encoding="utf8") as fp:
+  fp.write("%d, %.2f, %.2f, %.2f \n" % (timestamp, pressure, temp, humidity))
 ```
 
-
-## 3. Recognizing objects from images/videos
-
-3.1 tensorflow, image recognition
-3.2
-
-## 4. Synchronizing data to the cloud
+## 3. Synchronizing Data to the Cloud
 
 [client(RPI)] <----> Server <-----> [Cloud Storage(GitHub(command line), Dropbox[python dropbox], Google Drive[python google dirve], Linux[rsync])]
 
-1. open terminal
-2. in the teminal UI,
+Automating scripts is simple with `crontab`. It is used to schedule commands or scripts to run periodically and at fixed intervals.
+
+1. To begin, open up a terminal window.
+2. Run `crontab` with the `-e` flag to edit the cron table:
 
 ```shell
 crontab -e
 ```
+3. When you first run the `crontab -e` command, you will be asked to select an editor to use. For now, let's use `/bin/nano`.
 
-3. in the crontab editor,
+4. In the `crontab` editor, you can add new cron jobs with this syntax:
+![crontab syntax](img/crontab.JPG)
+For this exercise, we will run the shell file every minute. The  [`iot.sh`](iot.sh) file includes codes that (1) pull the latest data from GitHub (2) run the [`01_env_sensor.py`](01_env_sensor.py) to collect temperature, pressure, and humidity data and (3) push the collected data back to GitHub. We can automate this process using `crontab` with the following code:
 
 ```shell
-*/2 * * * *  /file_path/iot.sh
+* * * * * sh [local_repository_path]/iot.sh # run iot.sh every minute
 ```
+5. To exit the editing environment, press `Crtl+X` and then `Y`.
 
-Crtl+X to close the crontab editor
-
-4. activiate the schedule
+6. To activate the `crontab` schedule, type:
 
 ```shell
 sudo service cron restart
 ```
+7. To check the log, type:
 
-5. iot.sh
-
-```sh
-#!/bin/sh
-432/432/432/4/python env_sensor.py
-cd ../repo_local_path
-git checkout -f
-git pull
-git commit -i "update"
-git push
+```shell
+sudo tail -f /var/log/syslog | grep CRON
 ```
+Now, as long as there is power supply, the Raspberry Pi will automatically collect environmental data and update them do the cloud. You can view the real time data via GitHub.
 
+<!--
 
+## 4. Recognizing objects from images/videos
 
+3.1 tensorflow, image recognition
+3.2
+-->
 
-
-
-
-3. Schedule a cron to execute on every minutes.
-Generally, we don’t require any script to execute on every minute but in some case, you may need to configure it.
-
-*/2 * * * *  /scripts/script.sh
-
-
-0 17 * * sun  /scripts/script.sh
-5. Schedule a cron to execute on every 10 minutes.
-If you want to run your script on 10 minutes interval, can configure like below. These type of crons are useful for monitoring.
-
-*/10 * * * * /scripts/monitor.sh
 
 ## References
-
 
 https://projects.raspberrypi.org/en/projects/getting-started-with-the-sense-hat
 
@@ -268,12 +216,11 @@ https://projects.raspberrypi.org/en/projects/getting-started-with-picamera
 
 https://www.raspberrypi.org/documentation/hardware/sense-hat/
 
-
 https://picamera.readthedocs.io/en/release-1.13/recipes1.html
 
 https://github.com/bennuttall/sense-hat-examples/blob/master/python/astro_cam.py
 
-Cameras: https://www.amazon.com/Raspberry-Pi-Camera-Module-Megapixel/dp/B01ER2SKFS?ref_=ast_bbp_dp&th=1&psc=1
+https://www.amazon.com/Raspberry-Pi-Camera-Module-Megapixel/dp/B01ER2SKFS?ref_=ast_bbp_dp&th=1&psc=1
 
 
 **python libraries**
