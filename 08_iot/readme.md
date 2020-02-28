@@ -30,4 +30,4 @@
 
 ## [Practical Exercise 7: Environmental data collection in real time with Raspberry Pi](pe.md)
 
-In this practical exercise, we will introduce how to collect environmental data in real time using Raspberry Pi. A Raspberry Pi is a low cost, credit-card size electronic board that is able to do everything a computer can do. In this tutorial, we will use Sense HAT to collect environmental data (pressure, temperature, and humidity), and Raspberry Pi Camera Module to conduct deep learning based image recognition. Lastly, we will use real time GIS to sync our collected data to the cloud. Ok, let us get started!
+In this practical exercise, we will introduce how to collect environmental data in real time using Raspberry Pi. A Raspberry Pi is a low cost, credit-card size electronic board that is able to do everything a computer can do. In this tutorial, we will use Sense HAT to collect environmental data (pressure, temperature, and humidity) and then sync our collected data to the cloud. Ok, let us get started!

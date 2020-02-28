@@ -8,7 +8,8 @@
 
 **Contact:** 206.685.3846, zhaobo@uw.edu, jakobzhao (skype/wechat)
 
-In this practical exercise, we will introduce how to collect environmental data in real time using Raspberry Pi. A Raspberry Pi is a low cost, credit-card size electronic board that is able to do everything a computer can do. In this tutorial, we will use Sense HAT to collect environmental data (pressure, temperature, and humidity), and Raspberry Pi Camera Module to conduct deep learning based image recognition. Lastly, we will use real time GIS to sync our collected data to the cloud. Ok, let us get started!
+In this practical exercise, we will introduce how to collect environmental data in real time using Raspberry Pi. A Raspberry Pi is a low cost, credit-card size electronic board that is able to do everything a computer can do. In this tutorial, we will use Sense HAT to collect environmental data (pressure, temperature, and humidity) and then sync our collected data to the cloud. Ok, let us get started!
+
 
 ## 1. Preparation
 
@@ -29,7 +30,7 @@ The total cost is around $150 in total, depending on the amount of accessary add
 
 ### 1.2 Environment Setup and Software Installation
 
-1.2.1 Assemably
+#### 1.2.1 Assemably
   ![Assembly Parts](img/assembly_1.jpg)
 
   ![Assembly Parts](img/assembly_4.jpg)
@@ -41,7 +42,9 @@ The total cost is around $150 in total, depending on the amount of accessary add
   ![Assembly Parts](img/assembly_3.jpg)
 
 
-1.2.2 Raspberry Pi Installation Operating System (Linux)
+
+
+#### 1.2.2 Raspberry Pi Installation Operating System (Linux)
 
 Now, we can go ahead and turn on the Raspberry Pi. On the first boot, the system will automatically expand the file system on the SD card.
 
@@ -57,21 +60,21 @@ After a few seconds, it will bring you to the Raspbian desktop.
 
 Complete the following steps to set up Raspberry Pi:
 
->  - Click [Next].
->  - Set [Country] to "United States"; [Language] to "American English"; [Timezone] to "Los Angeles".
->  - Check both [Use English language] and [Use US keyboard].
->  - Click [Next].
->  - It is highly encouraged to create a new password. But if not, the original password is "raspberry".
->  - Click [Next].
->  - Select a WiFi network and click [Next], or [Skip] to continue without connecting.
->  - Click [Next].
->  - Enter the WiFi password and click [Next], or [Skip] to continue without connecting.
->  - Update Software: Click [Next].
->  - Click [OK].
->  - Click [Restart].
->  - Now we are ready to use Raspbeery Pi as a PC.
+  - Click [Next].
+  - Set [Country] to "United States"; [Language] to "American English"; [Timezone] to "Los Angeles".
+  - Check both [Use English language] and [Use US keyboard].
+  - Click [Next].
+  - It is highly encouraged to create a new password. But if not, the original password is "raspberry".
+  - Click [Next].
+  - Select a WiFi network and click [Next], or [Skip] to continue without connecting.
+  - Click [Next].
+  - Enter the WiFi password and click [Next], or [Skip] to continue without connecting.
+  - Update Software: Click [Next].
+  - Click [OK].
+  - Click [Restart].
+  - Now we are ready to use Raspbeery Pi as a PC.
 
-1.2.4 Install Sense HAT Packages and Connect Camera Module
+#### 1.2.3 Install Sense HAT Packages and Connect Camera Module
 
   - Connect to WiFi or ethernet.
   - Open Terminal (Shortcut: Ctrl + Alt + T).
@@ -95,7 +98,7 @@ Complete the following steps to set up Raspberry Pi:
   sudo reboot # reboot Raspberry Pi
   ```
 
-  1.2.5 Test Out Python Codes
+#### 1.2.4 Test Out Python Codes
 
   Now we will learn how to control Sense Hat and Pi Camera Module using Python codes.
   - To open Python IDE, click [Menu] > [Programming] > [Thonny Python IDE].
@@ -128,63 +131,76 @@ Complete the following steps to set up Raspberry Pi:
   ```
   - Save your file as "Test Camera.py" on your desktop then run the codes.
   - Your new image should be saved to the Desktop:
+
   ![Picture Display](img/imagee.jpg)
 
 
-## 2. Sense HAT: Monitoring the Environmental Variables
+## 2. Sense HAT: Collecting Environmental Data
 
-The Sense HAT has a set of environmental sensors for detecting the surrounding conditions, including:
-- Gyroscope
-- Accelerometer
-- Magnetometer
-- Temperature
-- Barometric pressure
-- Humidity
+The Sense HAT is an add-on board for Raspberry Pi that has a set of environmental sensors for detecting the surrounding conditions, including gyroscope, accelerometer, magnetometer, temperature, barometric pressure and humidity. There are tons of interesting [projects](https://projects.raspberrypi.org/en/projects?hardware[]=sense-hat) that can be made using Sense HAT.
 
-For this tutorial, we will use python code to measure temperature, humidity, and pressure (please refer to  [`01_env_sensor.py`](01_env_sensor.py).)
+For this tutorial, we will use Sense HAT to measure pressure, temperature, and humidity. We will use Python to run the program, and learn how to store the collected data into a CSV file (please refer to  [`01_env_sensor.py`](01_env_sensor.py).)
 
-In a Python file, enter the following code:
+In a Python file, enter the following codes:
 ```Python
+# Import the sense_hat module and instantiate a SenseHat object
 from sense_hat import SenseHat
-sense = SenseHat() # declare variable
+sense = SenseHat()
 sense.clear()
 
+pressure = sense.get_pressure()
 temperature = sense.get_temperature()
 humidity = sense.get_humidity()
-pressure = sense.get_pressure()
 
-print("temperature: %.2f, humidity: %.2f, pressure: %.2f" % (temperature, humidity, pressure))
+print("pressure: %.2f, temperature: %.2f, humidity: %.2f" % (pressure, temperature, humidity))
 ```
 After running the program, you should get something like this:
 ```Python
-temperature: 37.74, humidity: 31.91, pressure: 1010.81
+pressure: 1010.81, temperature: 37.74, humidity: 31.91
 ```
-It would be useful if the data can be stored somewhere. For this exercise, we will store our environmental data in to a CSV file. To write the data to a file, you first need to create it. At the end of the program, add the following line:
+It would be useful if the data can be stored somewhere. For this exercise, we will store our environmental data in to a CSV file named `env.csv` within the `assets` folder. To write the data to a file, you first need to create it. At the end of the program, add the following line:
 ```Python
 with open("assets/env.csv", "a", encoding="utf8") as fp:
 ```
-This creates a new file called "env.csv" and opens it with the hZame "fp". It also opens it in append mode, so that lines are only written to the end of the file. Now you want to write the current timestamp, temperature, humidity, and pressure data to the CSV file:
+This creates a new file called `env.csv` and opens it in "append" mode, so that lines are only written to the end of the file. Now you want to write the current timestamp, pressure, temperature, humidity data to `env.csv`:
 ```Python
-# fp.write("temp: %.2f, humidity: %.2f, pressure: %.2f" % (pressure, temp, humidity))
 with open("assets/env.csv", "a", encoding="utf8") as fp:
-  fp.write("%d, %.2f, %.2f, %.2f \n" % (timestamp, pressure, temp, humidity))
+  fp.write("%d, %.2f, %.2f, %.2f \n" % (timestamp, pressure, temperature, humidity))
 ```
+Each time you run the entire program, a new row of data will be added to the `env.csv` file.
 
-## 3. Synchronizing Data to the Cloud
+To learn more about what a Sense Hat can do, please refer to the Python libraries at https://github.com/astro-pi/python-sense-hat.
 
-[client(RPI)] <----> Server <-----> [Cloud Storage(GitHub(command line), Dropbox[python dropbox], Google Drive[python google dirve], Linux[rsync])]
+## 3. Monitoring the Environmental Variables with Real-Time GIS
+<!--
+[client(RPI)] <-> Server <-> [Cloud Storage(GitHub(command line), Dropbox[python dropbox], Google Drive[python google dirve], Linux[rsync])]
+-->
 
-Automating scripts is simple with `crontab`. It is used to schedule commands or scripts to run periodically and at fixed intervals.
+Now we have the data stored in our local drive, let's synchronize those data to the cloud, in this case, GitHub. With real-time GIS, you will have the ability to simultaneously tap into, analyze, and display streaming data collected from the Raspberry Pi sensors.
 
-1. To begin, open up a terminal window.
-2. Run `crontab` with the `-e` flag to edit the cron table:
+Before going into that, let's learn how we can schedule a task to automatically run `01_env_sensor.py` regularly on the Raspberry Pi.
+
+### 3.1 Setting up `crontab` on Raspberry Pi
+
+When using the Raspberry Pi, many times you may have a program you want to automatically start it at boot so that you can use your project without logging in to the Raspberry Pi via SSH or VNC. Automating scripts is simple with `crontab`. Cron is part of the Raspbian operating system which is used to schedule commands or scripts to run periodically and at fixed intervals.
+
+This command is especially useful when you want to run a program in a Raspberry Pi without a monitor. For this exercise, I connected the Raspberry Pi with a solar charger and set it up by the window to measure the changes in pressure, temperature, and humidity in my room. I set up `crontab` to execute `01_env_sensor.py` every minute. This is how the setting looks like:
+
+![RPi remote setup](img/rpi_solar.JPG)
+
+
+Now, let's learn how to auto-run Python programs on the Raspberry Pi.
+
+- To begin, open up a terminal window.
+- Run `crontab` with the `-e` flag to edit the cron table:
 
 ```shell
 crontab -e
 ```
-3. When you first run the `crontab -e` command, you will be asked to select an editor to use. For now, let's use `/bin/nano`.
+- When you first run the `crontab -e` command, you will be asked to select an editor to use. For now, let's use `/bin/nano`.
 
-4. In the `crontab` editor, you can add new cron jobs with this syntax:
+- In the `crontab` editor, you can add new cron jobs with this syntax:
+
 
 ```powershell
     *    *    *    *    *
@@ -195,32 +211,33 @@ crontab -e
     │─────────────────────────────── Minute (0 - 59)
 ```
 
-For this exercise, we will run the shell file every minute. The  [`iot.sh`](iot.sh) file includes codes that (1) pull the latest data from GitHub (2) run the [`01_env_sensor.py`](01_env_sensor.py) to collect temperature, pressure, and humidity data and (3) push the collected data back to GitHub. We can automate this process using `crontab` with the following code:
+
+- For this exercise, we will run the `iot.sh` file every minute. The  [`iot.sh`](iot.sh) file includes code that (1) pull the latest data from GitHub (2) run the [`01_env_sensor.py`](01_env_sensor.py) to collect pressure, temperature, and humidity data and (3) push the collected data back to GitHub. We can automate this process using `crontab` with the following code:
 
 ```shell
 * * * * * sh [local_repository_path]/iot.sh # run iot.sh every minute
 ```
-5. To exit the editing environment, press `Crtl+X` and then `Y`.
-
-6. To activate the `crontab` schedule, type:
+- To exit the editing environment, press `Crtl+X` and then `Y`.
+- To activate the `crontab` schedule, type:
 
 ```shell
 sudo service cron restart
 ```
-7. To check the log, type:
+- To check if the `crontab` is executed successfully, type:
 
 ```shell
 sudo tail -f /var/log/syslog | grep CRON
 ```
-Now, as long as there is power supply, the Raspberry Pi will automatically collect environmental data and update them do the cloud. You can view the real time data via GitHub.
+Now, as long as there is power supply, the Raspberry Pi will automatically collect environmental data and update them to the cloud. With this, you can monitor the real-time data via GitHub remotely.
 
-<!--
+![env data](img/env_data.JPG)
 
-## 4. Recognizing objects from images/videos
+### 3.2 Synchronize the Data to a Web Page
+After collecting the raw data, it would be nice to visualize and synchronize them to a web page for real-time monitor. Please refer to [`index.html`](index.html) for the code.
 
-3.1 tensorflow, image recognition
-3.2
--->
+![Real-Time Environmental Monitor](img/webpage.JPG)
+
+
 ## 4. Deliverable
 
 For the deliverable of this practical excercise, you are expected to collect continous environment data and save it into a github repository. (40 POINTS)
