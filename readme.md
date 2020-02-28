@@ -74,7 +74,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
   - [Surveillance, Resistance and Panopticism](https://drive.google.com/drive/u/2/folders/16VYRbrvxHi4-YXIbj-qXLBZBWfpaO4UW)
   - [Real-time GIS, Open Hardware](https://drive.google.com/drive/u/2/folders/16VYRbrvxHi4-YXIbj-qXLBZBWfpaO4UW)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/9) `Due: 03/03 5:00pm`.
-- **Practical Exercise 7:** [Environmental data collection in real time with Raspberry Pi `Under Development` ](08_iot/pe.md). `Due: 03/08 5:00pm. This exercise will not be included to your final score`.
+- **Practical Exercise 7:** [Environmental data collection in real time with Raspberry Pi ](08_iot/pe.md). `Due: 03/08 5:00pm. This exercise will not be included to your final score`.
 
 
 ### [Week 10: Summary, Presentation, and Writing Project](09_sum/readme.md)
