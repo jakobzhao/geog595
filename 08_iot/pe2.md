@@ -8,27 +8,22 @@
 
 **Contact:** 206.685.3846, zhaobo@uw.edu, jakobzhao (skype/wechat)
 
-In this practical exercise, you will learn how to set up a Raspberry Pi,  collect environmental data (pressure, temperature, and humidity) using a Sense HAT, synchronize the collected data to GitHub for real-time GIS, and schedule an auto-run task using crontab. The aim of this project is to briefly introduce how a Raspberry Pi can be a great platform for building Internet of Things (IoT). At the end of the tutorial, you are expected to know how to connect sensors to a Raspberry Pi, and how to set up an automated task to synchronize data from local device to the cloud. Ok, let's get started!
+In this practical exercise, we will introduce how to collect environmental data in real time using Raspberry Pi. A Raspberry Pi is a low cost, credit-card size electronic board that is able to do everything a computer can do. In this tutorial, we will use Sense HAT to collect environmental data (pressure, temperature, and humidity) and then sync our collected data to the cloud. Ok, let us get started!
+
 
 ## 1. Preparation
-A Raspberry Pi is a low cost, credit-card size electronic board that is able to do everything a computer can do. It allows you to connect to various external accessories (such as sensors) and create applications to use the data collected. For this practical exercise, we will be using Sense HAT as our sensor.
 
-### 1.1 What You Will Need
+### 1.1 Hardware
 
   - [Raspberry Pi 4 Model B](https://www.amazon.com/Raspberry-Model-2019-Quad-Bluetooth/dp/B07TC2BK1X/ref=sr_1_5?keywords=raspberry+pi&qid=1579033237&sr=8-5)
-      - Although we are using the latest version, you can check out the older versions with lower cost on this [page](https://www.raspberrypi.org/products/).
+      - Although I am using the latest version, you can check out the older versions with lower cost on this [page](https://www.raspberrypi.org/products/).
   - [NOOBS Preloaded Micro SD Card](https://www.amazon.com/Raspberry-Noobs-Preloaded-Compatible-Models/dp/B07LB7L3D9/ref=sr_1_7?keywords=raspberry+pi+preloaded+sd+card+noobs&qid=1579036836&sr=8-7)
       - You can also buy a plain SD card and install NOOBS/Raspbian yourself (https://www.raspberrypi.org/downloads/).
   - [Sense HAT](https://www.amazon.com/Raspberry-Pi-Sense-HAT-AstroPi/dp/B014HDG74S)
-  - [Solar recharger](https://www.amazon.com/24000mAh-Waterproof-Portable-Compatible-Smartphones/dp/B07C24XC2L/ref=sr_1_1_sspa?keywords=solar+recharger&qid=1579034413&s=electronics&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyN0FRQkdNQ0JIS1paJmVuY3J5cHRlZElkPUEwOTAyNjk1MjZQRldTMDRKOFM2ViZlbmNyeXB0ZWRBZElkPUEwNjA3NTAwM04xMjJMSlBRMElLRCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=) (optional) usage outdoor deployment
-  - Type C USB charger
-  - Micro HDMI Cable
-  - Monitor, Mouse, Keyboard (configuration)
-
-<!---
-- [Camera Module (Standard Version)](https://www.amazon.com/Raspberry-Pi-Camera-Module-Megapixel/dp/B01ER2SKFS?ref_=ast_bbp_dp&th=1&psc=1)
+  - [Camera Module (Standard Version)](https://www.amazon.com/Raspberry-Pi-Camera-Module-Megapixel/dp/B01ER2SKFS?ref_=ast_bbp_dp&th=1&psc=1)
   - [Camera Module (Night Version)](https://www.amazon.com/Raspberry-Pi-Camera-Module-Megapixel/dp/B071WP53K7?ref_=ast_bbp_dp&th=1) (optional)
---->
+  - [Solar recharger](https://www.amazon.com/24000mAh-Waterproof-Portable-Compatible-Smartphones/dp/B07C24XC2L/ref=sr_1_1_sspa?keywords=solar+recharger&qid=1579034413&s=electronics&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyN0FRQkdNQ0JIS1paJmVuY3J5cHRlZElkPUEwOTAyNjk1MjZQRldTMDRKOFM2ViZlbmNyeXB0ZWRBZElkPUEwNjA3NTAwM04xMjJMSlBRMElLRCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=) (optional) usage outdoor deployment
+  - Monitor, Mouse, Keyboard (configuration)
 
 The total cost is around $150 in total, depending on the amount of accessary added. Besides Sense HAT, there are other [sensors]( https://www.amazon.com/kuman-K5-USFor-Raspberry-Projects-Tutorials/dp/B016D5L5KE/ref=sr_1_3?crid=2AQDFL3J1N0TQ&keywords=raspberry+pi+sensors&qid=1578694540&sprefix=rasp%2Caps%2C199&sr=8-3) available online for purchase. If you are interested in learning some cool projects that Raspberry Pi can do, check out this [article](https://www.ubuntupit.com/20-best-raspberry-pi-projects-that-you-can-start-right-now/)!
 
@@ -79,7 +74,7 @@ Complete the following steps to set up Raspberry Pi:
   - Click [Restart].
   - Now we are ready to use Raspbeery Pi as a PC.
 
-#### 1.2.3 Install the Sense HAT Packages
+#### 1.2.3 Install Sense HAT Packages and Connect Camera Module
 
   - Connect to WiFi or ethernet.
   - Open Terminal (Shortcut: Ctrl + Alt + T).
@@ -90,8 +85,6 @@ Complete the following steps to set up Raspberry Pi:
   sudo apt-get update # manually update the operating system
   sudo apt-get install sense-hat # install the Sense HAT package
   ```
-
-<!---
   - To connect the Camera Module, click [Menu] > [Preferences] > [Raspberry Pi Configuration]:
 
   ![Raspberry Pi Configuration](img/config.png)
@@ -104,11 +97,10 @@ Complete the following steps to set up Raspberry Pi:
   ```shell
   sudo reboot # reboot Raspberry Pi
   ```
---->
 
 #### 1.2.4 Test Out Python Codes
 
-  Now we will learn how to control a Sense HAT using Python codes.
+  Now we will learn how to control Sense Hat and Pi Camera Module using Python codes.
   - To open Python IDE, click [Menu] > [Programming] > [Thonny Python IDE].
   - In your Python program, type in the following lines of code to set up your connection with the Sense HAT:
   ```Python
@@ -124,7 +116,6 @@ Complete the following steps to set up Raspberry Pi:
 
   ![Message Display](img/display.gif)
 
-<!---
   - Open a new file to try out codes for taking pictures.
   - Enter the following codes:
   ```Python
@@ -142,7 +133,7 @@ Complete the following steps to set up Raspberry Pi:
   - Your new image should be saved to the Desktop:
 
   ![Picture Display](img/imagee.jpg)
---->
+
 
 ## 2. Sense HAT: Collecting Environmental Data
 
@@ -187,30 +178,15 @@ To learn more about what a Sense Hat can do, please refer to the Python librarie
 
 Now we have the data stored in our local drive, let's synchronize those data to the cloud, in this case, GitHub. With real-time GIS, you will have the ability to simultaneously tap into, analyze, and display streaming data collected from the Raspberry Pi sensors.
 
-### 3.1 Synchronizing Data to GitHub
-In the  [`iot.sh`](iot.sh) file, we (1) pull the latest data from GitHub (2) run the [`01_env_sensor.py`](01_env_sensor.py) to collect pressure, temperature, and humidity data and (3) add and commit changes (4) push the collected data back to GitHub, as shown below:
+Before going into that, let's learn how we can schedule a task to automatically run `01_env_sensor.py` regularly on the Raspberry Pi.
 
-
-```shell
-cd /home/pi/rpi-iot
-sudo git pull https://[github-username]:[github-passowrd]@github.com/jakobzhao/rpi-iot.git
-sudo /usr/bin/python3 /home/pi/rpi-iot/01_env_sensor.py
-sudo git add .
-sudo git commit -a -m 'Env Bot'
-sudo git push https://[github-username]:[github-passowrd]@github.com/jakobzhao/rpi-iot.git
-```
-With this process, you will be able to monitor the collected data remotely in real time.
-
-![env data](img/env_data.JPG)
-
-
-### 3.2 Setting up `crontab` to Automate Tasks
+### 3.1 Setting up `crontab` on Raspberry Pi
 
 When using the Raspberry Pi, many times you may have a program you want to automatically start it at boot so that you can use your project without logging in to the Raspberry Pi via SSH or VNC. Automating scripts is simple with `crontab`. Cron is part of the Raspbian operating system which is used to schedule commands or scripts to run periodically and at fixed intervals.
 
 This command is especially useful when you want to run a program in a Raspberry Pi without a monitor. For this exercise, I connected the Raspberry Pi with a solar charger and set it up by the window to measure the changes in pressure, temperature, and humidity in my room. I set up `crontab` to execute `01_env_sensor.py` every minute. This is how the setting looks like:
 
-![RPi remote setup](img/rpi_solar.jpg)
+![RPi remote setup](img/rpi_solar.JPG)
 
 
 Now, let's learn how to auto-run Python programs on the Raspberry Pi.
@@ -224,8 +200,10 @@ crontab -e
 - When you first run the `crontab -e` command, you will be asked to select an editor to use. For now, let's use `/bin/nano`.
 
 - In the `crontab` editor, you can add new cron jobs with this syntax:
+
+
 ```powershell
-    *    *    *    *    *  COMMABD TO BE EXECUTED
+    *    *    *    *    *
     │    │    │    │    │─────────── Day of week (0 - 7) (Sunday = 0 or 7)
     │    │    │    │──────────────── Month (1 - 12)
     │    │    │───────────────────── Day of month (1 - 31)
@@ -233,7 +211,8 @@ crontab -e
     │─────────────────────────────── Minute (0 - 59)
 ```
 
-- For this exercise, we will run the `iot.sh` file every minute (to learn how to schedule time, please refer to https://crontab.guru/). We can automate this process using `crontab` with the following code:
+
+- For this exercise, we will run the `iot.sh` file every minute. The  [`iot.sh`](iot.sh) file includes code that (1) pull the latest data from GitHub (2) run the [`01_env_sensor.py`](01_env_sensor.py) to collect pressure, temperature, and humidity data and (3) push the collected data back to GitHub. We can automate this process using `crontab` with the following code:
 
 ```shell
 * * * * * sh [local_repository_path]/iot.sh # run iot.sh every minute
@@ -249,7 +228,15 @@ sudo service cron restart
 ```shell
 sudo tail -f /var/log/syslog | grep CRON
 ```
-Now, as long as there is power supply, the Raspberry Pi will automatically collect environmental data and update them to the cloud. With this, you can monitor the real-time data via GitHub remotely!
+Now, as long as there is power supply, the Raspberry Pi will automatically collect environmental data and update them to the cloud. With this, you can monitor the real-time data via GitHub remotely.
+
+![env data](img/env_data.JPG)
+
+### 3.2 Synchronize the Data to a Web Page
+After collecting the raw data, it would be nice to visualize and synchronize them to a web page for real-time monitor. Please refer to [`index.html`](index.html) for the code.
+
+![Real-Time Environmental Monitor](img/webpage.JPG)
+
 
 ## 4. Deliverable
 
@@ -260,9 +247,9 @@ You are also expected to store the python and shell scripts to the repository (5
 
 Create a repository to store the screenshots and then summarize your work in the `readme.md` file, and insert the screenshots to the `readme.md` file too (10 POINTS).
 
-Also, we encourage you try to visualize the collected data using web based charts. Please refer to the [index.html](index.html) script under the 08_iot folder. This script can be openly accessed from this link: https://jakobzhao.github.io/geog595/08_iot/.
+Also, we encourage you try to visualize the colected data using charts. Please refer to the [index.html](index.html) script under the 08_iot folder. This script can be openly accessed from this link: https://jakobzhao.github.io/geog595/08_iot/.
 
-![webpage](img/web.png)
+![](img/web.png)
 
 
 To submit your deliverable, please share the url of the Github repository to the **Canvas Dropbox** of this practical exercise. The file structure of this github repository should look like below.
