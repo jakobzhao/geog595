@@ -107,7 +107,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 Please upload your think piece to the [**GitHub issues page**](https://github.com/jakobzhao/geog595/issues) by Tuesday 5:00 PM – so your colleagues leading discussion can draw on your ideas in planning activities for our class session.
 
-**Writing project:** During the quarter, you will complete a larger writing project that engages with the seminar material and course themes, along with additional readings that you bring into conversation with the assigned course readings. You are aiming for 20-30 pages coalescing around ideas and readings from this quarter – you can take up and extend one of the themes from our weekly structure or develop a new one relevant to your own work and thinking. Writing projects is due no later than the end of **Week 11**.
+**Writing project:** During the quarter, you will complete a larger writing project that engages with the seminar material and course themes, along with additional readings that you bring into conversation with the assigned course readings. You are aiming for 15-20 pages coalescing around ideas and readings from this quarter – you can take up and extend one of the themes from our weekly structure or develop a new one relevant to your own work and thinking. Writing projects is due no later than the end of **Week 11**.
 
 ## :heavy_check_mark: Grading
 
