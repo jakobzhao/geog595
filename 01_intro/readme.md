@@ -11,15 +11,16 @@
 
 ## Readings
 
-* Ihde, D. 2010. A phenomenology of technics (pp. 134-155). Chichester UK: Wiley-Blackwell.
 
-* Heidegger, M., 1977. The question concerning technology (pp. 3-35). New York: Harper & Row.
+* Ihde, D. 2010. A phenomenology of technics (pp. 134-155). Chichester UK: Wiley-Blackwell.
 
 * Yi-Fu Tuan 1976. Humnanistic Geography, Annals of the Association of American Geographers, 66:2, 266-276, DOI: 10.1111/j.1467-8306.1976.tb01089.x
 
 * Travis, C., 2017. GeoHumanities, GIScience and Smart City Lifeworld approaches to geography and the new human condition. Global and Planetary Change, 156, pp.147-154.
 
 **Extending reading**
+
+* Heidegger, M., 1977. The question concerning technology (pp. 3-35). New York: Harper & Row.
 
 * Kitchin, R. & Dodge, M. 2005. Code and the transduction of space. Annals of the Association of American Geographers 95(1): 162-180.
 
