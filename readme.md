@@ -95,7 +95,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 **Participation in seminar discussion:** Complete all assigned readings and get familiar with the practical exercise instructions before class meetings, and participating in critical discussions of those readings. You can also join the class slack (https://geog595digita-vtb3180.slack.com/) for virtual dicussions.
 
-**Thinkpiece:** Your weekly think pieces should be at least 350 words in length and should engage critically with 1 or more of the week’s readings. There is no right or wrong way to write a think piece and you should feel free to experiment, but ensure that you are citing your sources and that your piece is clear and free of any typos. Below are some additional suggestions/guiding thoughts to help shape your piece.
+**Thinkpiece:** Your weekly think pieces should be at least 350 words in length and should engage critically with **2 or more of the week’s readings**. There is no right or wrong way to write a think piece and you should feel free to experiment, but ensure that you are citing your sources and that your piece is clear and free of any typos. Below are some additional suggestions/guiding thoughts to help shape your piece.
 
 - Though your think piece doesn’t need to follow a formal essay structure, organization, content, and clarity is still important.
 
