@@ -7,8 +7,7 @@
 
 **Keywords:** GeoHumanities, Phenomenology, Humanistic Geography.
 
-
-I am so delighted to learn you have registered this course. In this winter quarter, I hope you will have a productive learning opportunity for topics on digital geohumanities. You are supposed to read all the required papers by our meeting on Wednesday (1/8) and start preparing your statement of intent. If you have any questions, feel free to drop me a line or send me an email.
+ In this spring quarter, I hope you will have a productive learning opportunity for topics on digital geohumanities. You are supposed to read all the required papers by our meeting on Wednesday and start preparing your statement of intent. If you have any questions, feel free to drop me a line or send me an email.
 
 ## Readings
 

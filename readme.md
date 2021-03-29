@@ -91,7 +91,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 **Seminar leadership:** You will take at least two turns facilitating our seminar exercise and discussion with a few of your classmates. You will work with one or more others (depending on the enrollment) on this, so you are not responsible for the entire session yourself. Please work together to prepare some activities and guiding questions that will inspire and structure our discussion of the material. The instructor is happy to help you to prepare the practical exercise walk-through before the meeting class.
 
-**Practical exercise:** You need to get familiar with the practical exercise instruction before the class meeting in order to better reflect upon the theoretical concepts. We will walk through each practical exercise in class, and you will submit the deliverables to GitHub several days before the class meeting (you will have two weeks for your Week 3&4’s exercise deliverable).
+**Practical exercise:** You need to get familiar with the practical exercise instruction before the class meeting in order to better reflect upon the theoretical concepts. We will walk through each practical exercise in class, and you will submit the deliverables to GitHub several days before the class meeting (you will have two weeks for your Week 3&4’s exercise deliverable). **As a requirement, you need to submit two lab deliverables. One is Lab 1, and the other is a lab of your interest.**
 
 **Participation in seminar discussion:** Complete all assigned readings and get familiar with the practical exercise instructions before class meetings, and participating in critical discussions of those readings. You can also join the class slack (https://geog595digita-vtb3180.slack.com/) for virtual dicussions.
 
@@ -105,7 +105,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 Please upload your think piece to the [**GitHub issues page**](https://github.com/jakobzhao/geog595/issues) by Mondays 5:00 PM – so your colleagues leading discussion can draw on your ideas in planning activities for our class session.
 
-**Writing project:** During the quarter, you will complete a larger writing project that engages with the seminar material and course themes, along with additional readings that you bring into conversation with the assigned course readings. You are aiming for 15-20 pages coalescing around ideas and readings from this quarter – you can take up and extend one of the themes from our weekly structure or develop a new one relevant to your own work and thinking. Writing projects is due no later than the end of **Week 11**.
+**Writing project:** During the quarter, you will complete a larger writing project that engages with the seminar material and course themes, along with additional readings that you bring into conversation with the assigned course readings. You are aiming for 15-20 pages coalescing around ideas and readings from this quarter – you can take up and extend one of the themes from our weekly structure or develop a new one relevant to your own work and thinking. Writing projects is due no later than the end of **Week 10**.
 
 ## :heavy_check_mark: Grading
 
