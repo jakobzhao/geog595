@@ -23,8 +23,8 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **Readings:**
   - [Technology, Power and Geographic Knowledge;](https://drive.google.com/drive/u/2/folders/1U1kx6psr0Uhnu4GrHJ7O0UpX-cPEXRxk)
   - [CyberGIS, CloudGIS and Spatial Cyber-Infrastructure](https://drive.google.com/drive/u/2/folders/1U1kx6psr0Uhnu4GrHJ7O0UpX-cPEXRxk)
-- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/3) `Due: 04/5 5:00pm`.
-- **Practical Exercise 1:** [Cloud-based project management using GitHub](02_cyber/pe.md) `Due: 04/5 5:00pm`.
+- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/3) `Due: 04/05 5:00pm`.
+- **Practical Exercise 1:** [Cloud-based project management using GitHub](02_cyber/pe.md) `Due: 04/05 5:00pm`.
 
 
 ### [Week 3 & 4: Bot](03_bot/)
@@ -47,14 +47,14 @@ In this seminar, we will invite you to participate in the ongoing discussion and
   - [Hermeneutics, Inductive visualization](https://drive.google.com/drive/u/2/folders/11q6IV_yUXLsR4o7HJun6SbM-0P-Zts79)
   - [Geo-narrative, web mapping, storymap](https://drive.google.com/drive/u/2/folders/11q6IV_yUXLsR4o7HJun6SbM-0P-Zts79)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/6) `Due: 04/30 5:00pm`.
-- **Practical Exercise 4:** [Making a storymap using Mapbox](05_viz/pe.md) `Due: 05/3 5:00pm`.
+- **Practical Exercise 4:** [Making a storymap using Mapbox](05_viz/pe.md) `Due: 05/03 5:00pm`.
 
 ### [Week 7: GeoAI](06_ai/)
 - **Hosts:** TBD
 - **Readings:**
   - [Place and space](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
   - [GeoAI, Placial analysis and place recognition](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
-- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/7) `Due: 05/7 5:00pm`.
+- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/7) `Due: 05/07 5:00pm`.
 - **Practical Exercise 5:** [Place context analysis using Natural Language Processing ](06_ai/pe.md) `Due: 05/10 5:00pm`.
 
 
@@ -73,7 +73,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
   - GeoBlockchain (Demo)
   - [Real-time GIS, Open Hardware](https://drive.google.com/drive/u/2/folders/16VYRbrvxHi4-YXIbj-qXLBZBWfpaO4UW)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/9) `Due: 05/21 5:00pm`.
-- **Practical Exercise 7:** [Environmental data collection in real time with Raspberry Pi ](08_iot/pe.md).
+- **Practical Exercise 7:** [Environmental data collection in real time with Raspberry Pi ](08_iot/pe.md) `Due: 05/24 5:00pm`.
 
 
 ### [Week 10: Summary, Presentation, and Writing Project](09_sum/readme.md)
