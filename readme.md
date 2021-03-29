@@ -95,13 +95,20 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 **Participation in seminar discussion:** Complete all assigned readings and get familiar with the practical exercise instructions before class meetings, and participating in critical discussions of those readings. You can also join the class slack (https://geog595digita-vtb3180.slack.com/) for virtual dicussions.
 
-**Thinkpiece:** Each Week (except for Week one and weeks where you lead discussion), please prepare a one-paragraph ‘thinkpiece,’ discussing your reflection to three general items:
+**Thinkpiece:** Your weekly think pieces should be at least 350 words in length and should engage critically with 1 or more of the week’s readings. There is no right or wrong way to write a think piece and you should feel free to experiment, but ensure that you are citing your sources and that your piece is clear and free of any typos. Below are some additional suggestions/guiding thoughts to help shape your piece.
 
-- (at least) one of the readings for that week;
+- Though your think piece doesn’t need to follow a formal essay structure, organization, content, and clarity is still important.
 
-- The relevance of the practical exercise with the readings; and
+- Don’t merely summarize. Develop your own thoughts and reflections in connection to the readings, the lab assignments and the weekly lecture.
 
-- The relevance with your writing project.
+- Lead your reader somewhere beyond the simple observation; in other words, make a point or several points and examine them in depth.
+
+- Use examples and quotations from the assigned text to support what you say. Effective quotations make the piece stronger and more convincing.
+
+- Use the practical exercise to express more than how you “feel” about the text or problem. Whether you liked the text or not is relevant but should not be the central focus of your think piece.
+
+- Make connections between the assigned text and the course content and above all, explore your own ideas and thoughts about the assigned text; after all, that is the point of the assignment.
+
 
 Please upload your think piece to the [**GitHub issues page**](https://github.com/jakobzhao/geog595/issues) by Mondays 5:00 PM – so your colleagues leading discussion can draw on your ideas in planning activities for our class session.
 
