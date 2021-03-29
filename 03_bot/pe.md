@@ -1,10 +1,9 @@
 # Practical Exercise 2: Twitter data collection using web crawler
 
-**Meeting:** Wednesdays, 2:30 - 5:20, SMI 109
-
-**Instructor:** Bo Zhao, SMI 416B, Office hours by appointment
-
-**Contact:** 206.685.3846, zhaobo@uw.edu, jakobzhao (skype/wechat)
+**Instructor:** Bo Zhao, zhaobo@uw.edu
+**Meetings:**  Wednesdays 11:30 AM to 2:20 PM PST on [Zoom](https://washington.zoom.us/j/98010412438)
+**Office Hour**: Mondays 1:00 PM to 4:00 PM *(check [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI) to request an appointment)*
+**Class Slack:** https://geog595digita-vtb3180.slack.com/
 
 In this practical exercise, we will introduce how to collect Twitter data using a web crawler. A web crawler is a purposely designed bot for online data collection. In most cases, online data can be acquired through a dedicated API maintained by the data provider. If no API available, we can develop a customized crawler using a crawler library (e.g. Selenium, Scrapy, etc.). Below, two crawlers are coded for purpose of harvesting twitter data. The first one is developed with a python library named 'Selenium'; and the other one relies on Twitter API. Okay, let us get started!
 
@@ -35,7 +34,7 @@ pip install selenium
 pip install beautifulsoup4
 ```
 
-Once these two libraries are installed, please open Pycharm, and execute the script [`01_twsearch.py`](01_twsearch.py) under the [03_bot folder](./). We will give a step-by-step instruction of this piece of python script. 
+Once these two libraries are installed, please open Pycharm, and execute the script [`01_twsearch.py`](01_twsearch.py) under the [03_bot folder](./). We will give a step-by-step instruction of this piece of python script.
 
 For any python script, metadata are usually stated at the very beginning.
 

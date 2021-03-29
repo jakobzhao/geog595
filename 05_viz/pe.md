@@ -1,10 +1,9 @@
 # Practical Exercise 4: Creating geo-narratives with Mapbox storytelling library
 
-**Meeting:** Wednesdays, 2:30 - 5:20, SMI 109
-
-**Instructor:** Bo Zhao, SMI 416B, Office hours by appointment
-
-**Contact:** 206.685.3846, zhaobo@uw.edu, jakobzhao (skype/wechat)
+**Instructor:** Bo Zhao, zhaobo@uw.edu
+**Meetings:**  Wednesdays 11:30 AM to 2:20 PM PST on [Zoom](https://washington.zoom.us/j/98010412438)
+**Office Hour**: Mondays 1:00 PM to 4:00 PM *(check [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI) to request an appointment)*
+**Class Slack:** https://geog595digita-vtb3180.slack.com/
 
 In this practical exercise, you are expected to make a web based interactive storymap with a storytelling library from Mapbox. Geo-Narrative is an evolving concept in modern cartography and geovisualization, and has been frequently used by Geographers, GIScientists, and Data Journalists. It aims to use differenet geovisual approaches to narrate/represent a geographic phenomenon often in the form of web based interactive maps. From a practical perspective, an attractive and precise geo-narrative should use multiple media instead of only drawing maps. For example, pictures, videos, scripts, audio, and so on can also support the development of a geo-narrative. In recent years, with the convegence of geospatial, information and mobile techiniques, a geo-narrative are integrated with virtual reality, augumented reality, also supported by real-time geospatial data feeds.
 

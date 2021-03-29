@@ -1,12 +1,11 @@
 # Practical Exercise 6: Creating Virtual Reality based on Structure-from-Motion
 
-**Meeting:** Wednesdays, 2:30 - 5:20, SMI 109
-
-**Instructor:** Bo Zhao, SMI 416B, Office hours by appointment
-
+**Instructor:** Bo Zhao, zhaobo@uw.edu
+**Meetings:**  Wednesdays 11:30 AM to 2:20 PM PST on [Zoom](https://washington.zoom.us/j/98010412438)
+**Office Hour**: Mondays 1:00 PM to 4:00 PM *(check [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI) to request an appointment)*
+**Class Slack:** https://geog595digita-vtb3180.slack.com/
 **Authors:** Bo Zhao, Oliver Nie
 
-**Contact:** 206.685.3846, zhaobo@uw.edu, jakobzhao (skype/wechat)
 
 In this practical execerise, we would like to introduce how to make a virtual reality scene through structure-from-motion (SfM). You are expected to make a  3D model and further convert it into a VR application using photos which are taken by smartphones. The aim is to give you a basic understanding of virtual reality and its potential of 3D modeling with the relationship to GeoHumanities. VR has been slowly beginning to show promising functionalities in the field of geography, as well as public health, videogame industry, military training, and informatics management. For this practice, you are going to engage and create your own 3D model and virtual reality experience.
 
