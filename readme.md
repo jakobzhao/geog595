@@ -6,7 +6,7 @@
 
 **Contact:** 206.685.3846, zhaobo@uw.edu
 
-In this seminar, we will invite you to participate in the ongoing discussion and scholarly practice at the intersection of geospatial technologies and the disciplines of the humanities. Digital GeoHumanities refers to the systematic use of digital geographical resources in the humanities, as well as the geospatial analyses and narratives of their application. This seminar provides a unique opportunity to hone practical skills of geospatial technologies and to catalyze critical thinking of their applications. You will read literature from a few well-established geographers and philosophers in STS (Science, technology and society), as well as the latest pieces of work by both GIS (Geographic Information Science) and critical scholars. With the theoretical preparation, you will practice a few emerging data-driven techniques (e.g., web crawling, GitHub, geo-narrative, deep learning, text mining, virtual reality, raspberry pi, blockchain, etc.), and also reflect upon their relevance to critical views, such as power relation, hermeneutics, embodiment, autonomy, surveillance, and so on. As a course requirement, you need to choose a topic from any humanities discipline, apply the newly learned visual, analytical, and synthetical skills, and also critique the significant role, mediating function, or social implication of the geospatial technologies. The course material is strongly influenced by my interest in mapping, GIS, humanities, and STS. If you have any questions or concerns, please contact Dr. Bo Zhao. Welcome to this course, we are delighted to have you with us!
+In this seminar, we will invite you to participate in the ongoing discussion and scholarly practice at the intersection of geospatial technologies and the disciplines of the humanities. Digital GeoHumanities refers to the systematic use of digital geographical resources in the humanities, as well as the geospatial analyses and narratives of their application. This seminar provides a unique opportunity to hone practical skills of geospatial technologies and to catalyze critical thinking of their applications. You will read literature from a few well-established geographers and philosophers in STS (Science, technology and society), as well as the latest pieces of work by both GIS (Geographic Information Science) and critical scholars. With the theoretical preparation, you will practice several emerging data-driven techniques (e.g., web crawling, GitHub, geo-narrative, deep learning, text mining, virtual reality, raspberry pi, blockchain, etc.), and also reflect upon their relevance to critical views, such as power relation, hermeneutics, embodiment, autonomy, surveillance, and so on. As a course requirement, you need to choose a topic from any social sciences or humanities discipline, apply the newly learned visual, analytical, and synthetical skills, and also critique the significant role, mediating function, or social implication of the geospatial technologies. The course material is strongly influenced by my interest in mapping, GIS, humanities, and STS. If you have any questions or concerns, please contact Dr. Bo Zhao. Welcome to this course, we are delighted to have you with us!
 
 > This web page is the syllabus - There is no printed version, please refer here instead. Make sure refer to this page as often as possible. Also, Feel free to ask the instructor for clarifications whenever needed.
 
@@ -20,7 +20,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **Statement of Intent:** [requirements](01_intro/soi.md) `Due: 01/10 5:00pm`
 
 ### [Week 2: CyberGIS](02_cyber/)
-- **Hosts:** Teddy, Tyler, and Oliver
+- **Hosts:** TBD
 - **Readings:**
   - [Technology, Power and Geographic Knowledge;](https://drive.google.com/drive/u/2/folders/1U1kx6psr0Uhnu4GrHJ7O0UpX-cPEXRxk)
   - [CyberGIS, CloudGIS and Spatial Cyber-Infrastructure](https://drive.google.com/drive/u/2/folders/1U1kx6psr0Uhnu4GrHJ7O0UpX-cPEXRxk)
@@ -29,21 +29,21 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 
 ### [Week 3 & 4: Bot](03_bot/)
-- **Hosts:** Angel, Eryk, and Tyler
+- **Hosts:** TBD
 - **Readings:** [Autonomy, Robot and Web crawler](https://drive.google.com/drive/u/2/folders/189PRo0MUz2bK7iig6Xa-3d8NfOnsnUPr)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/4) `Due: 01/21 5:00pm`.
 - **Practical Exercise 2:** [Twitter data collection using web crawler](03_bot/pe.md) `Due: 02/02 5:00pm`.
 
 
 ### [Week 5: Spatial Database](04_data/)
-- **Hosts:** Eryk, Jou and Zhaowen
+- **Hosts:** TBD
 - **Readings:** [Uncertainty, Post-truth and location spoofing](https://drive.google.com/drive/u/2/folders/1SAcqzsyKmUVTod0sDxlYnJwJl6yaE-t1)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/5) `Due: 02/04 5:00pm`.
 - **Practical Exercise 3:** [Spatial database management using SpatiaLite](04_data/pe.md) `Due: 02/09 5:00pm`.
 
 
 ### [Week 6: GeoVisualization](05_viz/)
-- **Hosts:** Oliver, and Zhaowen
+- **Hosts:** TBD
 - **Readings:**
   - [Hermeneutics, Inductive visualization](https://drive.google.com/drive/u/2/folders/11q6IV_yUXLsR4o7HJun6SbM-0P-Zts79)
   - [Geo-narrative, web mapping, storymap](https://drive.google.com/drive/u/2/folders/11q6IV_yUXLsR4o7HJun6SbM-0P-Zts79)
@@ -52,7 +52,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 
 ### [Week 7: GeoAI](06_ai/)
-- **Hosts:** Angel, Jou and Tyler
+- **Hosts:** TBD
 - **Readings:**
   - [Place and space](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
   - [GeoAI, Placial analysis and place recognition](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
@@ -61,7 +61,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 
 ### [Week 8: Virtual Reality](07_vr/)
-- **Hosts:** Oliver, and Jou
+- **Hosts:** TBD
 - **Readings:**
   - [Embodiment and Cyborg](https://drive.google.com/drive/u/2/folders/1l9gFKzRJxR1vrUS8RdciDGBwN8Nvg72l)
   - [Virtual Reality, Point-cloud visualization and SfM (Structure-from-Motion)](https://drive.google.com/drive/u/2/folders/1l9gFKzRJxR1vrUS8RdciDGBwN8Nvg72l)
@@ -69,7 +69,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **Practical Exercise 6:** [Creating Virtual Reality based on Structure-from-Motion](07_vr/pe.md) `Due: 03/01 5:00pm`.
 
 ### [Week 9: Internet of Things](08_iot/)
-- **Hosts:** Angel, Eryk and Zhaowen
+- **Hosts:** TBD
 - **Readings:**
   - [Surveillance, Resistance and Panopticism](https://drive.google.com/drive/u/2/folders/16VYRbrvxHi4-YXIbj-qXLBZBWfpaO4UW)
   - [Real-time GIS, Open Hardware](https://drive.google.com/drive/u/2/folders/16VYRbrvxHi4-YXIbj-qXLBZBWfpaO4UW)
