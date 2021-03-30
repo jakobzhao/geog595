@@ -1,8 +1,11 @@
 # Practical Exercise 1: Cloud-based project management using GitHub
 
 **Instructor:** Bo Zhao, zhaobo@uw.edu
+
 **Meetings:**  Wednesdays 11:30 AM to 2:20 PM PST on [Zoom](https://washington.zoom.us/j/98010412438)
+
 **Office Hour**: Mondays 1:00 PM to 4:00 PM *(check [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI) to request an appointment)*
+
 **Class Slack:** https://geog595digita-vtb3180.slack.com/
 
 In this practical exercise, we will briefly introduce how to set up the project environment, how to synchronize the course material, and more importantly to help you get familiar with the major operations on project management using GitHub. You will need to install the required software on your own PC or Mac, register a GitHub account, and then learn how to use git, atom and github. To test the learning outcomes, you will be asked to create a GitHub repository to publish your resume on the web. Okay, let us get started!

@@ -1,9 +1,13 @@
 # Practical Exercise 7: Environmental data collection in real time with Raspberry Pi
 
 **Instructor:** Bo Zhao, zhaobo@uw.edu
+
 **Meetings:**  Wednesdays 11:30 AM to 2:20 PM PST on [Zoom](https://washington.zoom.us/j/98010412438)
+
 **Office Hour**: Mondays 1:00 PM to 4:00 PM *(check [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI) to request an appointment)*
+
 **Class Slack:** https://geog595digita-vtb3180.slack.com/
+
 **Authors:** Bo Zhao, Angel Lin
 
 In this practical exercise, you will learn how to set up a Raspberry Pi,  collect environmental data (pressure, temperature, and humidity) using a Sense HAT, synchronize the collected data to GitHub for real-time GIS, and schedule an auto-run task using crontab. The aim of this project is to briefly introduce how a Raspberry Pi can be a great platform for building Internet of Things (IoT). At the end of the tutorial, you are expected to know how to connect sensors to a Raspberry Pi, and how to set up an automated task to synchronize data from local device to the cloud. Ok, let's get started!
