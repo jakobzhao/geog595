@@ -14,7 +14,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 *Download the reading material of each week from [**a shared folder at UW Google Drive**](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv).*
 
 ### [Week 1: Foundation](01_intro/)
-- **Readings:** [GeoHumanities, Phenomenology, Humanistic Geography](https://drive.google.com/drive/u/2/folders/1kbBxDUXL84DnOYcO4acmDpbVN1Xrnp-r).
+- **Readings:** [GeoHumanities, Digital Geographies, and PostPhenomenology](https://drive.google.com/drive/u/2/folders/1kbBxDUXL84DnOYcO4acmDpbVN1Xrnp-r).
 
 - **Statement of Intent:** [requirements](01_intro/soi.md) `Due: 04/02 5:00pm`
 
