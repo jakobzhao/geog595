@@ -20,8 +20,6 @@
 
 * Andrew Feenberg,“Democratic [originally “Subversive”] Rationalization: Technology, Power, and Democracy,” revised version of an article in Inquiry, 35 (1992), pp. 301–322. Reprinted by permission of Taylor & Francis.
 
-* Emmanuel G. Mesthene. 1967. The Social Impacts of Technological Changes. Published by The Johns Hopkins University Press on behalf of the Society for the History of Technology.
-
 
 ***Extending readings***
 
@@ -31,6 +29,7 @@
 
 * Hinchliffe, S., 1996. Technology, power, and space—the means and ends of geographies of technology. Environment and Planning D: Society and Space, 14(6), pp.659-682.
 
+* Emmanuel G. Mesthene. 1967. The Social Impacts of Technological Changes. Published by The Johns Hopkins University Press on behalf of the Society for the History of Technology.
 
 ## [Praticial Exercise 1: Cloud-based project management using GitHub](pe.md)
 
