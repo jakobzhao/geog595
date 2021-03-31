@@ -27,7 +27,6 @@
 
 * Wright, D.J. and Wang, S., 2011. The emergence of spatial cyberinfrastructure. Proceedings of the National Academy of Sciences, 108(14), pp.5488-5491.
 
-
 * Emmanuel G. Mesthene. 1967. The Social Impacts of Technological Changes. Published by The Johns Hopkins University Press on behalf of the Society for the History of Technology.
 
 ## [Praticial Exercise 1: Cloud-based project management using GitHub](pe.md)
