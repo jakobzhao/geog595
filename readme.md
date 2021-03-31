@@ -34,7 +34,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **Hosts:** TBD
 - **Readings:** [Autonomy, Robot and Web crawler](https://drive.google.com/drive/u/2/folders/189PRo0MUz2bK7iig6Xa-3d8NfOnsnUPr)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/11) `Due: 04/19 5:00pm`.
-- **Practical Exercise 2:** [Twitter data collection using web crawler](03_bot/pe.md) `Due: 04/17 5:00pm`.
+- **Practical Exercise 2:** [Data collection using web crawler](03_bot/pe.md) `Due: 04/17 5:00pm`.
 
 
 ### [Week 5: Spatial Database](04_data/)

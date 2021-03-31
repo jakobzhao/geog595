@@ -1,4 +1,4 @@
-# Practical Exercise 2: Twitter data collection using web crawler
+# Practical Exercise 2: Data collection using web crawler
 
 **Instructor:** Bo Zhao, zhaobo@uw.edu
 
