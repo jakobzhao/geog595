@@ -16,7 +16,7 @@
 
 * Kwan, M.P., 2012. The uncertain geographic context problem. Annals of the Association of American Geographers, 102(5), pp.958-968.
 
-* Zhang, S., Zhao, B, in revision. Stand with #StandingRock: Envisioning an epistemological shift in understanding geospatial big data in the “post-truth” era
+* Zhang, S., Zhao, B, 2020. Stand with #StandingRock: Envisioning an epistemological shift in understanding geospatial big data in the “post-truth” era
 
 ***Extending readings***
 
