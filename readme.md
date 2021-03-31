@@ -47,8 +47,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 ### [Week 6: GeoVisualization](05_viz/)
 - **Hosts:** TBD
 - **Readings:**
-  - [Hermeneutics, Inductive visualization](https://drive.google.com/drive/u/2/folders/11q6IV_yUXLsR4o7HJun6SbM-0P-Zts79)
-  - [Geo-narrative, web mapping, storymap](https://drive.google.com/drive/u/2/folders/11q6IV_yUXLsR4o7HJun6SbM-0P-Zts79)
+  - [Hermeneutics, Inductive visualization, GeoNarrative](https://drive.google.com/drive/u/2/folders/11q6IV_yUXLsR4o7HJun6SbM-0P-Zts79)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/13) `Due: 04/30 5:00pm`.
 - **Practical Exercise 4:** [Making a storymap using Mapbox](05_viz/pe.md) `Due: 05/03 5:00pm`.
 
@@ -64,8 +63,8 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 ### [Week 8: Virtual Reality](07_vr/)
 - **Hosts:** TBD
 - **Readings:**
-  - [Embodiment and Cyborg](https://drive.google.com/drive/u/2/folders/1l9gFKzRJxR1vrUS8RdciDGBwN8Nvg72l)
-  - [Virtual Reality, Point-cloud visualization and SfM (Structure-from-Motion)](https://drive.google.com/drive/u/2/folders/1l9gFKzRJxR1vrUS8RdciDGBwN8Nvg72l)
+  - [Embodiment, Cyborg, Virtual Reality, Point-cloud visualization](https://drive.google.com/drive/u/2/folders/1l9gFKzRJxR1vrUS8RdciDGBwN8Nvg72l)
+
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/15) `Due: 05/14 5:00pm`.
 - **Practical Exercise 6:** [Creating Virtual Reality based on Structure-from-Motion](07_vr/pe.md) `Due: 05/17 5:00pm`.
 

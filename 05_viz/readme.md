@@ -8,8 +8,7 @@
 
 **Class Slack:** https://geog595digita-vtb3180.slack.com/
 **Keywords:**
-  - Hermeneutics, Inductive visualization
-  - Geo-narrative, web mapping, storymap
+  - Hermeneutics, Inductive visualization, GeoNarrative
 
 ## Readings
 
@@ -17,9 +16,9 @@
 
 * Knowles, A.K., Westerveld, L. and Strom, L., 2015. Inductive visualization: A humanistic alternative to GIS. GeoHumanities, 1(2), pp.233-265.
 
-* Roth, R.E. forthcoming Cartographic Design as Visual Storytelling: Synthesis & Review of Map-based Narratives, Genres, and Tropes
+* Roth, R.E. 2020. Cartographic Design as Visual Storytelling: Synthesis & Review of Map-based Narratives, Genres, and Tropes
 
-* Kent, A. J. 2018 Form follows feedback: rethinking cartographic communication. Westminster Papers in Communication and Culture, 13 (2). pp. 96-112.
+* Kent, A. J. 2018. Form follows feedback: rethinking cartographic communication. Westminster Papers in Communication and Culture, 13 (2). pp. 96-112.
 
 ***Extending readings***
 
