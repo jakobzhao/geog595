@@ -9,7 +9,7 @@
 **Class Slack:** https://geog595digita-vtb3180.slack.com/
 
 **Keywords:**
-  - Embodiment, Cyborg, Virtual Reality, Point-cloud visualization
+  - Embodiment, Virtual Reality, Point-cloud visualization
 
 ## Readings
 
