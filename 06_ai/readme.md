@@ -26,10 +26,7 @@
 
 ***Extending readings***
 
-* Cresswell, T., 2009. Place. International encyclopedia of human geography, 8, pp.169-177.
-
 * Tuan, Y.F., 1979. Space and place: humanistic perspective. In Philosophy in geography (pp. 387-427). Springer, Dordrecht.
-
 
 * Kwan MP, 2016, "Algorithmic geographies: big data, algorithmic uncertainty, and the production of geographic knowledge", Annals of the American Association of Geographers, 106(2): 274-82.
 
