@@ -22,7 +22,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **Statement of Intent:** [requirements](01_intro/soi.md) `Due: 04/02 5:00pm`
 
 ### [Week 2: CyberGIS](02_cyber/)
-- **Hosts:** TBD
+- **Hosts:** Natalie
 - **Readings:**
   - [Technology, Power and Geographic Knowledge;](https://drive.google.com/drive/u/2/folders/1U1kx6psr0Uhnu4GrHJ7O0UpX-cPEXRxk)
   - [CyberGIS, CloudGIS and Spatial Cyber-Infrastructure](https://drive.google.com/drive/u/2/folders/1U1kx6psr0Uhnu4GrHJ7O0UpX-cPEXRxk)
@@ -31,28 +31,28 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 
 ### [Week 3 & 4: Bot](03_bot/)
-- **Hosts:** TBD
+- **Hosts:** Larissa and Natalie
 - **Readings:** [Autonomy, Robot and Web crawler](https://drive.google.com/drive/u/2/folders/189PRo0MUz2bK7iig6Xa-3d8NfOnsnUPr)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/11) `Due: 04/19 5:00pm`.
 - **Practical Exercise 2:** [Data collection using web crawler](03_bot/pe.md) `Due: 04/17 5:00pm`.
 
 
 ### [Week 5: Spatial Database](04_data/)
-- **Hosts:** TBD
+- **Hosts:** Stevcen and Yohan
 - **Readings:** [Uncertainty, Post-truth and location spoofing](https://drive.google.com/drive/u/2/folders/1SAcqzsyKmUVTod0sDxlYnJwJl6yaE-t1)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/12) `Due: 04/26 5:00pm`.
 - **Practical Exercise 3:** [Spatial database management using SpatiaLite](04_data/pe.md) `Due: 04/23 5:00pm`.
 
 
 ### [Week 6: GeoVisualization](05_viz/)
-- **Hosts:** TBD
+- **Hosts:** Jenny and Steven
 - **Readings:**
   - [Hermeneutics, Inductive visualization, GeoNarrative](https://drive.google.com/drive/u/2/folders/11q6IV_yUXLsR4o7HJun6SbM-0P-Zts79)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/13) `Due: 04/30 5:00pm`.
 - **Practical Exercise 4:** [Making a storymap using Mapbox](05_viz/pe.md) `Due: 05/03 5:00pm`.
 
 ### [Week 7: GeoAI](06_ai/)
-- **Hosts:** TBD
+- **Hosts:** Yohan and Larissa
 - **Readings:**
   - [Place and space](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
   - [GeoAI, Placial analysis and place recognition](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
@@ -61,7 +61,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 
 ### [Week 8: Virtual Reality](07_vr/)
-- **Hosts:** TBD
+- **Hosts:** Shuang
 - **Readings:**
   - [Embodiment, Cyborg, Virtual Reality, Point-cloud visualization](https://drive.google.com/drive/u/2/folders/1l9gFKzRJxR1vrUS8RdciDGBwN8Nvg72l)
 
@@ -69,7 +69,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **Practical Exercise 6:** [Creating Virtual Reality based on Structure-from-Motion](07_vr/pe.md) `Due: 05/17 5:00pm`.
 
 ### [Week 9: Internet of Things](08_iot/)
-- **Hosts:** TBD
+- **Hosts:** Shuang and Jenny
 - **Readings:**
   - [Surveillance, Resistance and Panopticism](https://drive.google.com/drive/u/2/folders/16VYRbrvxHi4-YXIbj-qXLBZBWfpaO4UW)
   - [Real-time GIS, Open Hardware](https://drive.google.com/drive/u/2/folders/16VYRbrvxHi4-YXIbj-qXLBZBWfpaO4UW)
