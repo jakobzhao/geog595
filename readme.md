@@ -1,5 +1,5 @@
 # GEOGRAPHY 595 A: Digital GeoHumanities
-
+test2
 test
 **Instructor:** Bo Zhao, zhaobo@uw.edu
 
