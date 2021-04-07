@@ -1,5 +1,6 @@
 # GEOGRAPHY 595 A: Digital GeoHumanities
 
+test
 **Instructor:** Bo Zhao, zhaobo@uw.edu
 
 **Meetings:**  Wednesdays 11:30 AM to 2:20 PM PST on [Zoom](https://washington.zoom.us/j/98010412438)
