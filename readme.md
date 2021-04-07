@@ -2,7 +2,11 @@
 test3
 ewqeqw
 test2
+<<<<<<< HEAD
 test4
+=======
+test5
+>>>>>>> 38815a1e375f6fc844beec07f61a18ca133e19ad
 test
 fdsfsa
 **Instructor:** Bo Zhao, zhaobo@uw.edu
