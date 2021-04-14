@@ -201,6 +201,13 @@ Above all, you need to install tweepy using on command prompt (if a windows user
 pip install tweepy
 ```
 
+> note: However, if you work on a Jupyter Notebook such as mybinder.org, we run the following code, as shown in the script below, to install a library.
+
+```powershell
+!python -m pip install tweepy
+```
+
+
 To use the tweepy library, you need to register a Twitter developer account [here](https://developer.twitter.com/en/apply-for-access).
 
 ![](img/twitter_dev.png)
