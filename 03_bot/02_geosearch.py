@@ -1,4 +1,5 @@
 # created on Dec 24, 2020
+# modified on April 14, 2021
 # @author:          Bo Zhao
 # @email:           zhaobo@uw.edu
 # @website:         https://hgis.uw.edu
@@ -6,7 +7,7 @@
 # @description:     Search geo-tagged tweets within the U.S. This script is modified from https://github.com/shawn-terryah/Twitter_Geolocation
 
 
-import tweepy, json, time
+import tweepy, json, time, csv
 
 class StreamListener(tweepy.StreamListener):
     """tweepy.StreamListener is a class provided by tweepy used to access
@@ -17,7 +18,10 @@ class StreamListener(tweepy.StreamListener):
         """class initialization"""
         self.start_time = time.time()
         self.limit = time_limit
-        self.f = open(file, 'a', encoding="utf-8")
+        self.f = open(file, "w", newline='', encoding="utf-8") # mode a, r, w
+        fieldnames = ['id', 'username', 'created_at', 'lng', 'lat', 'text']
+        self.writer = csv.DictWriter(self.f, fieldnames=fieldnames)
+        self.writer.writeheader()
         super(StreamListener, self).__init__()
 
     def on_data(self, data):
@@ -38,13 +42,20 @@ class StreamListener(tweepy.StreamListener):
             else:
                 lng = datajson['coordinates']['coordinates'][0]
                 lat = datajson['coordinates']['coordinates'][1]
+            row = {
+                'id': id,
+                'username': username,
+                'created_at': created_at,
+                'lng': lng,
+                'lat': lat,
+                'text': text
+            }
 
-            record = '%d, %s, %s, %f, %f, %s \n' % (id, username, created_at, lng, lat, text)
-            print (record)
-            self.f.write(record)
+            print (row)
+            self.writer.writerow(row)
         else:
             self.f.close()
-            print ("finishe.")
+            print ("finish.")
             return False
 
 
@@ -58,6 +69,7 @@ if __name__ == "__main__":
     consumer_secret = "your_consumer_secret"
     access_token = "your_access_token"
     access_token_secret = "your_access_token_secret"
+
 
     myauth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     myauth.set_access_token(access_token, access_token_secret)
