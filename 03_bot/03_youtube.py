@@ -53,7 +53,7 @@ for i in range(5):
     # To test whether you find the right html elements, you can use the pycharm debugger to examine the returned data.
     videos = soup.find_all('ytd-video-renderer', class_="style-scope ytd-item-section-renderer")[-20:] # 20 indicates only process the newly-acquired 20 entries.
 
-    # process each video entry.
+    # iterate and process each video entry.
     for video in videos:
 
         # I prefer use the "try-except" statement to enable the program run without pausing due to unexecpted errors.
