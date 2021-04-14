@@ -192,7 +192,8 @@ print("finished")
 
 ## 3. Harvest geo-tagged tweets using a API-based Crawler
 
-In this section, we will make a Twitter crawler to collect geo-tagged tweets. This crawler is based on `Tweepy` - a python based library which wraps the Twitter API.  Tweepy provides a series of data crawling strategies - Harvesting geo-tagged tweets is just one of them. If you are interested in composing a more complicated data collection strategy, please refer to its documentation at [https://tweepy.readthedocs.io/en/latest/index.html](https://tweepy.readthedocs.io/en/latest/index.html).
+In this section, we will make a Twitter crawler to collect geotagged tweets. This crawler is based on `Tweepy` - a python based library which wraps the Twitter API. Tweepy provides a series of data crawling strategies - Harvesting geotagged tweets is just one of them. If you are interested in composing a more complicated data collection strategy, please refer to its documentation at <https://tweepy.readthedocs.io/en/latest/index.html>.
+
 
 Above all, you need to install tweepy using on command prompt (if a windows user) or terminal (if a Mac or Linux user), as shown in the script below.
 
@@ -200,12 +201,29 @@ Above all, you need to install tweepy using on command prompt (if a windows user
 pip install tweepy
 ```
 
-To use the tweepy library, you need to register a Twitter developer account.
+To use the tweepy library, you need to register a Twitter developer account [here](https://developer.twitter.com/en/apply-for-access).
 
+![](img/twitter_dev.png)
 
-![](img/twitter-developer.png)
+In order to register your account, you will be prompted to answer a series of questions. Please answer those that are required to fill in and you can ignore optional questions. Once you finish registering your account, you can apply for a Twitter app. First of all, you will need to click on `Developer Portal` which is located on the top right corner of the page.
 
-Once you register, you can apply for a Twitter app. Having a twitter app, you will receive four important parameters, they are:
+![](img/dev_acc.png)
+
+Then, you will enter developer portal. On the left bar, you can click on `Projects &  Apps` for checking the list of apps that you've created for getting Twitter API, but for now, the list should be empty. In order to register for Twitter API, click on `+ Create App` which is under the `Standalone Apps`.
+
+![](img/creat_app.png)
+
+You will be prompted to fill in the app details. Here, you are required to fill in: `App name`.
+
+![](img/app_details.png)
+
+After you fill in all the required fields, you may click on `Create`. Twitter takes some time to process your information to validate your access to the Twitter API. Then you will be able to see your keys and tokens.
+
+Once you are registered, you could check your own keys and tokens again by click on your app-name which is under your app list. Go to the `App Detail` of the app you just created. Click on the tab `Keys and tokens`, and you should be able to see all the keys and tokens required to use the Twitter API.
+
+![](img/app_keys.png)
+
+Copy and paste the keys and tokens you received into corresponding parameters in the code below:
 
 ```Python
 consumer_key = "your_consumer_key"
@@ -214,9 +232,7 @@ access_token = "your_access_token"
 access_token_secret = "your_access_token_secret"
 ```
 
-After installing tweepy, please execute the script [`02_geosearch.py`](02_geosearch.py) under the [03_bot folder](./) on PyCharm. This piece of code was programmed with the reference to [https://github.com/shawn-terryah/Twitter_Geolocation](https://github.com/shawn-terryah/Twitter_Geolocation).
-
-Compared with `01_twsearch.py`, this script `02_geosearch.py` was programmed using a `class` structure instead of a run-down script structure. A `StreamListener` is defined for later use, the main procedure will be executed after the line `if __name__ == "__main__":`. So, let us start with the main procedure, and then switch to the stream listener.
+This script `geosearch.ipynb` was programmed using a `class` structure instead of a run-down script structure. A `StreamListener` is defined for later use, the main procedure will be executed after the line `if __name__ == "__main__":`. This piece of code was programmed with reference to <https://github.com/shawn-terryah/Twitter_Geolocation>. So, let us start with the main procedure and then switch to the stream listener.
 
 ```Python
 class StreamListener(tweepy.StreamListener):
@@ -235,14 +251,14 @@ if __name__ == "__main__":
     ....
 ```
 
-once we acquire the consumer key and access token, we can create a variable to handle the twitter authentication.
+Once we acquire the consumer key and access token, we can create a variable to handle the twitter authentication.
 
 ```Python
 myauth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 myauth.set_access_token(access_token, access_token_secret)
 ```
 
-To retrieve geo-tagged tweets, three bounding boxes are defined. After initializing the stream listener, a stream object is created out of `tweepy.Stream object`. Then, the LOCATION array is passed to the stream filter method. By doing so, the geo-tagged are filtered and collected. Notably, the filter not only acquire geo-tagged tweets, but also other kinds of tweets according to the input filter strategy.  For example, to  filter all tweets containing the word seattle. The track parameter is an array of search terms to stream.
+To retrieve geo-tagged tweets, three bounding boxes are defined. After initializing the stream listener, a stream object is created out of `tweepy.Stream object`. Then, the LOCATION array is passed to the stream filter method. By doing so, the geo-tagged are filtered and collected.
 
 ```Python
 LOCATIONS = [-124.7771694, 24.520833, -66.947028, 49.384472,  # Contiguous US
@@ -252,21 +268,29 @@ stream_listener = StreamListener(time_limit=60, file=output_file)
 stream = tweepy.Stream(auth=myauth, listener=stream_listener)
 stream.filter(locations=LOCATIONS)
 ```
-You can filter tweets through a keyword, like "seattle".
+
+Notably, the filter not only acquires geotagged tweets but also other kinds of tweets according to the input filter strategy.
+tweepy allows you to filter tweets through a keyword. By choosing a keyword related to the timely topic like "coronavirus", you can obtain data that gives you an insight into the public perception of the topic.
 
 ```python
-stream.filter(track=['seattle'])
+stream.filter(track=['coronavirus'], is_async=True)
 ```
 
-To use filter to stream tweets by a specific user. The follow parameter is an array of IDs.
+Additionally, to use filters to stream tweets by a specific user. The following parameter is an array of IDs. For example, the Twitter ID for the white house is `822215673812119553`, and you can collect tweets from this specific account. We will not be changing this parameter in this lab exercise, but consider how you can utilize this function if this is something that you would like to link to your final project.
 
 ```python
 stream.filter(follow=["2211149702"])
 ```
-**Note:** An easy way to find a single ID is to use one conversion website and search for ‘what is my twitter ID’.
 
+However, these different filtering parameter returns different data structures, and they store different information about the tweets. For this reason, keyword filtering does not return plenty of geotagged tweets. If you are changing the keyword parameter, you should run this crawler for a longer duration. To do so, simply change the `time_limit` parameter. For example, if you want to run this crawler for 5 minutes, set it to 300. If you are trying to use a less common keyword, the chance is you will not have a sufficient amount of data. In that case, consider running this crawler for even longer.
 
-The `on_data` function will handle the data processing and output. In general, this function terminated after `self.limit` second. To process each record `data`, the captured `data` is converted to a json variable `datajson`. we will mainly output six variables, in terms of id, username, created_at, lng, lat, and text. Notably, If the geotag is a single point, the lat and lng will be captured directly from the `coordinates`. If the geotag is place, the lat and lng will capture the centroid of the boundingbox. Similarity, a new csv file named `geotags.csv` is created after [the assets folder](assets/).
+```python
+stream_listener = StreamListener(time_limit=60, file=output_file)
+```
+
+The `on_data` function will handle data processing and output. In general, this function terminated after `self.limit` second. To process each record `data`, the captured `data` is converted to a JSON variable `datajson`. We will mainly output six variables, in terms of id, username, created_at, lng, lat, and text. Notably, If the geotag is a single point, the lat and lng will be captured directly from the `coordinates`. If the geotag is a place, the lat and lng will capture the centroid of the bounding box. Similarity, a new CSV file named `tweets.csv` is created under [the assets folder](assets/).
+
+In a lot of actual work environments, it is common to use a database to store information. We are using CSV files as data storage to simplify our tasks. If you would like to know more about using a database to store information, you can learn more [here](https://github.com/jakobzhao/geog458/blob/master/labs/lab02/database/pe.md).
 
 ```Python
 def on_data(self, data):
