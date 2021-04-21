@@ -328,7 +328,9 @@ def on_data(self, data):
         return False
 ```
 
-In addition to run the crawler script [02_geosearch.py](02_geosearch.py) on pycharm, you can also run the python notebook version on an online Jupyter server Binder.org. Click the button to launch the Binder Server. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jakobzhao/geog595.git/master?filepath=03_bot%2F02_geosearch.ipynb). The instructor will show you how to run it on binder in class. 
+In addition to run the crawler script [02_geosearch.py](02_geosearch.py) on pycharm, you can also run the python notebook version on an online Jupyter server Binder.org. Click the button to launch the Binder Server. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jakobzhao/geog595.git/master?filepath=03_bot%2F02_geosearch.ipynb). The instructor will show you how to run it on binder in class.
+
+> Besides, you can run the script 04_geosearch.py on Binder by clicking this [link](https://mybinder.org/v2/gh/jakobzhao/geog595.git/master?filepath=03_bot%2F04_geosearch.ipynb).
 
 ## 4. Deliverable
 
