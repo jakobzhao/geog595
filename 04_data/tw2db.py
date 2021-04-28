@@ -74,6 +74,6 @@ if __name__ == "__main__":
                  -164.639405, 58.806859, -144.152365, 71.76871,  # Alaska
                  -160.161542, 18.776344, -154.641396, 22.878623]  # Hawaii
 
-    stream_listener = StreamListener(time_limit=180, dbfile=dbname)
+    stream_listener = StreamListener(time_limit=20, dbfile=dbname)
     stream = tweepy.Stream(auth=myauth, listener=stream_listener)
     stream.filter(locations=LOCATIONS)
