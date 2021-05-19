@@ -10,7 +10,6 @@
 
 **Keywords:**
   - Real-time GIS, Open Hardware, Smart City
-  - Surveillance
 
 ## Readings
 
