@@ -71,7 +71,6 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 ### [Week 9: Internet of Things](08_iot/)
 - **Hosts:** Shuang and Jenny
 - **Readings:**
-  - [Surveillance](https://drive.google.com/drive/u/2/folders/16VYRbrvxHi4-YXIbj-qXLBZBWfpaO4UW)
   - [Real-time GIS, Open Hardware](https://drive.google.com/drive/u/2/folders/16VYRbrvxHi4-YXIbj-qXLBZBWfpaO4UW)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/16) `Due: 05/21 5:00pm`.
 - **Practical Exercise 7:** [Environmental data collection in real time with Raspberry Pi ](08_iot/pe.md) `Due: 05/24 5:00pm`.
