@@ -10,7 +10,7 @@
 
 **Keywords:**
   - Real-time GIS, Open Hardware, Smart City
-  - Surveillance, Resistance and Panopticism
+  - Surveillance
 
 ## Readings
 
