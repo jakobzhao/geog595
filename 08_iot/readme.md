@@ -15,11 +15,13 @@
 
 * Wenwen Li, Michael Batty & Michael F. Goodchild 2019. Realtime GIS for smart cities, International Journal of Geographical Information Science
 
-* Kitchin, R., 2014. The real-time city? Big data and smart urbanism. GeoJournal, 79(1), pp.1-14.
+
 
 * Verbeek, P.P. 2020. Politicizing PostPhenomenology. Reimagining philosophy and technology, Reinventing Ihde, Springer Nature Switzerland
 
 ***Extending readings***
+
+* Kitchin, R., 2014. The real-time city? Big data and smart urbanism. GeoJournal, 79(1), pp.1-14.
 
 * Sui, D.Z. and Goodchild, M.F., 2003. A tetradic analysis of GIS and society using McLuhan's law of the media. Canadian Geographer/Le Géographe canadien, 47(1), pp.5-17.
 
