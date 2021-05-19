@@ -15,7 +15,7 @@
 
 * Wenwen Li, Michael Batty & Michael F. Goodchild 2019. Realtime GIS for smart cities, International Journal of Geographical Information Science
 
-
+* Bo Zhao, Humanistic GIS: Towards a Research Agenda
 
 * Verbeek, P.P. 2020. Politicizing PostPhenomenology. Reimagining philosophy and technology, Reinventing Ihde, Springer Nature Switzerland
 
