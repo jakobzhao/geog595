@@ -1,4 +1,4 @@
-# GEOGRAPHY 595 B: Digital GeoHumanities
+# GEOGRAPHY 595 B: Humanistic GIS
 
 **Instructor:** Bo Zhao, zhaobo@uw.edu
  
