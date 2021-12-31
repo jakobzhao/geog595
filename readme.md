@@ -2,11 +2,10 @@
 
 **Instructor:** Bo Zhao, zhaobo@uw.edu
  
-**Meetings:**  Wednesdays 11:30 AM to 2:20 PM PST on [Zoom](https://washington.zoom.us/j/98010412438)
+**Meetings:**  Mondays 2:30 PM to 5:20 PM PST on [Zoom](https://washington.zoom.us/my/bzhao)
 
-**Office Hour**: Mondays 1:00 PM to 4:00 PM *(check [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI) to request an appointment)*
+**Office Hour**: Mondays 1:00 PM to 4:00 PM *(visit [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI) to request an appointment)*
 
-**Class Slack:** https://geog595digita-vtb3180.slack.com/
 
 In this seminar, we will invite you to participate in the ongoing discussion and scholarly practice at the intersection of geospatial technologies and the disciplines of the humanities. Digital GeoHumanities refers to the systematic use of digital geographical resources in the humanities, as well as the geospatial analyses and narratives of their application. This seminar provides a unique opportunity to hone practical skills of geospatial technologies and to catalyze critical thinking of their applications. You will read literature from a few well-established geographers and philosophers in STS (Science, technology and society), as well as the latest pieces of work by both GIS (Geographic Information Science) and critical scholars. With the theoretical preparation, you will practice several emerging data-driven techniques (e.g., web crawling, GitHub, geo-narrative, deep learning, text mining, virtual reality, raspberry pi, blockchain, etc.), and also reflect upon their relevance to critical views, such as power relation, hermeneutics, embodiment, autonomy, surveillance, and so on. As a course requirement, you need to choose a topic from any social sciences or humanities discipline, apply the newly learned visual, analytical, and synthetical skills, and also critique the significant role, mediating function, or social implication of the geospatial technologies. The course material is strongly influenced by my interest in mapping, GIS, humanities, and STS. If you have any questions or concerns, please contact Dr. Bo Zhao. Welcome to this course, we are delighted to have you with us!
 
