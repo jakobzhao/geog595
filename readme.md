@@ -26,21 +26,20 @@ In this seminar, we will invite you to participate in the ongoing discussion and
   - [Technology, Power and Geographic Knowledge](https://drive.google.com/drive/u/2/folders/1U1kx6psr0Uhnu4GrHJ7O0UpX-cPEXRxk)
   - [CyberGIS, Web 3.0 and Blockchain](https://drive.google.com/drive/u/2/folders/1U1kx6psr0Uhnu4GrHJ7O0UpX-cPEXRxk)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/10) `Due: 04/05 5:00pm`.
-- **Practical Exercise 1:** [Cloud-based project management using GitHub](02_cyber/pe.md) `Due: 04/05 5:00pm`.
+- **Practical Exercise 1:** [Cloud-based project management using GitHub](02_cyber/pe.md)
 
 
 ### [Week 3 & 4: Bot](03_bot/)
 - **Hosts:** *TBD*
 - **Readings:** [Autonomy, Robot and Web crawler](https://drive.google.com/drive/u/2/folders/189PRo0MUz2bK7iig6Xa-3d8NfOnsnUPr)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/11) `Due: 04/19 5:00pm`.
-- **Practical Exercise 2:** [Data collection using web crawler](03_bot/pe.md) `Due: 04/17 5:00pm`.
-
+- **Practical Exercise 2:** [Data collection using web crawler](03_bot/pe.md) 
 
 ### [Week 5: Spatial Database](04_data/)
 - **Hosts:** *TBD*
 - **Readings:** [Uncertainty, Post-truth and location spoofing](https://drive.google.com/drive/u/2/folders/1SAcqzsyKmUVTod0sDxlYnJwJl6yaE-t1)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/12) `Due: 04/26 5:00pm`.
-- **Practical Exercise 3:** [Spatial database management using SpatiaLite](04_data/pe.md) `Due: 04/23 5:00pm`.
+- **Practical Exercise 3:** [Spatial database management using SpatiaLite](04_data/pe.md) 
 
 
 ### [Week 6: GeoVisualization](05_viz/)
@@ -48,7 +47,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - **Readings:**
   - [Hermeneutics, Inductive visualization, GeoNarrative](https://drive.google.com/drive/u/2/folders/11q6IV_yUXLsR4o7HJun6SbM-0P-Zts79)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/13) `Due: 04/30 5:00pm`.
-- **Practical Exercise 4:** [Making a storymap using Mapbox](05_viz/pe.md) `Due: 05/03 5:00pm`.
+- **Practical Exercise 4:** [Making a storymap using Mapbox](05_viz/pe.md) 
 
 ### [Week 7: GeoAI](06_ai/)
 - **Hosts:** *TBD*
@@ -56,23 +55,21 @@ In this seminar, we will invite you to participate in the ongoing discussion and
   - [Place and space](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
   - [GeoAI, Placial analysis and place recognition](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/14) `Due: 05/07 5:00pm`.
-- **Practical Exercise 5:** [Place context analysis using Natural Language Processing ](06_ai/pe.md) `Due: 05/10 5:00pm`.
-
-
+- **Practical Exercise 5:** [Place context analysis using Natural Language Processing ](06_ai/pe.md) 
 ### [Week 8: Virtual Reality](07_vr/)
 - **Hosts:** *TBD*
 - **Readings:**
   - [Embodiment, Virtual Reality, Point-cloud visualization](https://drive.google.com/drive/u/2/folders/1l9gFKzRJxR1vrUS8RdciDGBwN8Nvg72l)
 
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/15) `Due: 05/14 5:00pm`.
-- **Practical Exercise 6:** [Creating Virtual Reality based on Structure-from-Motion](07_vr/pe.md) `Due: 05/17 5:00pm`.
+- **Practical Exercise 6:** [Creating Virtual Reality based on Structure-from-Motion](07_vr/pe.md) 
 
 ### [Week 9: Internet of Things](08_iot/)
 - **Hosts:** *TBD*
 - **Readings:**
   - [Real-time GIS, Open Hardware, Smart City](https://drive.google.com/drive/u/2/folders/16VYRbrvxHi4-YXIbj-qXLBZBWfpaO4UW)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/16) `Due: 05/21 5:00pm`.
-- **Practical Exercise 7:** [Environmental data collection in real time with Raspberry Pi ](08_iot/pe.md) `Due: 05/24 5:00pm`.
+- **Practical Exercise 7:** [Environmental data collection in real time with Raspberry Pi ](08_iot/pe.md) 
 
 
 ### [Week 10: Summary, Presentation, and Writing Project](09_sum/readme.md)
