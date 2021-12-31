@@ -2,12 +2,12 @@
 
 **Instructor:** Bo Zhao, zhaobo@uw.edu
  
-**Meetings:**  Mondays 2:30 PM to 5:20 PM PST on [Zoom](https://washington.zoom.us/my/bzhao)
+**Meetings:**  Mondays 2:30 PM to 5:20 PM PST on [Zoom](https://washington.zoom.us/my/bzhao) and SMI 409
 
-**Office Hour**: Mondays 1:00 PM to 4:00 PM *(visit [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI) to request an appointment)*
+**Office Hour**: Tuesdays 10:00 AM to 12:00 PM *(visit [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI) to request an appointment)* 
 
 
-In this seminar, we will invite you to participate in the ongoing discussion and scholarly practice at the intersection of geospatial technologies and the disciplines of the humanities. Digital GeoHumanities refers to the systematic use of digital geographical resources in the humanities, as well as the geospatial analyses and narratives of their application. This seminar provides a unique opportunity to hone practical skills of geospatial technologies and to catalyze critical thinking of their applications. You will read literature from a few well-established geographers and philosophers in STS (Science, technology and society), as well as the latest pieces of work by both GIS (Geographic Information Science) and critical scholars. With the theoretical preparation, you will practice several emerging data-driven techniques (e.g., web crawling, GitHub, geo-narrative, deep learning, text mining, virtual reality, raspberry pi, blockchain, etc.), and also reflect upon their relevance to critical views, such as power relation, hermeneutics, embodiment, autonomy, surveillance, and so on. As a course requirement, you need to choose a topic from any social sciences or humanities discipline, apply the newly learned visual, analytical, and synthetical skills, and also critique the significant role, mediating function, or social implication of the geospatial technologies. The course material is strongly influenced by my interest in mapping, GIS, humanities, and STS. If you have any questions or concerns, please contact Dr. Bo Zhao. Welcome to this course, we are delighted to have you with us!
+In this seminar, we will invite you to participate in the ongoing discussion and scholarly practice at the intersection of geospatial technologies and the disciplines of the humanities. Humanistic GIS emphasizes the value of human experience in designing, developing and using geographical resources in humanities studies. This seminar provides a unique opportunity to hone practical skills of geospatial technologies and to catalyze critical thinking of their applications. You will read literature from a few well-established geographers and philosophers in STS (Science, technology and society), as well as the latest pieces of work by both GIS (Geographic Information Science) and critical scholars. With the theoretical preparation, you will practice several emerging data-driven techniques (e.g., web crawling, GitHub, geo-narrative, deep learning, text mining, virtual reality, raspberry pi, blockchain, etc.), and also reflect upon their relevance to critical views, such as power relation, hermeneutics, embodiment, autonomy, surveillance, and so on. As a course requirement, you need to choose a topic from any social sciences or humanities discipline, apply the newly learned visual, analytical, and synthetical skills, and also critique the significant role, mediating function, or social implication of the geospatial technologies. The course material is strongly influenced by my interest in mapping, GIS, humanities, and STS. If you have any questions or concerns, please contact Dr. Bo Zhao. Welcome to this course, we are delighted to have you with us!
 
 > This web page is the syllabus - There is no printed version, please refer here instead. Make sure refer to this page as often as possible. Also, Feel free to ask the instructor for clarifications whenever needed.
 
@@ -16,42 +16,42 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 *Download the reading material of each week from [**a shared folder at UW Google Drive**](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv).*
 
 ### [Week 1: Foundation](01_intro/)
-- **Readings:** [GeoHumanities, Digital Geographies, and PostPhenomenology](https://drive.google.com/drive/u/2/folders/1kbBxDUXL84DnOYcO4acmDpbVN1Xrnp-r).
+- **Readings:** [Humanistic GIS, Digital Geographies, and PostPhenomenology](https://drive.google.com/drive/u/2/folders/1kbBxDUXL84DnOYcO4acmDpbVN1Xrnp-r).
 
 - **Statement of Intent:** [requirements](01_intro/soi.md) `Due: 04/02 5:00pm`
 
 ### [Week 2: CyberGIS](02_cyber/)
-- **Hosts:** Natalie
+- **Hosts:** *TBD*
 - **Readings:**
-  - [Technology, Power and Geographic Knowledge;](https://drive.google.com/drive/u/2/folders/1U1kx6psr0Uhnu4GrHJ7O0UpX-cPEXRxk)
-  - [CyberGIS, CloudGIS and Spatial Cyber-Infrastructure](https://drive.google.com/drive/u/2/folders/1U1kx6psr0Uhnu4GrHJ7O0UpX-cPEXRxk)
+  - [Technology, Power and Geographic Knowledge](https://drive.google.com/drive/u/2/folders/1U1kx6psr0Uhnu4GrHJ7O0UpX-cPEXRxk)
+  - [CyberGIS, Web 3.0 and Blockchain](https://drive.google.com/drive/u/2/folders/1U1kx6psr0Uhnu4GrHJ7O0UpX-cPEXRxk)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/10) `Due: 04/05 5:00pm`.
 - **Practical Exercise 1:** [Cloud-based project management using GitHub](02_cyber/pe.md) `Due: 04/05 5:00pm`.
 
 
 ### [Week 3 & 4: Bot](03_bot/)
-- **Hosts:** Larissa and Natalie
+- **Hosts:** *TBD*
 - **Readings:** [Autonomy, Robot and Web crawler](https://drive.google.com/drive/u/2/folders/189PRo0MUz2bK7iig6Xa-3d8NfOnsnUPr)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/11) `Due: 04/19 5:00pm`.
 - **Practical Exercise 2:** [Data collection using web crawler](03_bot/pe.md) `Due: 04/17 5:00pm`.
 
 
 ### [Week 5: Spatial Database](04_data/)
-- **Hosts:** Stevcen and Yohan
+- **Hosts:** *TBD*
 - **Readings:** [Uncertainty, Post-truth and location spoofing](https://drive.google.com/drive/u/2/folders/1SAcqzsyKmUVTod0sDxlYnJwJl6yaE-t1)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/12) `Due: 04/26 5:00pm`.
 - **Practical Exercise 3:** [Spatial database management using SpatiaLite](04_data/pe.md) `Due: 04/23 5:00pm`.
 
 
 ### [Week 6: GeoVisualization](05_viz/)
-- **Hosts:** Jenny and Steven
+- **Hosts:** *TBD*
 - **Readings:**
   - [Hermeneutics, Inductive visualization, GeoNarrative](https://drive.google.com/drive/u/2/folders/11q6IV_yUXLsR4o7HJun6SbM-0P-Zts79)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/13) `Due: 04/30 5:00pm`.
 - **Practical Exercise 4:** [Making a storymap using Mapbox](05_viz/pe.md) `Due: 05/03 5:00pm`.
 
 ### [Week 7: GeoAI](06_ai/)
-- **Hosts:** Yohan and Larissa
+- **Hosts:** *TBD*
 - **Readings:**
   - [Place and space](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
   - [GeoAI, Placial analysis and place recognition](https://drive.google.com/drive/u/2/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
@@ -60,15 +60,15 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 
 ### [Week 8: Virtual Reality](07_vr/)
-- **Hosts:** Shuang
+- **Hosts:** *TBD*
 - **Readings:**
-  - [Embodiment, Cyborg, Virtual Reality, Point-cloud visualization](https://drive.google.com/drive/u/2/folders/1l9gFKzRJxR1vrUS8RdciDGBwN8Nvg72l)
+  - [Embodiment, Virtual Reality, Point-cloud visualization](https://drive.google.com/drive/u/2/folders/1l9gFKzRJxR1vrUS8RdciDGBwN8Nvg72l)
 
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/15) `Due: 05/14 5:00pm`.
 - **Practical Exercise 6:** [Creating Virtual Reality based on Structure-from-Motion](07_vr/pe.md) `Due: 05/17 5:00pm`.
 
 ### [Week 9: Internet of Things](08_iot/)
-- **Hosts:** Shuang and Jenny
+- **Hosts:** *TBD*
 - **Readings:**
   - [Real-time GIS, Open Hardware, Smart City](https://drive.google.com/drive/u/2/folders/16VYRbrvxHi4-YXIbj-qXLBZBWfpaO4UW)
 - [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/16) `Due: 05/21 5:00pm`.
@@ -82,7 +82,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 ## :bell: Course Requirement
 
-**Computational skill:** This course welcomes students who own some GIS or other computational experience, and have programmed in a python or javascript IDE (Integrated Development Environment). Students should at least hear of GIS, GitHub, Leaflet, web crawler, and Raspberry Pi before considering this seminar, and most importantly, be self-motivated to solve a research question with the listed computational skills.
+**Computational skill:** This course welcomes students who some computational experience, or have programmed in a python or javascript IDE (Integrated Development Environment). Students should at least hear of GIS, GitHub, Leaflet, web crawler, or Raspberry Pi before considering this seminar, and most importantly, be self-motivated to solve a research question with the listed computational skills.
 
 **Statement of intent:** Please prepare a short statement of intent describing your project on or before the end of **Week 1.** Please feel free to plan your writing project to help advance progress in your own work – qualifying exam essay, draft of journal article, side project, etc. I am happy to meet with you to talk more about your writing project.
 
@@ -92,7 +92,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 **Practical exercise:** You need to get familiar with the practical exercise instruction before the class meeting in order to better reflect upon the theoretical concepts. We will walk through each practical exercise in class, and you will submit the deliverables to GitHub several days before the class meeting (you will have two weeks for your Week 3&4’s exercise deliverable). **As a requirement, you need to submit two lab deliverables. One is Lab 1, and the other is a lab of your interest.**
 
-**Participation in seminar discussion:** Complete all assigned readings and get familiar with the practical exercise instructions before class meetings, and participating in critical discussions of those readings. You can also join the class slack (https://geog595digita-vtb3180.slack.com/) for virtual dicussions.
+**Participation in seminar discussion:** Complete all assigned readings and get familiar with the practical exercise instructions before class meetings, and participating in critical discussions of those readings. You can also join the class slack (https://geog595digita-vtb3180.slack.com/) for virtual discussions.
 
 **Thinkpiece:** Your weekly think pieces should be at least 350 words in length and should engage critically with **2 or more of the week’s readings**. There is no right or wrong way to write a think piece and you should feel free to experiment, but ensure that you are citing your sources and that your piece is clear and free of any typos. Below are some additional suggestions/guiding thoughts to help shape your piece.
 
@@ -109,7 +109,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 - Make connections between the assigned text and the course content and above all, explore your own ideas and thoughts about the assigned text; after all, that is the point of the assignment.
 
 
-Please upload your think piece to the [**GitHub issues page**](https://github.com/jakobzhao/geog595/issues) by Mondays 5:00 PM – so your colleagues leading discussion can draw on your ideas in planning activities for our class session.
+Please craft your think piece to the [**GitHub issues page**](https://github.com/jakobzhao/geog595/issues) by Fridays 5:00 PM – so your colleagues leading discussion can draw on your ideas in planning activities for our class session.
 
 **Writing project:** During the quarter, you will complete a larger writing project that engages with the seminar material and course themes, along with additional readings that you bring into conversation with the assigned course readings. You are aiming for 15-20 pages coalescing around ideas and readings from this quarter – you can take up and extend one of the themes from our weekly structure or develop a new one relevant to your own work and thinking. Writing projects is due no later than the end of **Week 10**.
 

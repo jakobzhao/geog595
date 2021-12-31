@@ -14,18 +14,12 @@
 
 ## Readings
 
-* Verbeek, P.P., 2001. Don Ihde: The Technological Lifeworld. In American Philosophy of Technology: The Empirical Turn. (pp. 119-146). Indiana University Press.
+* Zhao, B., 2022. Humanistic GIS: Towards a Research Agenda.  Annals of the Association of American Geographers
 
-* Ash, J., Kitchin, R. and Leszczynski, A., 2018. Digital turn, digital geographies?. Progress in Human Geography, 42(1), pp.25-43.
-
-* Travis, C., 2017. GeoHumanities, GIScience and Smart City Lifeworld approaches to geography and the new human condition. Global and Planetary Change, 156, pp.147-154.
 
 **Extending reading**
 
-* Heidegger, M., 1977. The question concerning technology (pp. 3-35). New York: Harper & Row.
 
-* Yi-Fu Tuan 1976. Humnanistic Geography, Annals of the Association of American Geographers, 66:2, 266-276, DOI: 10.1111/j.1467-8306.1976.tb01089.x
+* Verbeek, P.P., 2001. Don Ihde: The Technological Lifeworld. In American Philosophy of Technology: The Empirical Turn. (pp. 119-146). Indiana University Press.
 
-* Ihde, D. 2010. A phenomenology of technics (pp. 134-155). Chichester UK: Wiley-Blackwell.
-
-* Crang, M., 2015. The promises and perils of a digital geohumanities. cultural geographies, 22(2), pp.351-360.
+* Ash, J., Kitchin, R. and Leszczynski, A., 2018. Digital turn, digital geographies?. Progress in Human Geography, 42(1), pp.25-43.
