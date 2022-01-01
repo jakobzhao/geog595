@@ -13,7 +13,8 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 ## :calendar: Weekly Schedule
 
-*Visit the reading material of each week from [**a shared folder at UW Google Drive**](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv). You are supposed to read all the required papers by our meetings.* 
+- Visit the reading material of each week from [**a shared folder at UW Google Drive**](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv). 
+- Read all the required papers of the week by the weekly meetings. 
 
 ### Week 1: Foundation
 
@@ -216,4 +217,4 @@ We welcome the opportunity to work with any students with disabilities in this c
 <a href="https://hgis.uw.edu"><img src="res/logo.png" align="right" width="300px" target="_blank" /></a> Washington state law requires that UW develop a policy for accommodation of student absences or significant hardship due to reasons of faith or conscience, or for organized religious activities. The UW’s policy, including more information about how to request an accommodation, is available at [Religious Accommodations Policy](https://registrar.washington.edu/staffandfaculty/religious-accommodations-policy/). Accommodations must be requested within the first two weeks of this course using the [Religious Accommodations Request form](https://https:/registrar.washington.edu/students/religious-accommodations-request/).
 
 
-`© 2019-2021 All rights are reserved by Bo Zhao.`
+`© 2019-2022 All rights are reserved by Bo Zhao.`
