@@ -13,68 +13,164 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 ## :calendar: Weekly Schedule
 
-*Download the reading material of each week from [**a shared folder at UW Google Drive**](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv).*
+*Visit the reading material of each week from [**a shared folder at UW Google Drive**](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv). You are supposed to read all the required papers by our meetings.* 
 
-### [Week 1: Foundation](01_intro/)
-- **Readings:** [Humanistic GIS, Digital Geographies, and PostPhenomenology](https://drive.google.com/drive/u/0/folders/1yATmn6WNHAPAdT6o-XETCCohzmyQeOBY).
+### Week 1: Foundation
 
-- **Statement of Intent:** [requirements](01_intro/soi.md) `Due: 04/02 5:00pm`
+Please prepare a short statement of intent describing your final project. Please feel free to plan your writing project to help advance progress in your own work – qualifying exam essay, draft of journal article, side project, etc. I am happy to meet with you to talk more about your writing project. Please send your statement of intent to the instructor (zhaobo@uw.edu) by **`01/08 5:00pm`**.
 
-### [Week 2: CyberGIS](02_cyber/)
-- **Hosts:** *TBD*
-- **Readings:**
-  - [Technology, Power and Geographic Knowledge](https://drive.google.com/drive/u/0/folders/1VeGr87-GhwL48KufsBrzPvtS1pVz-MCj)
-  - [CyberGIS, Web 3.0 and Blockchain](https://drive.google.com/drive/u/0/folders/1VeGr87-GhwL48KufsBrzPvtS1pVz-MCj)
-- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/10) `Due: 04/05 5:00pm`.
-- **Practical Exercise 1:** [Cloud-based project management using GitHub](02_cyber/pe.md)
+**Keywords:** Humanistic GIS, Digital Geographies, and PostPhenomenology
 
+<details>
+  <summary><b>Readings</b></summary>
 
-### [Week 3 & 4: Bot](03_bot/)
-- **Hosts:** *TBD*
-- **Readings:** [Autonomy, Robot and Web crawler](https://drive.google.com/drive/u/0/folders/13Evld1U_OgjvoCXBAdxOnQz5xT0N1pYG)
-- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/11) `Due: 04/19 5:00pm`.
-- **Practical Exercise 2:** [Data collection using web crawler](03_bot/pe.md) 
+  1. `Required` Zhao, B., 2022. Humanistic GIS: Towards a Research Agenda. Annals of the Association of American Geographers
 
-### [Week 5: Spatial Database](04_data/)
-- **Hosts:** *TBD*
-- **Readings:** [Uncertainty, Post-truth and location spoofing](https://drive.google.com/drive/u/0/folders/1v5bOH9MW0z1kAh4FWO-sxBCHgGcwamDa)
-- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/12) `Due: 04/26 5:00pm`.
-- **Practical Exercise 3:** [Spatial database management using SpatiaLite](04_data/pe.md) 
+  2. `Optional` Verbeek, P.P., 2001. Don Ihde: The Technological LifeWorld. In American Philosophy of Technology: The Empirical Turn. (pp. 119-146). Indiana University Press.
 
+  3. `Optional` Ash, J., Kitchin, R. and Leszczynski, A., 2018. Digital turn, digital geographies? Progress in Human Geography, 42(1), pp.25-43.
 
-### [Week 6: GeoVisualization](05_viz/)
-- **Hosts:** *TBD*
-- **Readings:**
-  - [Hermeneutics, Inductive visualization, GeoNarrative](https://drive.google.com/drive/u/0/folders/1PCtGmBnGhNt2UpywXbchF9PaA6eEFAhs)
-- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/13) `Due: 04/30 5:00pm`.
-- **Practical Exercise 4:** [Making a storymap using Mapbox](05_viz/pe.md) 
+</details>
 
-### [Week 7: GeoAI](06_ai/)
-- **Hosts:** *TBD*
-- **Readings:**
-  - [GeoAI, Placial analysis and place recognition](https://drive.google.com/drive/u/0/folders/1E6ZbANhNNUzJ7t-XKBJJ1vlXQOFbPHNl)
-- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/14) `Due: 05/07 5:00pm`.
-- **Practical Exercise 5:** [Place context analysis using Natural Language Processing ](06_ai/pe.md) 
-### [Week 8: Virtual Reality](07_vr/)
-- **Hosts:** *TBD*
-- **Readings:**
-  - [Embodiment, Virtual Reality, Point-cloud visualization](https://drive.google.com/drive/u/0/folders/1okxlDKfOsyliHs5ep8pY3dEb61MPU3GA)
+### Week 2: CyberGIS
 
-- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/15) `Due: 05/14 5:00pm`.
-- **Practical Exercise 6:** [Creating Virtual Reality based on Structure-from-Motion](07_vr/pe.md) 
+Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/10) by 01/08 5:00pm.
 
-### [Week 9: Internet of Things](08_iot/)
-- **Hosts:** *TBD*
-- **Readings:**
-  - [Real-time GIS, Open Hardware, Smart City](https://drive.google.com/drive/u/0/folders/1k7OCsuwqraek2BIsxDfarxzqEX1nYqQP)
-- [**Thinkpiece**](https://github.com/jakobzhao/geog595/issues/16) `Due: 05/21 5:00pm`.
-- **Practical Exercise 7:** [Environmental data collection in real time with Raspberry Pi ](08_iot/pe.md) 
+**Hosts:** *TBD*
+**Keywords:** Technology, Power and Geographic Knowledge; CyberGIS, Web 3.0 and Blockchain
+**Practical Exercise 1:** [Cloud-based project management using GitHub](02_cyber/pe.md)
+<details>
+  <summary><b>Readings</b></summary>
+
+1. `Required` Wang, S., 2010. A CyberGIS framework for the synthesis of cyberinfrastructure, GIS, and spatial analysis. Annals of the Association of American Geographers, 100(3), pp.535-557.
+
+2. `Required` Andrew Feenberg,“Democratic [originally “Subversive”] Rationalization: Technology, Power, and Democracy,” revised version of an article in Inquiry, 35 (1992), pp. 301–322. Reprinted by permission of Taylor & Francis.
 
 
-### [Week 10: Summary, Presentation, and Writing Project](09_sum/readme.md)
+3. `Required` Zhao, B. and Huang, X., 2020. Encrypted monument: The birth of crypto place on the blockchain. Geoforum, 116, pp.149-152.
 
-- *Each student presents the writing project during the last class meeting (06/02).*
-- **Writing Project** `Due: 06/04 5:00pm`.
+</details>
+
+
+### Week 3 & 4: Bot
+
+Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/11) by 01/08 5:00pm.
+
+**Hosts:** *TBD*
+**Keywords:** Autonomy, Robot and Web crawler
+**Practical Exercise 2:** [Data collection using web crawler](03_bot/pe.md)
+<details>
+  <summary><b>Readings</b></summary>
+
+1. `Required` Li, W., Wang, S. and Bhatia, V., 2016. PolarHub: A large-scale web crawling engine for OGC service discovery in cyberinfrastructure. Computers, Environment and Urban Systems, 59, pp.195-207.
+
+2. `Required` Thelwall, M. and Stuart, D., 2006. Web crawling ethics revisited: Cost, privacy, and denial of service. Journal of the American Society for Information Science and Technology, 57(13), pp.1771-1779.
+
+3. `Required` Langdon Winner, “Do Artifacts Have Politics?” from Langdon Winner, The Whale and the Reactor: A Search for Limits in an Age of High Technology (Chicago: University of Chicago Press, 1986).
+
+</details>
+
+### Week 5: Spatial Database
+
+Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/12) by 01/08 5:00pm.
+
+**Hosts:** *TBD*
+**Keywords:** Uncertainty, Post-truth and location spoofing
+**Practical Exercise 3:** [Spatial database management using SpatiaLite](04_data/pe.md) 
+<details>
+  <summary><b>Readings</b></summary>
+
+1. `Required` MacEachren, A.M., Robinson, A., Hopper, S., Gardner, S., Murray, R., Gahegan, M. and Hetzler, E., 2005. Visualizing geospatial information uncertainty: What we know and what we need to know. Cartography and Geographic Information Science, 32(3), pp.139-160.
+
+2. `Required` Kwan, M.P., 2012. The uncertain geographic context problem. Annals of the Association of American Geographers, 102(5), pp.958-968.
+
+3. `Required` Zhang, S., Zhao, B, 2020. Stand with #StandingRock: Envisioning an epistemological shift in understanding geospatial big data in the “post-truth” era
+
+</details>
+
+### Week 6: GeoVisualization
+
+Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/13) by 01/08 5:00pm.
+
+**Hosts:** *TBD*
+**Keywords:** Hermeneutics, Inductive visualization, GeoNarrative
+**Practical Exercise 4:** [Making a storymap using Mapbox](05_viz/pe.md)
+<details>
+  <summary><b>Readings</b></summary>
+
+1. `Required` MacEachren, A.M. and Kraak, M.J., 2001. Research challenges in geovisualization. Cartography and geographic information science, 28(1), pp.3-12.
+
+2. `Required` Knowles, A.K., Westerveld, L. and Strom, L., 2015. Inductive visualization: A humanistic alternative to GIS. GeoHumanities, 1(2), pp.233-265.
+
+3. `Required` Roth, R.E. 2020. Cartographic Design as Visual Storytelling: Synthesis & Review of Map-based Narratives, Genres, and Tropes
+
+</details>
+
+### Week 7: GeoAI
+
+Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/14) by 01/08 5:00pm.
+
+**Hosts:** *TBD*
+**Keywords:**  GeoAI, Placial analysis and place recognition
+**Practical Exercise 5:** [Place context analysis using Natural Language Processing ](06_ai/pe.md) 
+<details>
+  <summary><b>Readings</b></summary>
+
+1. `Required` Janowicz, K., Gao, S., McKenzie, G., Hu, Y. and Bhaduri, B., 2019. GeoAI: spatially explicit artificial intelligence techniques for geographic knowledge discovery and beyond. International Journal of Geographical Information Science: 34: 625-636
+
+2. `Required` Zhou, B., Lapedriza, A., Khosla, A., Oliva, A. and Torralba, A., 2017. Places: A 10 million image database for scene recognition. IEEE transactions on pattern analysis and machine intelligence, 40(6), pp.1452-1464.
+
+
+3. `Required` Zhao, B., Zhang, S., Xu, C., Sun, Y. and Deng, C. 2021. Deep Fake Geography? When geospatial data encounters AI. Cartography and Geographic Information Science
+
+
+4. `Optional` Agnew, J., 2011. Space and place. Handbook of geographical knowledge, 2011, pp.316-331.
+
+</details>
+
+
+### Week 8: Virtual Reality
+
+Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/15) by 01/08 5:00pm.
+
+**Hosts:** *TBD*
+**Keywords:** Embodiment, Virtual Reality, Point-cloud visualization
+**Practical Exercise 6:** [Creating Virtual Reality based on Structure-from-Motion](07_vr/pe.md) 
+<details>
+  <summary><b>Readings</b></summary>
+
+1. `Required` Lea, J. 2020. Post-Phenomenology/Post-Phenomenological Geography. International Encyclopedia of Human Geography 2nd edition, 10: 333-338
+
+2. `Required` Kilteni, K., Groten, R. and Slater, M., 2012. The sense of embodiment in virtual reality. Presence: Teleoperators and Virtual Environments, 21(4), pp.373-387.
+
+3. `Required` Munafo, J., Diedrick, M. and Stoffregen, T.A., 2017. The virtual reality head-mounted display Oculus Rift induces motion sickness and is sexist in its effects. Experimental brain research, 235(3), pp.889-901.
+
+</details>
+
+### Week 9: Internet of Things
+
+Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/16) by 01/08 5:00pm.
+
+**Hosts:** *TBD*
+**Keywords:** Real-time GIS, Open Hardware, Smart City
+**Practical Exercise 7:** [Environmental data collection in real time with Raspberry Pi ](08_iot/pe.md) 
+
+<details>
+  <summary><b>Readings</b></summary>
+
+1. `Required` Wenwen Li, Michael Batty & Michael F. Goodchild 2019. Realtime GIS for smart cities, International Journal of Geographical Information Science
+
+2. `Required` Kitchin, R., 2014. The real-time city? Big data and smart urbanism. GeoJournal, 79(1), pp.1-14.
+
+3. `Required` Sui, D.Z. and Goodchild, M.F., 2003. A tetradic analysis of GIS and society using McLuhan's law of the media. Canadian Geographer, 47(1), pp.5-17.
+
+4. `Required` Verbeek, P.P. 2020. Politicizing PostPhenomenology. Reimagining philosophy and technology, Reinventing Ihde, Springer Nature Switzerland
+
+</details>
+
+### Week 10: Summary, Presentation, and Writing Project
+
+Each student presents the writing project during the last class meeting (06/02). And the writing project is due by 06/04 5:00pm.
 
 ## :bell: Course Requirement
 
