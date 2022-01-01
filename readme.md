@@ -17,9 +17,9 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 ### Week 1: Foundation
 
-Please prepare a short statement of intent describing your final project. Please feel free to plan your writing project to help advance progress in your own work – qualifying exam essay, draft of journal article, side project, etc. I am happy to meet with you to talk more about your writing project. Please send your statement of intent to the instructor (zhaobo@uw.edu) by **`01/08 5:00pm`**.
+In this week, we will read a series of papers to get familiar with Humanistic GIS, its origin in postphenomenology and its relevance to the ongoing research focus on digital geographies. By this week, each student can build a better understanding of how to use GIS in their scientific or humanities research. Moreover, each student is required to prepare a short **statement of intent** describing your final writing project. Each student is highly encouraged to plan this writing project to advance progress their own work, such as qualifying exam essay, draft of journal article, side project, etc. Please send the statement of intent to the instructor via Email zhaobo@uw.edu by **`01/08 5:00pm`**.
 
-**Keywords:** Humanistic GIS, Digital Geographies, and PostPhenomenology
+**Keywords:** Humanistic GIS, Digital Geographies, and Postphenomenology
 
 <details>
   <summary><b>Readings</b></summary>
