@@ -61,8 +61,11 @@ Please submit the thinkpiece of this week to [this web page](https://github.com/
 Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/11) by 01/08 5:00pm.
 
 **Hosts:** *TBD*
+
 **Keywords:** Autonomy, Robot and Web crawler
+
 **Practical Exercise 2:** [Data collection using web crawler](03_bot/pe.md)
+
 <details>
   <summary><b>Readings</b></summary>
 
@@ -79,8 +82,11 @@ Please submit the thinkpiece of this week to [this web page](https://github.com/
 Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/12) by 01/08 5:00pm.
 
 **Hosts:** *TBD*
+
 **Keywords:** Uncertainty, Post-truth and location spoofing
+
 **Practical Exercise 3:** [Spatial database management using SpatiaLite](04_data/pe.md) 
+
 <details>
   <summary><b>Readings</b></summary>
 
@@ -97,8 +103,11 @@ Please submit the thinkpiece of this week to [this web page](https://github.com/
 Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/13) by 01/08 5:00pm.
 
 **Hosts:** *TBD*
+
 **Keywords:** Hermeneutics, Inductive visualization, GeoNarrative
+
 **Practical Exercise 4:** [Making a storymap using Mapbox](05_viz/pe.md)
+
 <details>
   <summary><b>Readings</b></summary>
 
@@ -115,8 +124,11 @@ Please submit the thinkpiece of this week to [this web page](https://github.com/
 Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/14) by 01/08 5:00pm.
 
 **Hosts:** *TBD*
+
 **Keywords:**  GeoAI, Placial analysis and place recognition
-**Practical Exercise 5:** [Place context analysis using Natural Language Processing ](06_ai/pe.md) 
+
+**Practical Exercise 5:** [Place context analysis using Natural Language Processing](06_ai/pe.md) 
+
 <details>
   <summary><b>Readings</b></summary>
 
@@ -138,8 +150,11 @@ Please submit the thinkpiece of this week to [this web page](https://github.com/
 Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/15) by 01/08 5:00pm.
 
 **Hosts:** *TBD*
+
 **Keywords:** Embodiment, Virtual Reality, Point-cloud visualization
+
 **Practical Exercise 6:** [Creating Virtual Reality based on Structure-from-Motion](07_vr/pe.md) 
+
 <details>
   <summary><b>Readings</b></summary>
 
@@ -156,8 +171,10 @@ Please submit the thinkpiece of this week to [this web page](https://github.com/
 Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/16) by 01/08 5:00pm.
 
 **Hosts:** *TBD*
+
 **Keywords:** Real-time GIS, Open Hardware, Smart City
-**Practical Exercise 7:** [Environmental data collection in real time with Raspberry Pi ](08_iot/pe.md) 
+
+**Practical Exercise 7:** [Environmental data collection in real time with Raspberry Pi ](08_iot/pe.md)
 
 <details>
   <summary><b>Readings</b></summary>
