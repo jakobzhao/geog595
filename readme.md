@@ -38,8 +38,11 @@ Please prepare a short statement of intent describing your final project. Please
 Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/10) by 01/08 5:00pm.
 
 **Hosts:** *TBD*
+
 **Keywords:** Technology, Power and Geographic Knowledge; CyberGIS, Web 3.0 and Blockchain
+
 **Practical Exercise 1:** [Cloud-based project management using GitHub](02_cyber/pe.md)
+
 <details>
   <summary><b>Readings</b></summary>
 
