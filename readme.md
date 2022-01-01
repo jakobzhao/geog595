@@ -49,7 +49,6 @@ Please submit the thinkpiece of this week to [this web page](https://github.com/
 
 2. `Required` Andrew Feenberg,“Democratic [originally “Subversive”] Rationalization: Technology, Power, and Democracy,” revised version of an article in Inquiry, 35 (1992), pp. 301–322. Reprinted by permission of Taylor & Francis.
 
-
 3. `Required` Zhao, B. and Huang, X., 2020. Encrypted monument: The birth of crypto place on the blockchain. Geoforum, 116, pp.149-152.
 
 </details>
@@ -124,7 +123,7 @@ Please submit the thinkpiece of this week to [this web page](https://github.com/
 
 **Hosts:** *TBD*
 
-**Keywords:**  GeoAI, Placial analysis and place recognition
+**Keywords:**  GeoAI, place recognition, and deepfake geography
 
 **Practical Exercise 5:** [Place context analysis using Natural Language Processing](06_ai/pe.md) 
 
@@ -144,7 +143,7 @@ Please submit the thinkpiece of this week to [this web page](https://github.com/
 </details>
 
 
-### Week 8: Virtual Reality
+### *`Cancelled`* Week 8: Virtual Reality 
 
 Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/15) by 01/08 5:00pm.
 
@@ -171,7 +170,7 @@ Please submit the thinkpiece of this week to [this web page](https://github.com/
 
 **Hosts:** *TBD*
 
-**Keywords:** Real-time GIS, Open Hardware, Smart City
+**Keywords:** Real-time GIS, Smart City, and their social implications
 
 **Practical Exercise 7:** [Environmental data collection in real time with Raspberry Pi ](08_iot/pe.md)
 
