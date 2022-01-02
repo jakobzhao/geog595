@@ -1,12 +1,6 @@
 # Practical Exercise 5: Place context analysis using Natural Language Processing
 
-**Instructor:** Bo Zhao, zhaobo@uw.edu
-
-**Meetings:**  Wednesdays 11:30 AM to 2:20 PM PST on [Zoom](https://washington.zoom.us/j/98010412438)
-
-**Office Hour**: Mondays 1:00 PM to 4:00 PM *(check [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI) to request an appointment)*
-
-**Class Slack:** https://geog595digita-vtb3180.slack.com/
+**Instructor:** Bo Zhao, zhaobo@uw.edu; **Points Available** = 50
 
 **Authors:** Bo Zhao, Jou Ho
 

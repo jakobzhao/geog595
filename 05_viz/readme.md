@@ -1,12 +1,6 @@
 # Practical Exercise 4: Creating geo-narratives with open-source storytelling library
 
-**Instructor:** Bo Zhao, zhaobo@uw.edu
-
-**Meetings:**  Wednesdays 11:30 AM to 2:20 PM PST on [Zoom](https://washington.zoom.us/j/98010412438)
-
-**Office Hour**: Mondays 1:00 PM to 4:00 PM *(check [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI) to request an appointment)*
-
-**Class Slack:** https://geog595digita-vtb3180.slack.com/
+**Instructor:** Bo Zhao, zhaobo@uw.edu; **Points Available** = 50
 
 In this practical exercise, you are expected to make a web based interactive geonarrative applkication. A GeoNarrative, also being referred to as storymap, or map-based storytelling, is an visualization genre that primarily utilizes a series of maps or other types of geovisualizations to narrate a geographical event or phenomenon. In addition to geovisualization, there will be other form of information like scripts, images, or videos. This lecture mainly provides an online GeoNarrative template which can help you to make your own geo-narrative applications. To review the geo-narrative template, please visit [this link](https://jakobzhao.github.io/geog458/weeks/week07).
 
