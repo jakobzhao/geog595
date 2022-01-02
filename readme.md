@@ -1,10 +1,10 @@
 # GEOGRAPHY 595 B: Humanistic GIS
 
-**Instructor:** Bo Zhao, zhaobo@uw.edu
+- **Instructor:** Bo Zhao, zhaobo@uw.edu
  
-**Meetings:**  Mondays 2:30 PM to 5:20 PM PST on [Zoom](https://washington.zoom.us/my/bzhao) and SMI 409
+- **Meetings:**  Mondays 2:30 to 5:20 PM on [Zoom](https://washington.zoom.us/my/bzhao) and SMI 409
 
-**Office Hour**: Tuesdays 10:00 AM to 12:00 PM *(visit [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI) to request an appointment)* 
+- **Office Hour**: Tuesdays 10:00 AM to 12:00 PM *(visit [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI) to request an appointment)* 
 
 In this seminar, we will invite you to participate in the ongoing discussion and scholarly practice at the intersection of geospatial technologies and the disciplines of the humanities. Humanistic GIS emphasizes the value of human experience in designing, developing and using geographical resources in humanities studies. This seminar provides a unique opportunity to hone practical skills of geospatial technologies and to catalyze critical thinking of their applications. You will read literature from a few well-established geographers and philosophers in STS (Science, technology and society), as well as the latest pieces of work by both GIS (Geographic Information Science) and critical scholars. With the theoretical preparation, you will practice several emerging data-driven techniques (e.g., web crawling, GitHub, geo-narrative, deep learning, text mining, virtual reality, raspberry pi, blockchain, etc.), and also reflect upon their relevance to critical views, such as power relation, hermeneutics, embodiment, autonomy, surveillance, and so on. As a course requirement, you need to choose a topic from any social sciences or humanities discipline, apply the newly learned visual, analytical, and synthetical skills, and also critique the significant role, mediating function, or social implication of the geospatial technologies. The course material is strongly influenced by my interest in mapping, GIS, humanities, and STS. If you have any questions or concerns, please contact Dr. Bo Zhao. Welcome to this course, we are delighted to have you with us!
 
@@ -17,7 +17,7 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 ### Week 1: Foundation
 
-In this week, we will read a series of papers to get familiar with Humanistic GIS, its origin in postphenomenology and its relevance to the ongoing research focus on digital geographies. By this week, each student can build a better understanding of how to use GIS in their scientific or humanities research. Moreover, each student is required to prepare a short **statement of intent** describing your final writing project. Each student is highly encouraged to plan this writing project to advance progress their own work, such as qualifying exam essay, draft of journal article, side project, etc. Please send the statement of intent to the instructor via Email zhaobo@uw.edu by **`01/08 5:00pm`**.
+In this week, we will get familiar with the theoretical framework Humanistic GIS, its origin in postphenomenology and its relevance to the ongoing research focus on digital geographies. By this week, each student can build a better understanding of how to use GIS in their scientific or humanities research.
 
 **Keywords:** Humanistic GIS, Digital Geographies, and Postphenomenology
 
@@ -31,14 +31,17 @@ In this week, we will read a series of papers to get familiar with Humanistic GI
   3. `Optional` Ash, J., Kitchin, R. and Leszczynski, A., 2018. Digital turn, digital geographies? Progress in Human Geography, 42(1), pp.25-43.
 
 </details>
+<br/>
+
+> Each student is required to prepare a short **statement of intent** describing your final writing project. Each student is highly encouraged to plan this writing project to advance progress their own work, such as qualifying exam essay, draft of journal article, side project, etc. Please send the statement of intent to the instructor via Email zhaobo@uw.edu by **`01/08 5:00pm`**.
 
 ### Week 2: CyberGIS
 
-Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/10) by 01/08 5:00pm.
+The emergence of CyberGIS in early 2010 represents an important research direction in GIS that incorporates an evolving group of web technologies (e.g., cloud service, world wide web, etc.) to advance the capacity of GIS itself in dealing with complex geographical questions. In the same period, other topics like Cloud GIS (Yang 2011), Spatial Infrastructures (Wright 2011) also appeared. This research direction has enabled GIS to deploy in a more distributed structure but not necessarily being located in a centralized place. In this way, GIS can utilize more computational resources over the Internet or the Cloud and process more complex and large-scale geographical algorithms. In this week, we will get us familiar with the concept of CyberGIS by reading Shaowen Wang's paper on "CyberGIS Framework," and then read another paper on Blockchain from Bo Zhao and his co-author (2020). Blockchain is a representative technology for Web 3.0 - a new phase of web technologies. With a general background of the research direction around CyberGIS, its relevance to Web 3.0, we will build a better understanding of why this wave of cyberGIS appears in early 2010, its connection to the development of ICT (Information and communications technology) and possibility its future development. Moreover, we will read a classic paper from Andrew Feenberg to examine the democratic power of technology (Feenberg 1992). By linking this paper with CyberGIS, we would discuss the intertwined democratic and autocratic power of CyberGIS and others alike.
 
 **Hosts:** *TBD*
 
-**Keywords:** Technology, Power and Geographic Knowledge; CyberGIS, Web 3.0 and Blockchain
+**Keywords:** Technology and Power; CyberGIS, Web 3.0 and Blockchain
 
 **Practical Exercise 1:** [Cloud-based project management using GitHub](02_cyber/pe.md)
 
@@ -52,11 +55,15 @@ Please submit the thinkpiece of this week to [this web page](https://github.com/
 3. `Required` Zhao, B. and Huang, X., 2020. Encrypted monument: The birth of crypto place on the blockchain. Geoforum, 116, pp.149-152.
 
 </details>
+<br/>
+
+> In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/10) by 01/08 5:00pm, and complete the practical exercise by the end of the Week 2.
 
 
 ### Week 3 & 4: Bot
 
-Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/11) by 01/08 5:00pm.
+We will spend two weeks on the topic of bot. Bot is an human-made artifact that automates programmed functions. It has been frequently used to implement repetitive work in order to emancipate human labors. GIScholars have also used bots to collect geospatial services, retrieve social media feeds, and conduct other replaceable tasks. Since data collection is an important step for any (digital) humanities studies, we plan to spend the entire Week 3 to focus on the practical exercise in order to help each student to design a web crawler -- a typical bot that can harvest online data. We expect this web crawler can help each student to advance progress of their own research. In this week, each student is encouraged to read Wenwen Li and her co-authors' paper to see how to build a web map crawler, and how it can be used to collect geospatial data for polar research (Li et al 2016). Next, in week 4, we will convene to discuss the code of ethics related to web crawling (Thelwall et al 2006). This discussion may shed light on the use of bots for any (digital) humanities studies. Moreover, each student will also read another piece of classic paper on the politics of Artifacts (Winner 1986). This paper will initiate the group discussion on the political and social implications of bots.
+
 
 **Hosts:** *TBD*
 
@@ -75,9 +82,13 @@ Please submit the thinkpiece of this week to [this web page](https://github.com/
 
 </details>
 
-### Week 5: Spatial Database
+<br/>
 
-Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/12) by 01/08 5:00pm.
+> In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/11) by 01/08 5:00pm, and complete the practical exercise by the end of the Week 4.
+
+### Week 5: Geospatial Data
+
+In this week, we will focus on geospatial data. Similar to other types of data, it comprises of 0s and 1s. However, it is special because of the way of data storage and processing. To better understand why "spatial data is special", each student, in this week's practical exercise, is expected to store the crawled data in the previous week to a file-based geospatial database "spatialite." Through this exercise, a lucid understanding about the structure, storage, and management of geospatial data will be built. Moreover, we also offer three papers on the geospatial data uncertainties. Each of these papers adopts a different epistemology to examine the uncertainty issue (MacEachren et al 2005; Kwan 2012; Zhang et al 2020). 
 
 **Hosts:** *TBD*
 
@@ -96,9 +107,14 @@ Please submit the thinkpiece of this week to [this web page](https://github.com/
 
 </details>
 
+<br/>
+
+> In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/12) by 01/08 5:00pm, and complete the practical exercise by the end of the Week 5.
+
 ### Week 6: GeoVisualization
 
-Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/13) by 01/08 5:00pm.
+GeoVisualization refers the visual representation and the representation strategies that illustrating geographical phenomenon using geospatial data. Through this week, we intend to present the development of geovisualization since the new millennium. It is recommended to read the paper from MacEachren and his co-authors (2001) that is a throughout literature review envisioning the topics in geovisualization to be explored. Knowles and her co-authors' paper represents a humanistic alternative to the conventional geovisualization (2015), and emphasized the possible to visualize geographical phenenonmon onto a non-euclidean space. Moreover, Roth's paper shared us an effective high-level guidance on how to craft a geo-narrative (2020). In this week's practical exercise, each student is expected to create a online storymap.
+
 
 **Hosts:** *TBD*
 
@@ -117,9 +133,13 @@ Please submit the thinkpiece of this week to [this web page](https://github.com/
 
 </details>
 
+<br/>
+
+> In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/13) by 01/08 5:00pm, and complete the practical exercise by the end of the Week 6.
+
 ### Week 7: GeoAI
 
-Please submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/14) by 01/08 5:00pm.
+GeoAI, namely Geospatial Artificial Intelligence, indicates the use and/or the rewire of Artificial Intelligence for geospatial analyses. In this week, we present a literature review on GeoAI and its multiple applicable areas (Janowicz 2019). A promising area is place recognition, and a paper from Bolei Zhou is offered (2017). Place, similar to space is an essential concept in geography. To understand this concept better, you can refer to John Agnew's paper on space and place (Agnew 2011). Moreover, another paper on deepfake geography is offer to share a more controversial use of GeoAI (Zhao et al 2021).
 
 **Hosts:** *TBD*
 
@@ -134,7 +154,6 @@ Please submit the thinkpiece of this week to [this web page](https://github.com/
 
 2. `Required` Zhou, B., Lapedriza, A., Khosla, A., Oliva, A. and Torralba, A., 2017. Places: A 10 million image database for scene recognition. IEEE transactions on pattern analysis and machine intelligence, 40(6), pp.1452-1464.
 
-
 3. `Required` Zhao, B., Zhang, S., Xu, C., Sun, Y. and Deng, C. 2021. Deep Fake Geography? When geospatial data encounters AI. Cartography and Geographic Information Science
 
 
@@ -142,6 +161,9 @@ Please submit the thinkpiece of this week to [this web page](https://github.com/
 
 </details>
 
+<br/>
+
+> In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/14) by 01/08 5:00pm, and complete the practical exercise by the end of the Week 7.
 
 ### *`Cancelled`* Week 8: Virtual Reality 
 
