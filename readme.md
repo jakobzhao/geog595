@@ -61,7 +61,7 @@ We will spend two weeks on the topic of bot. Bot is an human-made artifact that 
 
 **Keywords:** Autonomy, Robot and Web crawler
 
-**Practical Exercise 2:** [Data collection using web crawler](03_bot/pe.md)
+**Practical Exercise 2:** [Data collection using web crawler](03_bot)
 
 <details>
   <summary><b>Readings</b></summary>
@@ -84,7 +84,7 @@ In this week, we will focus on geospatial data. Similar to other types of data, 
 
 **Keywords:** Uncertainty, Post-truth and location spoofing
 
-**Practical Exercise 3:** [Spatial database management using SpatiaLite](04_data/pe.md)
+**Practical Exercise 3:** [Spatial database management using SpatiaLite](04_data)
 
 <details>
   <summary><b>Readings</b></summary>
@@ -107,7 +107,7 @@ GeoVisualization refers the visual representation and the representation strateg
 
 **Keywords:** Hermeneutics, Inductive visualization, GeoNarrative
 
-**Practical Exercise 4:** [Making a storymap using Mapbox](05_viz/pe.md)
+**Practical Exercise 4:** [Making a storymap using Mapbox](05_viz)
 
 <details>
   <summary><b>Readings</b></summary>
@@ -130,7 +130,7 @@ GeoAI, namely Geospatial Artificial Intelligence, indicates the use and/or the r
 
 **Keywords:**  GeoAI, place recognition, and deepfake geography
 
-**Practical Exercise 5:** [Place context analysis using Natural Language Processing](06_ai/pe.md)
+**Practical Exercise 5:** [Place context analysis using Natural Language Processing](06_ai)
 
 <details>
   <summary><b>Readings</b></summary>
@@ -154,7 +154,7 @@ Virtual Reality (VR) is a computer-generated environment with scenes and objects
 
 **Keywords:** Embodiment, Virtual Reality, Point-cloud visualization
 
-**Practical Exercise 6:** [Creating Virtual Reality based on Structure-from-Motion](07_vr/pe.md)
+**Practical Exercise 6:** [Creating Virtual Reality based on Structure-from-Motion](07_vr)
 
 <details>
   <summary><b>Readings</b></summary>
@@ -177,7 +177,7 @@ In this week, we will review the concept of Internet of Things (IoT). IoT descri
 
 **Keywords:** Real-time GIS, Smart City, and their social implications
 
-**Practical Exercise 7:** [Environmental data collection in real time with Raspberry Pi ](08_iot/pe.md)
+**Practical Exercise 7:** [Environmental data collection in real time with Raspberry Pi ](08_iot)
 
 <details>
   <summary><b>Readings</b></summary>
