@@ -9,7 +9,6 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 import time, datetime, csv
 
-
 # The url where the data will be collected from.
 url = "https://www.youtube.com/results?search_query=standing+rock"
 
