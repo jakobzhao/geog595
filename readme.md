@@ -1,10 +1,8 @@
 # GEOGRAPHY 595 B: Humanistic GIS
 
 - **Instructor:** Bo Zhao, zhaobo@uw.edu
- 
 - **Meetings:**  Mondays 2:30 to 5:20 PM on [Zoom](https://washington.zoom.us/my/bzhao) and SMI 409
-
-- **Office Hour**: Tuesdays 10:00 AM to 12:00 PM *(visit [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI) to request an appointment)* 
+- **Office Hour**: Tuesdays 10:00 AM to 12:00 PM *(visit [here](https://calendar.google.com/calendar/u/0/selfsched?sstoken=UUZvU2gxXzVlZnZpfGRlZmF1bHR8NzM4ODA5MzUyNjAxZDU2Y2ViNTZiMzk2ZmM0N2VmNzI) to request an appointment)*
 
 In this seminar, we will invite you to participate in the ongoing discussion and scholarly practice at the intersection of geospatial technologies and the disciplines of the humanities. Humanistic GIS emphasizes the value of human experience in designing, developing and using geographical resources in humanities studies. This seminar provides a unique opportunity to hone practical skills of geospatial technologies and to catalyze critical thinking of their applications. You will read literature from a few well-established geographers and philosophers in STS (Science, technology and society), as well as the latest pieces of work by both GIS (Geographic Information Science) and critical scholars. With the theoretical preparation, you will practice several emerging data-driven techniques (e.g., web crawling, GitHub, geo-narrative, deep learning, text mining, virtual reality, raspberry pi, blockchain, etc.), and also reflect upon their relevance to critical views, such as power relation, hermeneutics, embodiment, autonomy, surveillance, and so on. As a course requirement, you need to choose a topic from any social sciences or humanities discipline, apply the newly learned visual, analytical, and synthetical skills, and also critique the significant role, mediating function, or social implication of the geospatial technologies. The course material is strongly influenced by my interest in mapping, GIS, humanities, and STS. If you have any questions or concerns, please contact Dr. Bo Zhao. Welcome to this course, we are delighted to have you with us!
 
@@ -12,8 +10,8 @@ In this seminar, we will invite you to participate in the ongoing discussion and
 
 ## :calendar: Weekly Schedule
 
-- Visit the reading material of each week from [**a shared folder at UW Google Drive**](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv). 
-- Read all the required papers of the week by the weekly meetings. 
+- Visit the reading material of each week from [**a shared folder at UW Google Drive**](https://drive.google.com/drive/u/1/folders/1F1rVljPvChxc5DlJK3dzCuXXW34vvMIv).
+- Read all the required papers of the week by the weekly meetings.
 
 ### Week 1: Foundation
 
@@ -24,11 +22,9 @@ In this week, we will get familiar with the theoretical framework Humanistic GIS
 <details>
   <summary><b>Readings</b></summary>
 
-  1. `Required` Zhao, B., 2022. Humanistic GIS: Towards a Research Agenda. Annals of the Association of American Geographers
-
-  2. `Optional` Verbeek, P.P., 2001. Don Ihde: The Technological LifeWorld. In American Philosophy of Technology: The Empirical Turn. (pp. 119-146). Indiana University Press.
-
-  3. `Optional` Ash, J., Kitchin, R. and Leszczynski, A., 2018. Digital turn, digital geographies? Progress in Human Geography, 42(1), pp.25-43.
+1. `Required` Zhao, B., 2022. Humanistic GIS: Towards a Research Agenda. *Annals of the Association of American Geographers*
+2. `Optional` Verbeek, P.P., 2001. Don Ihde: The Technological LifeWorld. In *American Philosophy of Technology: The Empirical Turn.* (pp. 119-146). Indiana University Press.
+3. `Optional` Ash, J., Kitchin, R. and Leszczynski, A., 2018. Digital turn, digital geographies? *Progress in Human Geography*, 42(1), pp.25-43.
 
 </details>
 <br/>
@@ -48,22 +44,18 @@ The emergence of CyberGIS in early 2010 represents an important research directi
 <details>
   <summary><b>Readings</b></summary>
 
-1. `Required` Wang, S., 2010. A CyberGIS framework for the synthesis of cyberinfrastructure, GIS, and spatial analysis. Annals of the Association of American Geographers, 100(3), pp.535-557.
-
+1. `Required` Wang, S., 2010. A CyberGIS framework for the synthesis of cyberinfrastructure, GIS, and spatial analysis. *Annals of the Association of American Geographers*, 100(3), pp.535-557.
 2. `Required` Andrew Feenberg,“Democratic [originally “Subversive”] Rationalization: Technology, Power, and Democracy,” revised version of an article in Inquiry, 35 (1992), pp. 301–322. Reprinted by permission of Taylor & Francis.
-
-3. `Required` Zhao, B. and Huang, X., 2020. Encrypted monument: The birth of crypto place on the blockchain. Geoforum, 116, pp.149-152.
+3. `Required` Zhao, B. and Huang, X., 2020. Encrypted monument: The birth of crypto place on the blockchain. *Geoforum*, 116, pp.149-152.
 
 </details>
 <br/>
 
 > In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/10) by 01/08 5:00pm, and complete the practical exercise by the end of the Week 2.
 
-
 ### Week 3 & 4: Bot
 
 We will spend two weeks on the topic of bot. Bot is an human-made artifact that automates programmed functions. It has been frequently used to implement repetitive work in order to emancipate human labors. GIScholars have also used bots to collect geospatial services, retrieve social media feeds, and conduct other replaceable tasks. Since data collection is an important step for any (digital) humanities studies, we plan to spend the entire Week 3 to focus on the practical exercise in order to help each student to design a web crawler -- a typical bot that can harvest online data. We expect this web crawler can help each student to advance progress of their own research. In this week, each student is encouraged to read Wenwen Li and her co-authors' paper to see how to build a web map crawler, and how it can be used to collect geospatial data for polar research (Li et al 2016). Next, in week 4, we will convene to discuss the code of ethics related to web crawling (Thelwall et al 2006). This discussion may shed light on the use of bots for any (digital) humanities studies. Moreover, each student will also read another piece of classic paper on the politics of Artifacts (Winner 1986). This paper will initiate the group discussion on the political and social implications of bots.
-
 
 **Hosts:** *`TBD`*
 
@@ -74,11 +66,9 @@ We will spend two weeks on the topic of bot. Bot is an human-made artifact that 
 <details>
   <summary><b>Readings</b></summary>
 
-1. `Required` Li, W., Wang, S. and Bhatia, V., 2016. PolarHub: A large-scale web crawling engine for OGC service discovery in cyberinfrastructure. Computers, Environment and Urban Systems, 59, pp.195-207.
-
-2. `Required` Thelwall, M. and Stuart, D., 2006. Web crawling ethics revisited: Cost, privacy, and denial of service. Journal of the American Society for Information Science and Technology, 57(13), pp.1771-1779.
-
-3. `Required` Langdon Winner, “Do Artifacts Have Politics?” from Langdon Winner, The Whale and the Reactor: A Search for Limits in an Age of High Technology (Chicago: University of Chicago Press, 1986).
+1. `Required` Li, W., Wang, S. and Bhatia, V., 2016. PolarHub: A large-scale web crawling engine for OGC service discovery in cyberinfrastructure. *Computers, Environment and Urban Systems*, 59, pp.195-207.
+2. `Required` Thelwall, M. and Stuart, D., 2006. Web crawling ethics revisited: Cost, privacy, and denial of service. *Journal of the American Society for Information Science and Technology*, 57(13), pp.1771-1779.
+3. `Required` Langdon Winner, “Do Artifacts Have Politics?” from Langdon Winner, *The Whale and the Reactor: A Search for Limits in an Age of High Technology *(Chicago: University of Chicago Press, 1986).
 
 </details>
 
@@ -88,22 +78,20 @@ We will spend two weeks on the topic of bot. Bot is an human-made artifact that 
 
 ### Week 5: Geospatial Data
 
-In this week, we will focus on geospatial data. Similar to other types of data, it comprises of 0s and 1s. However, it is special because of the way of data storage and processing. To better understand why "spatial data is special", each student, in this week's practical exercise, is expected to store the crawled data in the previous week to a file-based geospatial database "spatialite." Through this exercise, a lucid understanding about the structure, storage, and management of geospatial data will be built. Moreover, we also offer three papers on the geospatial data uncertainties. Each of these papers adopts a different epistemology to examine the uncertainty issue (MacEachren et al 2005; Kwan 2012; Zhang et al 2020). 
+In this week, we will focus on geospatial data. Similar to other types of data, it comprises of 0s and 1s. However, it is special because of the way of data storage and processing. To better understand why "spatial data is special", each student, in this week's practical exercise, is expected to store the crawled data in the previous week to a file-based geospatial database "spatialite." Through this exercise, a lucid understanding about the structure, storage, and management of geospatial data will be built. Moreover, we also offer three papers on the geospatial data uncertainties. Each of these papers adopts a different epistemology to examine the uncertainty issue (MacEachren et al 2005; Kwan 2012; Zhang et al 2020).
 
 **Hosts:** *`TBD`*
 
 **Keywords:** Uncertainty, Post-truth and location spoofing
 
-**Practical Exercise 3:** [Spatial database management using SpatiaLite](04_data/pe.md) 
+**Practical Exercise 3:** [Spatial database management using SpatiaLite](04_data/pe.md)
 
 <details>
   <summary><b>Readings</b></summary>
 
-1. `Required` MacEachren, A.M., Robinson, A., Hopper, S., Gardner, S., Murray, R., Gahegan, M. and Hetzler, E., 2005. Visualizing geospatial information uncertainty: What we know and what we need to know. Cartography and Geographic Information Science, 32(3), pp.139-160.
-
-2. `Required` Kwan, M.P., 2012. The uncertain geographic context problem. Annals of the Association of American Geographers, 102(5), pp.958-968.
-
-3. `Required` Zhang, S., Zhao, B, 2020. Stand with #StandingRock: Envisioning an epistemological shift in understanding geospatial big data in the “post-truth” era
+1. `Required` MacEachren, A.M., Robinson, A., Hopper, S., Gardner, S., Murray, R., Gahegan, M. and Hetzler, E., 2005. Visualizing geospatial information uncertainty: What we know and what we need to know. *Cartography and Geographic Information Science*, 32(3), pp.139-160.
+2. `Required` Kwan, M.P., 2012. The uncertain geographic context problem. *Annals of the Association of American Geographers*, 102(5), pp.958-968.
+3. `Required` Zhang, S., Zhao, B, 2020. Stand with #StandingRock: Envisioning an epistemological shift in understanding geospatial big data in the “post-truth” era,  *Annals of the American Association of Geographers*, 111(4), 1025-1045.
 
 </details>
 
@@ -115,7 +103,6 @@ In this week, we will focus on geospatial data. Similar to other types of data, 
 
 GeoVisualization refers the visual representation and the representation strategies that illustrating geographical phenomenon using geospatial data. Through this week, we intend to present the development of geovisualization since the new millennium. It is recommended to read the paper from MacEachren and his co-authors (2001) that is a throughout literature review envisioning the topics in geovisualization to be explored. Knowles and her co-authors' paper represents a humanistic alternative to the conventional geovisualization (2015), and emphasized the possible to visualize geographical phenomenon onto a non-euclidean space. Moreover, Roth's paper shared us an effective high-level guidance on how to craft a geo-narrative (2020). In this week's practical exercise, each student is expected to create a online storymap.
 
-
 **Hosts:** *`TBD`*
 
 **Keywords:** Hermeneutics, Inductive visualization, GeoNarrative
@@ -125,11 +112,9 @@ GeoVisualization refers the visual representation and the representation strateg
 <details>
   <summary><b>Readings</b></summary>
 
-1. `Required` MacEachren, A.M. and Kraak, M.J., 2001. Research challenges in geovisualization. Cartography and geographic information science, 28(1), pp.3-12.
-
-2. `Required` Knowles, A.K., Westerveld, L. and Strom, L., 2015. Inductive visualization: A humanistic alternative to GIS. GeoHumanities, 1(2), pp.233-265.
-
-3. `Required` Roth, R.E. 2020. Cartographic Design as Visual Storytelling: Synthesis & Review of Map-based Narratives, Genres, and Tropes
+1. `Required` MacEachren, A.M. and Kraak, M.J., 2001. Research challenges in geovisualization. *Cartography and geographic information science*, 28(1), pp.3-12.
+2. `Required` Knowles, A.K., Westerveld, L. and Strom, L., 2015. Inductive visualization: A humanistic alternative to GIS. *GeoHumanities*, 1(2), pp.233-265.
+3. `Required` Roth, R.E. 2020. Cartographic Design as Visual Storytelling: Synthesis & Review of Map-based Narratives, Genres, and Tropes, *The Cartographic Journal*, 58(1), 83-114.
 
 </details>
 
@@ -145,19 +130,15 @@ GeoAI, namely Geospatial Artificial Intelligence, indicates the use and/or the r
 
 **Keywords:**  GeoAI, place recognition, and deepfake geography
 
-**Practical Exercise 5:** [Place context analysis using Natural Language Processing](06_ai/pe.md) 
+**Practical Exercise 5:** [Place context analysis using Natural Language Processing](06_ai/pe.md)
 
 <details>
   <summary><b>Readings</b></summary>
 
-1. `Required` Janowicz, K., Gao, S., McKenzie, G., Hu, Y. and Bhaduri, B., 2019. GeoAI: spatially explicit artificial intelligence techniques for geographic knowledge discovery and beyond. International Journal of Geographical Information Science: 34: 625-636
-
-2. `Required` Zhou, B., Lapedriza, A., Khosla, A., Oliva, A. and Torralba, A., 2017. Places: A 10 million image database for scene recognition. IEEE transactions on pattern analysis and machine intelligence, 40(6), pp.1452-1464.
-
-3. `Required` Zhao, B., Zhang, S., Xu, C., Sun, Y. and Deng, C. 2021. Deep Fake Geography? When geospatial data encounters AI. Cartography and Geographic Information Science
-
-
-4. `Optional` Agnew, J., 2011. Space and place. Handbook of geographical knowledge, 2011, pp.316-331.
+1. `Required` Janowicz, K., Gao, S., McKenzie, G., Hu, Y. and Bhaduri, B., 2019. GeoAI: spatially explicit artificial intelligence techniques for geographic knowledge discovery and beyond. *International Journal of Geographical Information Science*: 34: 625-636
+2. `Required` Zhou, B., Lapedriza, A., Khosla, A., Oliva, A. and Torralba, A., 2017. Places: A 10 million image database for scene recognition.* IEEE transactions on pattern analysis and machine intelligence*, 40(6), pp.1452-1464.
+3. `Required` Zhao, B., Zhang, S., Xu, C., Sun, Y. and Deng, C. 2021. Deep Fake Geography? When geospatial data encounters AI. *Cartography and Geographic Information Science*, 48(4), 338-352.
+4. `Optional` Agnew, J., 2011. Space and place. *Handbook of geographical knowledge*, 2011, pp.316-331.
 
 </details>
 
@@ -165,7 +146,7 @@ GeoAI, namely Geospatial Artificial Intelligence, indicates the use and/or the r
 
 > In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/14) by 01/08 5:00pm, and complete the practical exercise by the end of the Week 7.
 
-### *`Cancelled`* Week 8: Virtual Reality 
+### *`Cancelled`* Week 8: Virtual Reality
 
 Virtual Reality (VR) is a computer-generated environment with scenes and objects that appear to be real, making the user feel they are immersed in their surroundings. This environment is perceived through a device known as a Virtual Reality headset. In this week, we will focus on the idea of GIS embodiment. To begin with, we will review a paper that introduce the concept of postphenomenology and its relevance to geography (Lea 2020). This paper will help us to revisit the Humanistic GIS framework, especially how VR as a embodiment GIS. Next, we will read another paper to examine how VR can evoke different senses of embodiment (Kiteni et al 2012). These senses also relates to the sense of space and place, and this paper helps us to better envision the geographies that will be produced by VR. In the end, we will review another paper to review how VR is considered as sexist (Munafo et al 2017). By this paper, we encourage students to reflect upon the design and development of any technology, especially how we can avoid the examined technology could be more equitable for minority groups.
 
@@ -173,16 +154,14 @@ Virtual Reality (VR) is a computer-generated environment with scenes and objects
 
 **Keywords:** Embodiment, Virtual Reality, Point-cloud visualization
 
-**Practical Exercise 6:** [Creating Virtual Reality based on Structure-from-Motion](07_vr/pe.md) 
+**Practical Exercise 6:** [Creating Virtual Reality based on Structure-from-Motion](07_vr/pe.md)
 
 <details>
   <summary><b>Readings</b></summary>
 
-1. `Required` Lea, J. 2020. Post-Phenomenology/Post-Phenomenological Geography. International Encyclopedia of Human Geography 2nd edition, 10: 333-338
-
-2. `Required` Kilteni, K., Groten, R. and Slater, M., 2012. The sense of embodiment in virtual reality. Presence: Teleoperators and Virtual Environments, 21(4), pp.373-387.
-
-3. `Required` Munafo, J., Diedrick, M. and Stoffregen, T.A., 2017. The virtual reality head-mounted display Oculus Rift induces motion sickness and is sexist in its effects. Experimental brain research, 235(3), pp.889-901.
+1. `Required` Lea, J. 2020. Post-Phenomenology/Post-Phenomenological Geography. *International Encyclopedia of Human Geography 2nd edition*, 10: 333-338
+2. `Required` Kilteni, K., Groten, R. and Slater, M., 2012. The sense of embodiment in virtual reality. *Presence: Teleoperators and Virtual Environments*, 21(4), pp.373-387.
+3. `Required` Munafo, J., Diedrick, M. and Stoffregen, T.A., 2017. The virtual reality head-mounted display Oculus Rift induces motion sickness and is sexist in its effects. *Experimental brain research*, 235(3), pp.889-901.
 
 </details>
 
@@ -192,7 +171,7 @@ Virtual Reality (VR) is a computer-generated environment with scenes and objects
 
 ### Week 9: Internet of Things
 
-In this week, we will review the concept of Internet of Things (IoT). IoT describes the network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet. It is the foundation for different kinds of smart systems, such as smart city, smart home, and digital environment. It has also been used for real-time monitoring. This week starts with a paper on the real-time GIS from Wenwen Li, Michael Batty and Michael Goodchild (2019) and another paper from Rob Kitchin on a critical reflection on smart city development (Kitchin 2014). In addition to these two papers, another two paper are offered to provide frameworks to probe the social and political implications of smart cities or other data-intensive environmental systems (Sui et al 2003; Verbeek 2020). 
+In this week, we will review the concept of Internet of Things (IoT). IoT describes the network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet. It is the foundation for different kinds of smart systems, such as smart city, smart home, and digital environment. It has also been used for real-time monitoring. This week starts with a paper on the real-time GIS from Wenwen Li, Michael Batty and Michael Goodchild (2019) and another paper from Rob Kitchin on a critical reflection on smart city development (Kitchin 2014). In addition to these two papers, another two paper are offered to provide frameworks to probe the social and political implications of smart cities or other data-intensive environmental systems (Sui et al 2003; Verbeek 2020).
 
 **Hosts:** *`TBD`*
 
@@ -203,13 +182,10 @@ In this week, we will review the concept of Internet of Things (IoT). IoT descri
 <details>
   <summary><b>Readings</b></summary>
 
-1. `Required` Wenwen Li, Michael Batty & Michael F. Goodchild 2019. Realtime GIS for smart cities, International Journal of Geographical Information Science
-
-2. `Required` Kitchin, R., 2014. The real-time city? Big data and smart urbanism. GeoJournal, 79(1), pp.1-14.
-
-3. `Required` Sui, D.Z. and Goodchild, M.F., 2003. A tetradic analysis of GIS and society using McLuhan's law of the media. Canadian Geographer, 47(1), pp.5-17.
-
-4. `Required` Verbeek, P.P. 2020. Politicizing PostPhenomenology. Reimagining philosophy and technology, Reinventing Ihde, Springer Nature Switzerland
+1. `Required` Wenwen Li, Michael Batty & Michael F. Goodchild 2019. Realtime GIS for smart cities, *International Journal of Geographical Information Science*, 34(2), 311-324.
+2. `Required` Kitchin, R., 2014. The real-time city? Big data and smart urbanism. *GeoJournal*, 79(1), pp.1-14.
+3. `Required` Sui, D.Z. and Goodchild, M.F., 2003. A tetradic analysis of GIS and society using McLuhan's law of the media. *Canadian Geographer*, 47(1), pp.5-17.
+4. `Required` Verbeek, P.P. 2020. Politicizing PostPhenomenology. Reimagining philosophy and technology, *Reinventing Ihde*, Springer Nature Switzerland
 
 </details>
 
@@ -238,17 +214,11 @@ Each student presents the writing project during the last class meeting (06/02).
 **:woman_scientist: Thinkpiece:** Your weekly think pieces should be at least 350 words in length and should engage critically with **2 or more of the week’s readings**. There is no right or wrong way to write a think piece and you should feel free to experiment, but ensure that you are citing your sources and that your piece is clear and free of any typos. Below are some additional suggestions/guiding thoughts to help shape your piece.
 
 - Though your think piece doesn’t need to follow a formal essay structure, organization, content, and clarity is still important.
-
 - Don’t merely summarize. Develop your own thoughts and reflections in connection to the readings, the lab assignments and the weekly lecture.
-
 - Lead your reader somewhere beyond the simple observation; in other words, make a point or several points and examine them in depth.
-
 - Use examples and quotations from the assigned text to support what you say. Effective quotations make the piece stronger and more convincing.
-
 - Use the practical exercise to express more than how you “feel” about the text or problem. Whether you liked the text or not is relevant but should not be the central focus of your think piece.
-
 - Make connections between the assigned text and the course content and above all, explore your own ideas and thoughts about the assigned text; after all, that is the point of the assignment.
-
 
 Please craft your think piece to the [**GitHub issues page**](https://github.com/jakobzhao/geog595/issues) two days before the meeting – so your colleagues leading discussion can draw on your ideas in planning activities for our class session.
 
@@ -258,23 +228,21 @@ Please craft your think piece to the [**GitHub issues page**](https://github.com
 
 Based on the above requirements - 40% seminar participation, think pieces, and discussion leadership, 20% practical exercise, 40% writing project.
 
-
 ## :notebook_with_decorative_cover: Equity & Inclusivity
 
 Our very highest priorities include creating a brave and supportive class environment where each of us contributes, we can ask big questions, we give and receive critiques in a supportive way, we notice and engage the ways that we are differently situated within past and present relationship of power, privilege and oppression. I invite you to think hard about how race, gender identity, religion, age, citizenship status, first language, ability, sexuality, class, and other axes are at work in our interactions, and what this might mean in terms of when to speak up, when to step back, how to listen, and much more. Each of you is a welcome and invaluable part of our collective whole.
 
 ## :love_letter: Disability Accommodations
 
-We welcome the opportunity to work with any students with disabilities in this class to ensure equal access to the course. If you have a letter from Disability Resources for Students (DRS) outlining your academic accommodations, please present the letter to me (or email us, to confirm, if the letter is electronic) as soon as possible so that we can discuss the accommodations you may need for this class. Any discussions between student and professor need to occur as early as possible in order for adequate arrangements to be made. If you do not yet have a letter from DRS, but would like to request academic accommodations due to a disability, please contact DRS [here (Links to an external site.)](https://depts.washington.edu/uwdrs/), or in-person at 011 Mary Gates Hall, or at 206-543-8924 (Voice & Relay), <mailto:uwdrs@uw.edu>.
+We welcome the opportunity to work with any students with disabilities in this class to ensure equal access to the course. If you have a letter from Disability Resources for Students (DRS) outlining your academic accommodations, please present the letter to me (or email us, to confirm, if the letter is electronic) as soon as possible so that we can discuss the accommodations you may need for this class. Any discussions between student and professor need to occur as early as possible in order for adequate arrangements to be made. If you do not yet have a letter from DRS, but would like to request academic accommodations due to a disability, please contact DRS [here (Links to an external site.)](https://depts.washington.edu/uwdrs/), or in-person at 011 Mary Gates Hall, or at 206-543-8924 (Voice & Relay), [mailto:uwdrs@uw.edu](mailto:uwdrs@uw.edu).
 
 ## :mosque:  Religious Accommodations
 
 Washington state law requires that UW develop a policy for accommodation of student absences or significant hardship due to reasons of faith or conscience, or for organized religious activities. The UW’s policy, including more information about how to request an accommodation, is available at [Religious Accommodations Policy](https://registrar.washington.edu/staffandfaculty/religious-accommodations-policy/). Accommodations must be requested within the first two weeks of this course using the [Religious Accommodations Request form](https://https:/registrar.washington.edu/students/religious-accommodations-request/).
 
- ## :memo:  Student Care & Safety
+## :memo:  Student Care & Safety
 
 <a href="https://hgis.uw.edu"><img src="res/logo.png" align="right" width="300px" target="_blank" /></a> It is important that you take care of yourselves inside and outside of class as you work through stress and other obstacles. There are many different support services on campus that can help, such as the Counseling Center, Hall Health, and the IMA. UW’s Student Care program can help you connect to these and other resources. Learn more an contact them directly: http://depts.washington.edu/livewell/student-care/, livewell@uw.edu, or 206.543.6085. If you are concerned about yourself or a friend who is struggling SafeCampus is a helpful resource. Please add 206.685.7233 to your phones
 
-
- This course advocates for the open culture. The course materials are open source for both students and open source community to access.
+This course advocates for the open culture. The course materials are open source for both students and open source community to access.
 `© 2019-2022 All rights are reserved by Bo Zhao.`
