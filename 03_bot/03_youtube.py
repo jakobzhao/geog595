@@ -13,9 +13,9 @@ import time, datetime, csv
 # The url where the data will be collected from.
 url = "https://www.youtube.com/results?search_query=standing+rock"
 
-# A bot can automate the collecting data process. A bot will iminate how an user browse a web page, and then acqure those
+# A bot can automate the collecting data process. A bot will imitate how an user browse a web page, and then acqure those
 # useful information. Therefore, a bot needs to control a browser. Google has released the driver to enable software
-# engineerer to control a chrame application. Please download the chromedrive from https://chromedriver.chromium.org/downloads.
+# engineerer to control a chrome application. Please download the chromedrive from https://chromedriver.chromium.org/downloads.
 # Please make sure you pick the right version (the version of the latest chrome browser is 89.X). the "executable_path"
 # indicates the location where you store the driver.
 bot = webdriver.Chrome(executable_path="C:\\workspace\chromedriver")

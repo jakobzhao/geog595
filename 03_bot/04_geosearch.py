@@ -28,6 +28,11 @@ consumer_secret = "your_consumer_secret"
 access_token = "your_access_token"
 access_token_secret = "your_access_token_secret"
 
+consumer_key = "adgg7cFtabq2wImcxX4Q9Fum4"
+consumer_secret = "LVuLTaE4FauWr4L6Gwg5HAmq36G9KjZ8QCkTJjiPyuIrWnDZCm"
+access_token = "14324013-Ojr4tv9TGbGIx7yRGWpbozUc4AWhkTdvjIHIBbOME"
+access_token_secret = "B4NR0pssEPvrQIBfum4DNd3q1q4tmUOcJP14xbhVLcVGK"
+
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
