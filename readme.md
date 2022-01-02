@@ -39,7 +39,7 @@ The emergence of CyberGIS in early 2010 represents an important research directi
 
 **Keywords:** Technology and Power; CyberGIS, Web 3.0 and Blockchain
 
-**Practical Exercise 1:** [Cloud-based project management using GitHub](02_cyber/pe.md)
+**Practical Exercise 1:** [Cloud-based project management using GitHub](02_cyber)
 
 <details>
   <summary><b>Readings</b></summary>
