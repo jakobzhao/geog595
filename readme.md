@@ -192,8 +192,7 @@ Virtual Reality (VR) is a computer-generated environment with scenes and objects
 
 ### Week 9: Internet of Things
 
-
-
+In this week, we will review the concept of Internet of Things (IoT). IoT describes the network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet. It is the foundation for different kinds of smart systems, such as smart city, smart home, and digital environment. It has also been used for real-time monitoring. This week starts with a paper on the real-time GIS from Wenwen Li, Michael Batty and Michael Goodchild (2019) and another paper from Rob Kitchin on a critical reflection on smart city development (Kitchin 2014). In addition to these two papers, another two paper are offered to provide frameworks to probe the social and political implications of smart cities or other data-intensive environmental systems (Sui et al 2003; Verbeek 2020). 
 
 **Hosts:** *TBD*
 
@@ -259,11 +258,23 @@ Please craft your think piece to the [**GitHub issues page**](https://github.com
 
 Based on the above requirements - 40% seminar participation, think pieces, and discussion leadership, 20% practical exercise, 40% writing project.
 
-## :love_letter: Accommodations
 
-We welcome the opportunity to work with any students with disabilities in this class to ensure equal access to the course. If you have a letter from Disability Resources for Students (DRS) outlining your academic accommodations, please present the letter to me (or email us, to confirm, if the letter is electronic) as soon as possible so that we can discuss the accommodations you may need for this class. Any discussions between student and professor need to occur as early as possible in order for adequate arrangements to be made. If you do not yet have a letter from DRS, but would like to request academic accommodations due to a disability, please contact DRS [here (Links to an external site.)](https://depts.washington.edu/uwdrs/), or in-person at 011 Mary Gates Hall, or at 206-543-8924 (Voice & Relay), [uwdrs@uw.edu](mailto:uwdrs@uw.edu).
+## :notebook_with_decorative_cover: Equity & Inclusivity
+
+Our very highest priorities include creating a brave and supportive class environment where each of us contributes, we can ask big questions, we give and receive critiques in a supportive way, we notice and engage the ways that we are differently situated within past and present relationship of power, privilege and oppression. I invite you to think hard about how race, gender identity, religion, age, citizenship status, first language, ability, sexuality, class, and other axes are at work in our interactions, and what this might mean in terms of when to speak up, when to step back, how to listen, and much more. Each of you is a welcome and invaluable part of our collective whole.
+
+## :love_letter: Disability Accommodations
+
+We welcome the opportunity to work with any students with disabilities in this class to ensure equal access to the course. If you have a letter from Disability Resources for Students (DRS) outlining your academic accommodations, please present the letter to me (or email us, to confirm, if the letter is electronic) as soon as possible so that we can discuss the accommodations you may need for this class. Any discussions between student and professor need to occur as early as possible in order for adequate arrangements to be made. If you do not yet have a letter from DRS, but would like to request academic accommodations due to a disability, please contact DRS [here (Links to an external site.)](https://depts.washington.edu/uwdrs/), or in-person at 011 Mary Gates Hall, or at 206-543-8924 (Voice & Relay), <mailto:uwdrs@uw.edu>.
+
+## :church:  Religious Accommodations
 
 <a href="https://hgis.uw.edu"><img src="res/logo.png" align="right" width="300px" target="_blank" /></a> Washington state law requires that UW develop a policy for accommodation of student absences or significant hardship due to reasons of faith or conscience, or for organized religious activities. The UW’s policy, including more information about how to request an accommodation, is available at [Religious Accommodations Policy](https://registrar.washington.edu/staffandfaculty/religious-accommodations-policy/). Accommodations must be requested within the first two weeks of this course using the [Religious Accommodations Request form](https://https:/registrar.washington.edu/students/religious-accommodations-request/).
+
+ ## :memo:  Student Care & Safety
+
+It is important that you take care of yourselves inside and outside of class as you work through stress and other obstacles. There are many different support services on campus that can help, such as the Counseling Center, Hall Health, and the IMA. UW’s Student Care program can help you connect to these and other resources. Learn more an contact them directly: http://depts.washington.edu/livewell/student-care/, livewell@uw.edu, or 206.543.6085. If you are concerned about yourself or a friend who is struggling SafeCampus is a helpful resource. Please add 206.685.7233 to your phones
+
 
 
 `© 2019-2022 All rights are reserved by Bo Zhao.`
