@@ -15,7 +15,7 @@ To setup the working environment, you will need to install QGIS 3.+. We also ass
 
 ## 2. Manage geospatial database using SpatiaLite
 
-### 2.1 Install Prerequisite python libray
+### 2.1 Install Prerequisite python library
 
 Above all, please install one required python libraries - sqlite3. To install,  execute the following shell script on command prompt (if a windows user) or terminal (if a Mac or Linux user).
 
@@ -31,7 +31,7 @@ The most convenient way to create a spatialite database is to use QGIS. Open a Q
 
 ![](img/create-database.png)
 
-After inputing the database name, an empty spatial datbase will be created. We can find this newly created database by navigating to its location.
+After inputing the database name, an empty spatial database will be created. We can find this newly created database by navigating to its location.
 
 ![](img/save-database.png)
 
