@@ -37,7 +37,7 @@ In this week, we will get familiar with the theoretical framework Humanistic GIS
 
 ### Week 2: CyberGIS
 
-The emergence of CyberGIS in early 2010 represents an important research direction in GIS that incorporates an evolving group of web technologies (e.g., cloud service, world wide web, etc.) to advance the capacity of GIS itself in dealing with complex geographical questions. In the same period, other topics like Cloud GIS *(Yang 2011)*, Spatial Infrastructures *(Wright 2011)* also appeared. This research direction has enabled GIS to deploy in a more distributed structure but not necessarily being located in a centralized place. In this way, GIS can utilize more computational resources over the Internet or the Cloud and process more complex and large-scale geographical algorithms. In this week, we will get us familiar with the concept of CyberGIS by reading Shaowen Wang's paper on "CyberGIS Framework," and then read another paper on Blockchain from *Bo Zhao and his co-author (2020)*. Blockchain is a representative technology for Web 3.0 - a new phase of web technologies. With a general background of the research direction around CyberGIS, its relevance to Web 3.0, we will build a better understanding of why this wave of cyberGIS appears in early 2010, its connection to the development of ICT (Information and communications technology) and possibility its future development. Moreover, we will read a classic paper from Andrew Feenberg to examine the democratic power of technology* (Feenberg 1992*). By linking this paper with CyberGIS, we would discuss the intertwined democratic and autocratic power of CyberGIS and others alike.
+The emergence of CyberGIS in early 2010 represents an important research direction in GIS that incorporates an evolving group of web technologies (e.g., cloud service, world wide web, etc.) to advance the capacity of GIS itself in dealing with complex geographical questions. In the same period, other topics like Cloud GIS *(Yang 2011)*, Spatial Infrastructures *(Wright 2011)* also appeared. This research direction has enabled GIS to deploy in a more distributed structure but not necessarily being located in a centralized place. In this way, GIS can utilize more computational resources over the Internet or the Cloud and process more complex and large-scale geographical algorithms. In this week, we will get us familiar with the concept of CyberGIS by reading Shaowen Wang's paper on "CyberGIS Framework," and then read another paper on Blockchain from *Bo Zhao and his co-author (2020)*. Blockchain is a representative technology for Web 3.0 - a new phase of web technologies. With a general background of the research direction around CyberGIS, its relevance to Web 3.0, we will build a better understanding of why this wave of cyberGIS appears in early 2010, its connection to the development of ICT (Information and communications technology) and possibility its future development. Moreover, we will read a classic paper from Andrew Feenberg to examine the democratic power of technology *(Feenberg 1992)*. By linking this paper with CyberGIS, we would discuss the intertwined democratic and autocratic power of CyberGIS and others alike.
 
 **Hosts:** *`TBD`*
 
@@ -57,7 +57,9 @@ The emergence of CyberGIS in early 2010 represents an important research directi
 
 > In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/10) by 01/08 5:00pm, and complete the practical exercise by the end of the Week 2.
 
-### Week 3 & 4: Bot
+### Week 3 & 4: Bot 
+
+**`The meeting of Week 3 will be rescheduled due to the time conflict with MLK holiday.`**
 
 We will spend two weeks on the topic of bot. Bot is an human-made artifact that automates programmed functions. It has been frequently used to implement repetitive work in order to emancipate human labors. GIScholars have also used bots to collect geospatial services, retrieve social media feeds, and conduct other replaceable tasks. Since data collection is an important step for any (digital) humanities studies, we plan to spend the entire Week 3 to focus on the practical exercise in order to help each student to design a web crawler -- a typical bot that can harvest online data. We expect this web crawler can help each student to advance progress of their own research. In this week, each student is encouraged to read Wenwen Li and her co-authors' paper to see how to build a web map crawler, and how it can be used to collect geospatial data for polar research *(Li et al 2016)*. Next, in week 4, we will convene to discuss the code of ethics related to web crawling *(Thelwall et al 2006)*. This discussion may shed light on the use of bots for any (digital) humanities studies. Moreover, each student will also read another piece of classic paper on the politics of Artifacts *(Winner 1986)*. This paper will initiate the group discussion on the political and social implications of bots.
 
@@ -78,7 +80,7 @@ We will spend two weeks on the topic of bot. Bot is an human-made artifact that 
 
 <br/>
 
-> In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/11) by 01/08 5:00pm, and complete the practical exercise by the end of the Week 4.
+> In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/11) by 01/15 5:00pm, and complete the practical exercise by the end of the Week 4.
 
 ### Week 5: Geospatial Data
 
@@ -101,11 +103,11 @@ In this week, we will focus on geospatial data. Similar to other types of data, 
 
 <br/>
 
-> In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/12) by 01/08 5:00pm, and complete the practical exercise by the end of the Week 5.
+> In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/12) by 01/29 5:00pm, and complete the practical exercise by the end of the Week 5.
 
 ### Week 6: GeoVisualization
 
-GeoVisualization refers the visual representation and the representation strategies that illustrating geographical phenomenon using geospatial data. Through this week, we intend to present the development of geovisualization since the new millennium. It is recommended to read the paper from* MacEachren and his co-authors (2001)* that is a throughout literature review envisioning the topics in geovisualization to be explored. Knowles and her co-authors' paper represents a humanistic alternative to the conventional geovisualization *(2015)*, and emphasized the possible to visualize geographical phenomenon onto a non-euclidean space. Moreover, Roth's paper shared us an effective high-level guidance on how to craft a geo-narrative *(2020)*. In this week's practical exercise, each student is expected to create a online storymap.
+GeoVisualization refers the visual representation and the representation strategies that illustrating geographical phenomenon using geospatial data. Through this week, we intend to present the development of geovisualization since the new millennium. It is recommended to read the paper from *MacEachren and his co-authors (2001)* that is a throughout literature review envisioning the topics in geovisualization to be explored. Knowles and her co-authors' paper represents a humanistic alternative to the conventional geovisualization *(2015)*, and emphasized the possible to visualize geographical phenomenon onto a non-euclidean space. Moreover, Roth's paper shared us an effective high-level guidance on how to craft a geo-narrative *(2020)*. In this week's practical exercise, each student is expected to create a online storymap.
 
 **Hosts:** *`TBD`*
 
@@ -124,7 +126,7 @@ GeoVisualization refers the visual representation and the representation strateg
 
 <br/>
 
-> In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/13) by 01/08 5:00pm, and complete the practical exercise by the end of the Week 6.
+> In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/13) by 02/05 5:00pm, and complete the practical exercise by the end of the Week 6.
 
 ### Week 7: GeoAI
 
@@ -148,9 +150,11 @@ GeoAI, namely Geospatial Artificial Intelligence, indicates the use and/or the r
 
 <br/>
 
-> In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/14) by 01/08 5:00pm, and complete the practical exercise by the end of the Week 7.
+> In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/14) by 02/12 5:00pm, and complete the practical exercise by the end of the Week 7.
 
-### *`Cancelled`* Week 8: Virtual Reality
+### *`Self-Study`* Week 8: Virtual Reality
+
+**`The meeting is cancelled due to University Holiday.`**
 
 Virtual Reality (VR) is a computer-generated environment with scenes and objects that appear to be real, making the user feel they are immersed in their surroundings. This environment is perceived through a device known as a Virtual Reality headset. In this week, we will focus on the idea of GIS embodiment. To begin with, we will review a paper that introduce the concept of postphenomenology and its relevance to geography *(Lea 2020)*. This paper will help us to revisit the Humanistic GIS framework, especially how VR as a embodiment GIS. Next, we will read another paper to examine how VR can evoke different senses of embodiment *(Kiteni et al 2012)*. These senses also relates to the sense of space and place, and this paper helps us to better envision the geographies that will be produced by VR. In the end, we will review another paper to review how VR is considered as sexist *(Munafo et al 2017)*. By this paper, we encourage students to reflect upon the design and development of any technology, especially how we can avoid the examined technology could be more equitable for minority groups.
 
@@ -175,13 +179,15 @@ Virtual Reality (VR) is a computer-generated environment with scenes and objects
 
 ### Week 9: Internet of Things
 
-In this week, we will review the concept of Internet of Things (IoT). IoT describes the network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet. It is the foundation for different kinds of smart systems, such as smart city, smart home, and digital environment. It has also been used for real-time monitoring. This week starts with a paper on the real-time GIS from Wenwen Li, Michael Batty and Michael Goodchild (2019) and another paper from Rob Kitchin on a critical reflection on smart city development *(Kitchin 2014)*. In addition to these two papers, another two paper are offered to provide frameworks to probe the social and political implications of smart cities or other data-intensive environmental systems* (Sui et al 2003; Verbeek 2020)*.
+**`The meeting will be rescheduled due to a time conflict with the AAG annual conference (Feb 24-28).`**
+
+In this week, we will review the concept of Internet of Things (IoT). IoT describes the network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet. It is the foundation for different kinds of smart systems, such as smart city, smart home, and digital environment. It has also been used for real-time monitoring. This week starts with a paper on the real-time GIS from *Wenwen Li, Michael Batty and Michael Goodchild (2019)* and another paper from Rob Kitchin on a critical reflection on smart city development *(Kitchin 2014)*. In addition to these two papers, another two paper are offered to provide frameworks to probe the social and political implications of smart cities or other data-intensive environmental systems *(Sui et al 2003; Verbeek 2020)*.
 
 **Hosts:** *`TBD`*
 
 **Keywords:** Real-time GIS, Smart City, and their social implications
 
-**Practical Exercise 7:** [Environmental data collection in real time with Raspberry Pi ](08_iot)
+**Practical Exercise 7:** [Environmental data collection in real time with Raspberry Pi](08_iot)
 
 <details>
   <summary><b>Readings</b></summary>
@@ -195,11 +201,11 @@ In this week, we will review the concept of Internet of Things (IoT). IoT descri
 
 <br/>
 
-> In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/16) by 01/08 5:00pm, and complete the practical exercise by the end of the Week 9.
+> In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/16) by 02/26 5:00pm, and complete the practical exercise by the end of the Week 9.
 
 ### Week 10: Summary, Presentation, and Writing Project
 
-Each student presents the writing project during the last class meeting (06/02). And the writing project is due by 06/04 5:00pm.
+Each student presents the writing project during the last class meeting (03/07). And the writing project is due by 03/11 5:00pm.
 
 ## :bell: Course Requirement
 
