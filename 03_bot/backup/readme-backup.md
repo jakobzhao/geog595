@@ -317,6 +317,75 @@ from google.colab import files
 files.download(output_file)
 print("the csv has been downloaded to your local computer. The program has been completed successfully.")
 ```
+```
+
+To retrieve geo-tagged tweets, three bounding boxes are defined. After initializing the stream listener, a stream object is created out of `tweepy.Stream object`. Then, the LOCATION array is passed to the stream filter method. By doing so, the geo-tagged are filtered and collected.
+
+```Python
+LOCATIONS = [-124.7771694, 24.520833, -66.947028, 49.384472,  # Contiguous US
+               -164.639405, 58.806859, -144.152365, 71.76871,  # Alaska
+               -160.161542, 18.776344, -154.641396, 22.878623]  # Hawaii
+stream_listener = StreamListener(time_limit=60, file=output_file)
+stream = tweepy.Stream(auth=myauth, listener=stream_listener)
+stream.filter(locations=LOCATIONS)
+```
+
+Notably, the filter not only acquires geotagged tweets but also other kinds of tweets according to the input filter strategy.
+tweepy allows you to filter tweets through a keyword. By choosing a keyword related to the timely topic like "coronavirus", you can obtain data that gives you an insight into the public perception of the topic.
+
+```python
+stream.filter(track=['coronavirus'], is_async=True)
+```
+
+Additionally, to use filters to stream tweets by a specific user. The following parameter is an array of IDs. For example, the Twitter ID for the white house is `822215673812119553`, and you can collect tweets from this specific account. We will not be changing this parameter in this lab exercise, but consider how you can utilize this function if this is something that you would like to link to your final project.
+
+```python
+stream.filter(follow=["2211149702"])
+```
+
+However, these different filtering parameter returns different data structures, and they store different information about the tweets. For this reason, keyword filtering does not return plenty of geotagged tweets. If you are changing the keyword parameter, you should run this crawler for a longer duration. To do so, simply change the `time_limit` parameter. For example, if you want to run this crawler for 5 minutes, set it to 300. If you are trying to use a less common keyword, the chance is you will not have a sufficient amount of data. In that case, consider running this crawler for even longer.
+
+```python
+stream_listener = StreamListener(time_limit=60, file=output_file)
+```
+
+The `on_data` function will handle data processing and output. In general, this function terminated after `self.limit` second. To process each record `data`, the captured `data` is converted to a JSON variable `datajson`. We will mainly output six variables, in terms of id, username, created_at, lng, lat, and text. Notably, If the geotag is a single point, the lat and lng will be captured directly from the `coordinates`. If the geotag is a place, the lat and lng will capture the centroid of the bounding box. Similarity, a new CSV file named `tweets.csv` is created under [the assets folder](assets/).
+
+In a lot of actual work environments, it is common to use a database to store information. We are using CSV files as data storage to simplify our tasks. If you would like to know more about using a database to store information, you can learn more [here](https://github.com/jakobzhao/geog458/blob/master/labs/lab02/database/pe.md).
+
+```Python
+def on_data(self, data):
+    """This is called when data are streamed in."""
+    if (time.time() - self.start_time) < self.limit:
+        datajson = json.loads(data)
+        print (datajson)
+        id = datajson['id']
+        username = datajson['user']['screen_name']
+        created_at = datajson['created_at']
+        text = datajson['text'].strip().replace("\n", "")
+
+        # process the geo-tags
+        if datajson['coordinates'] == None:
+            bbox = datajson['place']['bounding_box']['coordinates'][0]
+            lng = (bbox[0][0] + bbox[2][0]) / 2.0
+            lat = (bbox[0][1] + bbox[1][1]) / 2.0
+        else:
+            lng = datajson['coordinates']['coordinates'][0]
+            lat = datajson['coordinates']['coordinates'][1]
+
+        record = '%d, %s, %s, %f, %f, %s \n' % (id, username, created_at, lng, lat, text)
+        print (record)
+        self.f.write(record)
+    else:
+        self.f.close()
+        print ("finished.")
+        return False
+```
+
+In addition to run the crawler script [02_geosearch.py](02_geosearch.py) on pycharm, you can also run the python notebook version on an online Jupyter server Binder.org. Click the button to launch the Binder Server. [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jakobzhao/geog595.git/master?filepath=03_bot%2F02_geosearch.ipynb). The instructor will show you how to run it on binder in class.
+
+> Besides, you can run the script 04_geosearch.py on Binder by clicking this [link](https://mybinder.org/v2/gh/jakobzhao/geog595.git/master?filepath=03_bot%2F04_geosearch.ipynb).
+
 ## 4. Deliverable
 
 You are expected to walk through this instruction, execute the two pieces of python scripts, and more importantly, develop your own crawler to collect some data from the web. Ideally, this data will be related to research question you have stated in your [statement of intent](../01_intro/soi.md).
@@ -329,7 +398,7 @@ To submit your deliverable, please create a new github repository, and submit th
     │readme.md
     ├─assets
     │      tweets.csv
-    │      videos.csv
+    │      geotags.csv
     │      [your_dataset].csv
 ```
 
