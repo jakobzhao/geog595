@@ -12,7 +12,7 @@ If you have used python for scientific research before, you must already experie
 
 This section will help you make a generic web crawler. If you are able to develop this generic crawler, the same developing procedure can be applied to crawling data from other websites. This crawler manipulates a browser using a python library named "Selenium". This library enables the crawler mimic how a human user visits and/or interacts with web pages. While viewing the web pages, the crawler monitors the data flows, parses the html structure, and extracts the requested data items. Below, we will introduce how to design a crawler to collect information from a group of youtube videos.
 
-You can launch the youtube crawler by click this button. This button will enable you to open the file [03_bot/youtube.ipynb](03_bot/youtube.ipynb) on Google Colab.
+You can launch the youtube crawler by click this button [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakobzhao/geog595/blob/master/03_bot/youtube.ipynb). This button will enable you to open the file [03_bot/youtube.ipynb](03_bot/youtube.ipynb) on Google Colab.
 
 For any python script, metadata are usually stated at the very beginning.
 
@@ -188,6 +188,8 @@ print("the csv has been downloaded to your local computer. The program has been 
 ![](img/tweet-csv.png)
 
 ## 3. Harvest geo-tagged tweets using a API-based Crawler
+
+You can launch this Twitter crawler by click this button [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakobzhao/geog595/blob/master/03_bot/tweets.ipynb). This button will enable you to open the file [03_bot/tweets.ipynb](03_bot/tweets.ipynb) on Google Colab.
 
 ### 3.1 prerequisite libraries and Twitter developer token
 
