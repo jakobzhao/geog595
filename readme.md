@@ -114,7 +114,7 @@ GeoVisualization refers the visual representation and the representation strateg
 
 **Keywords:** Hermeneutics, Inductive visualization, GeoNarrative
 
-**Practical Exercise 4:** [Making a storymap using Mapbox](05_viz)
+**Practical Exercise 4:** [Creating geo-narratives with open-source storytelling library](05_viz)
 
 <details>
   <summary><b>Readings</b></summary>
