@@ -2,15 +2,15 @@
 
 **Instructor:** Bo Zhao, zhaobo@uw.edu; **Points Available** = 50
 
-In this practical exercise, we will introduce how to collect Twitter data using a web crawler. A web crawler is a purposely designed bot for online data collection. In most cases, online data can be acquired through a dedicated API maintained by the data provider. If no API available, we can develop a customized crawler using a crawler library (e.g. Selenium, Scrapy, etc.). So, in this practical exercise, we will design two crawlers, one is a generic crawler to harvest data from youtube, and the other is to harvest data from Twitter API. Okay, let us get started!
+In this practical exercise, we will introduce how to collect Twitter data using a web crawler. A web crawler is a purposely designed bot for online data collection. In most cases, online data can be acquired through a dedicated API maintained by the data provider. If no API available, you can still collect data by developing crawler using a crawler library (e.g. Selenium, Scrapy, etc.). In this practical exercise, we will design two crawlers, one is a generic crawler to harvest data from youtube, and the other can harvest data from Twitter API. Okay, let us get started!
 
 ## 1. Setup the Execution Environment on the Cloud
 
-If you have used python for scientific research before, you must already experience the complexity of configuring the execution environment. So, in order not to bother by the environment configuration, we decide to execute the crawlers on Google Colab, which allows anybody to write and execute arbitrary python code through the browser, and is especially well suited to machine learning, data analysis and education. t is a hosted Jupyter notebook that requires no setup and has an excellent free version, which gives free access to Google computing resources such as GPUs and TPUs.
+If you have used python for scientific research before, you must already experience the complexity of configuring the execution environment. So, in order not to simplify the process of environment configuration, we decide to execute the crawlers on Google Colab. Google Colab allows its user to compose and execute arbitrary python code directly through the browser, and is especially well suited to machine learning, data analysis and education. There is an embedded Jupyter notebook that requires no setup and has an excellent free version, which gives free access to Google computing resources such as GPUs and TPUs.
 
 ## 2. Develop a generic Twitter crawler using Selenium
 
-This section will help you make a generic web crawler. If you are able to develop this generic crawler, the same developing procedure can be applied to crawling data from other websites. This crawler manipulates a browser using a python library named "Selenium". This library enables the crawler mimic how a human user visits and/or interacts with web pages. While viewing the web pages, the crawler monitors the data flows, parses the html structure, and extracts the requested data items. Below, we will introduce how to design a crawler to collect information from a group of youtube videos.
+This section will walk you through the process of making a generic web crawler. This crawler manipulates a browser using a python library named "Selenium". This library enables the crawler mimic how a human user visits and/or interacts with web pages. While viewing the web pages, the crawler monitors the data flows, parses the html structure, and extracts the requested data items. Below, we will introduce how to design a crawler to collect information from a group of youtube videos.
 
 Please launch the youtube crawler script by clicking this button [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/jakobzhao/geog595/blob/master/03_bot/youtube.ipynb). This button will enable you to open the file [03_bot/youtube.ipynb](./youtube.ipynb) on Google Colab.
 
@@ -26,14 +26,14 @@ For any python script, metadata are usually stated at the very beginning.
 # @description:     A demo of collecting data from YouTube.
 ```
 
-To support Selenium, you will need to install a library named Kora, which is a collection of tools to make programming on Google Colab easier.
+The normal operation of Selenium requires the support of a browser in the local computer. Since we move the execution environment to the cloud, it is necessary to ensure the cloud side (Google CoLab in our case) can manipulate the browser. To do so, you plan to use Kora to control Selenium. Kora is a collection of tools to make programming on Google Colab easier. One tool of Kora is to control Selenium. The following line will enable the python program to install kora.
 
 ```Python
 # Installing Kora to the remote google colab server. Kora is a collection of tools to make programming on Google Colab easier.
 !pip install kora -q
 ```
 
-the required python libraries for this crawler will be included. To execute the crawling task, we will use BeautifulSoup, time, datetime, csv, pandas and selenium. Since Google Colab has already pre-installed BeautifulSoup, time, datetime, csv, pandas, you do not need to install them.
+Next, the required python libraries for this crawler will be imported. To execute the crawling task, we will use BeautifulSoup, time, datetime, pandas. Since Google Colab has already pre-installed BeautifulSoup and pandas, you do not need to install again like how you install kora.
 
 ```Python
 from bs4 import BeautifulSoup
@@ -44,7 +44,7 @@ import pandas as pd
 from kora.selenium import wd as bot
 ```
 
-We plan to order the youtube crawler harvest the information of videos relevant to a keyword "Standing Rock". By studying how to search youtube videos using keyword, we find out that the expected videos can be visited by the url `https://www.youtube.com/results?search_query=standing+rock`. So a variable url is created to store the url. And next, we will use the bot to visit this url.
+We plan to order the youtube crawler to harvest the information of videos relevant to a keyword "Standing Rock". By studying how to search youtube videos using keyword, we find out that the expected videos can be visited by the url `https://www.youtube.com/results?search_query=standing+rock`. So a variable url is created to store the url. And next, we will use the bot to visit this url.
 
 ```Python
 # The url where the data will be collected from.
@@ -52,6 +52,8 @@ url = "https://www.youtube.com/results?search_query=standing+rock"
 # Input the targeting url to the bot, and the bot will load data from the url.
 bot.get(url)
 ```
+
+![](img/standingrock-browser.png)
 
 Declare global variables and assign initial values.
 
@@ -62,7 +64,7 @@ video_urls = []
 results = []
 ```
 
-In order to harvest the information from the videos on the visited web page, you need to keep scrolling down the page, you can stop till the bottom of the page or determine how many times you want to operate the scroll on page behavior. For each scroll, please ask your bot take some rest, and then resume to work.
+In order to harvest the information from all the videos on the visited web page, you need to keep scrolling down the page. To stop, you can scroll a few times or detect whether you reach the bottom of the page or not. For each scroll, please ask your bot take some rest, and then resume to work.
 
 ```Python
 
@@ -84,9 +86,13 @@ In each scroll, the crawler will only parse the newly appeared videos. So, based
 
 In the inspector, you can find the HTML features of each video. For example, we find that the tag name of a video element is `ytd-video-renderer`, and each video element is also in the class of  `style-scope ytd-item-section-renderer`.
 
-**Note:** To open an inspector on Chrome, you can right click on the displaying web page. On the pop-up dropdown menu, click `Inspect`, and then the inspector will show up.
+![](img/inspector-standingrock.png)
 
-To locate a certain attribute of HTML element, you will need to use the syntax of beautiful soup. Beautiful Soup is also very important for destructuring html pages.Beautiful Soup is a Python library for pulling data out of HTML and XML files. It provides idiomatic ways of navigating, searching, and modifying the parse tree. If you are not familiar with Beautiful Soup, please go over the [`Quick Start` section of this documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#quick-start).
+> **Note:** To open an inspector on Chrome, you can right click on the displaying web page. On the pop-up dropdown menu, click `Inspect`, and then the inspector will show up.
+
+![](img/inspector-menu.png)
+
+To locate a certain attribute of HTML element, you will need to use the syntax of beautiful soup. Beautiful Soup is also very important for destructuring html pages. Beautiful Soup is a Python library for pulling data out of HTML and XML files. It provides idiomatic ways of navigating, searching, and modifying the parse tree. If you are not familiar with Beautiful Soup, please go over the [`Quick Start` section of this documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#quick-start).
 
 ```Python
 # Create a document object model (DOM) from the raw source of the crawled web page.
