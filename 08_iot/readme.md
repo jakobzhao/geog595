@@ -2,8 +2,6 @@
 
 **Instructor:** Bo Zhao, zhaobo@uw.edu; **Points Available** = 50
 
-**Authors:** Bo Zhao, Angel Lin
-
 In this practical exercise, you will learn how to set up a Raspberry Pi,  collect environmental data (pressure, temperature, and humidity) using a Sense HAT, synchronize the collected data to GitHub for real-time GIS, and schedule an auto-run task using crontab. The aim of this project is to briefly introduce how a Raspberry Pi can be a great platform for building Internet of Things (IoT). At the end of the tutorial, you are expected to know how to connect sensors to a Raspberry Pi, and how to set up an automated task to synchronize data from local device to the cloud. Ok, let's get started!
 
 ## 1. Preparation
@@ -275,6 +273,10 @@ To submit your deliverable, please share the url of the Github repository to the
 
 **Note:** Lab assignments are required to be submitted electronically to Canvas unless stated otherwise. Efforts will be made to have them graded and returned within one week after they are submitted.Lab assignments are expected to be completed by the due date. ***A late penalty of at least 10 percentage units will be taken off each day after the due date.*** If you have a genuine reason(known medical condition, a pile-up of due assignments on other courses, ROTC,athletics teams, job interview, religious obligations etc.) for being unable to complete work on time, then some flexibility is possible. However, if in my judgment you could reasonably have let me know beforehand that there would likely be a delay, and then a late penalty will still be imposed if I don't hear from you until after the deadline has passed. For unforeseeable problems,I can be more flexible. If there are ongoing medical, personal, or other issues that are likely to affect your work all semester, then please arrange to see me to discuss the situation. There will be NO make-up exams except for circumstances like those above.
 
+
+## Acknowledgement
+
+I want to express my gratitude to Angel Lin who provided me research assistance on developing this assignment. The usual disclaims apply.
 
 ## References
 
