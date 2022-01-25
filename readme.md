@@ -180,8 +180,6 @@ Virtual Reality (VR) is a computer-generated environment with scenes and objects
 
 ### Week 9: Internet of Things
 
-**`The meeting will be rescheduled due to a time conflict with the AAG annual conference (Feb 24-28).`**
-
 In this week, we will review the concept of Internet of Things (IoT). IoT describes the network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet. It is the foundation for different kinds of smart systems, such as smart city, smart home, and digital environment. It has also been used for real-time monitoring. This week starts with a paper on the real-time GIS from *Wenwen Li, Michael Batty and Michael Goodchild (2019)* and another paper from Rob Kitchin on a critical reflection on smart city development *(Kitchin 2014)*. In addition to these two papers, another two paper are offered to provide frameworks to probe the social and political implications of smart cities or other data-intensive environmental systems *(Sui et al 2003; Verbeek 2020)*.
 
 **Hosts:** Ziyang
