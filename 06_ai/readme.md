@@ -21,6 +21,7 @@ pip install wordcloud
 pip install numpy==1.17.0
 python -m spacy download en_core_web_sm
 ```
+
 To make sure NLTK run property, you need to download the NLTK corpora dataset. Run the Python interpreter and type the commands.
 
 ```Python
