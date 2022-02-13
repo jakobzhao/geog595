@@ -182,7 +182,7 @@ Virtual Reality (VR) is a computer-generated environment with scenes and objects
 
 In this week, we will review the concept of Internet of Things (IoT). IoT describes the network of physical objects—“things”—that are embedded with sensors, software, and other technologies for the purpose of connecting and exchanging data with other devices and systems over the internet. It is the foundation for different kinds of smart systems, such as smart city, smart home, and digital environment. It has also been used for real-time monitoring. This week starts with a paper on the real-time GIS from *Wenwen Li, Michael Batty and Michael Goodchild (2019)* and another paper from Rob Kitchin on a critical reflection on smart city development *(Kitchin 2014)*. In addition to these two papers, another two paper are offered to provide frameworks to probe the social and political implications of smart cities or other data-intensive environmental systems *(Sui et al 2003; Verbeek 2020)*.
 
-**Hosts:** Ziyang
+**Hosts:** Ziyang and Bo
 
 **Keywords:** Real-time GIS, Smart City, and their social implications
 
@@ -194,7 +194,7 @@ In this week, we will review the concept of Internet of Things (IoT). IoT descri
 1. `Required` Wenwen Li, Michael Batty & Michael F. Goodchild 2019. Realtime GIS for smart cities, *International Journal of Geographical Information Science*, 34(2), 311-324.
 2. `Required` Kitchin, R., 2014. The real-time city? Big data and smart urbanism. *GeoJournal*, 79(1), pp.1-14.
 3. `Required` Sui, D.Z. and Goodchild, M.F., 2003. A tetradic analysis of GIS and society using McLuhan's law of the media. *Canadian Geographer*, 47(1), pp.5-17.
-4. `Required` Verbeek, P.P. 2020. Politicizing PostPhenomenology. Reimagining philosophy and technology, *Reinventing Ihde*, Springer Nature Switzerland
+4. `Optional` Verbeek, P.P. 2020. Politicizing PostPhenomenology. Reimagining philosophy and technology, *Reinventing Ihde*, Springer Nature Switzerland
 
 </details>
 
