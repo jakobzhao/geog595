@@ -155,11 +155,9 @@ GeoAI, namely Geospatial Artificial Intelligence, indicates the use and/or the r
 
 ### *`Self-Study`* Week 8: Virtual Reality
 
-**`The meeting is cancelled due to University Holiday.`**
+**`The meeting is cancelled due to University Holiday. You are still required to read the paper and submit the weekly think pieces.`**
 
 Virtual Reality (VR) is a computer-generated environment with scenes and objects that appear to be real, making the user feel they are immersed in their surroundings. This environment is perceived through a device known as a Virtual Reality headset. In this week, we will focus on the idea of GIS embodiment. To begin with, we will review a paper that introduce the concept of postphenomenology and its relevance to geography *(Lea 2020)*. This paper will help us to revisit the Humanistic GIS framework, especially how VR as a embodiment GIS. Next, we will read another paper to examine how VR can evoke different senses of embodiment *(Kiteni et al 2012)*. These senses also relates to the sense of space and place, and this paper helps us to better envision the geographies that will be produced by VR. In the end, we will review another paper to review how VR is considered as sexist *(Munafo et al 2017)*. By this paper, we encourage students to reflect upon the design and development of any technology, especially how we can avoid the examined technology could be more equitable for minority groups.
-
-**Hosts:** *`TBD`*
 
 **Keywords:** Embodiment, Virtual Reality, Point-cloud visualization
 
