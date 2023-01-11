@@ -8,6 +8,8 @@
 Welcome to this seminar, where we will delve into the exciting intersection of geospatial technologies and the humanities. This seminar presents a rare opportunity for you to master practical skills in geospatial technologies and stimulate critical thinking about their applications. You will have the chance to read literature from renowned GIS scholars and philosophers in STS (Science, Technology, and Society) as well as the latest work by GIS and critical scholars. With this theoretical foundation, you will practice a variety of cutting-edge data-driven techniques such as web crawling, GitHub, geo-narrative, deep learning, text mining, virtual reality, raspberry pi, and blockchain, while also reflecting on their relevance to critical perspectives like power relations, hermeneutics, embodiment, autonomy, and surveillance. As a requirement of the course, you will choose a topic from a social science or humanities discipline, apply your newly acquired visual, analytical, and synthetical skills, and assess the significant role, mediating function, or social implications of geospatial technologies. The course material is heavily influenced by the instructor's passion for mapping, GIS, humanities, and STS. If you have any questions or concerns, please don't hesitate to contact Dr. Bo Zhao. We are thrilled to have you join us on this journey!
 
 
+![course cover](res/cover.jpg)
+
 <!-- https://colab.research.google.com/github/jakobzhao/geog595/blob/master/03_bot/04_geosearch.ipynb -->
 
 
