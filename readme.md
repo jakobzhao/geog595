@@ -1,4 +1,4 @@
-# GEOGRAPHY 595 B: Humanistic GIS
+# GEOGRAPHY 595 A: Humanistic GIS
 
 - **Instructor:** Bo Zhao, zhaobo@uw.edu
 - **Meetings:**  Mondays 2:30 to 5:20 PM on [Zoom](https://washington.zoom.us/my/bzhao) and SMI 409
