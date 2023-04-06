@@ -127,7 +127,7 @@ GeoVisualization refers the visual representation and the representation strateg
 
 > In this week, each student is expected to submit the thinkpiece of this week to [this web page](https://github.com/jakobzhao/geog595/issues/13) by 05/09 5:00pm, and complete the practical exercise by the end of the Week 6.
 
-### Week 8: GeoAI
+### Week 8: GeoAI and ChatGPT
 
 GeoAI, namely Geospatial Artificial Intelligence, indicates the use and/or the rewire of Artificial Intelligence for geospatial analyses. In this week, we present a literature review on GeoAI and its multiple applicable areas *(Janowicz 2019)*. A promising area is place recognition, and a paper from *Bolei Zhou is offered (2017)*. Place, similar to space is an essential concept in geography. To understand this concept better, you can refer to John Agnew's paper on space and place *(Agnew 2011*). Moreover, another paper on deepfake geography is offer to share a more controversial use of GeoAI *(Zhao et al 2021)*.
 
