@@ -204,13 +204,13 @@ In this section, we will make a Twitter crawler to collect geotagged tweets. Thi
 If you want to use tweepy in your local computer, you need to install tweepy using on command prompt (if a windows user) or terminal (if a Mac or Linux user), as shown in the script below.
 
 ```powershell
-pip install tweepy
+pip install tweepy==4.13.0
 ```
 
 > note: if you work on a Jupyter Notebook such as mybinder.org, we run the following code, as shown in the script below, to install a library.
 
 ```powershell
-!python -m pip install tweepy
+!pip install tweepy==4.13.0
 ```
 
 Although we also work on the Jupyter Notebook, we do not need to manually install tweepy because Google Colab has automatically incorporate it into its preloaded libraries.
@@ -247,13 +247,11 @@ import tweepy
 import pandas as pd
 ```
 
-Copy and paste the keys and tokens you received into corresponding parameters in the code below:
+Copy and paste the bearer token you received into corresponding parameters in the code below:
 
 ```Python
-consumer_key = "your_consumer_key"
-consumer_secret = "your_consumer_secret"
-access_token = "your_access_token"
-access_token_secret = "your_access_token_secret"
+bearer_token = "AAAAAAAAAAAAAAAAAAAAAGI3lQEAAAAAmam79tkOTveGwINDgIICFGj3gV4%3DSHr2kNbdyMEPnEzIxBRShNdFd862b4LKUFCjNP3Uo9WdVJ4Bt5"
+client = tweepy.Client(bearer_token)
 ```
 
 Initiate a tweepy API object
@@ -264,12 +262,10 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth, wait_on_rate_limit=True)
 ```
 
-Define the search term and the date_since date as variables. We will harvest all the tweets that contains the keyword "#BLM". Also, the tweets must be sent in Capitol Hill at Seattle and since October 16th, 2020.
+Define the search term and the date_since date as variables. We will harvest all the tweets that contains the keyword "#BLM". Also, we took out the retweet and make sure they are all written in English.
 
 ```python
-search_words = "#BLM"
-location = "47.6138893,-122.3107869,100mi"
-date_since = "2020-10-16"
+search_words = "BLM  -is:retweet lang:en"
 ```
 
 ## 3.3 Data Harvest
@@ -277,8 +273,16 @@ date_since = "2020-10-16"
 Then, we input the parameters to the tweepy harvesting cursor, and we want to get back at most 1000 tweets for one single query.
 
 ```python
-# Collect tweets
-tweets = tweepy.Cursor(api.search, q=search_words, geocode=location, lang="en", since=date_since).items(1000)
+response = client.search_recent_tweets(
+    search_words,
+    max_results = 1000,
+    tweet_fields = ['author_id','created_at','text','lang','geo'],
+    expansions = ['geo.place_id', 'author_id'],
+    place_fields = ['place_type', 'geo']
+)
+
+# In this case, the data field of the Response returned is a list of Tweet objects
+tweets = response.data
 ```
 
 We first create an empty array to store the retrieved data. As how we process each video in the first crawler we designed, we use the similar strategy to process each tweet, and store them in a pandas data frame.
@@ -290,14 +294,11 @@ result = []
 # Iterate and print tweets
 for tweet in tweets:
     row = {
-        'username': tweet.author.name,
-        'userid': tweet.author.id,
-        'profile_location': tweet.author.location,
-        'created_at': str(tweet.author.created_at),
+        'userid': tweet.author_id,
+        'lang': tweet.lang,
+        'created_at': str(tweet.created_at),
         'text': tweet.text,
-        'retweet_count': tweet.retweet_count,
-        'source': tweet.source,
-        'coordinates': tweet.coordinates
+        'geo': tweet.geo
     }
     result.append(row)
     print(row)
@@ -325,7 +326,32 @@ from google.colab import files
 files.download(output_file)
 print("the csv has been downloaded to your local computer. The program has been completed successfully.")
 ```
-## 4. Deliverable
+
+## 4. Word cloud analysis
+
+A word cloud can visualize the high-frequency terms and map them according to their frequency. It helps to analyze the content of all the collected tweets. There are a few online word cloud generators you can use. In this lab, we use Word Art from https://wordart.com.
+
+After registration, you can create a word cloud by pressing the "Create Now" Button on the front page.
+
+![](img/frontpage.png)
+
+Open `twsearch-result.csv` in microsoft excel or other alternative spreadsheet software. Copy all the rows under the `text` column, and then paste the copied rows to the input text box on Word Art. You need to press the `import` button on the top left to open this text box. Once complete, please type `Import words`.
+
+![](img/import-box.png)
+
+
+Now you will see a list of words on the left panel, please makes sure to **delete those common terms or meaningless ones**, otherwise your word cloud will be full of meaningless terms. Then, you can configure the rendering process through adjusting the shapes, fonts, layout, and style options. After you determine all the options, please type `visualize` on top of the main viewport. It takes a few second to render the image. After that, you will see the word cloud.
+
+![](img/visualize.png)
+
+In order to reuse the word cloud, you need to download an image of this word cloud by pressing the `download` button on the main toolbar and then choose the image format, like `Standard PNG`. Then, the word cloud will be saved on your local drive for reuse.
+
+![](img/wordcloud.png)
+
+A word cloud will help you understand what twitter users have talked during the collecting time period and within the specific crawling geographical region.
+
+
+## 5. Deliverable
 
 You are expected to walk through this instruction, execute the two pieces of python scripts, and more importantly, develop your own crawler to collect some data from the web. Ideally, this data will be related to research question you have stated in your [statement of intent](../01_intro/soi.md).
 
@@ -333,23 +359,28 @@ To submit your deliverable, please create a new github repository, and submit th
 
 ```powershell
 [your_repository]
-    │ [your_crawler].py
     │readme.md
     ├─assets
-    │      tweets.csv
-    │      videos.csv
-    │      [your_dataset].csv
+    │      twsearch-result-1.csv
+    │      twsearch-result-2.csv
+    │      twsearch-result-n.csv // the number n depends on how many locations you have explored.
+    ├─img
+    |      wordcloud-1.png
+    |      wordcloud-2.png
+    |      wordcloud-n.png  // the number n depends on how many locations you have explored.
 ```
 
 Here are the grading criteria:
 
 1\. Execute both `youtube.py` and `tweets.py` with different keywords, and save the results to `videos.csv` and `tweets.csv` in the `assets` folder of the newly-created repository. (POINT 5 for each)
 
-2\. Develop a web crawler to harvest data from a website other than Youtube. This python script should save in the root of the repository. (POINT 20)
+2\. Develop a web crawler to harvest data from a website other than Youtube. This python script should save in the root of the repository. (POINT 15)
 
-3\. Export a sample of the results to the `assets` folder of the repository. (POINT 5)
+1.  Export the two or more word clouds to the repository and then insert them to the `readme.md`.  (POINT 10)
 
-4\. In the `readme.md` file, write an instruction to introduce the crawler and its usages. You can refer to  [https://github.com/shawn-terryah/Twitter_Geolocation](https://github.com/shawn-terryah/Twitter_Geolocation). (POINT 15)
+4\. Export a sample of the results to the `assets` folder of the repository. (POINT 5)
+
+5\. In the `readme.md` file, write an instruction to introduce the crawler and its usages. You can refer to  [https://github.com/shawn-terryah/Twitter_Geolocation](https://github.com/shawn-terryah/Twitter_Geolocation). (POINT 10)
 
 ## Acknowledgement
 
