@@ -129,7 +129,9 @@ GeoVisualization refers the visual representation and the representation strateg
 
 ### Week 8: GeoAI and ChatGPT
 
-GeoAI, namely Geospatial Artificial Intelligence, indicates the use and/or the rewire of Artificial Intelligence for geospatial analyses. In this week, we present a literature review on GeoAI and its multiple applicable areas *(Janowicz 2019)*. A promising area is place recognition, and a paper from *Bolei Zhou is offered (2017)*. Place, similar to space is an essential concept in geography. To understand this concept better, you can refer to John Agnew's paper on space and place *(Agnew 2011*). Moreover, another paper on deepfake geography is offer to share a more controversial use of GeoAI *(Zhao et al 2021)*.
+GeoAI, namely Geospatial Artificial Intelligence, indicates the use and/or the rewire of Artificial Intelligence for geospatial analyses. In this week, we present a literature review on GeoAI and its multiple applicable areas *(Janowicz 2019)*. A promising area is place recognition, and a paper from *Bolei Zhou is offered (2017)*. Place, similar to space is an essential concept in geography. Moreover, another paper on deepfake geography is offer to share a more controversial use of GeoAI *(Zhao et al 2021)*.
+
+<!-- To understand this concept better, you can refer to John Agnew's paper on space and place *(Agnew 2011*). -->
 
 **Hosts:** Liz & Bo
 
@@ -143,7 +145,7 @@ GeoAI, namely Geospatial Artificial Intelligence, indicates the use and/or the r
 1. `Required` Janowicz, K., Gao, S., McKenzie, G., Hu, Y. and Bhaduri, B., 2019. GeoAI: spatially explicit artificial intelligence techniques for geographic knowledge discovery and beyond. *International Journal of Geographical Information Science*: 34: 625-636
 2. `Required` Zhou, B., Lapedriza, A., Khosla, A., Oliva, A. and Torralba, A., 2017. Places: A 10 million image database for scene recognition.* IEEE transactions on pattern analysis and machine intelligence*, 40(6), pp.1452-1464.
 3. `Required` Zhao, B., Zhang, S., Xu, C., Sun, Y. and Deng, C. 2021. Deep Fake Geography? When geospatial data encounters AI. *Cartography and Geographic Information Science*, 48(4), 338-352.
-4. `Optional` Agnew, J., 2011. Space and place. *Handbook of geographical knowledge*, 2011, pp.316-331.
+<!-- 4. `Optional` Agnew, J., 2011. Space and place. *Handbook of geographical knowledge*, 2011, pp.316-331. -->
 
 </details>
 
